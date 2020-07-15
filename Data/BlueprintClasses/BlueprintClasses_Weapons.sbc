@@ -37,9 +37,9 @@
     <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="ReceiverX100" />
     <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BufferX100" />
     <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="RailX100" />
-    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="UraniumWarheadX100" />
+<!--<Entry Class="AdvMassProdWeap" BlueprintSubtypeId="UraniumWarheadX100" />
     <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="PlutoniumWarheadX100" />
-    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="FusionWarheadX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="FusionWarheadX100" />-->
 	
 	<Entry Class="AdvMassProdWeap" BlueprintSubtypeId="FiringPinX10" />
     <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BoltCarrierX10" />
