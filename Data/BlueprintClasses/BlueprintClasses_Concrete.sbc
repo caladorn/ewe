@@ -9,7 +9,7 @@
       </Id>
       <DisplayName>Stone Crusher</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
     </Class>

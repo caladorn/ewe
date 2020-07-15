@@ -7,8 +7,10 @@
         <SubtypeId>BasicMechanics</SubtypeId>
       </Id>
       <DisplayName>Basic Mechanics</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <Description>Basic Mechanics</Description>
+      <Icon>Textures\GUI\Icons\buttons\basic_mechanical.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\basic_mechanical.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\basic_mechanical_focus.dds</FocusIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
     <Class>
@@ -17,8 +19,10 @@
         <SubtypeId>BscMassProdMech</SubtypeId>
       </Id>
       <DisplayName>Basic Mechanics Mass Production</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <Description>Basic Mechanics</Description>
+      <Icon>Textures\GUI\Icons\buttons\basic_mechanical.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\basic_mechanical.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\basic_mechanical_focus.dds</FocusIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
   </BlueprintClasses>

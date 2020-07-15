@@ -38,8 +38,8 @@
         <Y>0.2</Y>
         <Z>0.2</Z>
       </Size>
-      <Mass>35</Mass>
-      <Volume>16</Volume>
+      <Mass>118</Mass>
+      <Volume>26.55</Volume>
       <Model>Models\Weapons\Ammo_Box.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>150</Capacity>
@@ -62,8 +62,8 @@
         <Y>0.2</Y>
         <Z>0.2</Z>
       </Size>
-      <Mass>35</Mass>
-      <Volume>16</Volume>
+      <Mass>94</Mass>
+      <Volume>21.24</Volume>
       <Model>Models\Weapons\Ammo_Box.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>120</Capacity>
@@ -86,8 +86,8 @@
         <Y>0.2</Y>
         <Z>0.2</Z>
       </Size>
-      <Mass>35</Mass>
-      <Volume>16</Volume>
+      <Mass>78.8</Mass>
+      <Volume>13.28</Volume>
       <Model>Models\Weapons\Ammo_Box.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>75</Capacity>
@@ -110,8 +110,8 @@
         <Y>0.2</Y>
         <Z>0.2</Z>
       </Size>
-      <Mass>35</Mass>
-      <Volume>16</Volume>
+      <Mass>74</Mass>
+      <Volume>13.28</Volume>
       <Model>Models\Weapons\Ammo_Box.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>75</Capacity>
@@ -135,8 +135,8 @@
         <Y>0.1</Y>
         <Z>0.1</Z>
       </Size>
-      <Mass>300</Mass>
-      <Volume>60</Volume>
+      <Mass>216</Mass>
+      <Volume>177.9</Volume>
       <Model>Models\Weapons\Projectile_Missile.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>48</Capacity>
@@ -159,8 +159,8 @@
         <Y>0.1</Y>
         <Z>0.1</Z>
       </Size>
-      <Mass>300</Mass>
-      <Volume>60</Volume>
+      <Mass>468</Mass>
+      <Volume>293.7</Volume>
       <Model>Models\Weapons\Projectile_Missile.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>72</Capacity>
@@ -183,8 +183,8 @@
         <Y>0.1</Y>
         <Z>0.1</Z>
       </Size>
-      <Mass>300</Mass>
-      <Volume>60</Volume>
+      <Mass>5200</Mass>
+      <Volume>4723</Volume>
       <Model>Models\Weapons\Projectile_Missile.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>12</Capacity>
@@ -207,8 +207,8 @@
         <Y>0.1</Y>
         <Z>0.1</Z>
       </Size>
-      <Mass>300</Mass>
-      <Volume>60</Volume>
+      <Mass>3900</Mass>
+      <Volume>3822</Volume>
       <Model>Models\Weapons\Projectile_Missile.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>13</Capacity>
@@ -231,8 +231,8 @@
         <Y>0.1</Y>
         <Z>0.1</Z>
       </Size>
-      <Mass>300</Mass>
-      <Volume>60</Volume>
+      <Mass>2356</Mass>
+      <Volume>1570</Volume>
       <Model>Models\Weapons\Projectile_Missile.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>1</Capacity>
@@ -255,8 +255,8 @@
         <Y>0.1</Y>
         <Z>0.1</Z>
       </Size>
-      <Mass>300</Mass>
-      <Volume>60</Volume>
+      <Mass>2356</Mass>
+      <Volume>1570</Volume>
       <Model>Models\Weapons\Projectile_Missile.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>1</Capacity>

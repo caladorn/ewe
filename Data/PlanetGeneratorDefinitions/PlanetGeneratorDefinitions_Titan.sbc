@@ -1325,6 +1325,83 @@
     </AnimalSpawnInfo>
 
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
+  	<!-- Titan Moon Weather Settings -->
+	
+	<WeatherFrequencyMin>600</WeatherFrequencyMin>
+	<WeatherFrequencyMax>3600</WeatherFrequencyMax>
+	<WeatherGenerators>
+		<WeatherGenerator>
+			<Voxel>MarsSoil</Voxel>
+			<Weathers>
+				<Weather>
+					<Name>MarsStormLight</Name>
+					<Weight>4</Weight>
+					<MinLength>600</MinLength>
+					<MaxLength>1200</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+				<Weather>
+					<Name>MarsStormHeavy</Name>
+					<Weight>1</Weight>
+					<MinLength>300</MinLength>
+					<MaxLength>1800</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+            	<Weather>
+					<Name>Dust</Name>
+					<Weight>4</Weight>
+					<MinLength>300</MinLength>
+					<MaxLength>600</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+			</Weathers>
+		</WeatherGenerator>
+		<WeatherGenerator>
+			<Voxel>Rock</Voxel>
+			<Weathers>
+				<Weather>
+					<Name>MarsStormLight</Name>
+					<Weight>4</Weight>
+					<MinLength>600</MinLength>
+					<MaxLength>1200</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+				<Weather>
+					<Name>MarsStormHeavy</Name>
+					<Weight>1</Weight>
+					<MinLength>300</MinLength>
+					<MaxLength>1800</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+            	<Weather>
+					<Name>Dust</Name>
+					<Weight>4</Weight>
+					<MinLength>300</MinLength>
+					<MaxLength>600</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+			</Weathers>
+		</WeatherGenerator>
+    	<WeatherGenerator>
+			<Voxel>Ice</Voxel>
+			<Weathers>
+				<Weather>
+					<Name>AlienFogLight</Name>
+					<Weight>4</Weight>
+					<MinLength>300</MinLength>
+					<MaxLength>1200</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+				<Weather>
+					<Name>AlienFogHeavy</Name>
+					<Weight>1</Weight>
+					<MinLength>300</MinLength>
+					<MaxLength>1200</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+			</Weathers>
+		</WeatherGenerator>
+	</WeatherGenerators>
   </Definition>
 
 </Definitions>

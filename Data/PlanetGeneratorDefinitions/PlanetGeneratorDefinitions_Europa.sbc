@@ -431,6 +431,29 @@
     <HillParams Min = "-0.03" Max ="0.06"/>
 
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
+	<!-- Europa Planet's Weather Settings -->
+	
+	<WeatherFrequencyMin>300</WeatherFrequencyMin>
+	<WeatherFrequencyMax>600</WeatherFrequencyMax>
+	<GlobalWeather>true</GlobalWeather>
+	<WeatherGenerators>
+		<WeatherGenerator>
+			<Weathers>
+				<Weather>
+					<Name>FogHeavy</Name>
+					<Weight>1</Weight>
+					<MinLength>300</MinLength>
+					<MaxLength>600</MaxLength>
+				</Weather>
+				<Weather>
+					<Name>SnowHeavy</Name>
+					<Weight>6</Weight>
+					<MinLength>1200</MinLength>
+					<MaxLength>3600</MaxLength>
+				</Weather>
+			</Weathers>
+		</WeatherGenerator>
+	</WeatherGenerators>
   </Definition>
 
 </Definitions>

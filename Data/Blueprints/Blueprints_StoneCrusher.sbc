@@ -1,178 +1,175 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Blueprints>  
-    <Blueprint> <!-- DemolishedConcreteToIngot -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>DemolishedConcreteToIngot</SubtypeId>
-      </Id>
-      <DisplayName>Demolished Concrete</DisplayName>
-      <Icon>Textures\GUI\Icons\DemolishedConcrete_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="100" TypeId="Ore" SubtypeId="DemolishedConcrete" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="150" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="80" TypeId="Ingot" SubtypeId="Aluminum" />
-        <Item Amount="60" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="150" TypeId="Ingot" SubtypeId="Oxygen" />
-      </Results>
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-    <Blueprint> <!-- DemolishedConcreteToGravel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>DemolishedConcreteToGravel</SubtypeId>
-      </Id>
-      <DisplayName>Concrete</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="100" TypeId="Ore" SubtypeId="DemolishedConcrete" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="80" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="FineSand" />
-      </Results>
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-
-    <Blueprint> <!-- FineSandToIngot -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>FineSandToIngot</SubtypeId>
-      </Id>
-      <DisplayName>Sand</DisplayName>
-		<Icon>Textures\GUI\Icons\ore_sand.dds</Icon>
-      <Prerequisites>
-        <Item Amount="100" TypeId="Ingot" SubtypeId="FineSand" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="237" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="475" TypeId="Ingot" SubtypeId="Oxygen" />
-      </Results>
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-	
-    <Blueprint> <!-- StonetoGravel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>StonetoGravel</SubtypeId>
-      </Id>
-      <DisplayName>Gravel</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ore" SubtypeId="Stone" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="FineSand" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
-      </Results>
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-	
-    <Blueprint> <!-- DesertRocktoGravel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>DesertRocktoGravel</SubtypeId>
-      </Id>
-      <DisplayName>Gravel</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ore" SubtypeId="DesertRock" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="FineSand" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
-      </Results>
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-	
-    <Blueprint> <!-- AnorthitetoGravel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AnorthitetoGravel</SubtypeId>
-      </Id>
-      <DisplayName>Gravel</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ore" SubtypeId="Anorthite" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="FineSand" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
-      </Results>
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-	
-    <Blueprint> <!-- MarsRockstoGravel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>MarsRockstoGravel</SubtypeId>
-      </Id>
-      <DisplayName>Gravel</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ore" SubtypeId="MarsRocks" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="FineSand" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
-      </Results>
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-	
-    <Blueprint> <!-- AlienRock_01toGravel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AlienRock_01toGravel</SubtypeId>
-      </Id>
-      <DisplayName>Gravel</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ore" SubtypeId="AlienRock_01" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="FineSand" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
-      </Results>
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-	
-    <Blueprint> <!-- SandtoFineSand -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SandtoFineSand</SubtypeId>
-      </Id>
-      <DisplayName>Fine Sand</DisplayName>
-		<Icon>Textures\GUI\Icons\ore_sand.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ore" SubtypeId="Sand_02" />
-      </Prerequisites>
-      <Result Amount="400" TypeId="Ingot" SubtypeId="FineSand" />
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-    <Blueprint> <!-- AlienSandtoFineSand -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AlienSandtoFineSand</SubtypeId>
-      </Id>
-      <DisplayName>Fine Sand</DisplayName>
-		<Icon>Textures\GUI\Icons\ore_sand.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ore" SubtypeId="AlienSand" />
-      </Prerequisites>
-      <Result Amount="400" TypeId="Ingot" SubtypeId="FineSand" />
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-  </Blueprints>
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>DemolishedConcreteToIngot</SubtypeId>
+			</Id>
+			<DisplayName>Demolished Concrete</DisplayName>
+			<Icon>Textures\GUI\Icons\DemolishedConcrete_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ore" SubtypeId="DemolishedConcrete" Amount="100" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="150" />
+				<Item TypeId="Ingot" SubtypeId="Aluminum" Amount="80" />
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="60" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="150" />
+			</Results>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>DemolishedConcreteToGravel</SubtypeId>
+			</Id>
+			<DisplayName>Concrete</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ore" SubtypeId="DemolishedConcrete" Amount="100" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="80" />
+				<Item TypeId="Ingot" SubtypeId="FineSand" Amount="20" />
+			</Results>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>FineSandToIngot</SubtypeId>
+			</Id>
+			<DisplayName>Sand</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_sand.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="FineSand" Amount="100" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="237" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="475" />
+			</Results>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>StonetoGravel</SubtypeId>
+			</Id>
+			<DisplayName>Gravel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ore" SubtypeId="Stone" Amount="500" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="FineSand" Amount="50" />
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="100" />
+			</Results>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>DesertRocktoGravel</SubtypeId>
+			</Id>
+			<DisplayName>Gravel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ore" SubtypeId="DesertRock" Amount="500" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="FineSand" Amount="50" />
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="100" />
+			</Results>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>AnorthitetoGravel</SubtypeId>
+			</Id>
+			<DisplayName>Gravel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ore" SubtypeId="Anorthite" Amount="500" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="FineSand" Amount="50" />
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="100" />
+			</Results>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>MarsRockstoGravel</SubtypeId>
+			</Id>
+			<DisplayName>Gravel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ore" SubtypeId="MarsRocks" Amount="500" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="FineSand" Amount="50" />
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="100" />
+			</Results>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>AlienRock_01toGravel</SubtypeId>
+			</Id>
+			<DisplayName>Gravel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Gravel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ore" SubtypeId="AlienRock_01" Amount="500" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="FineSand" Amount="50" />
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="100" />
+			</Results>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>SandtoFineSand</SubtypeId>
+			</Id>
+			<DisplayName>Fine Sand</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_sand.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ore" SubtypeId="Sand_02" Amount="500" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="FineSand" Amount="400" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>AlienSandtoFineSand</SubtypeId>
+			</Id>
+			<DisplayName>Fine Sand</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_sand.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ore" SubtypeId="AlienSand" Amount="500" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="FineSand" Amount="400" />
+			</Results>
+		</Blueprint>
+	</Blueprints>
 </Definitions>

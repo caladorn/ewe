@@ -1,0 +1,2906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Arsenolite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Arsenolite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Arsenolite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Arsenolite" Amount="725" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="307.807" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="98.593" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Arsenolite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Arsenolite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Arsenolite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Arsenolite" Amount="18125" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="7695.184" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2464.816" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Arsenolite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Arsenolite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Arsenolite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Arsenolite" Amount="36250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="15390.368" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4929.632" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Beryl_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Beryl</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Beryl.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Beryl" Amount="1750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="307.549" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="179.949" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="57.63" />
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="28.872" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="1.26" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="1.25" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Cesium" Amount="0.11" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="0.11" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="0.06" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Beryl_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Beryl</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Beryl.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Beryl" Amount="43750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="7688.73" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="4498.725" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="1440.74" />
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="721.805" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="31.5" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="31.25" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="15.0" />
+        <Item TypeId="Ingot" SubtypeId="Cesium" Amount="2.75" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="2.75" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="1.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Beryl_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Beryl</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Beryl.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Beryl" Amount="87500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="15377.46" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="8997.45" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="2881.48" />
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="1443.61" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="63.0" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="62.5" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="30.0" />
+        <Item TypeId="Ingot" SubtypeId="Cesium" Amount="5.5" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="5.5" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="3.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Bismutotantalite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Bismutotantalite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Bismutotantalite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Bismutotantalite" Amount="550" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="109.667" />
+        <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="75.966" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="33.587" />
+        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="9.753" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="5.11" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="4.85" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="4.61" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="4.38" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="4.16" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Bismutotantalite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Bismutotantalite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Bismutotantalite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Bismutotantalite" Amount="13750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="2741.676" />
+        <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="1899.14" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="839.674" />
+        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="243.832" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="127.75" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="121.25" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="115.25" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="109.5" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="104.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Bismutotantalite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Bismutotantalite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Bismutotantalite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Bismutotantalite" Amount="27500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="5483.352" />
+        <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="3798.28" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1679.348" />
+        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="487.663" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="255.5" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="242.5" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="230.5" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="219.0" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="208.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Boracite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Boracite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Boracite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Boracite" Amount="825" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="201.341" />
+        <Item TypeId="Ingot" SubtypeId="Boron" Amount="73.236" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="70.58" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="34.303" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="5.91" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Boracite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Boracite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Boracite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Boracite" Amount="20625" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="5033.537" />
+        <Item TypeId="Ingot" SubtypeId="Boron" Amount="1830.895" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="1764.489" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="857.58" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="147.75" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Boracite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Boracite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Boracite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Boracite" Amount="41250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="10067.074" />
+        <Item TypeId="Ingot" SubtypeId="Boron" Amount="3661.789" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="3528.978" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="1715.159" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="295.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Borcarite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Borcarite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Borcarite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Borcarite" Amount="700" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="173.236" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="96.454" />
+        <Item TypeId="Ingot" SubtypeId="Boron" Amount="26.01" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="14.614" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="14.45" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="3.645" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Borcarite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Borcarite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Borcarite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Borcarite" Amount="17500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4330.907" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="2411.35" />
+        <Item TypeId="Ingot" SubtypeId="Boron" Amount="650.252" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="365.356" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="361.251" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="91.134" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Borcarite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Borcarite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Borcarite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Borcarite" Amount="35000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="8661.814" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="4822.701" />
+        <Item TypeId="Ingot" SubtypeId="Boron" Amount="1300.504" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="730.712" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="722.502" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="182.268" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Cadmoindite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cadmoindite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cadmoindite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cadmoindite" Amount="475" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="88.595" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="49.479" />
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="35.738" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="3.038" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="1.269" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="0.572" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Cadmoindite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cadmoindite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cadmoindite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cadmoindite" Amount="11875" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="2214.863" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1236.982" />
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="893.45" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="75.943" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="31.717" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="14.295" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Cadmoindite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cadmoindite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cadmoindite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cadmoindite" Amount="23750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="4429.725" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="2473.963" />
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="1786.9" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="151.887" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="63.435" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="28.59" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Cadmoselite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cadmoselite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cadmoselite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cadmoselite" Amount="500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="123.354" />
+        <Item TypeId="Ingot" SubtypeId="Selenium" Amount="86.646" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Cadmoselite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cadmoselite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cadmoselite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cadmoselite" Amount="12500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="3083.85" />
+        <Item TypeId="Ingot" SubtypeId="Selenium" Amount="2166.15" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Cadmoselite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cadmoselite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cadmoselite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cadmoselite" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="6167.7" />
+        <Item TypeId="Ingot" SubtypeId="Selenium" Amount="4332.3" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Calaverite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Calaverite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Calaverite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Calaverite" Amount="450" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="100.463" />
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="77.537" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Calaverite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Calaverite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Calaverite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Calaverite" Amount="11250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="2511.58" />
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="1938.42" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Calaverite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Calaverite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Calaverite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Calaverite" Amount="22500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="5023.16" />
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="3876.84" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Cassiterite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cassiterite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cassiterite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cassiterite" Amount="750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="278.287" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="75.003" />
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="3.13" />
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="1.01" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Cassiterite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cassiterite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cassiterite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cassiterite" Amount="18750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="6957.163" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1875.087" />
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="78.25" />
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="25.25" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Cassiterite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cassiterite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cassiterite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cassiterite" Amount="37500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="13914.327" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3750.173" />
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="156.5" />
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="50.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Cerite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cerite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cerite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cerite" Amount="2500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Cerium" Amount="616.529" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="242.458" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="96.077" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="27.268" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="19.091" />
+        <Item TypeId="Ingot" SubtypeId="Cesium" Amount="16.739" />
+        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="14.129" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1.969" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="1.794" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="0.058" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Cerite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cerite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cerite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cerite" Amount="62500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Cerium" Amount="15413.235" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="6061.44" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="2401.935" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="681.697" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="477.283" />
+        <Item TypeId="Ingot" SubtypeId="Cesium" Amount="418.47" />
+        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="353.231" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="49.22" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="44.839" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="1.44" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Cerite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cerite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cerite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cerite" Amount="125000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Cerium" Amount="30826.47" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="12122.88" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="4803.87" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1363.393" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="954.567" />
+        <Item TypeId="Ingot" SubtypeId="Cesium" Amount="836.94" />
+        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="706.462" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="98.44" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="89.677" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="2.879" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Chalcopyrite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chalcopyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chalcopyrite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chalcopyrite" Amount="1000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="116.476" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="115.443" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="101.441" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="0.4" />
+        <Item TypeId="Ingot" SubtypeId="Selenium" Amount="0.21" />
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="0.2" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.1" />
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="0.08" />
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.04" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Chalcopyrite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chalcopyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chalcopyrite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chalcopyrite" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="2911.9" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="2886.064" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="2536.036" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="10.0" />
+        <Item TypeId="Ingot" SubtypeId="Selenium" Amount="5.25" />
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="5.0" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="2.5" />
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="2.0" />
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="1.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Chalcopyrite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chalcopyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chalcopyrite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chalcopyrite" Amount="50000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="5823.799" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="5772.128" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="5072.072" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="20.0" />
+        <Item TypeId="Ingot" SubtypeId="Selenium" Amount="10.5" />
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="10.0" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="5.0" />
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="4.0" />
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="2.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Chamosite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chamosite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chamosite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chamosite" Amount="1000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="146.912" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="99.715" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="42.996" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="27.512" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="18.601" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="3.083" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Chamosite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chamosite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chamosite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chamosite" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3672.809" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="2492.868" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1074.906" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="687.805" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="465.03" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="77.082" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Chamosite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chamosite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chamosite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chamosite" Amount="50000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="7345.618" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="4985.736" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="2149.813" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="1375.609" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="930.061" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="154.163" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Chaoite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chaoite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chaoite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chaoite" Amount="850" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="563.04" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="2.45" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="1.4" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Chaoite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chaoite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chaoite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chaoite" Amount="21250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="14076.0" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="61.25" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="35.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Chaoite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chaoite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chaoite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chaoite" Amount="42500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="28152.0" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="122.5" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="70.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Chromferide_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chromferide</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chromferide.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chromferide" Amount="700" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="361.178" />
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="44.822" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Chromferide_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chromferide</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chromferide.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chromferide" Amount="17500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="9029.44" />
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="1120.56" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Chromferide_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chromferide</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chromferide.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chromferide" Amount="35000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="18058.88" />
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="2241.12" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Chromite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chromite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chromite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chromite" Amount="600" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="111.035" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="68.327" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="59.628" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="4.25" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Chromite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chromite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chromite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chromite" Amount="15000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="2775.869" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1708.181" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1490.7" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="106.25" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Chromite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Chromite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chromite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Chromite" Amount="30000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="5551.738" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3416.362" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="2981.4" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="212.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Cinnabar_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cinnabar</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cinnabar.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cinnabar" Amount="400" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="124.157" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="19.843" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Cinnabar_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cinnabar</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cinnabar.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cinnabar" Amount="10000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="3103.92" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="496.08" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Cinnabar_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cinnabar</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cinnabar.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cinnabar" Amount="20000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="6207.84" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="992.16" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Coal_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Coal</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Coal.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Coal" Amount="1000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="436.854" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="34.679" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="27.95" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="9.317" />
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="8.799" />
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="4.92" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Coal_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Coal</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Coal.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Coal" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="10921.36" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="866.98" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="698.76" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="232.92" />
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="219.98" />
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="123.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Coal_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Coal</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Coal.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Coal" Amount="50000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="21842.72" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1733.96" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1397.52" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="465.84" />
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="439.96" />
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="246.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Cobaltite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cobaltite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cobaltite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cobaltite" Amount="1750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="229.625" />
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="180.609" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="98.287" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="6.66" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="4.14" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="3.39" />
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="3.34" />
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="2.09" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Cobaltite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cobaltite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cobaltite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cobaltite" Amount="43750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="5740.626" />
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="4515.214" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="2457.181" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="166.5" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="103.5" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="84.75" />
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="83.5" />
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="52.25" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Cobaltite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cobaltite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cobaltite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Cobaltite" Amount="87500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="11481.253" />
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="9030.427" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="4914.363" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="333.0" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="207.0" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="169.5" />
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="167.0" />
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="104.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Columbite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Columbite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Columbite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Columbite" Amount="650" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="103.977" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="53.717" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="31.252" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="11.336" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="9.658" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Columbite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Columbite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Columbite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Columbite" Amount="16250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="2599.425" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1342.934" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="781.292" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="283.391" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="241.459" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Columbite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Columbite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Columbite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Columbite" Amount="32500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="5198.849" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2685.867" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1562.583" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="566.782" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="482.918" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Ferchromide_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ferchromide</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ferchromide.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Ferchromide" Amount="650" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="346.827" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="49.683" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Ferchromide_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ferchromide</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ferchromide.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Ferchromide" Amount="16250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="8670.682" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1242.068" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Ferchromide_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ferchromide</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ferchromide.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Ferchromide" Amount="32500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="17341.365" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="2484.135" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Fluorapatite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Fluorapatite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fluorapatite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Fluorapatite" Amount="1000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="94.968" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="87.193" />
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="36.709" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="8.998" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="3.96" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="3.6" />
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="3.24" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="2.838" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Fluorapatite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Fluorapatite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fluorapatite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Fluorapatite" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="2374.212" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2179.822" />
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="917.729" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="224.962" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="99.0" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="90.0" />
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="81.0" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="70.949" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Fluorapatite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Fluorapatite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fluorapatite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Fluorapatite" Amount="50000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="4748.423" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4359.643" />
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="1835.457" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="449.923" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="198.0" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="180.0" />
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="162.0" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="141.899" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Fontarnauite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Fontarnauite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fontarnauite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Fontarnauite" Amount="950" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="151.216" />
+        <Item TypeId="Ingot" SubtypeId="Boron" Amount="34.062" />
+        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="27.611" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="24.629" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="20.214" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="14.479" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="12.616" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1.892" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Fontarnauite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Fontarnauite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fontarnauite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Fontarnauite" Amount="23750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3780.403" />
+        <Item TypeId="Ingot" SubtypeId="Boron" Amount="851.558" />
+        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="690.278" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="615.731" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="505.344" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="361.984" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="315.392" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="47.309" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Fontarnauite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Fontarnauite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fontarnauite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Fontarnauite" Amount="47500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="7560.806" />
+        <Item TypeId="Ingot" SubtypeId="Boron" Amount="1703.117" />
+        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="1380.557" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="1231.462" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1010.688" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="723.968" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="630.784" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="94.618" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Germanite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Germanite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Germanite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Germanite" Amount="1000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="149.129" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="92.601" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="26.219" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="20.168" />
+        <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="8.634" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="7.743" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="7.191" />
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="4.763" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="3.682" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Germanite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Germanite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Germanite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Germanite" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="3728.234" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="2315.02" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="655.466" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="504.205" />
+        <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="215.851" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="193.576" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="179.777" />
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="119.063" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="92.057" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Germanite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Germanite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Germanite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Germanite" Amount="50000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="7456.468" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="4630.04" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="1310.932" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1008.41" />
+        <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="431.702" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="387.152" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="359.555" />
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="238.126" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="184.114" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Graphite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Graphite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Graphite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Graphite" Amount="1000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="820.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Graphite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Graphite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Graphite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Graphite" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="20500.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Graphite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Graphite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Graphite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Graphite" Amount="50000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="41000.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Halite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Halite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Halite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Halite" Amount="450" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="179.851" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="116.639" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.23" />
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="0.15" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Halite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Halite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Halite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Halite" Amount="11250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="4496.271" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="2915.979" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="5.75" />
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="3.75" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Halite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Halite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Halite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Halite" Amount="22500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="8992.542" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="5831.958" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="11.5" />
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="7.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Hematite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Hematite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Hematite" Amount="1250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="482.761" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="207.489" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="1.61" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="0.56" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Hematite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Hematite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Hematite" Amount="31250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="12069.021" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="5187.229" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="40.25" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="14.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Hematite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Hematite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Hematite" Amount="62500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="24138.042" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="10374.457" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="80.5" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="28.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Ilmenite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ilmenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Ilmenite" Amount="650" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="110.842" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="95.244" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="95.033" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="6.74" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="5.41" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="4.07" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Ilmenite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ilmenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Ilmenite" Amount="16250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="2771.057" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2381.106" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="2375.837" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="168.5" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="135.25" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="101.75" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Ilmenite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ilmenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Ilmenite" Amount="32500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="5542.114" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4762.213" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="4751.674" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="337.0" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="270.5" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="203.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Indite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Indite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Indite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Indite" Amount="550" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="101.321" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="56.594" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="24.646" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Indite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Indite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Indite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Indite" Amount="13750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="2533.02" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1414.84" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="616.14" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Indite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Indite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Indite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Indite" Amount="27500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="5066.04" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="2829.68" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1232.28" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Iodargyrite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Iodargyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Iodargyrite" Amount="325" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="33.797" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="28.733" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="0.44" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Iodargyrite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Iodargyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Iodargyrite" Amount="8125" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="844.937" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="718.313" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="11.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Iodargyrite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Iodargyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Iodargyrite" Amount="16250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="1689.873" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="1436.627" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="22.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Kentbrooksite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Kentbrooksite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Kentbrooksite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Kentbrooksite" Amount="350" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="29.666" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="28.105" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="17.131" />
+        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="6.681" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="5.044" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="3.912" />
+        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="3.427" />
+        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="3.258" />
+        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="3.08" />
+        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="2.265" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="1.342" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="0.923" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.81" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.095" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Kentbrooksite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Kentbrooksite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Kentbrooksite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Kentbrooksite" Amount="8750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="741.651" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="702.629" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="428.287" />
+        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="167.032" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="126.107" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="97.792" />
+        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="85.677" />
+        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="81.449" />
+        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="76.998" />
+        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="56.629" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="33.549" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="23.08" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="20.251" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="2.379" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Kentbrooksite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Kentbrooksite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Kentbrooksite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Kentbrooksite" Amount="17500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1483.302" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="1405.259" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="856.575" />
+        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="334.064" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="252.214" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="195.585" />
+        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="171.354" />
+        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="162.898" />
+        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="153.996" />
+        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="113.258" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="67.098" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="46.16" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="40.502" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="4.759" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Lepidolite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Lepidolite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Lepidolite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Lepidolite" Amount="650" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="139.59" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="89.107" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="31.017" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="21.407" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="15.062" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="11.027" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.801" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Lepidolite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Lepidolite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Lepidolite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Lepidolite" Amount="16250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3489.753" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="2227.682" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="775.415" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="535.167" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="376.542" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="275.669" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="20.021" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Lepidolite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Lepidolite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Lepidolite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Lepidolite" Amount="32500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="6979.507" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="4455.365" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="1550.83" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="1070.335" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="753.084" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="551.338" />
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="40.041" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Orpiment_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Orpiment</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Orpiment.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Orpiment" Amount="625" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="136.111" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="87.389" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="3.5" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="3.35" />
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="1.27" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Orpiment_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Orpiment</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Orpiment.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Orpiment" Amount="15625" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="3402.787" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="2184.713" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="87.5" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="83.75" />
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="31.75" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Orpiment_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Orpiment</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Orpiment.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Orpiment" Amount="31250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="6805.575" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="4369.425" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="175.0" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="167.5" />
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="63.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Palladseite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Palladseite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Palladseite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Palladseite" Amount="525" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="118.428" />
+        <Item TypeId="Ingot" SubtypeId="Selenium" Amount="77.547" />
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="20.202" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="0.915" />
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="0.658" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Palladseite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Palladseite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Palladseite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Palladseite" Amount="13125" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="2960.692" />
+        <Item TypeId="Ingot" SubtypeId="Selenium" Amount="1938.683" />
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="505.051" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="22.865" />
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="16.459" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Palladseite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Palladseite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Palladseite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Palladseite" Amount="26250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="5921.385" />
+        <Item TypeId="Ingot" SubtypeId="Selenium" Amount="3877.365" />
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="1010.102" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="45.729" />
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="32.919" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Pyrite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Pyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pyrite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Pyrite" Amount="875" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="198.631" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="172.989" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="1.43" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="1.37" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="1.26" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="1.21" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="1.1" />
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="1.08" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="1.03" />
+        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="0.92" />
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.81" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="0.7" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Pyrite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Pyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pyrite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Pyrite" Amount="21875" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="4965.772" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="4324.728" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="35.75" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="34.25" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="31.5" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="30.25" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="27.5" />
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="27.0" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="25.75" />
+        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="23.0" />
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="20.25" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="17.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Pyrite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Pyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pyrite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Pyrite" Amount="43750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="9931.544" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="8649.456" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="71.5" />
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="68.5" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="63.0" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="60.5" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="55.0" />
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="54.0" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="51.5" />
+        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="46.0" />
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="40.5" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="35.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Quartz_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Quartz</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Quartz.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Quartz" Amount="875" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="223.117" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="195.803" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="2.797" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="0.62" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="0.54" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="0.52" />
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="0.5" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.45" />
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="0.42" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="0.35" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Quartz_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Quartz</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Quartz.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Quartz" Amount="21875" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="5577.92" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="4895.08" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="69.927" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="15.5" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="13.5" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="13.0" />
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="12.5" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="11.25" />
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="10.5" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="8.75" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Quartz_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Quartz</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Quartz.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Quartz" Amount="43750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="11155.84" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="9790.16" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="139.854" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="31.0" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="27.0" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="26.0" />
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="25.0" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="22.5" />
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="21.0" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="17.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Realgar_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Realgar</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Realgar.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Realgar" Amount="675" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="240.903" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="103.097" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Realgar_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Realgar</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Realgar.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Realgar" Amount="16875" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="6022.58" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="2577.42" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Realgar_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Realgar</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Realgar.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Realgar" Amount="33750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="12045.16" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="5154.84" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Rhodochrosite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Rhodochrosite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Rhodochrosite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Rhodochrosite" Amount="750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="106.763" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="93.292" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="23.345" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="0.94" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.84" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="0.76" />
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.42" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.36" />
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="0.28" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Rhodochrosite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Rhodochrosite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Rhodochrosite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Rhodochrosite" Amount="18750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="2669.071" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2332.296" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="583.632" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="23.5" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="21.0" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="19.0" />
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="10.5" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="9.0" />
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="7.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Rhodochrosite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Rhodochrosite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Rhodochrosite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Rhodochrosite" Amount="37500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="5338.143" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4664.592" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1167.265" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="47.0" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="42.0" />
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="38.0" />
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="21.0" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="18.0" />
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="14.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Ruthenarsenite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ruthenarsenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ruthenarsenite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Ruthenarsenite" Amount="500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="154.012" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="152.231" />
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="29.808" />
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="0.7" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.59" />
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="0.45" />
+        <Item TypeId="Ingot" SubtypeId="Rhodium" Amount="0.38" />
+        <Item TypeId="Ingot" SubtypeId="Iridium" Amount="0.22" />
+        <Item TypeId="Ingot" SubtypeId="Osmium" Amount="0.19" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Ruthenarsenite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ruthenarsenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ruthenarsenite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Ruthenarsenite" Amount="12500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="3850.293" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="3805.766" />
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="745.191" />
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="17.5" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="14.75" />
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="11.25" />
+        <Item TypeId="Ingot" SubtypeId="Rhodium" Amount="9.5" />
+        <Item TypeId="Ingot" SubtypeId="Iridium" Amount="5.5" />
+        <Item TypeId="Ingot" SubtypeId="Osmium" Amount="4.75" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Ruthenarsenite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ruthenarsenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ruthenarsenite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Ruthenarsenite" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="7700.586" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="7611.533" />
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="1490.382" />
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="35.0" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="29.5" />
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="22.5" />
+        <Item TypeId="Ingot" SubtypeId="Rhodium" Amount="19.0" />
+        <Item TypeId="Ingot" SubtypeId="Iridium" Amount="11.0" />
+        <Item TypeId="Ingot" SubtypeId="Osmium" Amount="9.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Rutheniridosmine_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Rutheniridosmine</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Rutheniridosmine.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Rutheniridosmine" Amount="500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iridium" Amount="198.132" />
+        <Item TypeId="Ingot" SubtypeId="Osmium" Amount="98.031" />
+        <Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="17.368" />
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="0.84" />
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="0.83" />
+        <Item TypeId="Ingot" SubtypeId="Rhodium" Amount="0.81" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Rutheniridosmine_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Rutheniridosmine</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Rutheniridosmine.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Rutheniridosmine" Amount="12500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iridium" Amount="4953.3" />
+        <Item TypeId="Ingot" SubtypeId="Osmium" Amount="2450.786" />
+        <Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="434.197" />
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="21.0" />
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="20.75" />
+        <Item TypeId="Ingot" SubtypeId="Rhodium" Amount="20.25" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Rutheniridosmine_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Rutheniridosmine</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Rutheniridosmine.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Rutheniridosmine" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iridium" Amount="9906.6" />
+        <Item TypeId="Ingot" SubtypeId="Osmium" Amount="4901.572" />
+        <Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="868.395" />
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="42.0" />
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="41.5" />
+        <Item TypeId="Ingot" SubtypeId="Rhodium" Amount="40.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Sphalerite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sphalerite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sphalerite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Sphalerite" Amount="575" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="130.817" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="67.512" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="5.881" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="0.88" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="0.85" />
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="0.84" />
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.78" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="0.76" />
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="0.76" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.71" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="0.7" />
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="0.62" />
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="0.52" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.47" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Sphalerite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sphalerite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sphalerite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Sphalerite" Amount="14375" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="3270.423" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1687.796" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="147.031" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="22.0" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="21.25" />
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="21.0" />
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="19.5" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="19.0" />
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="19.0" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="17.75" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="17.5" />
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="15.5" />
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="13.0" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="11.75" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Sphalerite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sphalerite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sphalerite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Sphalerite" Amount="28750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="6540.846" />
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="3375.591" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="294.062" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="44.0" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="42.5" />
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="42.0" />
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="39.0" />
+        <Item TypeId="Ingot" SubtypeId="Germanium" Amount="38.0" />
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="38.0" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="35.5" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="35.0" />
+        <Item TypeId="Ingot" SubtypeId="Indium" Amount="31.0" />
+        <Item TypeId="Ingot" SubtypeId="Cadmium" Amount="26.0" />
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="23.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Spodumene_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Spodumene</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Spodumene.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Spodumene" Amount="975" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="186.317" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="108.995" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="52.367" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="13.471" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="1.42" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="1.36" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="1.31" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="1.29" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1.26" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="1.26" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Spodumene_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Spodumene</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Spodumene.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Spodumene" Amount="24375" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4657.932" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="2724.877" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="1309.169" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="336.772" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="35.5" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="34.0" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="32.75" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="32.25" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="31.5" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="31.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Spodumene_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Spodumene</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Spodumene.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Spodumene" Amount="48750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="9315.864" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="5449.754" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="2618.338" />
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="673.545" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="71.0" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="68.0" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="65.5" />
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="64.5" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="63.0" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="63.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Stibiotantalite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Stibiotantalite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Stibiotantalite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Stibiotantalite" Amount="650" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="111.107" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="74.746" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="39.287" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Stibiotantalite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Stibiotantalite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Stibiotantalite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Stibiotantalite" Amount="16250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="2777.665" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="1868.662" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="982.173" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Stibiotantalite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Stibiotantalite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Stibiotantalite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Stibiotantalite" Amount="32500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="5555.329" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="3737.324" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1964.346" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Strontiofluorite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Strontiofluorite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Strontiofluorite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Strontiofluorite" Amount="500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="121.721" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="52.789" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Strontiofluorite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Strontiofluorite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Strontiofluorite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Strontiofluorite" Amount="12500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="3043.018" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="1319.732" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Strontiofluorite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Strontiofluorite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Strontiofluorite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Strontiofluorite" Amount="25000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="6086.036" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="2639.464" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Sulfur_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sulfur</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sulfur.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Sulfur" Amount="100" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="90.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Sulfur_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sulfur</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sulfur.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Sulfur" Amount="2500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="2250.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Sulfur_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sulfur</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sulfur.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Sulfur" Amount="5000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="4500.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Sylvite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sylvite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sylvite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Sylvite" Amount="625" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="115.212" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="104.448" />
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="1.54" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1.01" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Sylvite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sylvite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sylvite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Sylvite" Amount="15625" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="2880.292" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="2611.208" />
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="38.5" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="25.25" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="12.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Sylvite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sylvite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sylvite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Sylvite" Amount="31250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="5760.583" />
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="5222.416" />
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="77.0" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="50.5" />
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="25.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Telluropalladinite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Telluropalladinite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Telluropalladinite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Telluropalladinite" Amount="350" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="110.849" />
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="59.061" />
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="2.94" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="2.68" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="2.35" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="1.56" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Telluropalladinite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Telluropalladinite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Telluropalladinite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Telluropalladinite" Amount="8750" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="2771.232" />
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="1476.518" />
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="73.5" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="67.0" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="58.75" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="39.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Telluropalladinite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Telluropalladinite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Telluropalladinite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Telluropalladinite" Amount="17500" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Palladium" Amount="5542.464" />
+        <Item TypeId="Ingot" SubtypeId="Tellurium" Amount="2953.036" />
+        <Item TypeId="Ingot" SubtypeId="Bismuth" Amount="147.0" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="134.0" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="117.5" />
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="78.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Titanite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Titanite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Titanite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Titanite" Amount="600" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="109.268" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="53.063" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="50.058" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="39.142" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="10.034" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="7.525" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="3.887" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="2.646" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="0.62" />
+        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="0.57" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.52" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="0.5" />
+        <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="0.48" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="0.44" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="0.43" />
+        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="0.39" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Titanite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Titanite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Titanite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Titanite" Amount="15000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2731.691" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="1326.566" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="1251.451" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="978.557" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="250.842" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="188.131" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="97.167" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="66.156" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="15.5" />
+        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="15.0" />
+        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="14.25" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="13.0" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="12.5" />
+        <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="12.0" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="11.0" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="10.75" />
+        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="9.75" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Titanite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Titanite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Titanite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Titanite" Amount="30000" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="5463.383" />
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="2653.131" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="2502.902" />
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1957.115" />
+        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="501.683" />
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="376.262" />
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="194.333" />
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="132.312" />
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="31.0" />
+        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="30.0" />
+        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="28.5" />
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="26.0" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="25.0" />
+        <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="24.0" />
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="22.0" />
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="21.5" />
+        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="19.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Wulfenite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Wulfenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Wulfenite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Wulfenite" Amount="725" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="194.972" />
+        <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="90.266" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="60.212" />
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="10.41" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="4.45" />
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="1.36" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="1.26" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="1.17" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="0.94" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Wulfenite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Wulfenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Wulfenite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Wulfenite" Amount="18125" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="4874.3" />
+        <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="2256.652" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1505.298" />
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="260.25" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="111.25" />
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="34.0" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="31.5" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="29.25" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="23.5" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Wulfenite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Wulfenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Wulfenite.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Wulfenite" Amount="36250" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="9748.599" />
+        <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="4513.304" />
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3010.597" />
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="520.5" />
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="222.5" />
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="68.0" />
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="63.0" />
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="58.5" />
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="47.0" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

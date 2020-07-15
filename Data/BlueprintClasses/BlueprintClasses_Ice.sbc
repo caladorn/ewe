@@ -9,7 +9,7 @@
       </Id>
       <DisplayName>Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
     </Class>
@@ -20,7 +20,7 @@
       </Id>
       <DisplayName>Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
     </Class>
@@ -31,7 +31,7 @@
       </Id>
       <DisplayName>Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
     </Class>
@@ -43,7 +43,7 @@
       </Id>
       <DisplayName>Basic Refining</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
     </Class>
@@ -54,7 +54,7 @@
       </Id>
       <DisplayName>Advanced Refining</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
     </Class>
@@ -65,7 +65,7 @@
       </Id>
       <DisplayName>Elite Refining</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
     </Class>

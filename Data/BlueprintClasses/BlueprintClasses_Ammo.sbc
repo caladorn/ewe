@@ -7,8 +7,10 @@
         <SubtypeId>AdvMassProdAmmo</SubtypeId>
       </Id>
       <DisplayName>Ammo Mass Production</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <Description>Ammo</Description>
+      <Icon>Textures\GUI\Icons\buttons\ammo.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\ammo.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\ammo_focus.dds</FocusIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
   </BlueprintClasses>

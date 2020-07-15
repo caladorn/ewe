@@ -1,849 +1,958 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Blueprints>
-    <Blueprint> <!-- ChromiumSteelX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ChromiumSteelX100</SubtypeId>
-      </Id>
-      <DisplayName>Chromium Steel x10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\ChromiumSteel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="8200" TypeId="Ingot" SubtypeId="945Steel" />
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Manganese" />
-        <Item Amount="2000" TypeId="Ingot" SubtypeId="Chromium" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Molybdenum" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="ChromiumSteel" />
-      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- ChromiumSteelX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ChromiumSteelX10</SubtypeId>
-      </Id>
-      <DisplayName>Chromium Steel x1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\ChromiumSteel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="820" TypeId="Ingot" SubtypeId="945Steel" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Manganese" />
-        <Item Amount="200" TypeId="Ingot" SubtypeId="Chromium" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Molybdenum" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="ChromiumSteel" />
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- ChromiumSteel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ChromiumSteel</SubtypeId>
-      </Id>
-      <DisplayName>Chromium Steel x100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\ChromiumSteel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="82" TypeId="Ingot" SubtypeId="945Steel" />
-        <Item Amount="5" TypeId="Ingot" SubtypeId="Manganese" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Chromium" />
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Molybdenum" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="ChromiumSteel" />
-      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- ChromiumSteelDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-	<SubtypeId>ChromiumSteelDisassembly</SubtypeId>
-      </Id>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\ChromiumSteel_Icon.dds</Icon>
-      <DisplayName>Chromium Steel</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.991" TypeId="Ingot" SubtypeId="945Steel" />
-        <Item Amount="0.05" TypeId="Ingot" SubtypeId="Manganese" />
-        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Chromium" />
-        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Molybdenum" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="ChromiumSteel" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- 945SteelX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>945SteelX100</SubtypeId>
-      </Id>
-      <DisplayName>Steel X10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Steel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="9800" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="200" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="945Steel" />
-      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- 945SteelX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>945SteelX10</SubtypeId>
-      </Id>
-      <DisplayName>Steel X1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Steel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="980" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="945Steel" />
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- 945Steel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>945Steel</SubtypeId>
-      </Id>
-      <DisplayName>Steel X100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Steel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="98" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="2" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
-      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- 945SteelDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>945SteelDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Steel</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Steel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.98" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="0.02" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="945Steel" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- 201SteelX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>201SteelX100</SubtypeId>
-      </Id>
-      <DisplayName>Stainless Steel X10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\StainlessSteel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="7850" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="170" TypeId="Ingot" SubtypeId="Chromium" />
-        <Item Amount="450" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="201Steel" />
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- 201SteelX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>201SteelX10</SubtypeId>
-      </Id>
-      <DisplayName>Stainless Steel X1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\StainlessSteel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="785" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="170" TypeId="Ingot" SubtypeId="Chromium" />
-        <Item Amount="45" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="201Steel" />
-      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- 201Steel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>201Steel</SubtypeId>
-      </Id>
-      <DisplayName>Stainless Steel X100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\StainlessSteel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="78.5" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="17" TypeId="Ingot" SubtypeId="Chromium" />
-        <Item Amount="4.5" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="201Steel" />
-      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
-    </Blueprint>
-	<Blueprint> <!-- 201SteelDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>201SteelDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Stainless Steel</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\StainlessSteel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.785" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="0.17" TypeId="Ingot" SubtypeId="Chromium" />
-        <Item Amount="0.045" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="201Steel" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- NitinolX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>NitinolX100</SubtypeId>
-      </Id>
-      <DisplayName>Nitinol X10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Nitinol_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="4500" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="5500" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="Nitinol" />
-      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- NitinolX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>NitinolX10</SubtypeId>
-      </Id>
-      <DisplayName>Nitinol X1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Nitinol_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="450" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="550" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="Nitinol" />
-      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Nitinol -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Nitinol</SubtypeId>
-      </Id>
-      <DisplayName>Nitinol X100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Nitinol_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="45" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="55" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="Nitinol" />
-      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- NitinolDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>NitinolDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Nitinol</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Nitinol_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.45" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="0.55" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Nitinol" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- BrassX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>BrassX100</SubtypeId>
-      </Id>
-      <DisplayName>Brass X1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Brass_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="600" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="400" TypeId="Ingot" SubtypeId="Zinc" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="Brass" />
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- BrassX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>BrassX10</SubtypeId>
-      </Id>
-      <DisplayName>Brass X10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Brass_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="6000" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="4000" TypeId="Ingot" SubtypeId="Zinc" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="Brass" />
-      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Brass -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Brass</SubtypeId>
-      </Id>
-      <DisplayName>Brass X1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Brass_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="600" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="400" TypeId="Ingot" SubtypeId="Zinc" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="Brass" />
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Brass -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Brass</SubtypeId>
-      </Id>
-      <DisplayName>Brass x100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Brass_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="60" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="40" TypeId="Ingot" SubtypeId="Zinc" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="Brass" />
-      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- CupronickelX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CupronickelX100</SubtypeId>
-      </Id>
-      <DisplayName>Cupronickel x10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Cupronickel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="7000" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="3000" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="Cupronickel" />
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- CupronickelX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CupronickelX10</SubtypeId>
-      </Id>
-      <DisplayName>Cupronickel x1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Cupronickel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="700" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="300" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="Cupronickel" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Cupronickel -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Cupronickel</SubtypeId>
-      </Id>
-      <DisplayName>Cupronickel x100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Cupronickel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="70" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="Cupronickel" />
-      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- CupronickelDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CupronickelDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Cupronickel</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Cupronickel_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.7" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="0.3" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Cupronickel" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- ElectrumX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ElectrumX100</SubtypeId>
-      </Id>
-      <DisplayName>Electrum X1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Electrum_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="450" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="550" TypeId="Ingot" SubtypeId="Silver" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="Electrum" />
-      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- ElectrumX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ElectrumX10</SubtypeId>
-      </Id>
-      <DisplayName>Electrum x10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Electrum_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="4500" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="5500" TypeId="Ingot" SubtypeId="Silver" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="Electrum" />
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Electrum -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Electrum</SubtypeId>
-      </Id>
-      <DisplayName>Electrum x1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Electrum_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="450" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="550" TypeId="Ingot" SubtypeId="Silver" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="Electrum" />
-      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- ElectrumDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ElectrumDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Electrum x100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Electrum_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="45" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="55" TypeId="Ingot" SubtypeId="Silver" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="Electrum" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- GumMetalX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GumMetalX100</SubtypeId>
-      </Id>
-      <DisplayName>Gum Metal X10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\GumMetal_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="7330" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="2300" TypeId="Ingot" SubtypeId="Niobium" />
-        <Item Amount="2000" TypeId="Ingot" SubtypeId="Zirconium" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Oxygen" />
-        <Item Amount="70" TypeId="Ingot" SubtypeId="Tantalum" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="GumMetal" />
-      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- GumMetalX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GumMetalX10</SubtypeId>
-      </Id>
-      <DisplayName>Gum Metal x1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\GumMetal_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="733" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="230" TypeId="Ingot" SubtypeId="Niobium" />
-        <Item Amount="200" TypeId="Ingot" SubtypeId="Zirconium" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Oxygen" />
-        <Item Amount="7" TypeId="Ingot" SubtypeId="Tantalum" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="GumMetal" />
-      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- GumMetal -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GumMetal</SubtypeId>
-      </Id>
-      <DisplayName>Gum Metal x100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\GumMetal_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="73.3" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="23" TypeId="Ingot" SubtypeId="Niobium" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Zirconium" />
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Oxygen" />
-        <Item Amount="0.7" TypeId="Ingot" SubtypeId="Tantalum" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="GumMetal" />
-      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- GumMetalDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GumMetalDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Gum Metal</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\GumMetal_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.733" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="0.23" TypeId="Ingot" SubtypeId="Niobium" />
-        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Zirconium" />
-        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Oxygen" />
-        <Item Amount="0.007" TypeId="Ingot" SubtypeId="Tantalum" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="GumMetal" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- PolyCarbonateX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>PolyCarbonateX100</SubtypeId>
-      </Id>
-      <DisplayName>Poly Carbonate X10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="4100" TypeId="Ingot" SubtypeId="Carbon" />
-        <Item Amount="4600" TypeId="Ingot" SubtypeId="Hydrogen" />
-        <Item Amount="1300" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="PolyCarbonate" />
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- PolyCarbonateX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>PolyCarbonateX10</SubtypeId>
-      </Id>
-      <DisplayName>Poly Carbonate X1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="410" TypeId="Ingot" SubtypeId="Carbon" />
-        <Item Amount="460" TypeId="Ingot" SubtypeId="Hydrogen" />
-        <Item Amount="130" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="PolyCarbonate" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- PolyCarbonate -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>PolyCarbonate</SubtypeId>
-      </Id>
-      <DisplayName>Poly Carbonate X100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="41" TypeId="Ingot" SubtypeId="Carbon" />
-        <Item Amount="46" TypeId="Ingot" SubtypeId="Hydrogen" />
-        <Item Amount="13" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="PolyCarbonate" />
-      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- PolyCarbonateDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>PolyCarbonateDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Poly Carbonate</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.41" TypeId="Ingot" SubtypeId="Carbon" />
-        <Item Amount="0.46" TypeId="Ingot" SubtypeId="Hydrogen" />
-        <Item Amount="0.13" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="PolyCarbonate" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- GlassX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GlassX100</SubtypeId>
-      </Id>
-      <DisplayName>Glass X10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="6600" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="3300" TypeId="Ingot" SubtypeId="Oxygen" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="Glass" />
-      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- GlassX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GlassX10</SubtypeId>
-      </Id>
-      <DisplayName>Glass X1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="660" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="330" TypeId="Ingot" SubtypeId="Oxygen" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="Glass" />
-      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Glass -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Glass</SubtypeId>
-      </Id>
-      <DisplayName>Glass X100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="66" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="33" TypeId="Ingot" SubtypeId="Oxygen" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="Glass" />
-      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- GlassDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GlassDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Glass</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.66" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="0.33" TypeId="Ingot" SubtypeId="Oxygen" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Glass" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- RubberX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>RubberX100</SubtypeId>
-      </Id>
-      <DisplayName>Rubber X10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="3800" TypeId="Ingot" SubtypeId="Carbon" />
-        <Item Amount="6200" TypeId="Ingot" SubtypeId="Hydrogen" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="Rubber" />
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- RubberX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>RubberX10</SubtypeId>
-      </Id>
-      <DisplayName>Rubber X1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="380" TypeId="Ingot" SubtypeId="Carbon" />
-        <Item Amount="620" TypeId="Ingot" SubtypeId="Hydrogen" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="Rubber" />
-      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Rubber -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Rubber</SubtypeId>
-      </Id>
-      <DisplayName>Rubber X100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="38" TypeId="Ingot" SubtypeId="Carbon" />
-        <Item Amount="62" TypeId="Ingot" SubtypeId="Hydrogen" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="Rubber" />
-      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- RubberDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>RubberDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Rubber</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.38" TypeId="Ingot" SubtypeId="Carbon" />
-        <Item Amount="0.62" TypeId="Ingot" SubtypeId="Hydrogen" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Rubber" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint> <!-- MagnetX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>MagnetX100</SubtypeId>
-      </Id>
-      <DisplayName>Magnet x10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1200" TypeId="Ingot" SubtypeId="Neodymium" />
-        <Item Amount="8200" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="600" TypeId="Ingot" SubtypeId="Boron" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="Magnet" />
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- MagnetX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>MagnetX10</SubtypeId>
-      </Id>
-      <DisplayName>Magnet x1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="120" TypeId="Ingot" SubtypeId="Neodymium" />
-        <Item Amount="820" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="60" TypeId="Ingot" SubtypeId="Boron" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="Magnet" />
-      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Magnet -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Magnet</SubtypeId>
-      </Id>
-      <DisplayName>Magnet x100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="12" TypeId="Ingot" SubtypeId="Neodymium" />
-        <Item Amount="82" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="6" TypeId="Ingot" SubtypeId="Boron" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="Magnet" />
-      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- MagnetDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>MagnetDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Magnet</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.12" TypeId="Ingot" SubtypeId="Neodymium" />
-        <Item Amount="0.82" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="0.06" TypeId="Ingot" SubtypeId="Boron" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Magnet" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-	<Blueprint> <!-- TungstenCarbideX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>TungstenCarbideX100</SubtypeId>
-      </Id>
-      <DisplayName>TungstenCarbide x10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="5000" TypeId="Ingot" SubtypeId="Tungsten" />
-        <Item Amount="5000" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="TungstenCarbide" />
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
-    </Blueprint>
-	<Blueprint> <!-- TungstenCarbideX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>TungstenCarbideX10</SubtypeId>
-      </Id>
-      <DisplayName>TungstenCarbide x1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Tungsten" />
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="TungstenCarbide" />
-      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
-    </Blueprint>
-	<Blueprint> <!-- TungstenCarbide -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>TungstenCarbide</SubtypeId>
-      </Id>
-      <DisplayName>TungstenCarbide x100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Tungsten" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="TungstenCarbide" />
-      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
-    </Blueprint>
-	<Blueprint> <!-- TungstenCarbideDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>TungstenCarbideDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>TungstenCarbide</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Tungsten" />
-        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Carbon" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="TungstenCarbide" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint> <!-- CementX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CementX100</SubtypeId>
-      </Id>
-      <DisplayName>Cement x10000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="30000" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="20000" TypeId="Ingot" SubtypeId="Aluminum" />
-        <Item Amount="10000" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="60000" TypeId="Ingot" SubtypeId="Oxygen" />
-        <Item Amount="60000" TypeId="Ingot" SubtypeId="Hydrogen" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Ingot" SubtypeId="Cement" />
-      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- CementX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CementX10</SubtypeId>
-      </Id>
-      <DisplayName>Cement x1000</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="3000" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="2000" TypeId="Ingot" SubtypeId="Aluminum" />
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="6000" TypeId="Ingot" SubtypeId="Oxygen" />
-        <Item Amount="6000" TypeId="Ingot" SubtypeId="Hydrogen" />
-      </Prerequisites>
-      <Result Amount="1000" TypeId="Ingot" SubtypeId="Cement" />
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Cement -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Cement</SubtypeId>
-      </Id>
-      <DisplayName>Cement x100</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="300" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="200" TypeId="Ingot" SubtypeId="Aluminum" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="600" TypeId="Ingot" SubtypeId="Oxygen" />
-        <Item Amount="600" TypeId="Ingot" SubtypeId="Hydrogen" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Ingot" SubtypeId="Cement" />
-      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- CementDisassembly -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CementDisassembly</SubtypeId>
-      </Id>
-      <DisplayName>Cement</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="3" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="2" TypeId="Ingot" SubtypeId="Aluminum" />
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="6" TypeId="Ingot" SubtypeId="Oxygen" />
-        <Item Amount="6" TypeId="Ingot" SubtypeId="Hydrogen" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Cement" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-	  <IsPrimary>true</IsPrimary>
-    </Blueprint>
-	
-  </Blueprints>
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ChromiumSteelX100</SubtypeId>
+			</Id>
+			<DisplayName>Chromium Steel x10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\ChromiumSteel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="9698" />
+				<Item TypeId="Ingot" SubtypeId="Manganese" Amount="35" />
+				<Item TypeId="Ingot" SubtypeId="Chromium" Amount="145" />
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="22.5" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="99.5" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="ChromiumSteel" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ChromiumSteelX10</SubtypeId>
+			</Id>
+			<DisplayName>Chromium Steel x1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\ChromiumSteel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="969.8" />
+				<Item TypeId="Ingot" SubtypeId="Manganese" Amount="3.5" />
+				<Item TypeId="Ingot" SubtypeId="Chromium" Amount="14.5" />
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="2.25" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="9.95" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="ChromiumSteel" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ChromiumSteel</SubtypeId>
+			</Id>
+			<DisplayName>Chromium Steel x100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\ChromiumSteel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="96.98" />
+				<Item TypeId="Ingot" SubtypeId="Manganese" Amount="0.35" />
+				<Item TypeId="Ingot" SubtypeId="Chromium" Amount="1.45" />
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.225" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.995" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="ChromiumSteel" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ChromiumSteelDisassembly</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+			<DisplayName>Chromium Steel</DisplayName>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="0.9698" />
+				<Item TypeId="Ingot" SubtypeId="Manganese" Amount="0.0035" />
+				<Item TypeId="Ingot" SubtypeId="Chromium" Amount="0.0145" />
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.00225" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.00995" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="ChromiumSteel" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>945SteelX100</SubtypeId>
+			</Id>
+			<DisplayName>Steel X10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Steel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="9800" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="200" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>945SteelX10</SubtypeId>
+			</Id>
+			<DisplayName>Steel X1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Steel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="980" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="20" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>945Steel</SubtypeId>
+			</Id>
+			<DisplayName>Steel X100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Steel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="98" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="2" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>945SteelDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Steel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Steel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="0.98" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.02" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>201SteelX100</SubtypeId>
+			</Id>
+			<DisplayName>Stainless Steel X10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\StainlessSteel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="7850" />
+				<Item TypeId="Ingot" SubtypeId="Chromium" Amount="170" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="450" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="201Steel" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>201SteelX10</SubtypeId>
+			</Id>
+			<DisplayName>Stainless Steel X1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\StainlessSteel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="785" />
+				<Item TypeId="Ingot" SubtypeId="Chromium" Amount="170" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="45" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="201Steel" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>201Steel</SubtypeId>
+			</Id>
+			<DisplayName>Stainless Steel X100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\StainlessSteel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="78.5" />
+				<Item TypeId="Ingot" SubtypeId="Chromium" Amount="17" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="4.5" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="201Steel" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>201SteelDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Stainless Steel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\StainlessSteel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="0.785" />
+				<Item TypeId="Ingot" SubtypeId="Chromium" Amount="0.17" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.045" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="201Steel" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>NitinolX100</SubtypeId>
+			</Id>
+			<DisplayName>Nitinol X10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Nitinol_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="4500" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="5500" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Nitinol" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>NitinolX10</SubtypeId>
+			</Id>
+			<DisplayName>Nitinol X1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Nitinol_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="450" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="550" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Nitinol" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Nitinol</SubtypeId>
+			</Id>
+			<DisplayName>Nitinol X100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Nitinol_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="45" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="55" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Nitinol" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>NitinolDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Nitinol</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Nitinol_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="0.45" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.55" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Nitinol" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>BrassX100</SubtypeId>
+			</Id>
+			<DisplayName>Brass X10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Brass_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Copper" Amount="6600" />
+				<Item TypeId="Ingot" SubtypeId="Zinc" Amount="3400" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Brass" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>BrassX10</SubtypeId>
+			</Id>
+			<DisplayName>Brass X1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Brass_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Copper" Amount="660" />
+				<Item TypeId="Ingot" SubtypeId="Zinc" Amount="340" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Brass" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Brass</SubtypeId>
+			</Id>
+			<DisplayName>Brass X100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Brass_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Copper" Amount="66" />
+				<Item TypeId="Ingot" SubtypeId="Zinc" Amount="34" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Brass" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Brass</SubtypeId>
+			</Id>
+			<DisplayName>Brass X100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Brass_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Copper" Amount="66" />
+				<Item TypeId="Ingot" SubtypeId="Zinc" Amount="34" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Brass" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CupronickelX100</SubtypeId>
+			</Id>
+			<DisplayName>Cupronickel x10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Cupronickel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Copper" Amount="7000" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="3000" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CupronickelX10</SubtypeId>
+			</Id>
+			<DisplayName>Cupronickel x1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Cupronickel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Copper" Amount="700" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="300" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Cupronickel</SubtypeId>
+			</Id>
+			<DisplayName>Cupronickel x100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Cupronickel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Copper" Amount="70" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="30" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CupronickelDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Cupronickel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Cupronickel_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Copper" Amount="0.7" />
+				<Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.3" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ElectrumX100</SubtypeId>
+			</Id>
+			<DisplayName>Electrum X1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Electrum_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Gold" Amount="450" />
+				<Item TypeId="Ingot" SubtypeId="Silver" Amount="550" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Electrum" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ElectrumX10</SubtypeId>
+			</Id>
+			<DisplayName>Electrum x10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Electrum_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Gold" Amount="4500" />
+				<Item TypeId="Ingot" SubtypeId="Silver" Amount="5500" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Electrum" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Electrum</SubtypeId>
+			</Id>
+			<DisplayName>Electrum x1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Electrum_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Gold" Amount="450" />
+				<Item TypeId="Ingot" SubtypeId="Silver" Amount="550" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Electrum" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ElectrumDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Electrum x100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Electrum_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Gold" Amount="45" />
+				<Item TypeId="Ingot" SubtypeId="Silver" Amount="55" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Electrum" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GumMetalX100</SubtypeId>
+			</Id>
+			<DisplayName>Gum Metal X10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\GumMetal_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="7330" />
+				<Item TypeId="Ingot" SubtypeId="Niobium" Amount="2300" />
+				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="200" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="100" />
+				<Item TypeId="Ingot" SubtypeId="Tantalum" Amount="70" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="GumMetal" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GumMetalX10</SubtypeId>
+			</Id>
+			<DisplayName>Gum Metal x1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\GumMetal_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="733" />
+				<Item TypeId="Ingot" SubtypeId="Niobium" Amount="230" />
+				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="20" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="10" />
+				<Item TypeId="Ingot" SubtypeId="Tantalum" Amount="7" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="GumMetal" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GumMetal</SubtypeId>
+			</Id>
+			<DisplayName>Gum Metal x100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\GumMetal_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="73.3" />
+				<Item TypeId="Ingot" SubtypeId="Niobium" Amount="23" />
+				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="2" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1" />
+				<Item TypeId="Ingot" SubtypeId="Tantalum" Amount="0.7" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="GumMetal" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GumMetalDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Gum Metal</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\GumMetal_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="0.733" />
+				<Item TypeId="Ingot" SubtypeId="Niobium" Amount="0.23" />
+				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="0.02" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.01" />
+				<Item TypeId="Ingot" SubtypeId="Tantalum" Amount="0.007" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="GumMetal" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>PolyCarbonateX100</SubtypeId>
+			</Id>
+			<DisplayName>Poly Carbonate X10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="4100" />
+				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="4600" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="1300" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="PolyCarbonate" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>PolyCarbonateX10</SubtypeId>
+			</Id>
+			<DisplayName>Poly Carbonate X1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="410" />
+				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="460" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="130" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="PolyCarbonate" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>PolyCarbonate</SubtypeId>
+			</Id>
+			<DisplayName>Poly Carbonate X100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="41" />
+				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="46" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="13" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="PolyCarbonate" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>PolyCarbonateDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Poly Carbonate</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.41" />
+				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.46" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.13" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="PolyCarbonate" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GlassX100</SubtypeId>
+			</Id>
+			<DisplayName>Glass X10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="4700" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="5300" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Glass" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GlassX10</SubtypeId>
+			</Id>
+			<DisplayName>Glass X1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="470" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="530" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Glass" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Glass</SubtypeId>
+			</Id>
+			<DisplayName>Glass X100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="47" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="53" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Glass" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GlassDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Glass</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.47" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.53" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Glass" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RubberX100</SubtypeId>
+			</Id>
+			<DisplayName>Rubber X10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="3800" />
+				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="6200" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Rubber" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RubberX10</SubtypeId>
+			</Id>
+			<DisplayName>Rubber X1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="380" />
+				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="620" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Rubber" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Rubber</SubtypeId>
+			</Id>
+			<DisplayName>Rubber X100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="38" />
+				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="62" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Rubber" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RubberDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Rubber</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.38" />
+				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.62" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Rubber" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>MagnetX100</SubtypeId>
+			</Id>
+			<DisplayName>Magnet x10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Neodymium" Amount="1200" />
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="8200" />
+				<Item TypeId="Ingot" SubtypeId="Boron" Amount="600" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Magnet" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>MagnetX10</SubtypeId>
+			</Id>
+			<DisplayName>Magnet x1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Neodymium" Amount="120" />
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="820" />
+				<Item TypeId="Ingot" SubtypeId="Boron" Amount="60" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Magnet" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Magnet</SubtypeId>
+			</Id>
+			<DisplayName>Magnet x100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Neodymium" Amount="12" />
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="82" />
+				<Item TypeId="Ingot" SubtypeId="Boron" Amount="6" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Magnet" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>MagnetDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Magnet</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Neodymium" Amount="0.12" />
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="0.82" />
+				<Item TypeId="Ingot" SubtypeId="Boron" Amount="0.06" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Magnet" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>TungstenCarbideX100</SubtypeId>
+			</Id>
+			<DisplayName>TungstenCarbide x10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Tungsten" Amount="5000" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="5000" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>TungstenCarbideX10</SubtypeId>
+			</Id>
+			<DisplayName>TungstenCarbide x1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Tungsten" Amount="500" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="500" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>TungstenCarbide</SubtypeId>
+			</Id>
+			<DisplayName>TungstenCarbide x100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Tungsten" Amount="50" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="50" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>TungstenCarbideDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>TungstenCarbide</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Tungsten" Amount="0.5" />
+				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.5" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CementX100</SubtypeId>
+			</Id>
+			<DisplayName>Cement x10000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="4700" />
+				<Item TypeId="Ingot" SubtypeId="Aluminum" Amount="365" />
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="1024" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3580" />
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="210" />
+				<Item TypeId="Ingot" SubtypeId="Sulfur" Amount="68" />
+				<Item TypeId="Ingot" SubtypeId="Magnesium" Amount="151" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Cement" Amount="10000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CementX10</SubtypeId>
+			</Id>
+			<DisplayName>Cement x1000</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="470" />
+				<Item TypeId="Ingot" SubtypeId="Aluminum" Amount="36.5" />
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="102.4" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="358" />
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="21" />
+				<Item TypeId="Ingot" SubtypeId="Sulfur" Amount="6.8" />
+				<Item TypeId="Ingot" SubtypeId="Magnesium" Amount="15.1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Cement" Amount="1000" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Cement</SubtypeId>
+			</Id>
+			<DisplayName>Cement x100</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="47" />
+				<Item TypeId="Ingot" SubtypeId="Aluminum" Amount="3.65" />
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="10.24" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="35.8" />
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="2.1" />
+				<Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.68" />
+				<Item TypeId="Ingot" SubtypeId="Magnesium" Amount="1.51" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Cement" Amount="100" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CementDisassembly</SubtypeId>
+			</Id>
+			<DisplayName>Cement</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="0.47" />
+				<Item TypeId="Ingot" SubtypeId="Aluminum" Amount="0.0365" />
+				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.1024" />
+				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.358" />
+				<Item TypeId="Ingot" SubtypeId="Iron" Amount="0.021" />
+				<Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.0068" />
+				<Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.0151" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Cement" Amount="1" />
+			</Results>
+		</Blueprint>
+	</Blueprints>
 </Definitions>

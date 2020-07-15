@@ -7,8 +7,10 @@
         <SubtypeId>BasicElectroncis</SubtypeId>
       </Id>
       <DisplayName>Basic Electronics</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <Description>Basic Electronics</Description>
+      <Icon>Textures\GUI\Icons\buttons\basic_electric.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\basic_electric.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\basic_electric_focus.dds</FocusIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
     <Class>
@@ -17,13 +19,16 @@
         <SubtypeId>BscMassProdElect</SubtypeId>
       </Id>
       <DisplayName>Basic Electronics Mass Production</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <Description>Basic Electronics</Description>
+      <Icon>Textures\GUI\Icons\buttons\basic_electric.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\basic_electric.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\basic_electric_focus.dds</FocusIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
   </BlueprintClasses>
   <BlueprintClassEntries>
    
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SolenoidX100" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="FuseX100" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="ResistorX100" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="DiodeX100" />
@@ -45,6 +50,7 @@
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="SwitchX100" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="ComputerX100" />
 	
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SolenoidX10" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="FuseX10" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="ResistorX10" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="DiodeX10" />
@@ -66,6 +72,7 @@
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="SwitchX10" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="ComputerX10" />
 	
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Solenoid" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="Fuse" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="Resistor" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="Diode" />
@@ -87,6 +94,7 @@
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="Switch" />
     <Entry Class="BscMassProdElect" BlueprintSubtypeId="Computer" />
 	
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Solenoid" />
     <Entry Class="BasicElectroncis" BlueprintSubtypeId="Fuse" />
     <Entry Class="BasicElectroncis" BlueprintSubtypeId="Resistor" />
     <Entry Class="BasicElectroncis" BlueprintSubtypeId="Diode" />

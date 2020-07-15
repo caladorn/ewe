@@ -1,180 +1,197 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Blueprints>
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>OxygenBottle</SubtypeId>
-      </Id>
-      <DisplayName>Basic Oxygen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\BasicOxygenBottle_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="80" TypeId="Ingot" SubtypeId="Aluminum" />
-        <Item Amount="1" TypeId="Component" SubtypeId="BallValve" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="OxygenBottle" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-      <IsPrimary>true</IsPrimary>
-    </Blueprint>
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AdvancedOxygenBottle</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Oxygen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\AdvancedOxygenBottle_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="80" TypeId="Ingot" SubtypeId="945Steel" />
-        <Item Amount="1" TypeId="Component" SubtypeId="BallValve" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="AdvancedOxygenBottle" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-      <IsPrimary>true</IsPrimary>
-    </Blueprint>
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>EliteOxygenBottle</SubtypeId>
-      </Id>
-      <DisplayName>Elite Oxygen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\EliteOxygenBottle_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="80" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="1" TypeId="Component" SubtypeId="BallValve" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="EliteOxygenBottle" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-      <IsPrimary>true</IsPrimary>
-    </Blueprint>
-  
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>HydrogenBottle</SubtypeId>
-      </Id>
-      <DisplayName>Basic Hydrogen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\BasicHydrogenBottle_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="80" TypeId="Ingot" SubtypeId="Aluminum" />
-        <Item Amount="1" TypeId="Component" SubtypeId="BallValve" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="GasContainerObject" SubtypeId="HydrogenBottle" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-      <IsPrimary>true</IsPrimary>
-    </Blueprint>
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AdvancedHydrogenBottle</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Hydrogen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\AdvancedHydrogenBottle_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="80" TypeId="Ingot" SubtypeId="945Steel" />
-        <Item Amount="1" TypeId="Component" SubtypeId="BallValve" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="GasContainerObject" SubtypeId="AdvancedHydrogenBottle" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-      <IsPrimary>true</IsPrimary>
-    </Blueprint>
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>EliteHydrogenBottle</SubtypeId>
-      </Id>
-      <DisplayName>Elite Hydrogen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\EliteHydrogenBottle_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="80" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="1" TypeId="Component" SubtypeId="BallValve" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="GasContainerObject" SubtypeId="EliteHydrogenBottle" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-      <IsPrimary>true</IsPrimary>
-    </Blueprint>
-  
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>OxygenBottlesRefill</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="OxygenBottle" />
-      </Prerequisites>
-      <Results />
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AdvancedOxygenBottlesRefill</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="AdvancedOxygenBottle" />
-      </Prerequisites>
-      <Results />
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>EliteOxygenBottlesRefill</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="EliteOxygenBottle" />
-      </Prerequisites>
-      <Results />
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>HydrogenBottlesRefill</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="GasContainerObject" SubtypeId="HydrogenBottle" />
-      </Prerequisites>
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AdvancedHydrogenBottlesRefill</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="GasContainerObject" SubtypeId="AdvancedHydrogenBottle" />
-      </Prerequisites>
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>EliteHydrogenBottlesRefill</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="GasContainerObject" SubtypeId="EliteHydrogenBottle" />
-      </Prerequisites>
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-  </Blueprints>
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>OxygenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Basic Oxygen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\BasicOxygenBottle_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Aluminum" Amount="13.2" />
+				<Item TypeId="Component" SubtypeId="BallValve" Amount="1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Results>
+				<Item TypeId="OxygenContainerObject" SubtypeId="OxygenBottle" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>AdvancedOxygenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Oxygen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\AdvancedOxygenBottle_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="13.2" />
+				<Item TypeId="Component" SubtypeId="BallValve" Amount="1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Results>
+				<Item TypeId="OxygenContainerObject" SubtypeId="AdvancedOxygenBottle" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>EliteOxygenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Elite Oxygen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\EliteOxygenBottle_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="13.2" />
+				<Item TypeId="Component" SubtypeId="BallValve" Amount="1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Results>
+				<Item TypeId="OxygenContainerObject" SubtypeId="EliteOxygenBottle" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>HydrogenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Basic Hydrogen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\BasicHydrogenBottle_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Aluminum" Amount="13.2" />
+				<Item TypeId="Component" SubtypeId="BallValve" Amount="1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Results>
+				<Item TypeId="GasContainerObject" SubtypeId="HydrogenBottle" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>AdvancedHydrogenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Hydrogen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\AdvancedHydrogenBottle_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="13.2" />
+				<Item TypeId="Component" SubtypeId="BallValve" Amount="1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Results>
+				<Item TypeId="GasContainerObject" SubtypeId="AdvancedHydrogenBottle" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>EliteHydrogenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Elite Hydrogen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\EliteHydrogenBottle_Icon.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="Ingot" SubtypeId="Titanium" Amount="13.2" />
+				<Item TypeId="Component" SubtypeId="BallValve" Amount="1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Results>
+				<Item TypeId="GasContainerObject" SubtypeId="EliteHydrogenBottle" Amount="1" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>OxygenBottlesRefill</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="OxygenContainerObject" SubtypeId="OxygenBottle" Amount="1" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
+			</Results>
+			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>AdvancedOxygenBottlesRefill</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="OxygenContainerObject" SubtypeId="AdvancedOxygenBottle" Amount="1" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
+			</Results>
+			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>EliteOxygenBottlesRefill</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="OxygenContainerObject" SubtypeId="EliteOxygenBottle" Amount="1" />
+			</Prerequisites>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
+			</Results>
+			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>HydrogenBottlesRefill</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="GasContainerObject" SubtypeId="HydrogenBottle" Amount="1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>AdvancedHydrogenBottlesRefill</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="GasContainerObject" SubtypeId="AdvancedHydrogenBottle" Amount="1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
+			</Results>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>EliteHydrogenBottlesRefill</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item TypeId="GasContainerObject" SubtypeId="EliteHydrogenBottle" Amount="1" />
+			</Prerequisites>
+			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+			<Results>
+				<Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
+			</Results>
+		</Blueprint>
+	</Blueprints>
 </Definitions>

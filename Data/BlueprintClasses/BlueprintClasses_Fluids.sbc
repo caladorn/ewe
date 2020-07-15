@@ -7,8 +7,10 @@
         <SubtypeId>Fluids</SubtypeId>
       </Id>
       <DisplayName>Fluids</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <Description>Fluids</Description>
+      <Icon>Textures\GUI\Icons\buttons\fluids.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\fluids.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\fluids_focus.dds</FocusIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
     <Class>
@@ -17,8 +19,10 @@
         <SubtypeId>MassProdFluids</SubtypeId>
       </Id>
       <DisplayName>Fluids Mass Production</DisplayName>
-      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <Description>Fluids</Description>
+      <Icon>Textures\GUI\Icons\buttons\fluids.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\fluids.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\fluids_focus.dds</FocusIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
   </BlueprintClasses>
