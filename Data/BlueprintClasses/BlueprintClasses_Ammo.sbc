@@ -17,6 +17,8 @@
   <BlueprintClassEntries>
    
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="CartridgeX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="GunpowderX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HighExplosiveX100" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ExplosivesX100" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="BulletX100" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_BulletX100" />
@@ -39,6 +41,8 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEAT_TorpedoX100" /> -->
 	
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="CartridgeX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="GunpowderX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HighExplosiveX10" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ExplosivesX10" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="BulletX10" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_BulletX10" />
@@ -61,6 +65,8 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEAT_TorpedoX10" /> -->
 	
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cartridge" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Gunpowder" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HighExplosive" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Explosives" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Bullet" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_Bullet" />
@@ -83,6 +89,8 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEAT_Torpedo" />
 	
     <Entry Class="Ammo" BlueprintSubtypeId="Cartridge" />
+    <Entry Class="Ammo" BlueprintSubtypeId="Gunpowder" />
+    <Entry Class="Ammo" BlueprintSubtypeId="HighExplosive" />
     <Entry Class="Ammo" BlueprintSubtypeId="Explosives" />
     <Entry Class="Ammo" BlueprintSubtypeId="Bullet" />
     <Entry Class="Ammo" BlueprintSubtypeId="FMJ_Bullet" />
