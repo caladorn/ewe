@@ -13,6 +13,18 @@
       <FocusIcon>Textures\GUI\Icons\buttons\ammo_focus.dds</FocusIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Ammo</SubtypeId>
+      </Id>
+      <DisplayName>Ammo</DisplayName>
+      <Description>Ammo</Description>
+      <Icon>Textures\GUI\Icons\buttons\ammo.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\ammo.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\ammo_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
   </BlueprintClasses>
   <BlueprintClassEntries>
    

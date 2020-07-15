@@ -7,7 +7,7 @@
         <SubtypeId>GunpowderX100</SubtypeId>
       </Id>
       <DisplayName>Gunpowder x10000</DisplayName>
-      <Icon>Textures\GUI\Icons\component\Charge_Icon.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\Weapon\Gunpowder_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3600"/>
         <Item TypeId="Ingot" SubtypeId="Potassium" Amount="2850"/>
@@ -26,7 +26,7 @@
         <SubtypeId>GunpowderX10</SubtypeId>
       </Id>
       <DisplayName>Gunpowder x1000</DisplayName>
-      <Icon>Textures\GUI\Icons\component\Charge_Icon.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\Weapon\Gunpowder_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="360"/>
         <Item TypeId="Ingot" SubtypeId="Potassium" Amount="285"/>
@@ -45,7 +45,7 @@
         <SubtypeId>Gunpowder</SubtypeId>
       </Id>
       <DisplayName>Gunpowder x100</DisplayName>
-      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\Weapon\Gunpowder_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="36"/>
         <Item TypeId="Ingot" SubtypeId="Potassium" Amount="28.5"/>
@@ -151,7 +151,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Explosives</SubtypeId>
       </Id>
-      <DisplayName>Explosive</DisplayName>
+      <DisplayName>Explosives</DisplayName>
       <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="LargeTube" Amount="0.167"/>
