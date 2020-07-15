@@ -1,0 +1,617 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+  
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Ice -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>Ice_01</SubtypeId>
+		</Id>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+	  <MaterialTypeName>Ice</MaterialTypeName>
+	  <MinedOre>Ice</MinedOre>
+	  <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>5</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+      <MinVersion>1</MinVersion>
+
+      <VoxelHandPreview>Textures\Voxels\Ice_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Ice_01_ForAxisXZ_cm.dds</ColorMetalXZnY>   
+      <NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>
+	  
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>2</Scale>
+      <InitialDistance>4</InitialDistance>
+      <InitialScale>4</InitialScale>
+      <ScaleMultiplier>4</ScaleMultiplier>
+      <DistanceMultiplier>4</DistanceMultiplier>
+
+      <Far3Distance>50000</Far3Distance>
+      <Far3Color>
+        <X>0.045</X>
+        <Y>0.08</Y>
+        <Z>0.09</Z>
+        <W>1.0</W>
+      </Far3Color>
+	  
+	  
+	    <ColorMetalXZnYFar1>Textures\Voxels\Ice_01_ForAxisXZ_far_cm.dds</ColorMetalXZnYFar1>   
+      <NormalGlossXZnYFar1>Textures\Voxels\Ice_01_ForAxisXZ_far_ng.dds</NormalGlossXZnYFar1>
+	  
+
+	    <ColorMetalXZnYFar2>Textures\Voxels\Ice_01_ForAxisXZ_far_cm.dds</ColorMetalXZnYFar2>   
+      <NormalGlossXZnYFar2>Textures\Voxels\Ice_01_ForAxisXZ_far_ng.dds</NormalGlossXZnYFar2>
+      
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+      <ColorKey Hex="#DD9B28"/>
+      <LandingEffect>Landing_Jet_Ground_Snow</LandingEffect>
+	</VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Ice_02 -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>Ice_02</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>Ice</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>5</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+      <MinVersion>1</MinVersion>
+      <VoxelHandPreview>Textures\Voxels\EarthIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Ice_02_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Ice_02_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+
+      <ColorMetalXZnYFar1>Textures\Voxels\Ice_02_Far1_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Ice_02_Far1_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\Ice_02_Far2_cm.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\Ice_02_Far2_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <InitialScale>4</InitialScale>
+      <ScaleMultiplier>4</ScaleMultiplier>
+      <InitialDistance>4</InitialDistance>
+
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>500</Scale>
+      <Far1Distance>22</Far1Distance>
+      <Far2Distance>500</Far2Distance>
+      <Far1Scale>300</Far1Scale>
+      <Far2Scale>2500</Far2Scale>
+
+      <Far3Distance>25000</Far3Distance>
+      <Far3Color>
+        <X>0.18</X>
+        <Y>0.34</Y>
+        <Z>0.38</Z>
+        <W>1.0</W>
+      </Far3Color>
+      
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+      <ColorKey Hex="#DD9B28"/>
+      <LandingEffect>Landing_Jet_Ground_Snow</LandingEffect>             
+	</VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Ice_03 -->        
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Ice_03</SubtypeId>
+      </Id>
+      <MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>Ice</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+      <MinedOreRatio>5</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>5</AsteroidGeneratorSpawnProbabilityMultiplier>
+
+      <MinVersion>1</MinVersion>
+      <VoxelHandPreview>Textures\Voxels\Ice_03_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Ice_03_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Ice_03_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Ice_03_add.dds</ExtXZnY>
+
+      <SimpleTilingSetup>
+        <ExtDetailScale>0.005</ExtDetailScale>
+        <Scale>2</Scale>
+        <InitialDistance>4</InitialDistance>
+        <InitialScale>4</InitialScale>
+        <ScaleMultiplier>4</ScaleMultiplier>
+        <DistanceMultiplier>4</DistanceMultiplier>
+
+        <Far3Distance>50000</Far3Distance>
+      </SimpleTilingSetup>
+
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>2</Scale>
+      <InitialDistance>4</InitialDistance>
+      <InitialScale>2</InitialScale>
+      <ScaleMultiplier>8</ScaleMultiplier>
+      <DistanceMultiplier>3</DistanceMultiplier>
+      <TilingScale>64</TilingScale>
+
+      <Far1Distance>30</Far1Distance>
+      <Far1Scale>150</Far1Scale>
+
+      <Far2Distance>120</Far2Distance>
+      <Far2Scale>1000</Far2Scale>
+
+
+      <Far3Distance>50000</Far3Distance>
+      <Far3Color>
+        <X>0.045</X>
+        <Y>0.08</Y>
+        <Z>0.09</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+
+      <ColorKey Hex="#DD9B28"/>
+      <LandingEffect>Landing_Jet_Ground_Snow</LandingEffect>                   
+	</VoxelMaterial>
+
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- AmberIce -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>AmberIce</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>AmberIce</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<SpawnsInAsteroids>true</SpawnsInAsteroids>
+		<SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<IsIndestructible>false</IsIndestructible>
+		<ColorMetalXZnY>Textures\Voxels\Amber_Ice_cm.dds</ColorMetalXZnY>                        
+		<NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+		<ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>                        
+	</VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- BlueIce -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>BlueIce</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>BlueIce</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<SpawnsInAsteroids>true</SpawnsInAsteroids>
+		<SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<IsIndestructible>false</IsIndestructible>
+		<ColorMetalXZnY>Textures\Voxels\Blue_Ice_cm.dds</ColorMetalXZnY>                        
+		<NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+		<ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>                        
+	</VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- GreenIce -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>GreenIce</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>GreenIce</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<SpawnsInAsteroids>true</SpawnsInAsteroids>
+		<SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<IsIndestructible>false</IsIndestructible>
+		<ColorMetalXZnY>Textures\Voxels\Green_Ice_cm.dds</ColorMetalXZnY>                        
+		<NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+		<ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>                        
+	</VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- PinkIce -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>PinkIce</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>PinkIce</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<SpawnsInAsteroids>true</SpawnsInAsteroids>
+		<SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<IsIndestructible>false</IsIndestructible>
+		<ColorMetalXZnY>Textures\Voxels\Pink_Ice_cm.dds</ColorMetalXZnY>                        
+		<NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+		<ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>                        
+	</VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- PurpleIce -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>PurpleIce</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>PurpleIce</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<SpawnsInAsteroids>true</SpawnsInAsteroids>
+		<SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<IsIndestructible>false</IsIndestructible>
+		<ColorMetalXZnY>Textures\Voxels\Purple_Ice_cm.dds</ColorMetalXZnY>                        
+		<NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+		<ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>                        
+	</VoxelMaterial>
+
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- IceEuropa2 -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>IceEuropa2</SubtypeId>
+		</Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>EuropaIce</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\IceEuropa2_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\IceEuropa2_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\IceEuropa2_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+      
+
+      <ColorMetalXZnYFar1>Textures\Voxels\IceEuropa2_Far1_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\IceEuropa2_Far1_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\IceEuropa2_Far2_cm.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\IceEuropa2_Far2_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <SimpleTilingSetup>
+        <InitialScale>4</InitialScale>
+        <ScaleMultiplier>8</ScaleMultiplier>
+        <InitialDistance>4</InitialDistance>
+
+        <ExtDetailScale>0.005</ExtDetailScale>
+        <Scale>500</Scale>
+        <Far1Distance>22</Far1Distance>
+        <Far2Distance>500</Far2Distance>
+        <Far1Scale>300</Far1Scale>
+        <Far2Scale>3000</Far2Scale>
+
+        <Far3Distance>50000</Far3Distance>
+      </SimpleTilingSetup>
+
+      <InitialScale>2</InitialScale>
+      <ScaleMultiplier>6</ScaleMultiplier>
+      <InitialDistance>4</InitialDistance>
+      <DistanceMultiplier>2</DistanceMultiplier>
+      <TilingScale>36</TilingScale>
+
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>500</Scale>
+      <Far1Distance>500</Far1Distance>
+      <Far2Distance>1500</Far2Distance>
+      <Far1Scale>750</Far1Scale>
+      <Far2Scale>4000</Far2Scale>
+
+      <Far3Distance>50000</Far3Distance>
+      <Far3Color>
+        <X>0.72</X>
+        <Y>0.94</Y>
+        <Z>1</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+      
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+
+      <ColorKey Hex="#A4B94D"/>
+    </VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- AlienIce -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>AlienIce</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>AlienIce</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+      
+
+      <ColorMetalXZnYFar1>Textures\Voxels\AlienIce_Far1_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\AlienIce_Far1_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\AlienIce_Far2_cm.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\AlienIce_Far2_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>500</Scale>
+      <Far1Distance>22</Far1Distance>
+      <Far2Distance>500</Far2Distance>
+      <Far1Scale>300</Far1Scale>
+      <Far2Scale>2000</Far2Scale>
+
+      <Far3Distance>2000</Far3Distance>
+      <Far3Color>
+        <X>0</X>
+        <Y>0.34</Y>
+        <Z>0.26</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+      <FoliageDensity>4</FoliageDensity>
+      <FoliageScale>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>3</FoliageRandomRescaleMult>-->
+
+      
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+
+      <ColorKey Hex="#BCBB56"/>
+    </VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- AlienIce_03 -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>AlienIce_03</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>AlienIce</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\AlienIce_03_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_03_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_03_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+
+
+      <ColorMetalXZnYFar1>Textures\Voxels\AlienIce_03_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\AlienIce_03_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\AlienIce_03_cm.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\AlienIce_03_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>500</Scale>
+      <Far1Distance>22</Far1Distance>
+      <Far2Distance>500</Far2Distance>
+      <Far1Scale>300</Far1Scale>
+      <Far2Scale>2000</Far2Scale>
+
+      <Far3Distance>4000</Far3Distance>
+      <Far3Color>
+        <X>0.09</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+      
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+
+      <ColorKey Hex="#BCBB56"/>
+    </VoxelMaterial>
+
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Brine -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>Brine</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>Brine</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<SpawnsInAsteroids>true</SpawnsInAsteroids>
+		<SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<IsIndestructible>false</IsIndestructible>
+		<ColorMetalXZnY>Textures\Voxels\Ice_02_cm.dds</ColorMetalXZnY>                        
+		<NormalGlossXZnY>Textures\Voxels\Ice_02_ng.dds</NormalGlossXZnY>
+		<ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>                        
+        </VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- MineralIce -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>MineralIce</SubtypeId>
+		</Id>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>MineralIce</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+		<CanBeHarvested>true</CanBeHarvested>
+		<IsRare>true</IsRare>
+		<SpawnsInAsteroids>true</SpawnsInAsteroids>
+		<SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<IsIndestructible>false</IsIndestructible>
+		<ColorMetalXZnY>Textures\Voxels\Ice_03_cm.dds</ColorMetalXZnY>                        
+		<NormalGlossXZnY>Textures\Voxels\Ice_03_ng.dds</NormalGlossXZnY>
+		<ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>                        
+	</VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- AmmoniumHydroxide -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>AmmoniumHydroxide</SubtypeId>
+		</Id>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>AmmoniumHydroxide</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\AlienIce_03_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_03_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_03_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+
+
+      <ColorMetalXZnYFar1>Textures\Voxels\AlienIce_03_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\AlienIce_03_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\AlienIce_03_cm.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\AlienIce_03_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>500</Scale>
+      <Far1Distance>22</Far1Distance>
+      <Far2Distance>500</Far2Distance>
+      <Far1Scale>300</Far1Scale>
+      <Far2Scale>2000</Far2Scale>
+
+      <Far3Distance>4000</Far3Distance>
+      <Far3Color>
+        <X>0.09</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+      
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+
+      <ColorKey Hex="#BCBB56"/>
+    </VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- CHON -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>CHON</SubtypeId>
+		</Id>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>CHON</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+      
+
+      <ColorMetalXZnYFar1>Textures\Voxels\AlienIce_Far1_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\AlienIce_Far1_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\AlienIce_Far2_cm.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\AlienIce_Far2_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>500</Scale>
+      <Far1Distance>22</Far1Distance>
+      <Far2Distance>500</Far2Distance>
+      <Far1Scale>300</Far1Scale>
+      <Far2Scale>2000</Far2Scale>
+
+      <Far3Distance>2000</Far3Distance>
+      <Far3Color>
+        <X>0</X>
+        <Y>0.34</Y>
+        <Z>0.26</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+      <FoliageDensity>4</FoliageDensity>
+      <FoliageScale>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>3</FoliageRandomRescaleMult>-->
+
+      
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+
+      <ColorKey Hex="#BCBB56"/>
+    </VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- MethaneHydrate -->        
+		<Id>
+			<TypeId>VoxelMaterialDefinition</TypeId>
+			<SubtypeId>MethaneHydrate</SubtypeId>
+		</Id>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+		<MaterialTypeName>Ice</MaterialTypeName>
+		<MinedOre>MethaneHydrate</MinedOre>
+		<MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+      
+
+      <ColorMetalXZnYFar1>Textures\Voxels\AlienIce_Far1_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\AlienIce_Far1_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\AlienIce_Far2_cm.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\AlienIce_Far2_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>500</Scale>
+      <Far1Distance>22</Far1Distance>
+      <Far2Distance>500</Far2Distance>
+      <Far1Scale>300</Far1Scale>
+      <Far2Scale>2000</Far2Scale>
+
+      <Far3Distance>2000</Far3Distance>
+      <Far3Color>
+        <X>0</X>
+        <Y>0.34</Y>
+        <Z>0.26</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+      <FoliageDensity>4</FoliageDensity>
+      <FoliageScale>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>3</FoliageRandomRescaleMult>-->
+
+      
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+
+      <ColorKey Hex="#BCBB56"/>
+    </VoxelMaterial>
+
+  </VoxelMaterials> 
+</Definitions>

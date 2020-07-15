@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>SmallBlockDrill</SubtypeId>
+      </Id>
+      <DisplayName>Basic Ship Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+      <Description>Description_Drill</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\driller.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="35" />
+        <Component Subtype="SteelRod" Count="16" />
+        <Component Subtype="CarbideTooling" Count="32" />
+        <Component Subtype="SteelGear" Count="24" />
+        <Component Subtype="BallBearing" Count="48" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="InsulatedCopperWire" Count="12" />
+        <Component Subtype="Computer" Count="36" />
+        <Component Subtype="SteelBolt" Count="72" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="1" y="1" z="5" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
+        <MountPoint Side="Right" StartX="0" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="4" StartY="1" EndX="6" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>BasicShipDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <SensorRadius>1.3</SensorRadius>
+      <SensorOffset>0.8</SensorOffset>
+      <CutOutRadius>1.3</CutOutRadius>
+      <CutOutOffset>0.6</CutOutOffset>
+      <ParticleOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1.45</Z>
+      </ParticleOffset>
+
+      <DeformationRatio>0.2</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>ToolShipDrillIdle</PrimarySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>190</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>SmallBlockAdvancedDrill</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Ship Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+      <Description>Description_Drill</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\driller.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="53" />
+        <Component Subtype="SteelRod" Count="24" />
+        <Component Subtype="CarbideTooling" Count="48" />
+        <Component Subtype="SteelGear" Count="36" />
+        <Component Subtype="BallBearing" Count="72" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="InsulatedCopperWire" Count="18" />
+        <Component Subtype="Computer" Count="54" />
+        <Component Subtype="SteelBolt" Count="108" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="1" y="1" z="5" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
+        <MountPoint Side="Right" StartX="0" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="4" StartY="1" EndX="6" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>AdvancedShipDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>35</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <SensorRadius>2.76</SensorRadius>
+      <SensorOffset>1.7</SensorOffset>
+      <CutOutRadius>1.3</CutOutRadius>
+      <CutOutOffset>1.28</CutOutOffset>
+      <ParticleOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1.45</Z>
+      </ParticleOffset>
+
+      <DeformationRatio>0.2</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>ToolShipDrillIdle</PrimarySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>190</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>SmallBlockEliteDrill</SubtypeId>
+      </Id>
+      <DisplayName>Elite Ship Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+      <Description>Description_Drill</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\driller.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="79" />
+        <Component Subtype="SteelRod" Count="36" />
+        <Component Subtype="CarbideTooling" Count="72" />
+        <Component Subtype="SteelGear" Count="54" />
+        <Component Subtype="BallBearing" Count="108" />
+        <Component Subtype="Motor" Count="9" />
+        <Component Subtype="InsulatedCopperWire" Count="27" />
+        <Component Subtype="Computer" Count="81" />
+        <Component Subtype="SteelBolt" Count="162" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="1" y="1" z="5" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
+        <MountPoint Side="Right" StartX="0" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="4" StartY="1" EndX="6" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>EliteShipDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <SensorRadius>5.87</SensorRadius>
+      <SensorOffset>3.61</SensorOffset>
+      <CutOutRadius>5.87</CutOutRadius>
+      <CutOutOffset>2.71</CutOutOffset>
+      <ParticleOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1.45</Z>
+      </ParticleOffset>
+
+      <DeformationRatio>0.2</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>ToolShipDrillIdle</PrimarySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>190</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>SmallBlockArmoredDrill</SubtypeId>
+      </Id>
+      <DisplayName>Armored Ship Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+      <Description>Description_Drill</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\driller.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="SteelRod" Count="20" />
+        <Component Subtype="CarbideTooling" Count="40" />
+        <Component Subtype="SteelGear" Count="30" />
+        <Component Subtype="BallBearing" Count="60" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="InsulatedCopperWire" Count="15" />
+        <Component Subtype="Computer" Count="45" />
+        <Component Subtype="SteelPlate" Count="525" />
+        <Component Subtype="SteelBolt" Count="1200" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="1" y="1" z="5" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
+        <MountPoint Side="Right" StartX="0" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="4" StartY="1" EndX="6" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>ArmoredShipDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>125</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <SensorRadius>2.03</SensorRadius>
+      <SensorOffset>1.25</SensorOffset>
+      <CutOutRadius>2.03</CutOutRadius>
+      <CutOutOffset>0.94</CutOutOffset>
+      <ParticleOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1.45</Z>
+      </ParticleOffset>
+
+      <DeformationRatio>0.2</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>ToolShipDrillIdle</PrimarySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>190</PCU>      
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>LargeBlockDrill</SubtypeId>
+      </Id>
+      <DisplayName>Basic Ship Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+      <Description>Description_Drill</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\drill.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="175" />
+        <Component Subtype="SteelRod" Count="80" />
+        <Component Subtype="CarbideTooling" Count="160" />
+        <Component Subtype="SteelGear" Count="120" />
+        <Component Subtype="BallBearing" Count="240" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="InsulatedCopperWire" Count="60" />
+        <Component Subtype="Computer" Count="180" />
+        <Component Subtype="SteelBolt" Count="360" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>BasicShipDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <Center x="0" y="0" z="2" />
+
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <SensorRadius>1.9</SensorRadius>
+      <SensorOffset>2.8</SensorOffset>
+      <CutOutRadius>1.9</CutOutRadius>
+      <CutOutOffset>2.8</CutOutOffset>
+      <ParticleOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-3.6</Z>
+      </ParticleOffset>
+
+      <DeformationRatio>0.2</DeformationRatio>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>ToolShipDrillIdle</PrimarySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>190</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>LargeBlockAdvancedDrill</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Ship Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+      <Description>Description_Drill</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\drill.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="263" />
+        <Component Subtype="SteelRod" Count="120" />
+        <Component Subtype="CarbideTooling" Count="240" />
+        <Component Subtype="SteelGear" Count="180" />
+        <Component Subtype="BallBearing" Count="360" />
+        <Component Subtype="Motor" Count="30" />
+        <Component Subtype="InsulatedCopperWire" Count="90" />
+        <Component Subtype="Computer" Count="270" />
+        <Component Subtype="SteelBolt" Count="540" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>AdvancedShipDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>52</BuildTimeSeconds>
+      <Center x="0" y="0" z="2" />
+
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <SensorRadius>4.04</SensorRadius>
+      <SensorOffset>5.95</SensorOffset>
+      <CutOutRadius>4.04</CutOutRadius>
+      <CutOutOffset>5.95</CutOutOffset>
+      <ParticleOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-3.6</Z>
+      </ParticleOffset>
+
+      <DeformationRatio>0.2</DeformationRatio>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>ToolShipDrillIdle</PrimarySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>190</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>LargeBlockEliteDrill</SubtypeId>
+      </Id>
+      <DisplayName>Elite Ship Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+      <Description>Description_Drill</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\drill.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="394" />
+        <Component Subtype="SteelRod" Count="180" />
+        <Component Subtype="CarbideTooling" Count="360" />
+        <Component Subtype="SteelGear" Count="270" />
+        <Component Subtype="BallBearing" Count="540" />
+        <Component Subtype="Motor" Count="45" />
+        <Component Subtype="InsulatedCopperWire" Count="135" />
+        <Component Subtype="Computer" Count="405" />
+        <Component Subtype="SteelBolt" Count="810" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>EliteShipDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>92</BuildTimeSeconds>
+      <Center x="0" y="0" z="2" />
+
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <SensorRadius>8.58</SensorRadius>
+      <SensorOffset>12.64</SensorOffset>
+      <CutOutRadius>8.58</CutOutRadius>
+      <CutOutOffset>12.64</CutOutOffset>
+      <ParticleOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-3.6</Z>
+      </ParticleOffset>
+
+      <DeformationRatio>0.2</DeformationRatio>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>ToolShipDrillIdle</PrimarySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>190</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>LargeBlockArmoredDrill</SubtypeId>
+      </Id>
+      <DisplayName>Armored Ship Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+      <Description>Description_Drill</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\drill.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="375" />
+        <Component Subtype="SteelRod" Count="100" />
+        <Component Subtype="CarbideTooling" Count="200" />
+        <Component Subtype="SteelGear" Count="150" />
+        <Component Subtype="BallBearing" Count="300" />
+        <Component Subtype="Motor" Count="25" />
+        <Component Subtype="InsulatedCopperWire" Count="75" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="SteelPlate" Count="2500" />
+        <Component Subtype="SteelBolt" Count="6000" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>ArmoredShipDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>185</BuildTimeSeconds>
+      <Center x="0" y="0" z="2" />
+
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <SensorRadius>2.97</SensorRadius>
+      <SensorOffset>4.38</SensorOffset>
+      <CutOutRadius>2.97</CutOutRadius>
+      <CutOutOffset>4.38</CutOutOffset>
+      <ParticleOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-3.6</Z>
+      </ParticleOffset>
+
+      <DeformationRatio>0.2</DeformationRatio>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>ToolShipDrillIdle</PrimarySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>190</PCU>      
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>SmallShipGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Basic Ship Grinder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="26" />
+        <Component Subtype="SteelRod" Count="12" />
+        <Component Subtype="DiamondTooling" Count="24" />
+        <Component Subtype="SteelGear" Count="18" />
+        <Component Subtype="BallBearing" Count="36" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="InsulatedCopperWire" Count="9" />
+        <Component Subtype="Computer" Count="27" />
+        <Component Subtype="SteelBolt" Count="54" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <BlockPairName>BasicShipGrinder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare></Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>1.3</SensorRadius>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>SmallAdvancedShipGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Ship Grinder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="39" />
+        <Component Subtype="SteelRod" Count="18" />
+        <Component Subtype="DiamondTooling" Count="36" />
+        <Component Subtype="SteelGear" Count="27" />
+        <Component Subtype="BallBearing" Count="54" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="InsulatedCopperWire" Count="14" />
+        <Component Subtype="Computer" Count="41" />
+        <Component Subtype="SteelBolt" Count="81" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <BlockPairName>AdvancedShipGrinder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>32</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare></Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>2.76</SensorRadius>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>SmallEliteShipGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Elite Ship Grinder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="59" />
+        <Component Subtype="SteelRod" Count="27" />
+        <Component Subtype="DiamondTooling" Count="54" />
+        <Component Subtype="SteelGear" Count="41" />
+        <Component Subtype="BallBearing" Count="81" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="InsulatedCopperWire" Count="20" />
+        <Component Subtype="Computer" Count="61" />
+        <Component Subtype="SteelBolt" Count="122" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <BlockPairName>EliteShipGrinder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>55</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare></Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>5.87</SensorRadius>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>SmallArmoredShipGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Armored Ship Grinder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="SteelRod" Count="15" />
+        <Component Subtype="DiamondTooling" Count="30" />
+        <Component Subtype="SteelGear" Count="23" />
+        <Component Subtype="BallBearing" Count="45" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="InsulatedCopperWire" Count="11" />
+        <Component Subtype="Computer" Count="34" />
+        <Component Subtype="SteelPlate" Count="400" />
+        <Component Subtype="SteelBolt" Count="950" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <BlockPairName>ArmoredShipGrinder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>110</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare></Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>2.03</SensorRadius>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>LargeShipGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Basic Ship Grinder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="131" />
+        <Component Subtype="SteelRod" Count="60" />
+        <Component Subtype="DiamondTooling" Count="120" />
+        <Component Subtype="SteelGear" Count="90" />
+        <Component Subtype="BallBearing" Count="180" />
+        <Component Subtype="Motor" Count="10" />
+        <Component Subtype="InsulatedCopperWire" Count="45" />
+        <Component Subtype="Computer" Count="135" />
+        <Component Subtype="SteelBolt" Count="270" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>BasicShipGrinder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare></Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>1.4</SensorRadius>
+      <PCU>100</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>LargeAdvancedShipGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Ship Grinder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="197" />
+        <Component Subtype="SteelRod" Count="90" />
+        <Component Subtype="DiamondTooling" Count="180" />
+        <Component Subtype="SteelGear" Count="135" />
+        <Component Subtype="BallBearing" Count="270" />
+        <Component Subtype="Motor" Count="15" />
+        <Component Subtype="InsulatedCopperWire" Count="68" />
+        <Component Subtype="Computer" Count="203" />
+        <Component Subtype="SteelBolt" Count="405" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>AdvancedShipGrinder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>42</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare></Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>2.98</SensorRadius>
+      <PCU>100</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>LargeEliteShipGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Elite Ship Grinder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="295" />
+        <Component Subtype="SteelRod" Count="135" />
+        <Component Subtype="DiamondTooling" Count="270" />
+        <Component Subtype="SteelGear" Count="203" />
+        <Component Subtype="BallBearing" Count="405" />
+        <Component Subtype="Motor" Count="23" />
+        <Component Subtype="InsulatedCopperWire" Count="101" />
+        <Component Subtype="Computer" Count="304" />
+        <Component Subtype="SteelBolt" Count="608" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>EliteShipGrinder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>74</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare></Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>6.32</SensorRadius>
+      <PCU>100</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>LargeArmoredShipGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Armored Ship Grinder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="250" />
+        <Component Subtype="SteelRod" Count="75" />
+        <Component Subtype="DiamondTooling" Count="150" />
+        <Component Subtype="SteelGear" Count="113" />
+        <Component Subtype="BallBearing" Count="225" />
+        <Component Subtype="Motor" Count="13" />
+        <Component Subtype="InsulatedCopperWire" Count="56" />
+        <Component Subtype="Computer" Count="169" />
+        <Component Subtype="SteelPlate" Count="2000" />
+        <Component Subtype="SteelBolt" Count="4750" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>ArmoredShipGrinder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>148</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare></Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>2.19</SensorRadius>
+      <PCU>100</PCU>      
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>Basic Ship Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Description>Description_ShipWelder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Welder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="30" />
+        <Component Subtype="BrassRod" Count="12" />
+        <Component Subtype="SmallCopperTube" Count="12" />
+        <Component Subtype="RubberBushing" Count="32" />
+        <Component Subtype="Amplifier" Count="5" />
+        <Component Subtype="Transformer" Count="3" />
+        <Component Subtype="EnergyCoupler" Count="1" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="BrazingRod" Count="42" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true" />
+      </MountPoints>
+      <BlockPairName>BasicShipWelder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>ShipWelder</Flare>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>1.3</SensorRadius>
+      <PCU>150</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>	
+	<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallAdvancedShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Ship Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Description>Description_ShipWelder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Welder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="45" />
+        <Component Subtype="BrassRod" Count="18" />
+        <Component Subtype="SmallCopperTube" Count="18" />
+        <Component Subtype="RubberBushing" Count="48" />
+        <Component Subtype="Amplifier" Count="8" />
+        <Component Subtype="Transformer" Count="5" />
+        <Component Subtype="EnergyCoupler" Count="2" />
+        <Component Subtype="Computer" Count="45" />
+        <Component Subtype="BrazingRod" Count="63" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true" />
+      </MountPoints>
+      <BlockPairName>AdvancedShipWelder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>32</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>ShipWelder</Flare>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>2.76</SensorRadius>
+      <PCU>150</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>	
+	<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallEliteShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>Elite Ship Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Description>Description_ShipWelder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Welder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="68" />
+        <Component Subtype="BrassRod" Count="27" />
+        <Component Subtype="SmallCopperTube" Count="27" />
+        <Component Subtype="RubberBushing" Count="72" />
+        <Component Subtype="Amplifier" Count="11" />
+        <Component Subtype="Transformer" Count="7" />
+        <Component Subtype="EnergyCoupler" Count="2" />
+        <Component Subtype="Computer" Count="68" />
+        <Component Subtype="BrazingRod" Count="95" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true" />
+      </MountPoints>
+      <BlockPairName>EliteShipWelder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>55</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>ShipWelder</Flare>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>5.87</SensorRadius>
+      <PCU>150</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>	
+	<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallArmoredShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>Armored Ship Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Description>Description_ShipWelder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Welder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="50" />
+        <Component Subtype="BrassRod" Count="15" />
+        <Component Subtype="SmallCopperTube" Count="15" />
+        <Component Subtype="RubberBushing" Count="40" />
+        <Component Subtype="Amplifier" Count="6" />
+        <Component Subtype="Transformer" Count="4" />
+        <Component Subtype="EnergyCoupler" Count="1" />
+        <Component Subtype="Computer" Count="38" />
+        <Component Subtype="TitaniumPlate" Count="175" />
+        <Component Subtype="BrazingRod" Count="315" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true" />
+      </MountPoints>
+      <BlockPairName>ArmoredShipWelder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>110</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>ShipWelder</Flare>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>2.03</SensorRadius>
+      <PCU>150</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>	
+	
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>Basic Ship Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Description>Description_ShipWelder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Welder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="150" />
+        <Component Subtype="BrassRod" Count="60" />
+        <Component Subtype="SmallCopperTube" Count="60" />
+        <Component Subtype="RubberBushing" Count="160" />
+        <Component Subtype="Amplifier" Count="25" />
+        <Component Subtype="Transformer" Count="15" />
+        <Component Subtype="EnergyCoupler" Count="5" />
+        <Component Subtype="Computer" Count="150" />
+        <Component Subtype="BrazingRod" Count="210" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>BasicShipWelder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>ShipWelderLarge</Flare>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>2.26</SensorRadius>
+      <PCU>150</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeAdvancedShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Ship Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Description>Description_ShipWelder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Welder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="225" />
+        <Component Subtype="BrassRod" Count="90" />
+        <Component Subtype="SmallCopperTube" Count="90" />
+        <Component Subtype="RubberBushing" Count="240" />
+        <Component Subtype="Amplifier" Count="38" />
+        <Component Subtype="Transformer" Count="23" />
+        <Component Subtype="EnergyCoupler" Count="8" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="BrazingRod" Count="315" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>AdvancedShipWelder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>42</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>ShipWelderLarge</Flare>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>4.8</SensorRadius>
+      <PCU>150</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeEliteShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>Elite Ship Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Description>Description_ShipWelder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Welder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="338" />
+        <Component Subtype="BrassRod" Count="135" />
+        <Component Subtype="SmallCopperTube" Count="135" />
+        <Component Subtype="RubberBushing" Count="360" />
+        <Component Subtype="Amplifier" Count="56" />
+        <Component Subtype="Transformer" Count="34" />
+        <Component Subtype="EnergyCoupler" Count="11" />
+        <Component Subtype="Computer" Count="338" />
+        <Component Subtype="BrazingRod" Count="473" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>EliteShipWelder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>75</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>ShipWelderLarge</Flare>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>10.21</SensorRadius>
+      <PCU>150</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeArmoredShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>Armored Ship Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Description>Description_ShipWelder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Welder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="125" />
+        <Component Subtype="BrassRod" Count="75" />
+        <Component Subtype="SmallCopperTube" Count="75" />
+        <Component Subtype="RubberBushing" Count="200" />
+        <Component Subtype="Amplifier" Count="31" />
+        <Component Subtype="Transformer" Count="19" />
+        <Component Subtype="EnergyCoupler" Count="6" />
+        <Component Subtype="Computer" Count="188" />
+        <Component Subtype="TitaniumPlate" Count="1000" />
+        <Component Subtype="BrazingRod" Count="1575" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>ArmoredShipWelder</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>150</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>ShipWelderLarge</Flare>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>3.53</SensorRadius>
+      <PCU>150</PCU>      
+    </Definition>
+	
+
+  </CubeBlocks>
+</Definitions>

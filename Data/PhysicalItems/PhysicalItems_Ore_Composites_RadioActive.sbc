@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>  
+    <PhysicalItem>  <!-- Coffinite -->
+	  <Id>
+	    <TypeId>Ore</TypeId>
+	    <SubtypeId>Coffinite</SubtypeId>
+	  </Id>
+	  <DisplayName>Coffinite Ore</DisplayName>
+	  <Icon>Textures\GUI\Icons\ore_Coffinite.dds</Icon>
+	  <Size>
+	    <X>0.07</X>
+	    <Y>0.07</Y>
+	    <Z>0.07</Z>
+	  </Size>
+	  <Mass>1</Mass>
+	  <Volume>0.2</Volume>
+	  <Model>Models\Components\Sphere.mwm</Model>
+	  <PhysicalMaterial>Stone</PhysicalMaterial>
+	  <IconSymbol>ThUSiO4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Hafnon -->
+	  <Id>
+	    <TypeId>Ore</TypeId>
+	    <SubtypeId>Hafnon</SubtypeId>
+	  </Id>
+	  <DisplayName>Hafnon Ore</DisplayName>
+	  <Icon>Textures\GUI\Icons\ore_Hafnon.dds</Icon>
+	  <Size>
+	    <X>0.07</X>
+	    <Y>0.07</Y>
+	    <Z>0.07</Z>
+	  </Size>
+	  <Mass>1</Mass>
+	  <Volume>0.2</Volume>
+	  <Model>Models\Components\Sphere.mwm</Model>
+	  <PhysicalMaterial>Stone</PhysicalMaterial>
+	  <IconSymbol>HfSiO4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Huttonite -->
+	  <Id>
+	    <TypeId>Ore</TypeId>
+	    <SubtypeId>Huttonite</SubtypeId>
+	  </Id>
+	  <DisplayName>Huttonite Ore</DisplayName>
+	  <Icon>Textures\GUI\Icons\ore_Huttonite.dds</Icon>
+	  <Size>
+	    <X>0.07</X>
+	    <Y>0.07</Y>
+	    <Z>0.07</Z>
+	  </Size>
+	  <Mass>1</Mass>
+	  <Volume>0.2</Volume>
+	  <Model>Models\Components\Sphere.mwm</Model>
+	  <PhysicalMaterial>Stone</PhysicalMaterial>
+	  <IconSymbol>ThSiO4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Monazite -->
+	  <Id>
+	    <TypeId>Ore</TypeId>
+	    <SubtypeId>Monazite</SubtypeId>
+	  </Id>
+	  <DisplayName>Monazite Ore</DisplayName>
+	  <Icon>Textures\GUI\Icons\ore_Monazite.dds</Icon>
+	  <Size>
+	    <X>0.07</X>
+	    <Y>0.07</Y>
+	    <Z>0.07</Z>
+	  </Size>
+	  <Mass>1</Mass>
+	  <Volume>0.2</Volume>
+	  <Model>Models\Components\Sphere.mwm</Model>
+	  <PhysicalMaterial>Stone</PhysicalMaterial>
+	  <IconSymbol>NdPO4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Pitchblend -->
+	  <Id>
+	    <TypeId>Ore</TypeId>
+	    <SubtypeId>Pitchblend</SubtypeId>
+	  </Id>
+	  <DisplayName>Pitchblend Ore</DisplayName>
+	  <Icon>Textures\GUI\Icons\ore_Pitchblend.dds</Icon>
+	  <Size>
+	    <X>0.07</X>
+	    <Y>0.07</Y>
+	    <Z>0.07</Z>
+	  </Size>
+	  <Mass>1</Mass>
+	  <Volume>0.2</Volume>
+	  <Model>Models\Components\Sphere.mwm</Model>
+	  <PhysicalMaterial>Stone</PhysicalMaterial>
+	  <IconSymbol>UO2</IconSymbol>
+	</PhysicalItem>
+    <PhysicalItem>  <!-- Thorite -->
+	  <Id>
+	    <TypeId>Ore</TypeId>
+	    <SubtypeId>Thorite</SubtypeId>
+	  </Id>
+	  <DisplayName>Thorite Ore</DisplayName>
+	  <Icon>Textures\GUI\Icons\ore_Thorite.dds</Icon>
+	  <Size>
+	    <X>0.07</X>
+	    <Y>0.07</Y>
+	    <Z>0.07</Z>
+	  </Size>
+	  <Mass>1</Mass>
+	  <Volume>0.2</Volume>
+	  <Model>Models\Components\Sphere.mwm</Model>
+	  <PhysicalMaterial>Stone</PhysicalMaterial>
+	  <IconSymbol>ThSiO4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Uraninite -->
+	  <Id>
+	    <TypeId>Ore</TypeId>
+	    <SubtypeId>Uraninite</SubtypeId>
+	  </Id>
+	  <DisplayName>Uraninite Ore</DisplayName>
+	  <Icon>Textures\GUI\Icons\ore_UO2_uranite.dds</Icon>
+	  <Size>
+	    <X>0.07</X>
+	    <Y>0.07</Y>
+	    <Z>0.07</Z>
+	  </Size>
+	  <Mass>1</Mass>
+	  <Volume>0.2</Volume>
+	  <Model>Models\Components\Sphere.mwm</Model>
+	  <PhysicalMaterial>Stone</PhysicalMaterial>
+	  <IconSymbol>UO2</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Zircon -->
+	  <Id>
+		<TypeId>Ore</TypeId>
+		<SubtypeId>Zircon</SubtypeId>
+	  </Id>
+	  <DisplayName>Zircon Ore</DisplayName>
+	  <Icon>Textures\GUI\Icons\ore_Zircon.dds</Icon>
+	  <Size>
+		<X>0.07</X>
+		<Y>0.07</Y>
+		<Z>0.07</Z>
+	  </Size>
+	  <Mass>1</Mass>
+	  <Volume>0.2</Volume>
+	  <Model>Models\Components\Sphere.mwm</Model>
+	  <PhysicalMaterial>Stone</PhysicalMaterial>
+	  <IconSymbol>ZrSiO4</IconSymbol>
+	</PhysicalItem>
+  </PhysicalItems>
+</Definitions>

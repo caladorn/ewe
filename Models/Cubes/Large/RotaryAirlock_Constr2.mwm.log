@@ -1,0 +1,17 @@
+Running from: C:\Users\Bryon\AppData\Local\Temp\tmpvb852v3u 
+Command: D:\models\Mwmbuilder\MwmBuilder.exe /s:Sources /m:RotaryAirlock_Constr2.fbx /o:.\ 
+INFO: 
+C:\KeenSWH\Sandbox\MediaBuild\MEContent\Materials\Materials.xml
+Materialslib
+
+INFO: 
+C:\KeenSWH\Sandbox\MediaBuild\MEContent\Materials\Materials_SElist.xml
+Materialslib
+
+INFO: 
+Material libraries were loaded from path: C:\KeenSWH\Sandbox\MediaBuild\MEContent\Materials !
+
+PROCESSED: 
+C:\Users\Bryon\AppData\Local\Temp\tmpvb852v3u\Sources\RotaryAirlock_Constr2.fbx
+: Finished in 0.8s
+

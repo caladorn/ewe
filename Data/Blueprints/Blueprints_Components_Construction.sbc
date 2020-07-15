@@ -1,0 +1,1817 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+	<Blueprint> <!-- SteelBallX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelBallX100</SubtypeId>
+      </Id>
+      <DisplayName>Steel Balls x100000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelBall_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100000" TypeId="Component" SubtypeId="SteelBall" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelBallX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelBallX10</SubtypeId>
+      </Id>
+      <DisplayName>Steel Balls x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelBall_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="SteelBall" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelBall -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelBall</SubtypeId>
+      </Id>
+      <DisplayName>Steel Balls x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelBall_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="SteelBall" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelBallDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelBallDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Steel Ball</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelBall_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.05" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SteelBall" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- ConstructionX100 (Steel Screw) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ConstructionX100</SubtypeId>
+      </Id>
+      <DisplayName>Steel Screws x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelScrew_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="Construction" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ConstructionX10 (Steel Screw) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ConstructionX10</SubtypeId>
+      </Id>
+      <DisplayName>Steel Screws x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelScrew_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Construction" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Construction (Steel Screw) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Construction</SubtypeId>
+      </Id>
+      <DisplayName>Steel Screws x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelScrew_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Construction" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- ConstructionDisassembly (Steel Screw) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ConstructionDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Steel Screw</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelScrew_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.08" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Construction" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- SteelBoltX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelBoltX100</SubtypeId>
+      </Id>
+      <DisplayName>Steel Bolts x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelBolt_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="SteelBolt" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelBoltX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelBoltX10</SubtypeId>
+      </Id>
+      <DisplayName>Steel Bolts x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelBolt_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="SteelBolt" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelBolt -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelBolt</SubtypeId>
+      </Id>
+      <DisplayName>Steel Bolts x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelBolt_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SteelBolt" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- SteelBoltDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelBoltDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Steel Bolt</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelBolt_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SteelBolt" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- SteelNutX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelNutX100</SubtypeId>
+      </Id>
+      <DisplayName>Steel Nuts x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelNut_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="250" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="SteelNut" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelNutX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelNutX10</SubtypeId>
+      </Id>
+      <DisplayName>Steel Nuts x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelNut_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="SteelNut" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelNut -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelNut</SubtypeId>
+      </Id>
+      <DisplayName>Steel Nuts x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelNut_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SteelNut" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- SteelNutDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelNutDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Steel Nut</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelNut_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.05" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SteelNut" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- SteelWasherX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelWasherX100</SubtypeId>
+      </Id>
+      <DisplayName>Steel Washers x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelWasher_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="SteelWasher" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelWasherX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelWasherX10</SubtypeId>
+      </Id>
+      <DisplayName>Steel Washers x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelWasher_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="SteelWasher" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelWasher -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelWasher</SubtypeId>
+      </Id>
+      <DisplayName>Steel Washers x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelWasher_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SteelWasher" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- SteelWasherDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelWasherDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Steel Washer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelWasher_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.025" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SteelWasher" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- BrazingRodX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BrazingRodX100</SubtypeId>
+      </Id>
+      <DisplayName>Brazing Rods x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BrazingRods_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2000" TypeId="Ingot" SubtypeId="ChromiumSteel" />
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Zirconium" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="BrazingRod" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BrazingRodX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BrazingRodX10</SubtypeId>
+      </Id>
+      <DisplayName>Brazing Rods x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BrazingRods_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="200" TypeId="Ingot" SubtypeId="ChromiumSteel" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Zirconium" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="BrazingRod" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BrazingRod -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BrazingRod</SubtypeId>
+      </Id>
+      <DisplayName>Brazing Rods x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BrazingRods_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="ChromiumSteel" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Zirconium" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- BrazingRodDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BrazingRodDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Brazing Rod</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BrazingRods_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="ChromiumSteel" />
+        <Item Amount="0.05" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="0.001" TypeId="Ingot" SubtypeId="Zirconium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BrazingRod" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- SteelRivetX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelRivetX100</SubtypeId>
+      </Id>
+      <DisplayName>Steel Rivets x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRivet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="SteelRivet" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelRivetX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelRivetX10</SubtypeId>
+      </Id>
+      <DisplayName>Steel Rivets x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRivet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="SteelRivet" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelRivet -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelRivet</SubtypeId>
+      </Id>
+      <DisplayName>Steel Rivets x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRivet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SteelRivet" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- SteelRivetDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelRivetDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Steel Rivet</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRivet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SteelRivet" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- AluminumCotterPinX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumCotterPinX100</SubtypeId>
+      </Id>
+      <DisplayName>Cotter Pins x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumCotterPin_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="AluminumCotterPin" />
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- AluminumCotterPinX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumCotterPinX10</SubtypeId>
+      </Id>
+      <DisplayName>Cotter Pins x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumCotterPin_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="AluminumCotterPin" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- AluminumCotterPin -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumCotterPin</SubtypeId>
+      </Id>
+      <DisplayName>Cotter Pins x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumCotterPin_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="AluminumCotterPin" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- AluminumCotterPinDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumCotterPinDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Cotter Pin</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumCotterPin_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.02" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="AluminumCotterPin" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- ClampX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ClampX100</SubtypeId>
+      </Id>
+      <DisplayName>Clamps x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\Clamp_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Clamp" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ClampX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ClampX10</SubtypeId>
+      </Id>
+      <DisplayName>Clamps x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\Clamp_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Clamp" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Clamp -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Clamp</SubtypeId>
+      </Id>
+      <DisplayName>Clamp</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\Clamp_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Clamp" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- GirderX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GirderX100</SubtypeId>
+      </Id>
+      <DisplayName>Girders x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1200" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Girder" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- GirderX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GirderX10</SubtypeId>
+      </Id>
+      <DisplayName>Girders x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="120" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Girder" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Girder -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Girder</SubtypeId>
+      </Id>
+      <DisplayName>Girder</DisplayName>
+      <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="12" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Girder" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- BareSteelWireX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareSteelWireX100</SubtypeId>
+      </Id>
+      <DisplayName>Steel Wires x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareSteelWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="BareSteelWire" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BareSteelWireX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareSteelWireX10</SubtypeId>
+      </Id>
+      <DisplayName>Steel Wires x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareSteelWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="BareSteelWire" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BareSteelWire -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareSteelWire</SubtypeId>
+      </Id>
+      <DisplayName>Steel Wires x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareSteelWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="BareSteelWire" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- BareSteelWireDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareSteelWireDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Steel Wire</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareSteelWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BareSteelWire" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- BareAluminumWireX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareAluminumWireX100</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Wires x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareAluminumWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="BareAluminumWire" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BareAluminumWireX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareAluminumWireX10</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Wires x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareAluminumWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="BareAluminumWire" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BareAluminumWire -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareAluminumWire</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Wires x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareAluminumWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="BareAluminumWire" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BareAluminumWireDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareAluminumWireDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Wire</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareAluminumWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BareAluminumWire" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+	<Blueprint> <!-- BareCopperWireX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareCopperWireX100</SubtypeId>
+      </Id>
+      <DisplayName>Copper Wires x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareCopperWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="BareCopperWire" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- BareCopperWireX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareCopperWireX10</SubtypeId>
+      </Id>
+      <DisplayName>Copper Wires x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareCopperWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="BareCopperWire" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- BareCopperWire -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareCopperWire</SubtypeId>
+      </Id>
+      <DisplayName>Copper Wires x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareCopperWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="BareCopperWire" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- BareCopperWireDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareCopperWireDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Copper Wire</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareCopperWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BareCopperWire" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- BareBrassWireX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareBrassWireX100</SubtypeId>
+      </Id>
+      <DisplayName>Brass Wires x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareBrassWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="BareBrassWire" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BareBrassWireX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareBrassWireX10</SubtypeId>
+      </Id>
+      <DisplayName>Brass Wires x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareBrassWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="BareBrassWire" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BareBrassWire -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareBrassWire</SubtypeId>
+      </Id>
+      <DisplayName>Brass Wires x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareBrassWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="BareBrassWire" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- BareBrassWireDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareBrassWireDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Brass Wire</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareBrassWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BareBrassWire" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- BareNitinolWireX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareNitinolWireX100</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Wires x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareNitinolWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="BareNitinolWire" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BareNitinolWireX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareNitinolWireX10</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Wires x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareNitinolWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="BareNitinolWire" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BareNitinolWire -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareNitinolWire</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Wires x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareNitinolWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="BareNitinolWire" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- BareNitinolWireDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BareNitinolWireDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Wire</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BareNitinolWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BareNitinolWire" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- BulletproofGlassX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulletproofGlassX100</SubtypeId>
+      </Id>
+      <DisplayName>Glass Panels x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\bulletproof_glass_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="BulletproofGlass" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BulletproofGlassX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulletproofGlassX10</SubtypeId>
+      </Id>
+      <DisplayName>Glass Panels x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\bulletproof_glass_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="BulletproofGlass" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BulletproofGlass -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulletproofGlass</SubtypeId>
+      </Id>
+      <DisplayName>Glass Panel x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\bulletproof_glass_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="BulletproofGlass" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- AluminumPlateX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumPlateX100</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Plates x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="AluminumPlate" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- AluminumPlateX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumPlateX10</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Plates x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="AluminumPlate" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- AluminumPlate -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumPlate</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Plate x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="AluminumPlate" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- SteelPlateX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelPlateX100</SubtypeId>
+      </Id>
+      <DisplayName>Steel Plates x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="SteelPlate" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelPlateX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelPlateX10</SubtypeId>
+      </Id>
+      <DisplayName>Steel Plates x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SteelPlate" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelPlate -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelPlate</SubtypeId>
+      </Id>
+      <DisplayName>Steel Plate x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- TitaniumPlateX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitaniumPlateX100</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Plates x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\TitaniumPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ingot" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="TitaniumPlate" />
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TitaniumPlateX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitaniumPlateX10</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Plates x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\TitaniumPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="TitaniumPlate" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TitaniumPlate -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitaniumPlate</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Plate x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\TitaniumPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="TitaniumPlate" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- NitinolPlateX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NitinolPlateX100</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Plates x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\NitinolPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="NitinolPlate" />
+      <BaseProductionTimeInSeconds>175</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NitinolPlateX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NitinolPlateX10</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Plates x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\NitinolPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="NitinolPlate" />
+      <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NitinolPlate -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NitinolPlate</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Plate x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\NitinolPlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="NitinolPlate" />
+      <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- GraphenePlateX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GraphenePlateX100</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Plates x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\GraphenePlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="GraphenePlate" />
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- GraphenePlateX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GraphenePlateX10</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Plates x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\GraphenePlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="GraphenePlate" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- GraphenePlate -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GraphenePlate</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Plate x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\GraphenePlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="GraphenePlate" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- InteriorPlateX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>InteriorPlateX100</SubtypeId>
+      </Id>
+      <DisplayName>Interior Plates x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="7000" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="3000" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="InteriorPlate" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- InteriorPlateX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>InteriorPlateX10</SubtypeId>
+      </Id>
+      <DisplayName>Interior Plates x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="700" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="300" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="InteriorPlate" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- InteriorPlate -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>InteriorPlate</SubtypeId>
+      </Id>
+      <DisplayName>Interior Plate x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="70" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="30" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="InteriorPlate" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- MetalGridX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MetalGridX100</SubtypeId>
+      </Id>
+      <DisplayName>Metal Grids x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1200" TypeId="Ingot" SubtypeId="ChromiumSteel" />
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="MetalGrid" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- MetalGridX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MetalGridX10</SubtypeId>
+      </Id>
+      <DisplayName>Metal Grids x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="120" TypeId="Ingot" SubtypeId="ChromiumSteel" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="MetalGrid" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- MetalGrid -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MetalGrid</SubtypeId>
+      </Id>
+      <DisplayName>Metal Grid x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="12" TypeId="Ingot" SubtypeId="ChromiumSteel" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="MetalGrid" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- SmallTubeX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SmallTubeX100</SubtypeId>
+      </Id>
+      <DisplayName>Small Steel Pipes x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SmallSteelTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30000" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="SmallTube" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SmallTubeX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SmallTubeX10</SubtypeId>
+      </Id>
+      <DisplayName>Small Steel Pipes x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SmallSteelTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="SmallTube" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SmallTube -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SmallTube</SubtypeId>
+      </Id>
+      <DisplayName>Small Steel Pipe x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SmallSteelTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SmallTube" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- LargeTubeX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LargeTubeX100</SubtypeId>
+      </Id>
+      <DisplayName>Large Steel Pipes x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\LargeSteelTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="6500" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="LargeTube" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LargeTubeX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LargeTubeX10</SubtypeId>
+      </Id>
+      <DisplayName>Large Steel Pipes x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\LargeSteelTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="650" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="LargeTube" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LargeTube -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LargeTube</SubtypeId>
+      </Id>
+      <DisplayName>Large Steel Pipe x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\LargeSteelTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="65" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- SmallCopperTubeX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SmallCopperTubeX100</SubtypeId>
+      </Id>
+      <DisplayName>Small Copper Pipes x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SmallCopperTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60000" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="SmallCopperTube" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SmallCopperTubeX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SmallCopperTubeX10</SubtypeId>
+      </Id>
+      <DisplayName>Small Copper Pipes x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SmallCopperTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="SmallCopperTube" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SmallCopperTube -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SmallCopperTube</SubtypeId>
+      </Id>
+      <DisplayName>Small Copper Pipe x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SmallCopperTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SmallCopperTube" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- LargeCopperTubeX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LargeCopperTubeX100</SubtypeId>
+      </Id>
+      <DisplayName>Large Copper Pipes x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\LargeCopperTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="6500" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="LargeCopperTube" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LargeCopperTubeX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LargeCopperTubeX10</SubtypeId>
+      </Id>
+      <DisplayName>Large Copper Pipes x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\LargeCopperTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="650" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="LargeCopperTube" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LargeCopperTube -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LargeCopperTube</SubtypeId>
+      </Id>
+      <DisplayName>Large Copper Pipe x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\LargeCopperTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="65" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="LargeCopperTube" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- CarbonTubeX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CarbonTubeX100</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Pipes x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30000" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="CarbonTube" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- CarbonTubeX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CarbonTubeX10</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Pipes x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="CarbonTube" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- CarbonTube -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CarbonTube</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Pipe x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="CarbonTube" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- SteelRodX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelRodX100</SubtypeId>
+      </Id>
+      <DisplayName>Steel Rods x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8000" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="SteelRod" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelRodX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelRodX10</SubtypeId>
+      </Id>
+      <DisplayName>Steel Rods x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="800" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SteelRod" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelRod -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelRod</SubtypeId>
+      </Id>
+      <DisplayName>Steel Rod x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="SteelRod" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- AluminumRodX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumRodX100</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Rods x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8000" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="AluminumRod" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- AluminumRodX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumRodX10</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Rods x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="800" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="AluminumRod" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- AluminumRod -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumRod</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Rod x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\AluminumRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="AluminumRod" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- TitaniumRodX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitaniumRodX100</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Rods x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\TitaniumRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8000" TypeId="Ingot" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="TitaniumRod" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TitaniumRodX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitaniumRodX10</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Rods x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\TitaniumRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="800" TypeId="Ingot" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="TitaniumRod" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TitaniumRod -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitaniumRod</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Rod x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\TitaniumRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Ingot" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="TitaniumRod" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- CopperRodX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CopperRodX100</SubtypeId>
+      </Id>
+      <DisplayName>Copper Rods x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\CopperRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8000" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="CopperRod" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- CopperRodX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CopperRodX10</SubtypeId>
+      </Id>
+      <DisplayName>Copper Rods x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\CopperRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="800" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="CopperRod" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- CopperRod -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CopperRod</SubtypeId>
+      </Id>
+      <DisplayName>Copper Rod x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\CopperRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="CopperRod" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- BrassRodX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BrassRodX100</SubtypeId>
+      </Id>
+      <DisplayName>Brass Rods x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BrassRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8000" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="BrassRod" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BrassRodX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BrassRodX10</SubtypeId>
+      </Id>
+      <DisplayName>Brass Rods x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BrassRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="800" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="BrassRod" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BrassRod -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BrassRod</SubtypeId>
+      </Id>
+      <DisplayName>Brass Rod x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\BrassRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="BrassRod" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+	<Blueprint> <!-- NitinolRodX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NitinolRodX100</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Rods x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\NitinolRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8000" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="NitinolRod" />
+      <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NitinolRodX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NitinolRodX10</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Rods x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\NitinolRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="800" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="NitinolRod" />
+      <BaseProductionTimeInSeconds>70</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NitinolRod -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NitinolRod</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Rod x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\NitinolRod_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Ingot" SubtypeId="Nitinol" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="NitinolRod" />
+      <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- RubberHoseX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RubberHoseX100</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Hoses x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\RubberHose_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4000" TypeId="Ingot" SubtypeId="Rubber" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="RubberHose" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RubberHoseX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RubberHoseX10</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Hoses x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\RubberHose_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="400" TypeId="Ingot" SubtypeId="Rubber" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="RubberHose" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RubberHose -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RubberHose</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Hose x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\RubberHose_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Rubber" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="RubberHose" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- PolyCarbonatePlateX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PolyCarbonatePlateX100</SubtypeId>
+      </Id>
+      <DisplayName>Poly Carbonate Plates x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\PolyCarbonatePlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PolyCarbonatePlateX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PolyCarbonatePlateX10</SubtypeId>
+      </Id>
+      <DisplayName>Poly Carbonate Plates x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\PolyCarbonatePlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PolyCarbonatePlate -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PolyCarbonatePlate</SubtypeId>
+      </Id>
+      <DisplayName>Poly Carbonate Plate x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\PolyCarbonatePlate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- InsulationX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>InsulationX100</SubtypeId>
+      </Id>
+      <DisplayName>Insulations x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\Insulation_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Calcium" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Insulation" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- InsulationX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>InsulationX10</SubtypeId>
+      </Id>
+      <DisplayName>Insulations x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\Insulation_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Calcium" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Insulation" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Insulation -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Insulation</SubtypeId>
+      </Id>
+      <DisplayName>Insulation x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\Insulation_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Calcium" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Insulation" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- SteelRebarX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RebarX100</SubtypeId>
+      </Id>
+      <DisplayName>Rebars x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRebar_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="7000" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Rebar" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelRebarX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RebarX10</SubtypeId>
+      </Id>
+      <DisplayName>Rebars x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRebar_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="700" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Rebar" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SteelRebar -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Rebar</SubtypeId>
+      </Id>
+      <DisplayName>Rebar x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\SteelRebar_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="70" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Rebar" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- ConcreteX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ConcreteX100</SubtypeId>
+      </Id>
+      <DisplayName>Concrete x5000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\Concrete_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Cement" />
+        <Item Amount="2000" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="FineSand" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Water" />
+      </Prerequisites>
+      <Result Amount="5000" TypeId="Component" SubtypeId="Concrete" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ConcreteX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ConcreteX10</SubtypeId>
+      </Id>
+      <DisplayName>Concrete x500</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\Concrete_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Cement" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="FineSand" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Water" />
+      </Prerequisites>
+      <Result Amount="500" TypeId="Component" SubtypeId="Concrete" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Concrete -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Concrete</SubtypeId>
+      </Id>
+      <DisplayName>Concrete x50</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\Concrete_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Cement" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="FineSand" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Water" />
+      </Prerequisites>
+      <Result Amount="50" TypeId="Component" SubtypeId="Concrete" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ConcreteDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ConcreteDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Cement</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\Concrete_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="DemoslishedConcrete" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Concrete" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+	  <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint> <!-- PipeFittingX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PipeFittingX100</SubtypeId>
+      </Id>
+      <DisplayName>Pipe Fittings x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\PipeFitting_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="PipeFitting" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PipeFittingX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PipeFittingX10</SubtypeId>
+      </Id>
+      <DisplayName>Pipe Fittings x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\PipeFitting_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="PipeFitting" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PipeFitting -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PipeFitting</SubtypeId>
+      </Id>
+      <DisplayName>Pipe Fitting</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\PipeFitting_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PipeFitting" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>

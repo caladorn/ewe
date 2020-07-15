@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+   <Definition xsi:type="MyObjectBuilder_ProjectorDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_Projector</TypeId>
+        <SubtypeId>LargeProjector</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Projector</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Projector.dds</Icon>
+      <Description>Projector Needs 300MW of power regardless if its on.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\Projector.mwm</Model>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="45" />
+        <Component Subtype="FiberOpticWire" Count="16" />
+        <Component Subtype="PowerSupply" Count="2" />
+        <Component Subtype="Display" Count="8" />
+        <Component Subtype="SolidStateDrive" Count="4" />
+        <Component Subtype="AIMainframe" Count="1" />
+        <Component Subtype="Superconductor" Count="6" />
+        <Component Subtype="HeatSink" Count="65" />
+        <Component Subtype="Computer" Count="45" />
+        <Component Subtype="Construction" Count="350" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.33" StartY="0.33" EndX="0.66" EndY="0.66" Default="true" />
+        <MountPoint Side="Back" StartX="0.33" StartY="0.33" EndX="0.66" EndY="0.66" />
+        <MountPoint Side="Front" StartX="0.33" StartY="0.33" EndX="0.66" EndY="0.66" />
+        <MountPoint Side="Left" StartX="0.33" StartY="0.33" EndX="0.66" EndY="0.66" />
+        <MountPoint Side="Right" StartX="0.33" StartY="0.33" EndX="0.66" EndY="0.66" />
+        <MountPoint Side="Top" StartX="0.33" StartY="0.33" EndX="0.66" EndY="0.66" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ProjectorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ProjectorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ProjectorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Projector</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>300</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>300</RequiredPowerInput>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockProjectorOn</PrimarySound>
+      <IdleSound>BlockProjectorOff</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>1000</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ProjectorDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_Projector</TypeId>
+        <SubtypeId>SmallProjector</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Projector</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Projector.dds</Icon>
+      <Description>Projector Needs 75MW of power regardless if its on.</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\Projector.mwm</Model>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="9" />
+        <Component Subtype="FiberOpticWire" Count="4" />
+        <Component Subtype="PowerSupply" Count="1" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="SolidStateDrive" Count="1" />
+        <Component Subtype="AIMainframe" Count="1" />
+        <Component Subtype="Superconductor" Count="2" />
+        <Component Subtype="HeatSink" Count="13" />
+        <Component Subtype="Computer" Count="9" />
+        <Component Subtype="Construction" Count="70" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ProjectorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ProjectorConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Projector</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>300</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>75</RequiredPowerInput>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockProjectorOn</PrimarySound>
+      <IdleSound>BlockProjectorOff</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>1000</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

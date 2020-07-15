@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<CategoryClasses>
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId />
+      </Id>
+      <DisplayName>ShipTools</DisplayName>
+      <Name>ShipTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <ItemIds>
+        <string>SmallBlockDrill</string>
+        <string>SmallBlockAdvancedDrill</string>
+        <string>SmallBlockEliteDrill</string>
+        <string>SmallBlockArmoredDrill</string>
+
+        <string>LargeBlockDrill</string>
+        <string>LargeBlockAdvancedDrill</string>
+        <string>LargeBlockEliteDrill</string>
+        <string>LargeBlockArmoredDrill</string>
+
+		<string>SmallShipGrinder</string>
+		<string>SmallAdvancedShipGrinder</string>
+		<string>SmallEliteShipGrinder</string>
+		<string>SmallArmoredShipGrinder</string>
+
+		<string>LargeShipGrinder</string>
+		<string>LargeAdvancedShipGrinder</string>
+		<string>LargeEliteShipGrinder</string>
+		<string>LargeArmoredShipGrinder</string>
+
+		<string>SmallShipWelder</string>
+		<string>SmallAdvancedShipWelder</string>
+		<string>SmallEliteShipWelder</string>
+		<string>SmallArmoredShipWelder</string>
+
+		<string>LargeShipWelder</string>
+		<string>LargeAdvancedShipWelder</string>
+		<string>LargeEliteShipWelder</string>
+		<string>LargeArmoredShipWelder</string>
+
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+      <Id>
+        <TypeId>AirVent</TypeId>
+        <SubtypeId />
+      </Id>
+      <DisplayName>DisplayName_Block_AirVent</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
+      <Description>Description_AirVent</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\OxygenPressurizer.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="30" />
+        <Component Subtype="Filter" Count="32" />
+        <Component Subtype="PressurizedTubing" Count="6" />
+        <Component Subtype="PressureRegulator" Count="1" />
+        <Component Subtype="Sensor" Count="1" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="InsulatedCopperWire" Count="10" />
+        <Component Subtype="InteriorPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenPressurizerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenPressurizerConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenPressurizerConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AirVent</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
+
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+      <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+      <IdleSound>BlockAirVentIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+      <Id>
+        <TypeId>AirVent</TypeId>
+        <SubtypeId>SmallAirVent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_AirVent</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
+      <Description>Description_AirVent</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\OxygenPressurizer.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="15" />
+        <Component Subtype="Filter" Count="16" />
+        <Component Subtype="PressurizedTubing" Count="2" />
+        <Component Subtype="PressureRegulator" Count="1" />
+        <Component Subtype="Sensor" Count="1" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="InsulatedCopperWire" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\OxygenPressurizerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\OxygenPressurizerConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenPressurizerConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AirVent</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.01</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <VentilationCapacityPerSecond>30</VentilationCapacityPerSecond>
+
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+      <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+      <IdleSound>BlockAirVentIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_SpaceBallDefinition">
+      <Id>
+        <TypeId>SpaceBall</TypeId>
+        <SubtypeId>SpaceBallLarge</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SpaceBall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SpaceBall.dds</Icon>
+      <Description>Description_SpaceBall</Description>
+      <BlockPairName>SpaceBall</BlockPairName>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SpaceBallBlock.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="90" />
+        <Component Subtype="RubberBushing" Count="30" />
+        <Component Subtype="PowerCell" Count="20" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="GravityGenerator" Count="3" />
+        <Component Subtype="InsulatedCopperWire" Count="30" />
+        <Component Subtype="BrazingRod" Count="135" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\SpaceBallBlockConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SpaceBallBlockConstruction_2.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <MaxVirtualMass>20000</MaxVirtualMass>
+      <RequiredPowerInput>0.0</RequiredPowerInput>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>GravityBlock</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_SpaceBallDefinition">
+      <Id>
+        <TypeId>SpaceBall</TypeId>
+        <SubtypeId>SpaceBallSmall</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SpaceBall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SpaceBall.dds</Icon>
+      <Description>Description_SpaceBall</Description>
+      <BlockPairName>SpaceBall</BlockPairName>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SpaceBallBlock.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="35" />
+        <Component Subtype="RubberBushing" Count="6" />
+        <Component Subtype="PowerCell" Count="4" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="GravityGenerator" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="6" />
+        <Component Subtype="BrazingRod" Count="45" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SpaceBallBlockConstruction_1.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <MaxVirtualMass>5000</MaxVirtualMass>
+      <RequiredPowerInput>0.0</RequiredPowerInput>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>GravityBlock</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+	</CubeBlocks>
+</Definitions>

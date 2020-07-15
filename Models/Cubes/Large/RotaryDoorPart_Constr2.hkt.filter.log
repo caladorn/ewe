@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Bryon\AppData\Local\Temp\space_engineers_muua21_o.hko -p C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Rotary Airlock\Models\Cubes\Large\RotaryDoorPart_Constr2.hkt C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Rotary Airlock\Models\Cubes\Large\RotaryDoorPart_Constr2.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Mon May 20 17:52:03 2019, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Rotary Airlock\Models\Cubes\Large\RotaryDoorPart_Constr2.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

@@ -1,0 +1,29 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses> 
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Production</Name>
+	  <StrictSearch>true</StrictSearch>
+      <ItemIds>
+		<string>OxygenFarm/LargeBlockOxygenFarm</string>
+		<string>OxygenFarm/LargeBlockBasicHydrogenFarm</string>
+		
+		<string>UpgradeModule/LargeProductivityModule</string>
+		<string>UpgradeModule/LargeEffectivenessModule</string>
+		<string>UpgradeModule/LargeEnergyModule</string>
+		
+		<string>UpgradeModule/LargeDualProductivityModule</string>
+		<string>UpgradeModule/LargeDualEffectivenessModule</string>
+		<string>UpgradeModule/LargeDualEnergyModule</string>
+		
+		<string>Refinery/StoneCrusher</string>
+		<string>Assembler/BasicMassAssembler</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

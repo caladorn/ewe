@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Electronics</DisplayName>
+      <Name>Electronics</Name>
+	  <StrictSearch>true</StrictSearch>
+      <ItemIds>
+	  
+		<string>MyProgrammableBlock/LargeProgrammableBlock</string>
+		
+		<string>ButtonPanel/ButtonPanelLarge</string>
+		
+		<string>RemoteControl/LargeBlockRemoteControl</string>
+		
+		<string>RadioAntenna/LargeBlockRadioAntenna</string>
+		
+		<string>VirtualMass/VirtualMassLarge</string>
+		
+		<string>MotorStator/LargeStator</string>
+		<string>ExtendedPistonBase/LargePistonBase</string>
+		
+		<string>SoundBlock/LargeBlockSoundBlock</string>
+		
+		<string>ReflectorLight/LargeBlockFrontLight</string>
+		
+		<string>OreDetector/LargeOreDetector</string>
+		
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

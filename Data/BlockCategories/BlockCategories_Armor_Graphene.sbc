@@ -1,0 +1,24 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>	
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Armor Graphene</DisplayName>
+      <Name>ArmorblocksGraphene</Name>
+	  <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/LargeBlockGrapheneArmorBlock</string>
+        <string>CubeBlock/LargeBlockGrapheneArmorSlope2Base</string>
+        <string>CubeBlock/LargeBlockGrapheneArmorCorner2Base</string>
+        <string>CubeBlock/LargeBlockGrapheneArmorRoundSlope</string>
+        <string>CubeBlock/LargeHeavyBlockGrapheneArmorBlock</string>
+        <string>CubeBlock/LargeHeavyBlockGrapheneArmorSlope2Base</string>
+        <string>CubeBlock/LargeHeavyBlockGrapheneArmorCorner2Base</string>
+        <string>CubeBlock/LargeHeavyBlockGrapheneArmorRoundSlope</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

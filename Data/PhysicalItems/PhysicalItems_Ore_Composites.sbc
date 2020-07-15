@@ -1,0 +1,887 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+    <PhysicalItem>  <!-- Arsenolite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Arsenolite</SubtypeId>
+      </Id>
+      <DisplayName>Arsenolite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Arsenolite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>As2O3</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Beryl -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Beryl</SubtypeId>
+      </Id>
+      <DisplayName>Beryl Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Beryl.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Be3Al2Si6O18</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Bismutotantalite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Bismutotantalite</SubtypeId>
+      </Id>
+      <DisplayName>Bismutotantalite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Bismutotantalite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>BiTaNbO4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Boracite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Boracite</SubtypeId>
+      </Id>
+      <DisplayName>Boracite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Boracite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Mg3B7O13Cl</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Borcarite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Borcarite</SubtypeId>
+      </Id>
+      <DisplayName>Borcarite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Borcarite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Ca4MgB4O18H6C2</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Cadmoindite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Cadmoindite</SubtypeId>
+      </Id>
+      <DisplayName>Cadmoindite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cadmoindite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>CdIn2S4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Cadmoselite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Cadmoselite</SubtypeId>
+      </Id>
+      <DisplayName>Cadmoselite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cadmoselite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>CdSe</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Calaverite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Calaverite</SubtypeId>
+      </Id>
+      <DisplayName>Calaverite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Calaverite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>AuTe2</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Cassiterite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Cassiterite</SubtypeId>
+      </Id>
+      <DisplayName>Cassiterite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cassiterite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>SnO2</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Cerite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Cerite</SubtypeId>
+      </Id>
+      <DisplayName>Cerite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cerite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Ce9MgSi7O31H7</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Chalcopyrite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Chalcopyrite</SubtypeId>
+      </Id>
+      <DisplayName>Chalcopyrite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chalcopyrite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>CuFeS2</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Chamosite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Chamosite</SubtypeId>
+      </Id>
+      <DisplayName>Chamosite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chamosite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Fe6Al10Si4O18H8</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Chaoite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Chaoite</SubtypeId>
+      </Id>
+      <DisplayName>Chaoite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chaoite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>C</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Chromferide -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Chromferide</SubtypeId>
+      </Id>
+      <DisplayName>Chromferide Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chromferide.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Fe3Cr</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Chromite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Chromite</SubtypeId>
+      </Id>
+      <DisplayName>Chromite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Chromite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>FeCr2O4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Cinnabar -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Cinnabar</SubtypeId>
+      </Id>
+      <DisplayName>Cinnabar Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cinnabar.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>HgS</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Coal -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Coal</SubtypeId>
+      </Id>
+      <DisplayName>Coal Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Coal.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>C3S</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Cobaltite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Cobaltite</SubtypeId>
+      </Id>
+      <DisplayName>Cobaltite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cobaltite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>CoAsS</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Columbite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Columbite</SubtypeId>
+      </Id>
+      <DisplayName>Columbite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Columbite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>MgNb2O6</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Ferchromide -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Ferchromide</SubtypeId>
+      </Id>
+      <DisplayName>Ferchromide Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ferchromide.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Cr3Fe</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Fluorapatite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Fluorapatite</SubtypeId>
+      </Id>
+      <DisplayName>Fluorapatite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fluorapatite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Ca5P3O12F</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Fontarnauite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Fontarnauite</SubtypeId>
+      </Id>
+      <DisplayName>Fontarnauite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fontarnauite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>K2SrSB5O15H5</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Germanite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Germanite</SubtypeId>
+      </Id>
+      <DisplayName>Germanite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Germanite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Cu13Fe2Ge2S16</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Graphite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Graphite</SubtypeId>
+      </Id>
+      <DisplayName>Graphite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Graphite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>C</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Halite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Halite</SubtypeId>
+      </Id>
+      <DisplayName>Halite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Halite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>NaCl</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Hematite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Hematite</SubtypeId>
+      </Id>
+      <DisplayName>Hematite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Fe2O3</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Ilmenite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Ilmenite</SubtypeId>
+      </Id>
+      <DisplayName>Ilmenite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>FeTiO3</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Indite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Indite</SubtypeId>
+      </Id>
+      <DisplayName>Indite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Indite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>FeIn2S4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Iodargyrite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Iodargyrite</SubtypeId>
+      </Id>
+      <DisplayName>Iodargyrite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>AgI</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Kentbrooksite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Kentbrooksite</SubtypeId>
+      </Id>
+      <DisplayName>Kentbrooksite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Kentbrooksite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>REE21Zr3NbSi25F2O74</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Lepidolite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Lepidolite</SubtypeId>
+      </Id>
+      <DisplayName>Lepidolite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Lepidolite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>KLi2AlSi4F2O12H2</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Orpiment -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Orpiment</SubtypeId>
+      </Id>
+      <DisplayName>Orpiment Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Orpiment.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>As2S3</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Palladseite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Palladseite</SubtypeId>
+      </Id>
+      <DisplayName>Palladseite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Palladseite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Pd17Se15</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Pyrite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Pyrite</SubtypeId>
+      </Id>
+      <DisplayName>Pyrite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pyrite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>FeS2</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Pyrochlore -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Pyrochlore</SubtypeId>
+      </Id>
+      <DisplayName>Pyrochlore Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pyrochlore.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>U2Nb2O6H6</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Quartz -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Quartz</SubtypeId>
+      </Id>
+      <DisplayName>Quartz Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Quartz.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>SiO2</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Realgar -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Realgar</SubtypeId>
+      </Id>
+      <DisplayName>Realgar Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Realgar.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>As4S4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Rhodochrosite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Rhodochrosite</SubtypeId>
+      </Id>
+      <DisplayName>Rhodochrosite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Rhodochrosite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>MnCO3</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Ruthenarsenite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Ruthenarsenite</SubtypeId>
+      </Id>
+      <DisplayName>Ruthenarsenite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ruthenarsenite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>RuNiAs</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Rutheniridosmine -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Rutheniridosmine</SubtypeId>
+      </Id>
+      <DisplayName>Rutheniridosmine Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Rutheniridosmine.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IrOsRu</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Sphalerite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Sphalerite</SubtypeId>
+      </Id>
+      <DisplayName>Sphalerite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sphalerite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>ZnS</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Spodumene -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Spodumene</SubtypeId>
+      </Id>
+      <DisplayName>Spodumene Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Spodumene.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>LiAlSi2O6</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Stibiotantalite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Stibiotantalite</SubtypeId>
+      </Id>
+      <DisplayName>Stibiotantalite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Stibiotantalite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>SbTaO4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Strontiofluorite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Strontiofluorite</SubtypeId>
+      </Id>
+      <DisplayName>Strontiofluorite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Strontiofluorite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>SrCO3</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Sulfur -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Sulfur</SubtypeId>
+      </Id>
+      <DisplayName>Sulfur Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sulfur.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>S8</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Sylvite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Sylvite</SubtypeId>
+      </Id>
+      <DisplayName>Sylvite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sylvite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>KCl</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Telluropalladinite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Telluropalladinite</SubtypeId>
+      </Id>
+      <DisplayName>Telluropalladinite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Telluropalladinite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Pd9Te4</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Titanite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Titanite</SubtypeId>
+      </Id>
+      <DisplayName>Titanite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Titanite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>CaTiSiO5</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>  <!-- Wulfenite -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Wulfenite</SubtypeId>
+      </Id>
+      <DisplayName>Wulfenite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Wulfenite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>PbMoO4</IconSymbol>
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

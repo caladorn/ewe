@@ -1,0 +1,24 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>	
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Armor Steel</DisplayName>
+      <Name>ArmorblocksSteel</Name>
+	  <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/LargeBlockSteelArmorBlock</string>
+        <string>CubeBlock/LargeBlockSteelArmorSlope2Base</string>
+        <string>CubeBlock/LargeBlockSteelArmorCorner2Base</string>
+        <string>CubeBlock/LargeBlockSteelArmorRoundSlope</string>
+        <string>CubeBlock/LargeHeavyBlockSteelArmorBlock</string>
+        <string>CubeBlock/LargeHeavyBlockSteelArmorSlope2Base</string>
+        <string>CubeBlock/LargeHeavyBlockSteelArmorCorner2Base</string>
+        <string>CubeBlock/LargeHeavyBlockSteelArmorRoundSlope</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

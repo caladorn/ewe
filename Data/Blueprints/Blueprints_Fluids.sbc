@@ -1,0 +1,733 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint> <!-- MineralSpiritsX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MineralSpiritsX100</SubtypeId>
+      </Id>
+      <DisplayName>Mineral Spirits x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\MineralSpirits_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3500" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="6000" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="400" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Nitrogen" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ingot" SubtypeId="MineralSpirits" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- MineralSpiritsX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MineralSpiritsX10</SubtypeId>
+      </Id>
+      <DisplayName>Mineral Spirits x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\MineralSpirits_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="350" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="600" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nitrogen" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="MineralSpirits" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- MineralSpirits -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MineralSpirits</SubtypeId>
+      </Id>
+      <DisplayName>Mineral Spirits x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\MineralSpirits_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="35" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nitrogen" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ingot" SubtypeId="MineralSpirits" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- MineralSpiritsDisassmebly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MineralSpiritsDisassmebly</SubtypeId>
+      </Id>
+      <DisplayName>Mineral Spirits</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\MineralSpirits_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.35" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="0.6" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="0.04" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Nitrogen" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="MineralSpirits" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- StearateX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StearateX100</SubtypeId>
+      </Id>
+      <DisplayName>Stearate x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Stearate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1100" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="2200" TypeId="Ingot" SubtypeId="Calcium" />
+        <Item Amount="6300" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ingot" SubtypeId="Stearate" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- StearateX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StearateX10</SubtypeId>
+      </Id>
+      <DisplayName>Stearate x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Stearate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="110" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="220" TypeId="Ingot" SubtypeId="Calcium" />
+        <Item Amount="630" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="Stearate" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Stearate -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Stearate</SubtypeId>
+      </Id>
+      <DisplayName>Stearate x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Stearate_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="11" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="22" TypeId="Ingot" SubtypeId="Calcium" />
+        <Item Amount="63" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ingot" SubtypeId="Stearate" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- GreaseX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GreaseX100</SubtypeId>
+      </Id>
+      <DisplayName>Grease x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Grease_Icon.dds</Icon>
+      <Prerequisites>
+      <Result Amount="4000" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="4000" TypeId="Ingot" SubtypeId="Stearate" />
+        <Item Amount="700" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="1300" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ingot" SubtypeId="Grease" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- GreaseX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GreaseX10</SubtypeId>
+      </Id>
+      <DisplayName>Grease x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Grease_Icon.dds</Icon>
+      <Prerequisites>
+      <Result Amount="400" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="400" TypeId="Ingot" SubtypeId="Stearate" />
+        <Item Amount="70" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="130" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="Grease" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Grease -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Grease</SubtypeId>
+      </Id>
+      <DisplayName>Grease x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Grease_Icon.dds</Icon>
+      <Prerequisites>
+      <Result Amount="40" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Stearate" />
+        <Item Amount="7" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="13" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ingot" SubtypeId="Grease" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- GreaseDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+      <Icon>Textures\GUI\Icons\component\Fluid\Grease_Icon.dds</Icon>
+      </Id>
+      <DisplayName>Grease</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Prerequisites>
+      <Result Amount="0.4" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="0.4" TypeId="Ingot" SubtypeId="Stearate" />
+        <Item Amount="0.07" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="0.13" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Grease" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- OilX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OilX100</SubtypeId>
+      </Id>
+      <DisplayName>Oil x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Oil_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="6000" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="2500" TypeId="Ingot" SubtypeId="Stearate" />
+        <Item Amount="1500" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ingot" SubtypeId="Oil" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- OilX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OilX10</SubtypeId>
+      </Id>
+      <DisplayName>Oil x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Oil_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="600" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Stearate" />
+        <Item Amount="150" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="Oil" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Oil -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Oil</SubtypeId>
+      </Id>
+      <DisplayName>Oil x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Oil_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Stearate" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ingot" SubtypeId="Oil" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- OilDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OilDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Oil</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Oil_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Stearate" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Oil" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- CoolantX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CoolantX100</SubtypeId>
+      </Id>
+      <DisplayName>Coolant x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Coolant_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="5000" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ingot" SubtypeId="Coolant" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- CoolantX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CoolantX10</SubtypeId>
+      </Id>
+      <DisplayName>Coolant x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Coolant_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="Coolant" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Coolant -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Coolant</SubtypeId>
+      </Id>
+      <DisplayName>Coolant x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Coolant_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ingot" SubtypeId="Coolant" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- CoolantDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CoolantDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Coolant</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Coolant_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="MineralSpirits" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="0.25" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Coolant" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- ThermalPasteX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ThermalPasteX100</SubtypeId>
+      </Id>
+      <DisplayName>Thermal Paste x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\ThermalPaste_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Coolant" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="6000" TypeId="Ingot" SubtypeId="Stearate" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ingot" SubtypeId="ThermalPaste" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ThermalPasteX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ThermalPasteX10</SubtypeId>
+      </Id>
+      <DisplayName>Thermal Paste x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\ThermalPaste_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Coolant" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="600" TypeId="Ingot" SubtypeId="Stearate" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="ThermalPaste" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ThermalPaste -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ThermalPaste</SubtypeId>
+      </Id>
+      <DisplayName>Thermal Paste x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\ThermalPaste_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Coolant" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Stearate" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ingot" SubtypeId="ThermalPaste" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ThermalPasteDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ThermalPasteDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Thermal Paste</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\ThermalPaste_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="Coolant" />
+        <Item Amount="0.025" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="0.025" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.025" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.025" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="0.6" TypeId="Ingot" SubtypeId="Stearate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="ThermalPaste" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- LiquidGasolineX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LiquidGasolineX100</SubtypeId>
+      </Id>
+      <DisplayName>Gasoline x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Gasoline_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="7000" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ingot" SubtypeId="LiquidGasoline" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LiquidGasolineX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LiquidGasolineX10</SubtypeId>
+      </Id>
+      <DisplayName>Gasoline x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Gasoline_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="700" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="LiquidGasoline" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LiquidGasoline -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LiquidGasoline</SubtypeId>
+      </Id>
+      <DisplayName>Gasoline x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Gasoline_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="70" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ingot" SubtypeId="LiquidGasoline" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LiquidGasolineDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LiquidGasolineDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Gasoline</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Gasoline_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.7" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="LiquidGasoline" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- LiquidJetFuelX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LiquidJetFuelX100</SubtypeId>
+      </Id>
+      <DisplayName>Jet Fuel x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\JetFuel_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="6250" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="2250" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ingot" SubtypeId="LiquidJetFuel" />
+      <BaseProductionTimeInSeconds>225</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LiquidJetFuelX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LiquidJetFuelX10</SubtypeId>
+      </Id>
+      <DisplayName>Jet Fuel x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\JetFuel_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="625" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="225" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="LiquidJetFuel" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LiquidJetFuel -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LiquidJetFuel</SubtypeId>
+      </Id>
+      <DisplayName>Jet Fuel x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\JetFuel_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="62.5" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="22.5" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ingot" SubtypeId="LiquidJetFuel" />
+      <BaseProductionTimeInSeconds>9</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LiquidJetFuelDisassambly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LiquidJetFuelDisassambly</SubtypeId>
+      </Id>
+      <DisplayName>Jet Fuel</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\JetFuel_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.625" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="0.225" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="0.025" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="0.025" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="LiquidJetFuel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint> <!-- IngotToWaterX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IngotToWaterX100</SubtypeId>
+      </Id>
+      <DisplayName>Water x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Water_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4350" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="2170" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="Water" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- IngotToWaterX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IngotToWaterX10</SubtypeId>
+      </Id>
+      <DisplayName>Water x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Water_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="435" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="217" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ingot" SubtypeId="Water" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- IngotToWater -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IngotToWater</SubtypeId>
+      </Id>
+      <DisplayName>Water x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Water_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="43.5" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="21.7" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ingot" SubtypeId="Water" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- IngotToWaterDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IngotToWaterDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Water</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Fluid\Water_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.435" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="0.217" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Water" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+	  <IsPrimary>true</IsPrimary>
+    </Blueprint>
+	
+	<Blueprint> <!-- IngotToIceX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IngotToIceX100</SubtypeId>
+      </Id>
+      <DisplayName>Ice x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4350" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="2170" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ore" SubtypeId="Ice" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- IngotToIceX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IngotToIceX10</SubtypeId>
+      </Id>
+      <DisplayName>Ice x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="435" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="217" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="Ice" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- IngotToIce -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IngotToIce</SubtypeId>
+      </Id>
+      <DisplayName>Ice x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="43.5" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="21.7" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ore" SubtypeId="Ice" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- IngotToIceDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IngotToIceDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.435" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="0.217" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ore" SubtypeId="Ice" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint> <!-- WaterToIceX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WaterToIceX100</SubtypeId>
+      </Id>
+      <DisplayName>Ice x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2170" TypeId="Ingot" SubtypeId="Water" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Ore" SubtypeId="Ice" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- WaterToIceX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WaterToIceX10</SubtypeId>
+      </Id>
+      <DisplayName>Ice x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="217" TypeId="Ingot" SubtypeId="Water" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="Ice" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- WaterToIce -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WaterToIce</SubtypeId>
+      </Id>
+      <DisplayName>Ice x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21.7" TypeId="Ingot" SubtypeId="Water" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Ore" SubtypeId="Ice" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- WaterToIceDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WaterToIceDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.217" TypeId="Ingot" SubtypeId="Water" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ore" SubtypeId="Ice" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OxygentoGas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.33" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HydrogentoGas</SubtypeId>
+      </Id>
+      <DisplayName>Hydrogen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.33" TypeId="Ingot" SubtypeId="Hydrogen" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GasolinetoGas</SubtypeId>
+      </Id>
+      <DisplayName>Gasoline</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="LiquidGasoline" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>JetFueltoGas</SubtypeId>
+      </Id>
+      <DisplayName>Jet Fuel</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="LiquidJetFuel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

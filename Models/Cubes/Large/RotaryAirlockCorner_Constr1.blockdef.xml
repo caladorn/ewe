@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>RotaryAirlockCorner_Constr1</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\DoorBase.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\RotaryAirlockCorner_Constr1.mwm</Model>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.89" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.97" EndX="0.89" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.01" EndX="0.89" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.90" EndY="1.00" />
+	</MountPoints>
+	<BlockPairName>DoorBase</BlockPairName>
+</Definition>

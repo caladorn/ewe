@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- EWESolarGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESolarGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+            <DisplayName>Solar Panels</DisplayName>
+            <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockAdvancedSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockEliteSolarPanel" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEWindTurbineGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEWindTurbineGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+            <DisplayName>Wind Turbines</DisplayName>
+            <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockAdvancedWindTurbine" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockEliteWindTurbine" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWECapacitorBankGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWECapacitorBankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <DisplayName>Capacitor Bank</DisplayName>
+            <Description>Description_Battery</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockAdvancedCapacitorBank" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockEliteCapacitorBank" />
+				
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallAdvancedCapacitorBank" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallEliteCapacitorBank" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWELeadBatteryGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELeadBatteryGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <DisplayName>Lead Batteries</DisplayName>
+            <Description>Description_Battery</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBasicLeadBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockAdvancedLeadBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockEliteLeadBattery" />
+				
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBasicLeadBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallAdvancedLeadBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallEliteLeadBattery" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWELithiumBatteryGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELithiumBatteryGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <DisplayName>Lithium Batteries</DisplayName>
+            <Description>Description_Battery</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBasicLithiumBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockAdvancedLithiumBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockEliteLithiumBattery" />
+				
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBasicLithiumBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallAdvancedLithiumBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallEliteLithiumBattery" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEFluorideBatteryGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEFluorideBatteryGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <DisplayName>Fluoride Batteries</DisplayName>
+            <Description>Description_Battery</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBasicFluorideBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockAdvancedFluorideBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockEliteFluorideBattery" />
+				
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBasicFluorideBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallAdvancedFluorideBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallEliteFluorideBattery" />				
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEHydrogenEngineGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEHydrogenEngineGroup" />
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon> 
+            <DisplayName>Hydrogen Generators</DisplayName>
+            <Description>Hydrogen Enegines that Generate Power</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockAdvancedHydroEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockEliteHydroEngine" />				
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEGasolineEngineGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEGasolineEngineGroup" />
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon> 
+            <DisplayName>Gasoline Generators</DisplayName>
+            <Description>Gasoline Enegines that Generate Power</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockBasicGasolineEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockAdvancedGasolineEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockEliteGasolineEngine" />				
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEJetFuelEngineGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEJetFuelEngineGroup" />
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon> 
+            <DisplayName>Jet Fuel Generators</DisplayName>
+            <Description>Jet Fuel Enegines that Generate Power</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockBasicJetFuelEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockAdvancedJetFuelEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockEliteJetFuelEngine" />				
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEThoriumReactorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEThoriumReactorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+            <DisplayName>Thorium Reactors</DisplayName>
+            <Description>Generates power from Fuel Rods</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeBasicThoriumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeAdvancedThoriumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeEliteThoriumReactor" />
+				
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallBasicThoriumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallAdvancedThoriumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallEliteThoriumReactor" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEUraniumReactorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEUraniumReactorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+            <DisplayName>Uranium Reactors</DisplayName>
+            <Description>Generates power from Fuel Rods</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeAdvancedUraniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeEliteUraniumReactor" />
+				
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallAdvancedUraniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallEliteUraniumReactor" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEPlutoniumReactorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEPlutoniumReactorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+            <DisplayName>Plutonium Reactors</DisplayName>
+            <Description>Generates power from Fuel Rods</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeBasicPlutoniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeAdvancedPlutoniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeElitePlutoniumReactor" />
+				
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallBasicPlutoniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallAdvancedPlutoniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallElitePlutoniumReactor" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEFusionReactorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEFusionReactorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+            <DisplayName>Fusion Reactors</DisplayName>
+            <Description>Generates power from Fuel Rods</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeBasicFusionReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeAdvancedFusionReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeEliteFusionReactor" />
+				
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallBasicFusionReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallAdvancedFusionReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallEliteFusionReactor" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

@@ -1,0 +1,713 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>LargeBlockGyro</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+      <Description>Description_Gyroscope</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\gyroscope.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="450" />
+        <Component Subtype="AluminumRod" Count="45" />
+        <Component Subtype="BallBearing" Count="135" />
+        <Component Subtype="SteelGear" Count="9" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="Transistor" Count="3" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="12" />
+        <Component Subtype="RubberBushing" Count="20" />
+        <Component Subtype="Construction" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Gyroscope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>33600000</ForceMagnitude>
+      <RequiredPowerInput>0.01</RequiredPowerInput>
+
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>SmallBlockGyro</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+      <Description>Description_Gyroscope</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\gyroscope.mwm</Model>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="90" />
+        <Component Subtype="AluminumRod" Count="9" />
+        <Component Subtype="BallBearing" Count="27" />
+        <Component Subtype="SteelGear" Count="2" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Transistor" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="RubberBushing" Count="4" />
+        <Component Subtype="Construction" Count="18" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Gyroscope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>448000</ForceMagnitude>
+      <RequiredPowerInput>0.002</RequiredPowerInput>
+
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier1_Large</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X1</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier1_icon.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier1_Large.mwm</Model>
+	<Components>
+        <Component Subtype="SteelPlate" Count="450" />
+        <Component Subtype="SteelRod" Count="45" />
+        <Component Subtype="BallBearing" Count="135" />
+        <Component Subtype="SteelGear" Count="9" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="Rectifier" Count="3" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="12" />
+        <Component Subtype="RubberBushing" Count="20" />
+        <Component Subtype="SteelBolt" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier1_Large_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier1_Large_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Right" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Top" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier1</BlockPairName>
+	
+	<MirroringX>Z</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+	
+	<Center x="0" y="0" z="0" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>40</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>33600000</ForceMagnitude>
+	<RequiredPowerInput>0.01</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier1_Small</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X1</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier1_icon.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier1_Small.mwm</Model>
+	<Components>
+        <Component Subtype="SteelPlate" Count="90" />
+        <Component Subtype="SteelRod" Count="9" />
+        <Component Subtype="BallBearing" Count="27" />
+        <Component Subtype="SteelGear" Count="2" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Rectifier" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="RubberBushing" Count="4" />
+        <Component Subtype="SteelBolt" Count="18" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier1_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier1_Small_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Right" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Top" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier1</BlockPairName>
+	
+	<MirroringX>Z</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+	
+	<Center x="0" y="0" z="0" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>14</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>448000</ForceMagnitude>
+	<RequiredPowerInput>0.002</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier2_Large</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X2</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier2_icon.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="2" y="2" z="2" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier2_Large.mwm</Model>
+	<Components>
+        <Component Subtype="SteelPlate" Count="900" />
+        <Component Subtype="SteelRod" Count="90" />
+        <Component Subtype="BallBearing" Count="270" />
+        <Component Subtype="SteelGear" Count="18" />
+        <Component Subtype="Motor" Count="10" />
+        <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="24" />
+        <Component Subtype="RubberBushing" Count="40" />
+        <Component Subtype="SteelBolt" Count="180" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+	
+	<GuiVisible>false</GuiVisible>
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier2_Large_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier2_Large_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Back" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Left" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Right" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Bottom" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Top" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier2</BlockPairName>
+	
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+	
+	<Center x="0" y="0" z="0" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>80</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>268800000</ForceMagnitude>
+	<RequiredPowerInput>0.02</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier2_Small</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X2</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier2_icon.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="2" y="2" z="2" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier2_Small.mwm</Model>
+	<Components>
+        <Component Subtype="SteelPlate" Count="180" />
+        <Component Subtype="SteelRod" Count="18" />
+        <Component Subtype="BallBearing" Count="54" />
+        <Component Subtype="SteelGear" Count="4" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Rectifier" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="5" />
+        <Component Subtype="RubberBushing" Count="8" />
+        <Component Subtype="SteelBolt" Count="36" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+	
+	<GuiVisible>false</GuiVisible>
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier2_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier2_Small_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Back" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Left" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Right" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Bottom" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+		<MountPoint Side="Top" StartX="0.40" StartY="0.40" EndX="1.60" EndY="1.60" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier2</BlockPairName>
+	
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+	
+	<Center x="0" y="0" z="0" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>28</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>3584000</ForceMagnitude>
+	<RequiredPowerInput>0.004</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier3_Large</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X3</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier3_icon.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="3" y="3" z="3" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier3_Large.mwm</Model>
+	<Components>
+        <Component Subtype="TitaniumPlate" Count="1800" />
+        <Component Subtype="TitaniumRod" Count="180" />
+        <Component Subtype="BallBearing" Count="540" />
+        <Component Subtype="SteelGear" Count="36" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="MicroChip" Count="3" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="EnergyCoupler" Count="12" />
+        <Component Subtype="RubberBushing" Count="80" />
+        <Component Subtype="BrazingRod" Count="180" />
+      </Components>
+      <CriticalComponent Subtype="EnergyCoupler" Index="0" />
+	
+	<GuiVisible>false</GuiVisible>
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier3_Large_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier3_Large_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Back" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Left" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Right" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Bottom" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Top" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier3</BlockPairName>
+	
+	<MirroringX>Z</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+	
+	<Center x="1" y="1" z="1" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>160</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>907200000</ForceMagnitude>
+	<RequiredPowerInput>0.04</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier3_Small</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X3</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier3_icon.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="3" y="3" z="3" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier3_Small.mwm</Model>
+	<Components>
+        <Component Subtype="TitaniumPlate" Count="360" />
+        <Component Subtype="TitaniumRod" Count="36" />
+        <Component Subtype="BallBearing" Count="108" />
+        <Component Subtype="SteelGear" Count="7" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="MicroChip" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="EnergyCoupler" Count="2" />
+        <Component Subtype="RubberBushing" Count="16" />
+        <Component Subtype="BrazingRod" Count="36" />
+      </Components>
+      <CriticalComponent Subtype="EnergyCoupler" Index="0" />
+	
+	<GuiVisible>false</GuiVisible>
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier3_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier3_Small_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Back" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Left" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Right" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Bottom" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+		<MountPoint Side="Top" StartX="0.60" StartY="0.60" EndX="2.40" EndY="2.40" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier3</BlockPairName>
+	
+	<MirroringX>Z</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+	
+	<Center x="1" y="1" z="1" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>56</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>12096000</ForceMagnitude>
+	<RequiredPowerInput>0.008</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier4_Large</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X4</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier4_icon.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="4" y="4" z="4" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier4_Large.mwm</Model>
+	<Components>
+        <Component Subtype="TitaniumPlate" Count="3600" />
+        <Component Subtype="TitaniumRod" Count="360" />
+        <Component Subtype="BallBearing" Count="1080" />
+        <Component Subtype="SteelGear" Count="72" />
+        <Component Subtype="Motor" Count="40" />
+        <Component Subtype="MicroChip" Count="6" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="EnergyCoupler" Count="24" />
+        <Component Subtype="RubberBushing" Count="160" />
+        <Component Subtype="BrazingRod" Count="720" />
+      </Components>
+      <CriticalComponent Subtype="EnergyCoupler" Index="0" />
+	
+	<GuiVisible>false</GuiVisible>
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier4_Large_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier4_Large_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Back" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Left" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Right" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Bottom" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Top" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier4</BlockPairName>
+	
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+	
+	<Center x="1" y="1" z="1" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>320</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>2150400000</ForceMagnitude>
+	<RequiredPowerInput>0.08</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier4_Small</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X4</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier4_icon.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="4" y="4" z="4" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier4_Small.mwm</Model>
+	<Components>
+        <Component Subtype="TitaniumPlate" Count="720" />
+        <Component Subtype="TitaniumRod" Count="72" />
+        <Component Subtype="BallBearing" Count="216" />
+        <Component Subtype="SteelGear" Count="14" />
+        <Component Subtype="Motor" Count="8" />
+        <Component Subtype="MicroChip" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="EnergyCoupler" Count="5" />
+        <Component Subtype="RubberBushing" Count="32" />
+        <Component Subtype="BrazingRod" Count="72" />
+      </Components>
+      <CriticalComponent Subtype="EnergyCoupler" Index="0" />
+	
+	<GuiVisible>false</GuiVisible>
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier4_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier4_Small_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Back" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Left" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Right" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Bottom" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+		<MountPoint Side="Top" StartX="0.80" StartY="0.80" EndX="3.20" EndY="3.20" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier4</BlockPairName>
+	
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+	
+	<Center x="1" y="1" z="1" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>112</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>28672000</ForceMagnitude>
+	<RequiredPowerInput>0.016</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier5_Large</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X5</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier5_icon.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="5" y="5" z="5" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier5_Large.mwm</Model>
+	<Components>
+        <Component Subtype="TitaniumPlate" Count="7200" />
+        <Component Subtype="TitaniumRod" Count="720" />
+        <Component Subtype="BallBearing" Count="2160" />
+        <Component Subtype="SteelGear" Count="144" />
+        <Component Subtype="Motor" Count="80" />
+        <Component Subtype="Solder" Count="3" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="12" />
+        <Component Subtype="RubberBushing" Count="320" />
+        <Component Subtype="BrazingRod" Count="720" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+	
+	<GuiVisible>false</GuiVisible>
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier5_Large_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier5_Large_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Back" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Left" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Right" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Top" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier5</BlockPairName>
+	
+	<MirroringX>Z</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+	
+	<Center x="2" y="2" z="2" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>640</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>4200000000</ForceMagnitude>
+	<RequiredPowerInput>0.16</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+	<Id>
+		<TypeId>Gyro</TypeId>
+		<SubtypeId>Gyroscope.Tier5_Small</SubtypeId>
+	</Id>
+	<DisplayName>Gyroscope X5</DisplayName>
+	<Icon>Textures\GUI\Icons\Gyroscope.Tier1_icon.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="5" y="5" z="5" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Tiered.Gyroscopes\Gyroscope.Tier5_Small.mwm</Model>
+	<Components>
+        <Component Subtype="NitinolPlate" Count="1440" />
+        <Component Subtype="NitinolRod" Count="144" />
+        <Component Subtype="BallBearing" Count="432" />
+        <Component Subtype="SteelGear" Count="28" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Solder" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="2" />
+        <Component Subtype="RubberBushing" Count="64" />
+        <Component Subtype="BrazingRod" Count="144" />
+      </Components>
+      <CriticalComponent Subtype="EnergyCoupler" Index="0" />
+	
+	<GuiVisible>false</GuiVisible>
+	
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Tiered.Gyroscopes\Gyroscope.Tier5_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tiered.Gyroscopes\Gyroscope.Tier5_Small_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Back" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Left" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Right" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+		<MountPoint Side="Top" StartX="1.00" StartY="1.00" EndX="4.00" EndY="4.00" />
+	</MountPoints>
+	
+	<BlockPairName>Gyroscope.Tier5</BlockPairName>
+	
+	<MirroringX>Z</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+	
+	<Center x="2" y="2" z="2" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>224</BuildTimeSeconds>
+	
+	<PrimarySound>BlockGyroscope</PrimarySound>
+	<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+	<ForceMagnitude>56000000</ForceMagnitude>
+	<RequiredPowerInput>0.032</RequiredPowerInput>
+	
+	<DamageEffectId>212</DamageEffectId>
+	<DamagedSound>ParticleHeavyMech</DamagedSound>
+	<EmissiveColorPreset>Extended</EmissiveColorPreset>
+</Definition>
+
+</CubeBlocks>
+</Definitions>

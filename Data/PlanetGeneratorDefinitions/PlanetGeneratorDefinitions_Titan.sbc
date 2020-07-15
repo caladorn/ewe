@@ -1,0 +1,1330 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="PlanetGeneratorDefinition">
+    <Id>
+      <TypeId>PlanetGeneratorDefinition</TypeId>
+      <SubtypeId>Titan</SubtypeId>
+    </Id>
+    <!--!!!Important!! Read if you want to mod Planets! -->
+    <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
+    <!--Make sure you are not modding a switched off channel-->
+    <PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
+
+    <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
+      <PostprocessingSteps>
+        <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
+          <LodSettings>
+            <Settings FromLod="0">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.02</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="1">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.04</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="2">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.06</EdgeThreshold>
+              <PlaneThreshold>.06</PlaneThreshold>
+            </Settings>
+          </LodSettings>
+        </Step>
+      </PostprocessingSteps>
+    </MesherPostprocessing>
+
+    <SurfaceDetail>
+      <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
+      <Size>32</Size>
+      <Scale>4</Scale>
+      <Slope Min="30" Max="90" />
+      <Transition>7.5</Transition>
+      <!-- <Transition>7.5</Transition> -->
+    </SurfaceDetail>
+
+    <OreMappings>
+      <Ore Value="1" Type="Zinc" Start="25" Depth="3"/>
+      <Ore Value="2" Type="Zinc" Start="56" Depth="5"/>
+      <Ore Value="3" Type="AlienIce" Start="5" Depth="2"/>
+      <Ore Value="4" Type="AlienIce" Start="11" Depth="3"/>
+      <Ore Value="5" Type="AlienIce_03" Start="2" Depth="2"/>
+      <Ore Value="6" Type="AlienIce_03" Start="4" Depth="3"/>
+      <Ore Value="8" Type="Hafnon" Start="150" Depth="5"/>
+      <Ore Value="9" Type="Hafnon" Start="337" Depth="9"/>
+      <Ore Value="10" Type="Indite" Start="50" Depth="4"/>
+      <Ore Value="11" Type="Indite" Start="112" Depth="7"/>
+      <Ore Value="12" Type="Cerite" Start="35" Depth="3"/>
+      <Ore Value="13" Type="Cerite" Start="78" Depth="5"/>
+      <Ore Value="15" Type="Orpiment" Start="32" Depth="3"/>
+      <Ore Value="16" Type="Orpiment" Start="72" Depth="5"/>
+      <Ore Value="17" Type="Ilmenite" Start="50" Depth="6"/>
+      <Ore Value="18" Type="Ilmenite" Start="112" Depth="10"/>
+      <Ore Value="19" Type="Halite" Start="28" Depth="3"/>
+      <Ore Value="20" Type="Halite" Start="63" Depth="5"/>
+      <Ore Value="22" Type="Spodumene" Start="18" Depth="5"/>
+      <Ore Value="23" Type="Spodumene" Start="40" Depth="9"/>
+      <Ore Value="24" Type="Realgar" Start="33" Depth="3"/>
+      <Ore Value="25" Type="Realgar" Start="74" Depth="5"/>
+      <Ore Value="26" Type="Aluminum" Start="5" Depth="2"/>
+      <Ore Value="27" Type="Aluminum" Start="11" Depth="3"/>
+      <Ore Value="29" Type="Brine" Start="10" Depth="5"/>
+      <Ore Value="30" Type="Brine" Start="22" Depth="9"/>
+      <Ore Value="31" Type="Hematite" Start="42" Depth="6"/>
+      <Ore Value="32" Type="Hematite" Start="94" Depth="10"/>
+      <Ore Value="33" Type="Copper" Start="40" Depth="7"/>
+      <Ore Value="34" Type="Copper" Start="90" Depth="12"/>
+      <Ore Value="36" Type="Columbite" Start="36" Depth="3"/>
+      <Ore Value="37" Type="Columbite" Start="81" Depth="5"/>
+      <Ore Value="38" Type="Rhodochrosite" Start="42" Depth="4"/>
+      <Ore Value="39" Type="Rhodochrosite" Start="94" Depth="7"/>
+      <Ore Value="40" Type="Lepidolite" Start="50" Depth="2"/>
+      <Ore Value="41" Type="Lepidolite" Start="112" Depth="3"/>
+      <Ore Value="43" Type="Ferchromide" Start="37" Depth="5"/>
+      <Ore Value="44" Type="Ferchromide" Start="83" Depth="9"/>
+      <Ore Value="45" Type="Cobaltite" Start="30" Depth="4"/>
+      <Ore Value="46" Type="Cobaltite" Start="67" Depth="7"/>
+      <Ore Value="47" Type="Zircon" Start="175" Depth="5"/>
+      <Ore Value="48" Type="Zircon" Start="393" Depth="9"/>
+      <Ore Value="50" Type="Quartz" Start="75" Depth="9"/>
+      <Ore Value="51" Type="Quartz" Start="168" Depth="16"/>
+      <Ore Value="52" Type="Sulfur" Start="46" Depth="3"/>
+      <Ore Value="53" Type="Sulfur" Start="103" Depth="5"/>
+      <Ore Value="54" Type="Cobalt_01" Start="30" Depth="4"/>
+      <Ore Value="55" Type="Cobalt_01" Start="67" Depth="7"/>
+      <Ore Value="57" Type="Calaverite" Start="100" Depth="6"/>
+      <Ore Value="58" Type="Calaverite" Start="225" Depth="10"/>
+      <Ore Value="59" Type="Coal" Start="29" Depth="6"/>
+      <Ore Value="60" Type="Coal" Start="65" Depth="10"/>
+      <Ore Value="61" Type="Magnesium_01" Start="50" Depth="2"/>
+      <Ore Value="62" Type="Magnesium_01" Start="112" Depth="3"/>
+      <Ore Value="64" Type="Huttonite" Start="155" Depth="5"/>
+      <Ore Value="65" Type="Huttonite" Start="348" Depth="9"/>
+      <Ore Value="66" Type="Sphalerite" Start="32" Depth="3"/>
+      <Ore Value="67" Type="Sphalerite" Start="72" Depth="5"/>
+      <Ore Value="68" Type="Iron_02" Start="60" Depth="9"/>
+      <Ore Value="69" Type="Iron_02" Start="135" Depth="16"/>
+      <Ore Value="71" Type="Cassiterite" Start="22" Depth="3"/>
+      <Ore Value="72" Type="Cassiterite" Start="49" Depth="5"/>
+      <Ore Value="73" Type="Iron_01" Start="20" Depth="3"/>
+      <Ore Value="74" Type="Iron_01" Start="45" Depth="5"/>
+      <Ore Value="75" Type="Thorite" Start="40" Depth="6"/>
+      <Ore Value="76" Type="Thorite" Start="90" Depth="10"/>
+      <Ore Value="78" Type="Sylvite" Start="44" Depth="5"/>
+      <Ore Value="79" Type="Sylvite" Start="99" Depth="9"/>
+      <Ore Value="80" Type="Pyrochlore" Start="50" Depth="9"/>
+      <Ore Value="81" Type="Pyrochlore" Start="112" Depth="16"/>
+      <Ore Value="82" Type="Silver_01" Start="150" Depth="6"/>
+      <Ore Value="83" Type="Silver_01" Start="337" Depth="10"/>
+      <Ore Value="85" Type="MineralIce" Start="20" Depth="8"/>
+      <Ore Value="86" Type="MineralIce" Start="45" Depth="14"/>
+      <Ore Value="87" Type="Chalcopyrite" Start="22" Depth="3"/>
+      <Ore Value="88" Type="Chalcopyrite" Start="49" Depth="5"/>
+      <Ore Value="89" Type="Pyrite" Start="65" Depth="3"/>
+      <Ore Value="90" Type="Pyrite" Start="146" Depth="5"/>
+      <Ore Value="92" Type="Tin" Start="105" Depth="11"/>
+      <Ore Value="93" Type="Tin" Start="236" Depth="20"/>
+      <Ore Value="94" Type="Titanite" Start="80" Depth="12"/>
+      <Ore Value="95" Type="Titanite" Start="180" Depth="21"/>
+      <Ore Value="96" Type="Cobalt_01" Start="50" Depth="6"/>
+      <Ore Value="97" Type="Cobalt_01" Start="112" Depth="10"/>
+      <Ore Value="99" Type="Cadmoselite" Start="27" Depth="3"/>
+      <Ore Value="100" Type="Cadmoselite" Start="60" Depth="5"/>
+      <Ore Value="101" Type="Wulfenite" Start="75" Depth="8"/>
+      <Ore Value="102" Type="Wulfenite" Start="168" Depth="14"/>
+      <Ore Value="103" Type="Bismutotantalite" Start="47" Depth="4"/>
+      <Ore Value="104" Type="Bismutotantalite" Start="105" Depth="7"/>
+      <Ore Value="106" Type="Graphite" Start="15" Depth="3"/>
+      <Ore Value="107" Type="Graphite" Start="33" Depth="5"/>
+      <Ore Value="108" Type="Aluminum" Start="40" Depth="11"/>
+      <Ore Value="109" Type="Aluminum" Start="90" Depth="20"/>
+      <Ore Value="110" Type="Uraninite_01" Start="300" Depth="7"/>
+      <Ore Value="111" Type="Uraninite_01" Start="675" Depth="12"/>
+      <Ore Value="113" Type="Stibiotantalite" Start="56" Depth="4"/>
+      <Ore Value="114" Type="Stibiotantalite" Start="126" Depth="7"/>
+      <Ore Value="115" Type="Ruthenarsenite" Start="50" Depth="4"/>
+      <Ore Value="116" Type="Ruthenarsenite" Start="112" Depth="7"/>
+      <Ore Value="117" Type="Pyrochlore" Start="20" Depth="3"/>
+      <Ore Value="118" Type="Pyrochlore" Start="45" Depth="5"/>
+      <Ore Value="120" Type="Ilmenite" Start="45" Depth="5"/>
+      <Ore Value="121" Type="Ilmenite" Start="101" Depth="9"/>
+      <Ore Value="122" Type="Cinnabar" Start="28" Depth="3"/>
+      <Ore Value="123" Type="Cinnabar" Start="63" Depth="5"/>
+      <Ore Value="124" Type="Boracite" Start="24" Depth="2"/>
+      <Ore Value="125" Type="Boracite" Start="54" Depth="3"/>
+      <Ore Value="127" Type="Zinc" Start="100" Depth="12"/>
+      <Ore Value="128" Type="Zinc" Start="225" Depth="21"/>
+      <Ore Value="129" Type="Germanite" Start="40" Depth="5"/>
+      <Ore Value="130" Type="Germanite" Start="90" Depth="9"/>
+      <Ore Value="131" Type="Gold_01" Start="50" Depth="1"/>
+      <Ore Value="132" Type="Gold_01" Start="112" Depth="1"/>
+      <Ore Value="134" Type="Gold_01" Start="150" Depth="5"/>
+      <Ore Value="135" Type="Gold_01" Start="337" Depth="9"/>
+      <Ore Value="136" Type="Pitchblend" Start="250" Depth="7"/>
+      <Ore Value="137" Type="Pitchblend" Start="562" Depth="12"/>
+      <Ore Value="138" Type="Pyrochlore" Start="85" Depth="1"/>
+      <Ore Value="139" Type="Pyrochlore" Start="191" Depth="1"/>
+      <Ore Value="141" Type="Silver_01" Start="50" Depth="2"/>
+      <Ore Value="142" Type="Silver_01" Start="112" Depth="3"/>
+      <Ore Value="143" Type="Chaoite" Start="24" Depth="5"/>
+      <Ore Value="144" Type="Chaoite" Start="54" Depth="9"/>
+      <Ore Value="145" Type="Fluorapatite" Start="38" Depth="2"/>
+      <Ore Value="146" Type="Fluorapatite" Start="85" Depth="3"/>
+      <Ore Value="148" Type="Ilmenite" Start="45" Depth="7"/>
+      <Ore Value="149" Type="Ilmenite" Start="101" Depth="12"/>
+      <Ore Value="150" Type="Borcarite" Start="24" Depth="2"/>
+      <Ore Value="151" Type="Borcarite" Start="54" Depth="3"/>
+      <Ore Value="152" Type="Telluropalladinite" Start="54" Depth="3"/>
+      <Ore Value="153" Type="Telluropalladinite" Start="121" Depth="5"/>
+      <Ore Value="155" Type="Nickel_01" Start="60" Depth="6"/>
+      <Ore Value="156" Type="Nickel_01" Start="135" Depth="10"/>
+      <Ore Value="157" Type="Monazite" Start="120" Depth="1"/>
+      <Ore Value="158" Type="Monazite" Start="270" Depth="1"/>
+      <Ore Value="159" Type="Quartz" Start="36" Depth="3"/>
+      <Ore Value="160" Type="Quartz" Start="81" Depth="5"/>
+      <Ore Value="162" Type="Copper" Start="30" Depth="5"/>
+      <Ore Value="163" Type="Copper" Start="67" Depth="9"/>
+      <Ore Value="164" Type="Coffinite" Start="160" Depth="3"/>
+      <Ore Value="165" Type="Coffinite" Start="360" Depth="5"/>
+      <Ore Value="166" Type="Titanite" Start="40" Depth="3"/>
+      <Ore Value="167" Type="Titanite" Start="90" Depth="5"/>
+      <Ore Value="169" Type="Palladseite" Start="90" Depth="3"/>
+      <Ore Value="170" Type="Palladseite" Start="202" Depth="5"/>
+      <Ore Value="171" Type="AlienIce" Start="3" Depth="2"/>
+      <Ore Value="172" Type="AlienIce" Start="6" Depth="3"/>
+      <Ore Value="173" Type="Kentbrooksite" Start="50" Depth="6"/>
+      <Ore Value="174" Type="Kentbrooksite" Start="112" Depth="10"/>
+      <Ore Value="176" Type="Titanium" Start="50" Depth="2"/>
+      <Ore Value="177" Type="Titanium" Start="112" Depth="3"/>
+      <Ore Value="178" Type="Fontarnauite" Start="38" Depth="4"/>
+      <Ore Value="179" Type="Fontarnauite" Start="85" Depth="7"/>
+      <Ore Value="180" Type="Rutheniridosmine" Start="58" Depth="5"/>
+      <Ore Value="181" Type="Rutheniridosmine" Start="130" Depth="9"/>
+      <Ore Value="183" Type="Platinum_01" Start="150" Depth="3"/>
+      <Ore Value="184" Type="Platinum_01" Start="337" Depth="5"/>
+      <Ore Value="185" Type="Nickel_01" Start="20" Depth="2"/>
+      <Ore Value="186" Type="Nickel_01" Start="45" Depth="3"/>
+      <Ore Value="187" Type="Beryl" Start="26" Depth="2"/>
+      <Ore Value="188" Type="Beryl" Start="58" Depth="3"/>
+      <Ore Value="190" Type="Cadmoindite" Start="54" Depth="3"/>
+      <Ore Value="191" Type="Cadmoindite" Start="121" Depth="5"/>
+      <Ore Value="192" Type="CHON" Start="40" Depth="6"/>
+      <Ore Value="193" Type="CHON" Start="90" Depth="10"/>
+      <Ore Value="194" Type="Tin" Start="15" Depth="2"/>
+      <Ore Value="195" Type="Tin" Start="33" Depth="3"/>
+      <Ore Value="197" Type="Magnesium_01" Start="65" Depth="3"/>
+      <Ore Value="198" Type="Magnesium_01" Start="146" Depth="5"/>
+      <Ore Value="199" Type="Titanium" Start="250" Depth="8"/>
+      <Ore Value="200" Type="Titanium" Start="562" Depth="14"/>
+      <Ore Value="201" Type="Chromite" Start="28" Depth="5"/>
+      <Ore Value="202" Type="Chromite" Start="63" Depth="9"/>
+      <Ore Value="204" Type="Chromferide" Start="26" Depth="4"/>
+      <Ore Value="205" Type="Chromferide" Start="58" Depth="7"/>
+      <Ore Value="206" Type="Silicon_01" Start="38" Depth="2"/>
+      <Ore Value="207" Type="Silicon_01" Start="85" Depth="3"/>
+      <Ore Value="208" Type="Platinum_01" Start="50" Depth="1"/>
+      <Ore Value="209" Type="Platinum_01" Start="112" Depth="1"/>
+      <Ore Value="211" Type="Chamosite" Start="35" Depth="5"/>
+      <Ore Value="212" Type="Chamosite" Start="78" Depth="9"/>
+      <Ore Value="213" Type="Wulfenite" Start="37" Depth="4"/>
+      <Ore Value="214" Type="Wulfenite" Start="83" Depth="7"/>
+      <Ore Value="215" Type="Silicon_01" Start="58" Depth="5"/>
+      <Ore Value="216" Type="Silicon_01" Start="130" Depth="9"/>
+      <Ore Value="218" Type="Lead" Start="50" Depth="4"/>
+      <Ore Value="219" Type="Lead" Start="112" Depth="7"/>
+      <Ore Value="220" Type="Arsenolite" Start="28" Depth="3"/>
+      <Ore Value="221" Type="Arsenolite" Start="63" Depth="5"/>
+      <Ore Value="222" Type="Lead" Start="65" Depth="6"/>
+      <Ore Value="223" Type="Lead" Start="146" Depth="10"/>
+      <Ore Value="224" Type="Strontiofluorite" Start="58" Depth="3"/>
+      <Ore Value="225" Type="Strontiofluorite" Start="130" Depth="5"/>
+    </OreMappings>
+
+    <SoundRules>
+      <!-- Day -->
+      <SoundRule>
+        <Height Min="0" Max="1"/>
+        <Latitude Min="0" Max="90"/>
+        <SunAngleFromZenith Min="0" Max="90"/>
+        <EnvironmentSound>AmbTitanMoonDay</EnvironmentSound>
+      </SoundRule>
+
+      <!-- Day -->
+      <SoundRule>
+        <Height Min="0" Max="1"/>
+        <Latitude Min="0" Max="90"/>
+        <SunAngleFromZenith Min="90" Max="180"/>
+        <EnvironmentSound>AmbTitanMoonNight</EnvironmentSound>
+      </SoundRule>
+    </SoundRules>
+
+    <MusicCategories>
+      <MusicCategory Category="Alien" Frequency="0.75" />
+      <MusicCategory Category="Mystery" Frequency="0.15" />
+      <MusicCategory Category="Danger" Frequency="0.1" />
+    </MusicCategories>
+
+    <!-- Titmoon definitions - name shortened for better navigation ;) -->
+    <ComplexMaterials>
+      <MaterialGroup Name="Methane sea" Value="255">
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.6" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.15" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.15" Max="0.18"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="60" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.09" Max="0.12"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="30" Max="50"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="10" Max="70"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienIce" Depth="5"/>
+          </Layers>
+          <Height Min="0.061" Max="0.08"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienIce" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.06"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+      </MaterialGroup>
+
+      <MaterialGroup Name="Other features" Value="48">
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.6" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.15" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.09" Max="0.12"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="10" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienIce" Depth="5"/>
+          </Layers>
+          <Height Min="0.061" Max="0.08"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienIce" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.06"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+      </MaterialGroup>
+
+      <MaterialGroup Name="Other features 2" Value="0">
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.6" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.15" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.09" Max="0.12"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.09"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="10" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienIce" Depth="5"/>
+          </Layers>
+          <Height Min="0.061" Max="0.08"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienIce" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.06"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+      </MaterialGroup>
+    </ComplexMaterials>
+    <!-- END Titmoon definitions - name shortened for better navigation -->
+
+    <EnvironmentItems>
+      <Item>
+        <Biomes>
+          <Biome>0</Biome>
+        </Biomes>
+        <Materials>
+          <Material>MarsSoil</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>0</Biome>
+        </Biomes>
+        <Materials>
+          <Material>MarsRocks</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+      </Item>
+    </EnvironmentItems>
+
+
+    <DefaultSurfaceMaterial Material="MarsSoil" MaxDepth="5"/>
+    <DefaultSubSurfaceMaterial Material="DesertRocks"/>
+
+    <HasAtmosphere>true</HasAtmosphere>
+    <Atmosphere>
+      <MaxWindSpeed>80</MaxWindSpeed>
+    </Atmosphere>
+
+    <!-- Titan Planet's Atmosphere settings-->
+    <AtmosphereSettings>
+      <RayleighScattering>
+        <X>2.51488018</X>
+        <Y>19.4201069</Y>
+        <Z>100</Z>
+      </RayleighScattering>
+      <MieScattering>147.671082</MieScattering>
+      <MieColorScattering>
+        <X>121.198166</X>
+        <Y>132.931335</Y>
+        <Z>143.040726</Z>
+      </MieColorScattering>
+      <RayleighHeight>9.386989</RayleighHeight>
+      <MieHeight>45.1775055</MieHeight>
+      <MieG>0.999732332</MieG>
+      <Intensity>6.00218773</Intensity>
+      <FogIntensity>1</FogIntensity>
+      <SeaLevelModifier>0.912886143</SeaLevelModifier>
+      <AtmosphereTopModifier>0.9042163</AtmosphereTopModifier>
+    </AtmosphereSettings>
+
+    <CloudLayers>
+      <CloudLayer>
+        <!-- Far layer -->
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.9</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>1</Y>
+          <Z>0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>1.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.89</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>3.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.88</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>5.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSkySolid_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.87</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>5.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+
+      <!-- Near layers -->
+
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.0</RelativeAltitude>
+        <RotationAxis>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0</Z>
+        </RotationAxis>
+        <AngularVelocity>0.000085</AngularVelocity>
+        <InitialRotation>0.15</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>2.0</RelativeAltitude>
+        <RotationAxis>
+          <X>1</X>
+          <Y>0.2</Y>
+          <Z>-0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.000085</AngularVelocity>
+        <InitialRotation>2.5</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>3.0</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.000085</AngularVelocity>
+        <InitialRotation>4.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+    </CloudLayers>
+
+    <SurfaceGravity>0.25</SurfaceGravity>
+    <MaterialsMaxDepth Min="4000" Max="4000"/>
+    <MaterialsMinDepth Min="20" Max="20"/>
+
+    <HillParams Min = "-0.03" Max ="0.03"/>
+
+    <AnimalSpawnInfo>
+      <Animals>
+        <Animal Type="SpaceSpiderGreen"/>
+      </Animals>
+    </AnimalSpawnInfo>
+
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
+  </Definition>
+
+  <Definition xsi:type="PlanetGeneratorDefinition">
+    <Id>
+      <TypeId>PlanetGeneratorDefinition</TypeId>
+      <SubtypeId>Titan</SubtypeId>
+    </Id>
+    <!--!!!Important!! Read if you want to mod Planets! -->
+    <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
+    <!--Make sure you are not modding a switched off channel-->
+    <PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
+
+    <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
+      <PostprocessingSteps>
+        <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
+          <LodSettings>
+            <Settings FromLod="0">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.02</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="1">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.04</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="2">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.06</EdgeThreshold>
+              <PlaneThreshold>.06</PlaneThreshold>
+            </Settings>
+          </LodSettings>
+        </Step>
+      </PostprocessingSteps>
+    </MesherPostprocessing>
+
+    <SurfaceDetail>
+      <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
+      <Size>32</Size>
+      <Scale>4</Scale>
+      <Slope Min="30" Max="90" />
+      <Transition>7.5</Transition>
+      <!-- <Transition>7.5</Transition> -->
+    </SurfaceDetail>
+
+    <OreMappings>
+      <Ore Value="1" Type="Zinc" Start="25" Depth="3"/>
+      <Ore Value="2" Type="Zinc" Start="56" Depth="5"/>
+      <Ore Value="3" Type="AlienIce" Start="5" Depth="2"/>
+      <Ore Value="4" Type="AlienIce" Start="11" Depth="3"/>
+      <Ore Value="5" Type="AlienIce_03" Start="2" Depth="2"/>
+      <Ore Value="6" Type="AlienIce_03" Start="4" Depth="3"/>
+      <Ore Value="8" Type="Hafnon" Start="150" Depth="5"/>
+      <Ore Value="9" Type="Hafnon" Start="337" Depth="9"/>
+      <Ore Value="10" Type="Indite" Start="50" Depth="4"/>
+      <Ore Value="11" Type="Indite" Start="112" Depth="7"/>
+      <Ore Value="12" Type="Cerite" Start="35" Depth="3"/>
+      <Ore Value="13" Type="Cerite" Start="78" Depth="5"/>
+      <Ore Value="15" Type="Orpiment" Start="32" Depth="3"/>
+      <Ore Value="16" Type="Orpiment" Start="72" Depth="5"/>
+      <Ore Value="17" Type="Ilmenite" Start="50" Depth="6"/>
+      <Ore Value="18" Type="Ilmenite" Start="112" Depth="10"/>
+      <Ore Value="19" Type="Halite" Start="28" Depth="3"/>
+      <Ore Value="20" Type="Halite" Start="63" Depth="5"/>
+      <Ore Value="22" Type="Spodumene" Start="18" Depth="5"/>
+      <Ore Value="23" Type="Spodumene" Start="40" Depth="9"/>
+      <Ore Value="24" Type="Realgar" Start="33" Depth="3"/>
+      <Ore Value="25" Type="Realgar" Start="74" Depth="5"/>
+      <Ore Value="26" Type="Aluminum" Start="5" Depth="2"/>
+      <Ore Value="27" Type="Aluminum" Start="11" Depth="3"/>
+      <Ore Value="29" Type="Brine" Start="10" Depth="5"/>
+      <Ore Value="30" Type="Brine" Start="22" Depth="9"/>
+      <Ore Value="31" Type="Hematite" Start="42" Depth="6"/>
+      <Ore Value="32" Type="Hematite" Start="94" Depth="10"/>
+      <Ore Value="33" Type="Copper" Start="40" Depth="7"/>
+      <Ore Value="34" Type="Copper" Start="90" Depth="12"/>
+      <Ore Value="36" Type="Columbite" Start="36" Depth="3"/>
+      <Ore Value="37" Type="Columbite" Start="81" Depth="5"/>
+      <Ore Value="38" Type="Rhodochrosite" Start="42" Depth="4"/>
+      <Ore Value="39" Type="Rhodochrosite" Start="94" Depth="7"/>
+      <Ore Value="40" Type="Lepidolite" Start="50" Depth="2"/>
+      <Ore Value="41" Type="Lepidolite" Start="112" Depth="3"/>
+      <Ore Value="43" Type="Ferchromide" Start="37" Depth="5"/>
+      <Ore Value="44" Type="Ferchromide" Start="83" Depth="9"/>
+      <Ore Value="45" Type="Cobaltite" Start="30" Depth="4"/>
+      <Ore Value="46" Type="Cobaltite" Start="67" Depth="7"/>
+      <Ore Value="47" Type="Zircon" Start="175" Depth="5"/>
+      <Ore Value="48" Type="Zircon" Start="393" Depth="9"/>
+      <Ore Value="50" Type="Quartz" Start="75" Depth="9"/>
+      <Ore Value="51" Type="Quartz" Start="168" Depth="16"/>
+      <Ore Value="52" Type="Sulfur" Start="46" Depth="3"/>
+      <Ore Value="53" Type="Sulfur" Start="103" Depth="5"/>
+      <Ore Value="54" Type="Cobalt_01" Start="30" Depth="4"/>
+      <Ore Value="55" Type="Cobalt_01" Start="67" Depth="7"/>
+      <Ore Value="57" Type="Calaverite" Start="100" Depth="6"/>
+      <Ore Value="58" Type="Calaverite" Start="225" Depth="10"/>
+      <Ore Value="59" Type="Coal" Start="29" Depth="6"/>
+      <Ore Value="60" Type="Coal" Start="65" Depth="10"/>
+      <Ore Value="61" Type="Magnesium_01" Start="50" Depth="2"/>
+      <Ore Value="62" Type="Magnesium_01" Start="112" Depth="3"/>
+      <Ore Value="64" Type="Huttonite" Start="155" Depth="5"/>
+      <Ore Value="65" Type="Huttonite" Start="348" Depth="9"/>
+      <Ore Value="66" Type="Sphalerite" Start="32" Depth="3"/>
+      <Ore Value="67" Type="Sphalerite" Start="72" Depth="5"/>
+      <Ore Value="68" Type="Iron_02" Start="60" Depth="9"/>
+      <Ore Value="69" Type="Iron_02" Start="135" Depth="16"/>
+      <Ore Value="71" Type="Cassiterite" Start="22" Depth="3"/>
+      <Ore Value="72" Type="Cassiterite" Start="49" Depth="5"/>
+      <Ore Value="73" Type="Iron_01" Start="20" Depth="3"/>
+      <Ore Value="74" Type="Iron_01" Start="45" Depth="5"/>
+      <Ore Value="75" Type="Thorite" Start="40" Depth="6"/>
+      <Ore Value="76" Type="Thorite" Start="90" Depth="10"/>
+      <Ore Value="78" Type="Sylvite" Start="44" Depth="5"/>
+      <Ore Value="79" Type="Sylvite" Start="99" Depth="9"/>
+      <Ore Value="80" Type="Pyrochlore" Start="50" Depth="9"/>
+      <Ore Value="81" Type="Pyrochlore" Start="112" Depth="16"/>
+      <Ore Value="82" Type="Silver_01" Start="150" Depth="6"/>
+      <Ore Value="83" Type="Silver_01" Start="337" Depth="10"/>
+      <Ore Value="85" Type="MineralIce" Start="20" Depth="8"/>
+      <Ore Value="86" Type="MineralIce" Start="45" Depth="14"/>
+      <Ore Value="87" Type="Chalcopyrite" Start="22" Depth="3"/>
+      <Ore Value="88" Type="Chalcopyrite" Start="49" Depth="5"/>
+      <Ore Value="89" Type="Pyrite" Start="65" Depth="3"/>
+      <Ore Value="90" Type="Pyrite" Start="146" Depth="5"/>
+      <Ore Value="92" Type="Tin" Start="105" Depth="11"/>
+      <Ore Value="93" Type="Tin" Start="236" Depth="20"/>
+      <Ore Value="94" Type="Titanite" Start="80" Depth="12"/>
+      <Ore Value="95" Type="Titanite" Start="180" Depth="21"/>
+      <Ore Value="96" Type="Cobalt_01" Start="50" Depth="6"/>
+      <Ore Value="97" Type="Cobalt_01" Start="112" Depth="10"/>
+      <Ore Value="99" Type="Cadmoselite" Start="27" Depth="3"/>
+      <Ore Value="100" Type="Cadmoselite" Start="60" Depth="5"/>
+      <Ore Value="101" Type="Wulfenite" Start="75" Depth="8"/>
+      <Ore Value="102" Type="Wulfenite" Start="168" Depth="14"/>
+      <Ore Value="103" Type="Bismutotantalite" Start="47" Depth="4"/>
+      <Ore Value="104" Type="Bismutotantalite" Start="105" Depth="7"/>
+      <Ore Value="106" Type="Graphite" Start="15" Depth="3"/>
+      <Ore Value="107" Type="Graphite" Start="33" Depth="5"/>
+      <Ore Value="108" Type="Aluminum" Start="40" Depth="11"/>
+      <Ore Value="109" Type="Aluminum" Start="90" Depth="20"/>
+      <Ore Value="110" Type="Uraninite_01" Start="300" Depth="7"/>
+      <Ore Value="111" Type="Uraninite_01" Start="675" Depth="12"/>
+      <Ore Value="113" Type="Stibiotantalite" Start="56" Depth="4"/>
+      <Ore Value="114" Type="Stibiotantalite" Start="126" Depth="7"/>
+      <Ore Value="115" Type="Ruthenarsenite" Start="50" Depth="4"/>
+      <Ore Value="116" Type="Ruthenarsenite" Start="112" Depth="7"/>
+      <Ore Value="117" Type="Pyrochlore" Start="20" Depth="3"/>
+      <Ore Value="118" Type="Pyrochlore" Start="45" Depth="5"/>
+      <Ore Value="120" Type="Ilmenite" Start="45" Depth="5"/>
+      <Ore Value="121" Type="Ilmenite" Start="101" Depth="9"/>
+      <Ore Value="122" Type="Cinnabar" Start="28" Depth="3"/>
+      <Ore Value="123" Type="Cinnabar" Start="63" Depth="5"/>
+      <Ore Value="124" Type="Boracite" Start="24" Depth="2"/>
+      <Ore Value="125" Type="Boracite" Start="54" Depth="3"/>
+      <Ore Value="127" Type="Zinc" Start="100" Depth="12"/>
+      <Ore Value="128" Type="Zinc" Start="225" Depth="21"/>
+      <Ore Value="129" Type="Germanite" Start="40" Depth="5"/>
+      <Ore Value="130" Type="Germanite" Start="90" Depth="9"/>
+      <Ore Value="131" Type="Gold_01" Start="50" Depth="1"/>
+      <Ore Value="132" Type="Gold_01" Start="112" Depth="1"/>
+      <Ore Value="134" Type="Gold_01" Start="150" Depth="5"/>
+      <Ore Value="135" Type="Gold_01" Start="337" Depth="9"/>
+      <Ore Value="136" Type="Pitchblend" Start="250" Depth="7"/>
+      <Ore Value="137" Type="Pitchblend" Start="562" Depth="12"/>
+      <Ore Value="138" Type="Pyrochlore" Start="85" Depth="1"/>
+      <Ore Value="139" Type="Pyrochlore" Start="191" Depth="1"/>
+      <Ore Value="141" Type="Silver_01" Start="50" Depth="2"/>
+      <Ore Value="142" Type="Silver_01" Start="112" Depth="3"/>
+      <Ore Value="143" Type="Chaoite" Start="24" Depth="5"/>
+      <Ore Value="144" Type="Chaoite" Start="54" Depth="9"/>
+      <Ore Value="145" Type="Fluorapatite" Start="38" Depth="2"/>
+      <Ore Value="146" Type="Fluorapatite" Start="85" Depth="3"/>
+      <Ore Value="148" Type="Ilmenite" Start="45" Depth="7"/>
+      <Ore Value="149" Type="Ilmenite" Start="101" Depth="12"/>
+      <Ore Value="150" Type="Borcarite" Start="24" Depth="2"/>
+      <Ore Value="151" Type="Borcarite" Start="54" Depth="3"/>
+      <Ore Value="152" Type="Telluropalladinite" Start="54" Depth="3"/>
+      <Ore Value="153" Type="Telluropalladinite" Start="121" Depth="5"/>
+      <Ore Value="155" Type="Nickel_01" Start="60" Depth="6"/>
+      <Ore Value="156" Type="Nickel_01" Start="135" Depth="10"/>
+      <Ore Value="157" Type="Monazite" Start="120" Depth="1"/>
+      <Ore Value="158" Type="Monazite" Start="270" Depth="1"/>
+      <Ore Value="159" Type="Quartz" Start="36" Depth="3"/>
+      <Ore Value="160" Type="Quartz" Start="81" Depth="5"/>
+      <Ore Value="162" Type="Copper" Start="30" Depth="5"/>
+      <Ore Value="163" Type="Copper" Start="67" Depth="9"/>
+      <Ore Value="164" Type="Coffinite" Start="160" Depth="3"/>
+      <Ore Value="165" Type="Coffinite" Start="360" Depth="5"/>
+      <Ore Value="166" Type="Titanite" Start="40" Depth="3"/>
+      <Ore Value="167" Type="Titanite" Start="90" Depth="5"/>
+      <Ore Value="169" Type="Palladseite" Start="90" Depth="3"/>
+      <Ore Value="170" Type="Palladseite" Start="202" Depth="5"/>
+      <Ore Value="171" Type="AlienIce" Start="3" Depth="2"/>
+      <Ore Value="172" Type="AlienIce" Start="6" Depth="3"/>
+      <Ore Value="173" Type="Kentbrooksite" Start="50" Depth="6"/>
+      <Ore Value="174" Type="Kentbrooksite" Start="112" Depth="10"/>
+      <Ore Value="176" Type="Titanium" Start="50" Depth="2"/>
+      <Ore Value="177" Type="Titanium" Start="112" Depth="3"/>
+      <Ore Value="178" Type="Fontarnauite" Start="38" Depth="4"/>
+      <Ore Value="179" Type="Fontarnauite" Start="85" Depth="7"/>
+      <Ore Value="180" Type="Rutheniridosmine" Start="58" Depth="5"/>
+      <Ore Value="181" Type="Rutheniridosmine" Start="130" Depth="9"/>
+      <Ore Value="183" Type="Platinum_01" Start="150" Depth="3"/>
+      <Ore Value="184" Type="Platinum_01" Start="337" Depth="5"/>
+      <Ore Value="185" Type="Nickel_01" Start="20" Depth="2"/>
+      <Ore Value="186" Type="Nickel_01" Start="45" Depth="3"/>
+      <Ore Value="187" Type="Beryl" Start="26" Depth="2"/>
+      <Ore Value="188" Type="Beryl" Start="58" Depth="3"/>
+      <Ore Value="190" Type="Cadmoindite" Start="54" Depth="3"/>
+      <Ore Value="191" Type="Cadmoindite" Start="121" Depth="5"/>
+      <Ore Value="192" Type="CHON" Start="40" Depth="6"/>
+      <Ore Value="193" Type="CHON" Start="90" Depth="10"/>
+      <Ore Value="194" Type="Tin" Start="15" Depth="2"/>
+      <Ore Value="195" Type="Tin" Start="33" Depth="3"/>
+      <Ore Value="197" Type="Magnesium_01" Start="65" Depth="3"/>
+      <Ore Value="198" Type="Magnesium_01" Start="146" Depth="5"/>
+      <Ore Value="199" Type="Titanium" Start="250" Depth="8"/>
+      <Ore Value="200" Type="Titanium" Start="562" Depth="14"/>
+      <Ore Value="201" Type="Chromite" Start="28" Depth="5"/>
+      <Ore Value="202" Type="Chromite" Start="63" Depth="9"/>
+      <Ore Value="204" Type="Chromferide" Start="26" Depth="4"/>
+      <Ore Value="205" Type="Chromferide" Start="58" Depth="7"/>
+      <Ore Value="206" Type="Silicon_01" Start="38" Depth="2"/>
+      <Ore Value="207" Type="Silicon_01" Start="85" Depth="3"/>
+      <Ore Value="208" Type="Platinum_01" Start="50" Depth="1"/>
+      <Ore Value="209" Type="Platinum_01" Start="112" Depth="1"/>
+      <Ore Value="211" Type="Chamosite" Start="35" Depth="5"/>
+      <Ore Value="212" Type="Chamosite" Start="78" Depth="9"/>
+      <Ore Value="213" Type="Wulfenite" Start="37" Depth="4"/>
+      <Ore Value="214" Type="Wulfenite" Start="83" Depth="7"/>
+      <Ore Value="215" Type="Silicon_01" Start="58" Depth="5"/>
+      <Ore Value="216" Type="Silicon_01" Start="130" Depth="9"/>
+      <Ore Value="218" Type="Lead" Start="50" Depth="4"/>
+      <Ore Value="219" Type="Lead" Start="112" Depth="7"/>
+      <Ore Value="220" Type="Arsenolite" Start="28" Depth="3"/>
+      <Ore Value="221" Type="Arsenolite" Start="63" Depth="5"/>
+      <Ore Value="222" Type="Lead" Start="65" Depth="6"/>
+      <Ore Value="223" Type="Lead" Start="146" Depth="10"/>
+      <Ore Value="224" Type="Strontiofluorite" Start="58" Depth="3"/>
+      <Ore Value="225" Type="Strontiofluorite" Start="130" Depth="5"/>
+    </OreMappings>
+
+    <SoundRules>
+      <!-- Day -->
+      <SoundRule>
+        <Height Min="0" Max="1"/>
+        <Latitude Min="0" Max="90"/>
+        <SunAngleFromZenith Min="0" Max="90"/>
+        <EnvironmentSound>AmbTitanMoonDay</EnvironmentSound>
+      </SoundRule>
+
+      <!-- Day -->
+      <SoundRule>
+        <Height Min="0" Max="1"/>
+        <Latitude Min="0" Max="90"/>
+        <SunAngleFromZenith Min="90" Max="180"/>
+        <EnvironmentSound>AmbTitanMoonNight</EnvironmentSound>
+      </SoundRule>
+    </SoundRules>
+
+    <MusicCategories>
+      <MusicCategory Category="Alien" Frequency="0.75" />
+      <MusicCategory Category="Mystery" Frequency="0.15" />
+      <MusicCategory Category="Danger" Frequency="0.1" />
+    </MusicCategories>
+
+    <!-- Titmoon definitions - name shortened for better navigation ;) -->
+    <ComplexMaterials>
+      <MaterialGroup Name="Methane sea" Value="255">
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.6" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.15" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.15" Max="0.18"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="60" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.09" Max="0.12"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="30" Max="50"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="10" Max="70"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MethaneHydrate" Depth="5"/>
+          </Layers>
+          <Height Min="0.061" Max="0.08"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MethaneHydrate" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.06"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+      </MaterialGroup>
+
+      <MaterialGroup Name="Other features" Value="48">
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.6" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.15" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.09" Max="0.12"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="10" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MethaneHydrate" Depth="5"/>
+          </Layers>
+          <Height Min="0.061" Max="0.08"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MethaneHydrate" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.06"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+      </MaterialGroup>
+
+      <MaterialGroup Name="Other features 2" Value="0">
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.6" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="DesertRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.15" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0.09" Max="0.12"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsRocks" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.09"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="10" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MethaneHydrate" Depth="5"/>
+          </Layers>
+          <Height Min="0.061" Max="0.08"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="MethaneHydrate" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="0.06"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+      </MaterialGroup>
+    </ComplexMaterials>
+    <!-- END Titmoon definitions - name shortened for better navigation -->
+
+    <EnvironmentItems>
+      <Item>
+        <Biomes>
+          <Biome>0</Biome>
+        </Biomes>
+        <Materials>
+          <Material>MarsSoil</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>0</Biome>
+        </Biomes>
+        <Materials>
+          <Material>MarsRocks</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+      </Item>
+    </EnvironmentItems>
+
+
+    <DefaultSurfaceMaterial Material="MarsSoil" MaxDepth="5"/>
+    <DefaultSubSurfaceMaterial Material="DesertRocks"/>
+
+    <HasAtmosphere>true</HasAtmosphere>
+    <Atmosphere>
+      <MaxWindSpeed>80</MaxWindSpeed>
+    </Atmosphere>
+
+    <!-- Titan Planet's Atmosphere settings-->
+    <AtmosphereSettings>
+      <RayleighScattering>
+        <X>2.51488018</X>
+        <Y>19.4201069</Y>
+        <Z>100</Z>
+      </RayleighScattering>
+      <MieScattering>147.671082</MieScattering>
+      <MieColorScattering>
+        <X>121.198166</X>
+        <Y>132.931335</Y>
+        <Z>143.040726</Z>
+      </MieColorScattering>
+      <RayleighHeight>9.386989</RayleighHeight>
+      <MieHeight>45.1775055</MieHeight>
+      <MieG>0.999732332</MieG>
+      <Intensity>6.00218773</Intensity>
+      <FogIntensity>1</FogIntensity>
+      <SeaLevelModifier>0.912886143</SeaLevelModifier>
+      <AtmosphereTopModifier>0.9042163</AtmosphereTopModifier>
+    </AtmosphereSettings>
+
+    <CloudLayers>
+      <CloudLayer>
+        <!-- Far layer -->
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.9</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>1</Y>
+          <Z>0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>1.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.89</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>3.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.88</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>5.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSkySolid_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.87</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>5.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+
+      <!-- Near layers -->
+
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.0</RelativeAltitude>
+        <RotationAxis>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0</Z>
+        </RotationAxis>
+        <AngularVelocity>0.000085</AngularVelocity>
+        <InitialRotation>0.15</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>2.0</RelativeAltitude>
+        <RotationAxis>
+          <X>1</X>
+          <Y>0.2</Y>
+          <Z>-0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.000085</AngularVelocity>
+        <InitialRotation>2.5</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/TitanSky_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>3.0</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.000085</AngularVelocity>
+        <InitialRotation>4.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+    </CloudLayers>
+
+    <SurfaceGravity>0.25</SurfaceGravity>
+    <MaterialsMaxDepth Min="4000" Max="4000"/>
+    <MaterialsMinDepth Min="20" Max="20"/>
+
+    <HillParams Min = "-0.03" Max ="0.03"/>
+
+    <AnimalSpawnInfo>
+      <Animals>
+        <Animal Type="SpaceSpiderGreen"/>
+      </Animals>
+    </AnimalSpawnInfo>
+
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
+  </Definition>
+
+</Definitions>

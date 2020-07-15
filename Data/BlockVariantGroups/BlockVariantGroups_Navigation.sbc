@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- EWEFighterCockpitGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEFighterCockpitGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\FighterCockpit.dds</Icon>
+            <DisplayName>Fighter Cockpits</DisplayName>
+            <Description>Fighter Cockpits</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="DBSmallBlockFighterCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockSteelFighterCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockTitaniumFighterCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockNitinolFighterCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockGrapheneFighterCockpit" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWECockpitGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWECockpitGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
+            <DisplayName>Cockpits</DisplayName>
+            <Description>Cockpits</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockSteelCockpitSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockTitaniumCockpitSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockNitinolCockpitSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockGrapheneCockpitSeat" />                
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEIndustrialCockpitGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEIndustrialCockpitGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
+            <DisplayName>Cockpits</DisplayName>
+            <Description>Cockpits</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitIndustrial" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockSteelCockpitIndustrial" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockTitaniumCockpitIndustrial" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockNitinolCockpitIndustrial" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockGrapheneCockpitIndustrial" />
+			</Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEGyroscopeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEGyroscopeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+            <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
+            <Description>Description_Gyroscope</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+				
+                <Block Type="MyObjectBuilder_Gyro" Subtype="Gyroscope.Tier1_Large" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="Gyroscope.Tier2_Large" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="Gyroscope.Tier3_Large" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="Gyroscope.Tier4_Large" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="Gyroscope.Tier5_Large" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEJumpDriveeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEJumpDriveGroup" />
+			<Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+            <DisplayName>Jump Drives</DisplayName>
+            <Description>Short Range Jumping with Fast Recharge</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeBlockAdvancedJumpDrive" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeBlockEliteJumpDrive" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEHyperDriveGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEHyperDriveGroup" />
+			<Icon>Textures\darth_biomech\GUI\hyperDrive.dds</Icon>
+            <DisplayName>Hyper Drives</DisplayName>
+            <Description>Longer Range Jumping with Slow Recharge</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeBlockBasicHyperDrive" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeBlockAdvancedHyperDrive" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeBlockEliteHyperDrive" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEMicroDriveGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEMicroDriveGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <DisplayName>Micro Drives</DisplayName>
+            <Description>Short Range Jumping with Slow Recharge</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="SmallBlockBasicMicroDrive" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="SmallBlockAdvancedMicroDrive" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="SmallBlockEliteMicroDrive" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWESmallThrusterAtmoGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallThrusterAtmoGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
+            <DisplayName>Small Atmospheric Thrusters</DisplayName>
+            <Description>Description_AtmosphericThrust</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockAdvancedSmallAtmosphericThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockEliteSmallAtmosphericThrust" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWELargeThrusterAtmoGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeThrusterAtmoGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
+            <DisplayName>Large Atmospheric Thrusters</DisplayName>
+            <Description>Description_AtmosphericThrust</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockAdvancedLargeAtmosphericThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockEliteLargeAtmosphericThrust" />
+            </Blocks>
+        </BlockVariantGroup>
+
+
+        <BlockVariantGroup> <!-- EWESmallThrusterHydroGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallThrusterHydroGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+            <DisplayName>Small Hydrogen Thrusters</DisplayName>
+            <Description>Description_HydrogenThrust</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockAdvancedSmallHydrogenThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockEliteSmallHydrogenThrust" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWELargeThrusterHydroGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeThrusterHydroGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+            <DisplayName>Large Hydrogen Thrusters</DisplayName>
+            <Description>Description_HydrogenThrust</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockAdvancedLargeHydrogenThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockEliteLargeHydrogenThrust" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup> <!-- EWESmallThrusterIonGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallThrusterIonGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
+            <DisplayName>Small Ion Thrusters</DisplayName>
+            <Description>Description_IonThrust</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockAdvancedSmallThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockEliteSmallThrust" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWELargeThrusterIonGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeThrusterIonGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
+            <DisplayName>Large Ion Thrusters</DisplayName>
+            <Description>Description_IonThrust</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockAdvancedLargeThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockEliteLargeThrust" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

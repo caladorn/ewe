@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="PlanetGeneratorDefinition">
+    <Id>
+      <TypeId>PlanetGeneratorDefinition</TypeId>
+      <SubtypeId>Europa</SubtypeId>
+    </Id>
+    <!--!!!Important!! Read if you want to mod Planets! -->
+    <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
+    <!--Make sure you are not modding a switched off channel-->
+    <PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
+
+    <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
+      <PostprocessingSteps>
+        <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
+          <LodSettings>
+            <Settings FromLod="0">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.02</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="1">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.04</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="2">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.06</EdgeThreshold>
+              <PlaneThreshold>.06</PlaneThreshold>
+            </Settings>
+          </LodSettings>
+        </Step>
+      </PostprocessingSteps>
+    </MesherPostprocessing>
+
+    <SurfaceDetail>
+      <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
+      <Size>384</Size>
+      <Scale>5</Scale>
+      <Slope Min="30" Max="90" />
+      <Transition>10</Transition>
+      <!-- <Transition>7.5</Transition> -->
+    </SurfaceDetail>
+
+    <CustomMaterialTable>
+      <Material Material="Stone_04" Value ="190" MaxDepth ="5"/>
+      <Material Material="Ice" Value ="174" MaxDepth ="5"/>
+      <Material Material="IceEuropa2" Value ="158" MaxDepth ="5"/>
+      <Material Material="Ice_01" Value ="142" MaxDepth ="5"/>
+    </CustomMaterialTable>
+
+    <OreMappings>
+      <Ore Value="1" Type="Ice_01" Start="1" Depth="6"/>
+      <Ore Value="2" Type="Ice_01" Start="2" Depth="10"/>
+      <Ore Value="3" Type="Ice_02" Start="5" Depth="6"/>
+      <Ore Value="4" Type="Ice_02" Start="11" Depth="10"/>
+      <Ore Value="5" Type="Ice_03" Start="10" Depth="6"/>
+      <Ore Value="6" Type="Ice_03" Start="22" Depth="10"/>
+      <Ore Value="8" Type="Hafnon" Start="200" Depth="4"/>
+      <Ore Value="9" Type="Hafnon" Start="450" Depth="7"/>
+      <Ore Value="10" Type="Indite" Start="150" Depth="3"/>
+      <Ore Value="11" Type="Indite" Start="337" Depth="5"/>
+      <Ore Value="12" Type="Cerite" Start="41" Depth="4"/>
+      <Ore Value="13" Type="Cerite" Start="92" Depth="7"/>
+      <Ore Value="15" Type="Orpiment" Start="60" Depth="5"/>
+      <Ore Value="16" Type="Orpiment" Start="135" Depth="9"/>
+      <Ore Value="17" Type="Brine" Start="200" Depth="6"/>
+      <Ore Value="18" Type="Brine" Start="450" Depth="10"/>
+      <Ore Value="19" Type="Halite" Start="28" Depth="2"/>
+      <Ore Value="20" Type="Halite" Start="63" Depth="3"/>
+      <Ore Value="22" Type="Spodumene" Start="28" Depth="5"/>
+      <Ore Value="23" Type="Spodumene" Start="63" Depth="9"/>
+      <Ore Value="24" Type="Realgar" Start="68" Depth="3"/>
+      <Ore Value="25" Type="Realgar" Start="153" Depth="5"/>
+      <Ore Value="26" Type="AmberIce" Start="15" Depth="6"/>
+      <Ore Value="27" Type="AmberIce" Start="33" Depth="10"/>
+      <Ore Value="29" Type="BlueIce" Start="20" Depth="6"/>
+      <Ore Value="30" Type="BlueIce" Start="45" Depth="10"/>
+      <Ore Value="31" Type="Hematite" Start="10" Depth="4"/>
+      <Ore Value="32" Type="Hematite" Start="22" Depth="7"/>
+      <Ore Value="33" Type="GreenIce" Start="25" Depth="6"/>
+      <Ore Value="34" Type="GreenIce" Start="56" Depth="10"/>
+      <Ore Value="36" Type="Columbite" Start="126" Depth="4"/>
+      <Ore Value="37" Type="Columbite" Start="283" Depth="7"/>
+      <Ore Value="38" Type="Rhodochrosite" Start="42" Depth="4"/>
+      <Ore Value="39" Type="Rhodochrosite" Start="94" Depth="7"/>
+      <Ore Value="40" Type="Lepidolite" Start="72" Depth="4"/>
+      <Ore Value="41" Type="Lepidolite" Start="162" Depth="7"/>
+      <Ore Value="43" Type="Ferchromide" Start="90" Depth="2"/>
+      <Ore Value="44" Type="Ferchromide" Start="202" Depth="3"/>
+      <Ore Value="45" Type="Cobaltite" Start="82" Depth="5"/>
+      <Ore Value="46" Type="Cobaltite" Start="184" Depth="9"/>
+      <Ore Value="47" Type="Zircon" Start="450" Depth="2"/>
+      <Ore Value="48" Type="Zircon" Start="1012" Depth="3"/>
+      <Ore Value="50" Type="PinkIce" Start="30" Depth="6"/>
+      <Ore Value="51" Type="PinkIce" Start="67" Depth="10"/>
+      <Ore Value="52" Type="Sulfur" Start="16" Depth="6"/>
+      <Ore Value="53" Type="Sulfur" Start="36" Depth="10"/>
+      <Ore Value="54" Type="PurpleIce" Start="35" Depth="6"/>
+      <Ore Value="55" Type="PurpleIce" Start="78" Depth="10"/>
+      <Ore Value="57" Type="Calaverite" Start="153" Depth="4"/>
+      <Ore Value="58" Type="Calaverite" Start="344" Depth="7"/>
+      <Ore Value="59" Type="Coal" Start="40" Depth="4"/>
+      <Ore Value="60" Type="Coal" Start="90" Depth="7"/>
+      <Ore Value="61" Type="MineralIce" Start="40" Depth="6"/>
+      <Ore Value="62" Type="MineralIce" Start="90" Depth="10"/>
+      <Ore Value="64" Type="Huttonite" Start="185" Depth="4"/>
+      <Ore Value="65" Type="Huttonite" Start="416" Depth="7"/>
+      <Ore Value="66" Type="Sphalerite" Start="61" Depth="5"/>
+      <Ore Value="67" Type="Sphalerite" Start="137" Depth="9"/>
+      <Ore Value="68" Type="Brine" Start="45" Depth="6"/>
+      <Ore Value="69" Type="Brine" Start="101" Depth="10"/>
+      <Ore Value="71" Type="Cassiterite" Start="86" Depth="2"/>
+      <Ore Value="72" Type="Cassiterite" Start="193" Depth="3"/>
+      <Ore Value="73" Type="MineralIce" Start="50" Depth="6"/>
+      <Ore Value="74" Type="MineralIce" Start="112" Depth="10"/>
+      <Ore Value="75" Type="Thorite" Start="41" Depth="3"/>
+      <Ore Value="76" Type="Thorite" Start="92" Depth="5"/>
+      <Ore Value="78" Type="Sylvite" Start="38" Depth="2"/>
+      <Ore Value="79" Type="Sylvite" Start="85" Depth="3"/>
+      <Ore Value="80" Type="AmmoniumHydroxide" Start="55" Depth="6"/>
+      <Ore Value="81" Type="AmmoniumHydroxide" Start="123" Depth="10"/>
+      <Ore Value="82" Type="CHON" Start="60" Depth="6"/>
+      <Ore Value="83" Type="CHON" Start="135" Depth="10"/>
+      <Ore Value="85" Type="MethaneHydrate" Start="65" Depth="6"/>
+      <Ore Value="86" Type="MethaneHydrate" Start="146" Depth="10"/>
+      <Ore Value="87" Type="Chalcopyrite" Start="65" Depth="1"/>
+      <Ore Value="88" Type="Chalcopyrite" Start="146" Depth="1"/>
+      <Ore Value="89" Type="Pyrite" Start="50" Depth="2"/>
+      <Ore Value="90" Type="Pyrite" Start="112" Depth="3"/>
+      <Ore Value="92" Type="Ice_01" Start="70" Depth="6"/>
+      <Ore Value="93" Type="Ice_01" Start="157" Depth="10"/>
+      <Ore Value="94" Type="Ice_02" Start="75" Depth="6"/>
+      <Ore Value="95" Type="Ice_02" Start="168" Depth="10"/>
+      <Ore Value="96" Type="Ice_03" Start="80" Depth="6"/>
+      <Ore Value="97" Type="Ice_03" Start="180" Depth="10"/>
+      <Ore Value="99" Type="Cadmoselite" Start="91" Depth="4"/>
+      <Ore Value="100" Type="Cadmoselite" Start="204" Depth="7"/>
+      <Ore Value="101" Type="AmberIce" Start="85" Depth="6"/>
+      <Ore Value="102" Type="AmberIce" Start="191" Depth="10"/>
+      <Ore Value="103" Type="Bismutotantalite" Start="152" Depth="4"/>
+      <Ore Value="104" Type="Bismutotantalite" Start="342" Depth="7"/>
+      <Ore Value="106" Type="Graphite" Start="13" Depth="6"/>
+      <Ore Value="107" Type="Graphite" Start="29" Depth="10"/>
+      <Ore Value="108" Type="BlueIce" Start="90" Depth="6"/>
+      <Ore Value="109" Type="BlueIce" Start="202" Depth="10"/>
+      <Ore Value="110" Type="Uraninite_01" Start="400" Depth="6"/>
+      <Ore Value="111" Type="Uraninite_01" Start="900" Depth="10"/>
+      <Ore Value="113" Type="Stibiotantalite" Start="131" Depth="4"/>
+      <Ore Value="114" Type="Stibiotantalite" Start="294" Depth="7"/>
+      <Ore Value="115" Type="Ruthenarsenite" Start="45" Depth="3"/>
+      <Ore Value="116" Type="Ruthenarsenite" Start="101" Depth="5"/>
+      <Ore Value="117" Type="GreenIce" Start="95" Depth="6"/>
+      <Ore Value="118" Type="GreenIce" Start="213" Depth="10"/>
+      <Ore Value="120" Type="PinkIce" Start="100" Depth="6"/>
+      <Ore Value="121" Type="PinkIce" Start="225" Depth="10"/>
+      <Ore Value="122" Type="Cinnabar" Start="13" Depth="6"/>
+      <Ore Value="123" Type="Cinnabar" Start="29" Depth="10"/>
+      <Ore Value="124" Type="Boracite" Start="78" Depth="4"/>
+      <Ore Value="125" Type="Boracite" Start="175" Depth="7"/>
+      <Ore Value="127" Type="PurpleIce" Start="105" Depth="6"/>
+      <Ore Value="128" Type="PurpleIce" Start="236" Depth="10"/>
+      <Ore Value="129" Type="Germanite" Start="38" Depth="4"/>
+      <Ore Value="130" Type="Germanite" Start="85" Depth="7"/>
+      <Ore Value="131" Type="Brine" Start="110" Depth="6"/>
+      <Ore Value="132" Type="Brine" Start="247" Depth="10"/>
+      <Ore Value="134" Type="Brine" Start="115" Depth="6"/>
+      <Ore Value="135" Type="Brine" Start="258" Depth="10"/>
+      <Ore Value="136" Type="Pitchblend" Start="395" Depth="5"/>
+      <Ore Value="137" Type="Pitchblend" Start="888" Depth="9"/>
+      <Ore Value="138" Type="Pyrochlore" Start="460" Depth="3"/>
+      <Ore Value="139" Type="Pyrochlore" Start="1035" Depth="5"/>
+      <Ore Value="141" Type="MineralIce" Start="120" Depth="6"/>
+      <Ore Value="142" Type="MineralIce" Start="270" Depth="10"/>
+      <Ore Value="143" Type="Chaoite" Start="26" Depth="2"/>
+      <Ore Value="144" Type="Chaoite" Start="58" Depth="3"/>
+      <Ore Value="145" Type="Fluorapatite" Start="125" Depth="3"/>
+      <Ore Value="146" Type="Fluorapatite" Start="281" Depth="5"/>
+      <Ore Value="148" Type="Ilmenite" Start="80" Depth="3"/>
+      <Ore Value="149" Type="Ilmenite" Start="180" Depth="5"/>
+      <Ore Value="150" Type="Borcarite" Start="96" Depth="4"/>
+      <Ore Value="151" Type="Borcarite" Start="216" Depth="7"/>
+      <Ore Value="152" Type="Telluropalladinite" Start="161" Depth="4"/>
+      <Ore Value="153" Type="Telluropalladinite" Start="362" Depth="7"/>
+      <Ore Value="155" Type="AmmoniumHydroxide" Start="125" Depth="6"/>
+      <Ore Value="156" Type="AmmoniumHydroxide" Start="281" Depth="10"/>
+      <Ore Value="157" Type="Monazite" Start="425" Depth="3"/>
+      <Ore Value="158" Type="Monazite" Start="956" Depth="5"/>
+      <Ore Value="159" Type="Quartz" Start="45" Depth="4"/>
+      <Ore Value="160" Type="Quartz" Start="101" Depth="7"/>
+      <Ore Value="162" Type="CHON" Start="130" Depth="6"/>
+      <Ore Value="163" Type="CHON" Start="292" Depth="10"/>
+      <Ore Value="164" Type="Coffinite" Start="160" Depth="4"/>
+      <Ore Value="165" Type="Coffinite" Start="360" Depth="7"/>
+      <Ore Value="166" Type="Titanite" Start="50" Depth="4"/>
+      <Ore Value="167" Type="Titanite" Start="112" Depth="7"/>
+      <Ore Value="169" Type="Palladseite" Start="197" Depth="4"/>
+      <Ore Value="170" Type="Palladseite" Start="443" Depth="7"/>
+      <Ore Value="171" Type="MethaneHydrate" Start="135" Depth="6"/>
+      <Ore Value="172" Type="MethaneHydrate" Start="303" Depth="10"/>
+      <Ore Value="173" Type="Kentbrooksite" Start="68" Depth="6"/>
+      <Ore Value="174" Type="Kentbrooksite" Start="153" Depth="10"/>
+      <Ore Value="176" Type="Ice_01" Start="1" Depth="6"/>
+      <Ore Value="177" Type="Ice_01" Start="2" Depth="10"/>
+      <Ore Value="178" Type="Fontarnauite" Start="82" Depth="4"/>
+      <Ore Value="179" Type="Fontarnauite" Start="184" Depth="7"/>
+      <Ore Value="180" Type="Rutheniridosmine" Start="32" Depth="4"/>
+      <Ore Value="181" Type="Rutheniridosmine" Start="72" Depth="7"/>
+      <Ore Value="183" Type="Ice_02" Start="5" Depth="6"/>
+      <Ore Value="184" Type="Ice_02" Start="11" Depth="10"/>
+      <Ore Value="185" Type="Ice_03" Start="10" Depth="6"/>
+      <Ore Value="186" Type="Ice_03" Start="22" Depth="10"/>
+      <Ore Value="187" Type="Beryl" Start="32" Depth="4"/>
+      <Ore Value="188" Type="Beryl" Start="72" Depth="7"/>
+      <Ore Value="190" Type="Cadmoindite" Start="94" Depth="4"/>
+      <Ore Value="191" Type="Cadmoindite" Start="211" Depth="7"/>
+      <Ore Value="192" Type="AmberIce" Start="15" Depth="6"/>
+      <Ore Value="193" Type="AmberIce" Start="33" Depth="10"/>
+      <Ore Value="194" Type="BlueIce" Start="20" Depth="6"/>
+      <Ore Value="195" Type="BlueIce" Start="45" Depth="10"/>
+      <Ore Value="197" Type="GreenIce" Start="25" Depth="6"/>
+      <Ore Value="198" Type="GreenIce" Start="56" Depth="10"/>
+      <Ore Value="199" Type="PinkIce" Start="30" Depth="6"/>
+      <Ore Value="200" Type="PinkIce" Start="67" Depth="10"/>
+      <Ore Value="201" Type="Chromite" Start="32" Depth="3"/>
+      <Ore Value="202" Type="Chromite" Start="72" Depth="5"/>
+      <Ore Value="204" Type="Chromferide" Start="35" Depth="3"/>
+      <Ore Value="205" Type="Chromferide" Start="78" Depth="5"/>
+      <Ore Value="206" Type="PurpleIce" Start="35" Depth="6"/>
+      <Ore Value="207" Type="PurpleIce" Start="78" Depth="10"/>
+      <Ore Value="208" Type="PurpleIce" Start="40" Depth="6"/>
+      <Ore Value="209" Type="PurpleIce" Start="90" Depth="10"/>
+      <Ore Value="211" Type="Chamosite" Start="37" Depth="5"/>
+      <Ore Value="212" Type="Chamosite" Start="83" Depth="9"/>
+      <Ore Value="213" Type="Wulfenite" Start="28" Depth="3"/>
+      <Ore Value="214" Type="Wulfenite" Start="63" Depth="5"/>
+      <Ore Value="215" Type="Brine" Start="45" Depth="6"/>
+      <Ore Value="216" Type="Brine" Start="101" Depth="10"/>
+      <Ore Value="218" Type="MineralIce" Start="50" Depth="6"/>
+      <Ore Value="219" Type="MineralIce" Start="112" Depth="10"/>
+      <Ore Value="220" Type="Arsenolite" Start="45" Depth="3"/>
+      <Ore Value="221" Type="Arsenolite" Start="101" Depth="5"/>
+      <Ore Value="222" Type="AmmoniumHydroxide" Start="55" Depth="6"/>
+      <Ore Value="223" Type="AmmoniumHydroxide" Start="123" Depth="10"/>
+      <Ore Value="225" Type="Strontiofluorite" Start="98" Depth="4"/>
+      <Ore Value="226" Type="Strontiofluorite" Start="220" Depth="7"/>
+      <Ore Value="227" Type="CHON" Start="60" Depth="6"/>
+      <Ore Value="228" Type="CHON" Start="135" Depth="10"/>
+      <Ore Value="229" Type="MethaneHydrate" Start="65" Depth="6"/>
+      <Ore Value="230" Type="MethaneHydrate" Start="146" Depth="10"/>
+    </OreMappings>
+
+    <SoundRules>
+      <!-- Day -->
+      <SoundRule>
+        <Height Min="0" Max="0.75"/>
+        <Latitude Min="0" Max="90"/>
+        <SunAngleFromZenith Min="0" Max="90"/>
+        <EnvironmentSound>AmbEuropaMoonDay</EnvironmentSound>
+      </SoundRule>
+
+      <!-- Night -->
+      <SoundRule>
+        <Height Min="0" Max="0.75"/>
+        <Latitude Min="0" Max="90"/>
+        <SunAngleFromZenith Min="90" Max="180"/>
+        <EnvironmentSound>AmbEuropaMoonNight</EnvironmentSound>
+      </SoundRule>
+    </SoundRules>
+
+    <MusicCategories>
+      <MusicCategory Category="Planet" Frequency="0.90" />
+      <MusicCategory Category="Mystery" Frequency="0.1" />
+    </MusicCategories>
+
+    <!-- Eumoon definitions - name shortened for better navigation -->
+    <ComplexMaterials>
+
+      <MaterialGroup Name="Iron Valleys" Value="48">
+
+        <Rule>
+          <Layers>
+            <Layer Material="IceEuropa2" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="0.5"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Ice" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="3"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+      </MaterialGroup>
+
+      <MaterialGroup Name="General Ice" Value="127">
+
+        <Rule>
+          <Layers>
+            <Layer Material="IceEuropa2" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="IceEuropa2" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="3"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+
+      </MaterialGroup>
+
+      <MaterialGroup Name="Top ice" Value="255">
+
+        <Rule>
+          <Layers>
+            <Layer Material="IceEuropa2" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="30" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="IceEuropa2" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+
+      </MaterialGroup>
+
+      <MaterialGroup Name="Top ice 2" Value="0">
+
+        <Rule>
+          <Layers>
+            <Layer Material="Ice_03" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="90"/>
+        </Rule>
+
+      </MaterialGroup>
+    </ComplexMaterials>
+    <!-- END Eumoon definitions - name shortened for better navigation -->
+
+    <EnvironmentItems>
+      <Item>
+        <Biomes>
+          <Biome>0</Biome>
+        </Biomes>
+        <Materials>
+          <Material>Ice</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003" />
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>0</Biome>
+        </Biomes>
+        <Materials>
+          <Material>Ice_02</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003" />
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+      </Item>
+    </EnvironmentItems>
+
+    <DefaultSurfaceMaterial Material="Ice" MaxDepth="5"/>
+    <DefaultSubSurfaceMaterial Material="Ice_03"/>
+
+    <HasAtmosphere>true</HasAtmosphere>
+    <Atmosphere>
+      <MaxWindSpeed>80</MaxWindSpeed>
+    </Atmosphere>
+
+    <AtmosphereSettings>
+      <RayleighScattering>
+        <X>17.1</X>
+        <Y>24.3</Y>
+        <Z>47</Z>
+      </RayleighScattering>
+      <MieScattering>147.671082</MieScattering>
+      <MieColorScattering>
+        <X>121</X>
+        <Y>132</Y>
+        <Z>143</Z>
+      </MieColorScattering>
+      <RayleighHeight>10</RayleighHeight>
+      <MieHeight>41</MieHeight>
+      <MieG>0.999832332</MieG>
+      <Intensity>4.1</Intensity>
+      <FogIntensity>1</FogIntensity>
+      <SeaLevelModifier>0.933</SeaLevelModifier>
+      <AtmosphereTopModifier>0.9</AtmosphereTopModifier>
+    </AtmosphereSettings>
+
+    <SurfaceGravity>0.25</SurfaceGravity>
+    <MaterialsMaxDepth Min="4000" Max="4000"/>
+    <MaterialsMinDepth Min="20" Max="20"/>
+
+    <HillParams Min = "-0.03" Max ="0.06"/>
+
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
+  </Definition>
+
+</Definitions>

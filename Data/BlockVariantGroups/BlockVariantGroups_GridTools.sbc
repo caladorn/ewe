@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- EWEShipDrillGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEShipDrillGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+            <DisplayName>Ship Drills</DisplayName>
+            <Description>Ship Drills</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockAdvancedDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockEliteDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockArmoredDrill" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEShipGrinderGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEShipGrinderGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+            <DisplayName>Ship Grinders</DisplayName>
+            <Description>Ship Grinders</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeAdvancedShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeEliteShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeArmoredShipGrinder" />
+            </Blocks>
+        </BlockVariantGroup>		
+        <BlockVariantGroup> <!-- EWEShipWelderGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEShipWelderGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+            <DisplayName>Ship Welders</DisplayName>
+            <Description>Ship Welders</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeAdvancedShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeEliteShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeArmoredShipWelder" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup> <!-- EWEOreDetectorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEOreDetectorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
+            <DisplayName>Ore Detectors</DisplayName>
+            <Description>Ore Detectors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockAdvancedOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockEliteOreDetector" />
+            </Blocks>
+        </BlockVariantGroup>
+ 
+        <BlockVariantGroup> <!-- EWEInteriorDoorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEInteriorDoorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
+            <DisplayName>Interior Doors</DisplayName>
+            <Description>Interior Doors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Door" Subtype="" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockSteelInteriorDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockTitaniumInteriorDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockNitinolInteriorDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGrapheneInteriorDoor" />
+            </Blocks>
+        </BlockVariantGroup>
+		<BlockVariantGroup> <!-- EWESlidingDoorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESlidingDoorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\SlideDoor.dds</Icon>
+            <DisplayName>Sliding Doors</DisplayName>
+            <Description>Sliding Doors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
+                <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSteelSlideDoor" />
+                <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockTitaniumSlideDoor" />
+                <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockNitinolSlideDoor" />
+                <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockGrapheneSlideDoor" />
+            </Blocks>
+        </BlockVariantGroup>
+
+		<BlockVariantGroup> <!-- EWEAirtightHangarDoorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEAirtightHangarDoorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+            <DisplayName>Hangar Doors</DisplayName>
+            <Description>Hangar Doors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="LargeBlockSteelHangarDoor" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="LargeBlockTitaniumHangarDoor" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="LargeBlockNitinolHangarDoor" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="LargeBlockGrapheneHangarDoor" />
+            </Blocks>
+        </BlockVariantGroup>
+
+		<BlockVariantGroup> <!-- EWERotoryDoorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWERotoryDoorGroup" />
+            <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+            <DisplayName>Rotory Airlock Doors</DisplayName>
+            <Description>Rotory Airlock Doors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlock" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="SteelRotaryAirlock" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TitaniumRotaryAirlock" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="NitinolRotaryAirlock" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="GrapheneRotaryAirlock" />
+            </Blocks>
+        </BlockVariantGroup>
+		<BlockVariantGroup> <!-- EWECornerRotoryDoorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWECornerRotoryDoorGroup" />
+            <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+            <DisplayName>Corner Rotory Airlock Doors</DisplayName>
+            <Description>Corner Rotory Airlock Doors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlockCorner" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="SteelRotaryAirlockCorner" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TitaniumRotaryAirlockCorner" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="NitinolRotaryAirlockCorner" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="GrapheneRotaryAirlockCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

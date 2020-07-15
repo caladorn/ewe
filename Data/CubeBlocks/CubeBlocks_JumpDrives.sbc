@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>    
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeJumpDrive</SubtypeId>
+      </Id>
+      <DisplayName>Basic Jump Drive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Description>Basic Jump Drive</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="160" />
+        <Component Subtype="BrassRod" Count="90" />
+        <Component Subtype="Insulation" Count="320" />
+        <Component Subtype="TargetingMainframe" Count="1" />
+        <Component Subtype="FluxCapacitor" Count="50" />
+        <Component Subtype="FluxCoil" Count="25" />
+        <Component Subtype="ParticleAccelerator" Count="2" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="60" />
+        <Component Subtype="CoolingUnit" Count="5" />
+        <Component Subtype="BrazingRod" Count="640" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicJumpDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>35</RequiredPowerInput>
+      <PowerNeededForJump>3</PowerNeededForJump>
+
+      <MaxJumpDistance>2000000</MaxJumpDistance>
+      <MaxJumpMass>1250000</MaxJumpMass>
+      <JumpDelay>10.0</JumpDelay>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeBlockAdvancedJumpDrive</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Jump Drive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Description>Advanced Jump Drive</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="320" />
+        <Component Subtype="BrassRod" Count="180" />
+        <Component Subtype="Insulation" Count="640" />
+        <Component Subtype="TargetingMainframe" Count="2" />
+        <Component Subtype="FluxCapacitor" Count="100" />
+        <Component Subtype="FluxCoil" Count="50" />
+        <Component Subtype="ParticleAccelerator" Count="4" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="120" />
+        <Component Subtype="CoolingUnit" Count="10" />
+        <Component Subtype="BrazingRod" Count="1280" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AdvancedJumpDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BlockVariants />
+      <BuildTimeSeconds>240</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>75</RequiredPowerInput>
+      <PowerNeededForJump>5.25</PowerNeededForJump>
+
+      <MaxJumpDistance>3000000</MaxJumpDistance>
+      <MaxJumpMass>2187500</MaxJumpMass>
+      <JumpDelay>10.0</JumpDelay>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeBlockEliteJumpDrive</SubtypeId>
+      </Id>
+      <DisplayName>Elite Jump Drive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Description>Elite Jump Drive</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="640" />
+        <Component Subtype="BrassRod" Count="360" />
+        <Component Subtype="Insulation" Count="1280" />
+        <Component Subtype="TargetingMainframe" Count="4" />
+        <Component Subtype="FluxCapacitor" Count="200" />
+        <Component Subtype="FluxCoil" Count="100" />
+        <Component Subtype="ParticleAccelerator" Count="8" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Superconductor" Count="240" />
+        <Component Subtype="CoolingUnit" Count="20" />
+        <Component Subtype="BrazingRod" Count="2560" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>EliteJumpDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BlockVariants />
+      <BuildTimeSeconds>480</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>140</RequiredPowerInput>
+      <PowerNeededForJump>9.1875</PowerNeededForJump>
+
+      <MaxJumpDistance>4500000</MaxJumpDistance>
+      <MaxJumpMass>3828125</MaxJumpMass>
+      <JumpDelay>10.0</JumpDelay>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>      
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeBlockBasicHyperDrive</SubtypeId>
+      </Id>
+      <DisplayName>Basic Hyper Drive</DisplayName>
+      <Icon>Textures\darth_biomech\GUI\hyperDrive.dds</Icon>
+      <Description>Basic Hyper Drive</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\darth_biomech\Hyperdrive.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="256" />
+        <Component Subtype="BrassRod" Count="144" />
+        <Component Subtype="Insulation" Count="512" />
+        <Component Subtype="TargetingMainframe" Count="1" />
+        <Component Subtype="FluxCapacitor" Count="80" />
+        <Component Subtype="FluxCoil" Count="40" />
+        <Component Subtype="ParticleAccelerator" Count="4" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="96" />
+        <Component Subtype="CoolingUnit" Count="8" />
+        <Component Subtype="BrazingRod" Count="1024" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0.6" StartY="0.6" EndX="4.4" EndY="4.4" />
+        <MountPoint Side="Top" StartX="0" StartY="2.1" EndX="0.6" EndY="2.9" />
+        <MountPoint Side="Top" StartX="4.4" StartY="2.1" EndX="5" EndY="2.9" />
+        <MountPoint Side="Top" StartX="2.1" StartY="4.4" EndX="2.9" EndY="5" />
+        <MountPoint Side="Top" StartY="0" StartX="2.1" EndY="0.6" EndX="2.9" />
+        <MountPoint Side="Back" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Left" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Front" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Right" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0.6" StartY="0.6" EndX="4.4" EndY="4.4" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2.1" EndX="0.6" EndY="2.9" />
+        <MountPoint Side="Bottom" StartX="4.4" StartY="2.1" EndX="5" EndY="2.9" />
+        <MountPoint Side="Bottom" StartX="2.1" StartY="4.4" EndX="2.9" EndY="5" />
+        <MountPoint Side="Bottom" StartY="0" StartX="2.1" EndY="0.6" EndX="2.9" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models\darth_biomech\Hyperdrive_progress_01.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\darth_biomech\Hyperdrive_progress_02.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>BasicHyperDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>192</BuildTimeSeconds>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <RequiredPowerInput>50</RequiredPowerInput>
+      <PowerNeededForJump>5</PowerNeededForJump>
+      <MaxJumpDistance>3500000</MaxJumpDistance>
+      <MaxJumpMass>2000000</MaxJumpMass>
+      <JumpDelay>10.0</JumpDelay>
+	  
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeBlockAdvancedHyperDrive</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Hyper Drive</DisplayName>
+      <Icon>Textures\darth_biomech\GUI\hyperDrive.dds</Icon>
+      <Description>Advanced Hyper Drive</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\darth_biomech\Hyperdrive.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="512" />
+        <Component Subtype="BrassRod" Count="288" />
+        <Component Subtype="Insulation" Count="1024" />
+        <Component Subtype="TargetingMainframe" Count="2" />
+        <Component Subtype="FluxCapacitor" Count="160" />
+        <Component Subtype="FluxCoil" Count="80" />
+        <Component Subtype="ParticleAccelerator" Count="8" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="192" />
+        <Component Subtype="CoolingUnit" Count="16" />
+        <Component Subtype="BrazingRod" Count="2048" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0.6" StartY="0.6" EndX="4.4" EndY="4.4" />
+        <MountPoint Side="Top" StartX="0" StartY="2.1" EndX="0.6" EndY="2.9" />
+        <MountPoint Side="Top" StartX="4.4" StartY="2.1" EndX="5" EndY="2.9" />
+        <MountPoint Side="Top" StartX="2.1" StartY="4.4" EndX="2.9" EndY="5" />
+        <MountPoint Side="Top" StartY="0" StartX="2.1" EndY="0.6" EndX="2.9" />
+        <MountPoint Side="Back" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Left" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Front" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Right" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0.6" StartY="0.6" EndX="4.4" EndY="4.4" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2.1" EndX="0.6" EndY="2.9" />
+        <MountPoint Side="Bottom" StartX="4.4" StartY="2.1" EndX="5" EndY="2.9" />
+        <MountPoint Side="Bottom" StartX="2.1" StartY="4.4" EndX="2.9" EndY="5" />
+        <MountPoint Side="Bottom" StartY="0" StartX="2.1" EndY="0.6" EndX="2.9" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models\darth_biomech\Hyperdrive_progress_01.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\darth_biomech\Hyperdrive_progress_02.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>AdvancedHyperDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BlockVariants />
+      <BuildTimeSeconds>384</BuildTimeSeconds>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <RequiredPowerInput>62.5</RequiredPowerInput>
+      <PowerNeededForJump>8.75</PowerNeededForJump>
+      <MaxJumpDistance>7000000</MaxJumpDistance>
+      <MaxJumpMass>3500000</MaxJumpMass>
+      <JumpDelay>10.0</JumpDelay>
+	  
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeBlockEliteHyperDrive</SubtypeId>
+      </Id>
+      <DisplayName>Elite Hyper Drive</DisplayName>
+      <Icon>Textures\darth_biomech\GUI\hyperDrive.dds</Icon>
+      <Description>Elite Hyper Drive</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\darth_biomech\Hyperdrive.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="1024" />
+        <Component Subtype="BrassRod" Count="576" />
+        <Component Subtype="Insulation" Count="2048" />
+        <Component Subtype="TargetingMainframe" Count="4" />
+        <Component Subtype="FluxCapacitor" Count="320" />
+        <Component Subtype="FluxCoil" Count="160" />
+        <Component Subtype="ParticleAccelerator" Count="16" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="384" />
+        <Component Subtype="CoolingUnit" Count="32" />
+        <Component Subtype="BrazingRod" Count="4096" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0.6" StartY="0.6" EndX="4.4" EndY="4.4" />
+        <MountPoint Side="Top" StartX="0" StartY="2.1" EndX="0.6" EndY="2.9" />
+        <MountPoint Side="Top" StartX="4.4" StartY="2.1" EndX="5" EndY="2.9" />
+        <MountPoint Side="Top" StartX="2.1" StartY="4.4" EndX="2.9" EndY="5" />
+        <MountPoint Side="Top" StartY="0" StartX="2.1" EndY="0.6" EndX="2.9" />
+        <MountPoint Side="Back" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Left" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Front" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Right" StartX="2.1" StartY="0" EndX="2.9" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0.6" StartY="0.6" EndX="4.4" EndY="4.4" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2.1" EndX="0.6" EndY="2.9" />
+        <MountPoint Side="Bottom" StartX="4.4" StartY="2.1" EndX="5" EndY="2.9" />
+        <MountPoint Side="Bottom" StartX="2.1" StartY="4.4" EndX="2.9" EndY="5" />
+        <MountPoint Side="Bottom" StartY="0" StartX="2.1" EndY="0.6" EndX="2.9" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models\darth_biomech\Hyperdrive_progress_01.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\darth_biomech\Hyperdrive_progress_02.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>EliteHyperDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BlockVariants />
+      <BuildTimeSeconds>768</BuildTimeSeconds>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <RequiredPowerInput>78.125</RequiredPowerInput>
+      <PowerNeededForJump>15.3125</PowerNeededForJump>
+      <MaxJumpDistance>14000000</MaxJumpDistance>
+      <MaxJumpMass>6125000</MaxJumpMass>
+      <JumpDelay>10.0</JumpDelay>
+	  
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>SmallBlockBasicMicroDrive</SubtypeId>
+      </Id>
+      <DisplayName>Basic Micro Drive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Description>Basic Micro Drive</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="32" />
+        <Component Subtype="BrassRod" Count="18" />
+        <Component Subtype="Insulation" Count="64" />
+        <Component Subtype="TargetingMainframe" Count="1" />
+        <Component Subtype="FluxCapacitor" Count="10" />
+        <Component Subtype="FluxCoil" Count="5" />
+        <Component Subtype="ParticleAccelerator" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="12" />
+        <Component Subtype="CoolingUnit" Count="1" />
+        <Component Subtype="BrazingRod" Count="128" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicMicroDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>SmallBlockAdvancedMicroDrive</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>SmallBlockEliteMicroDrive</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <BuildTimeSeconds>78</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>35</RequiredPowerInput>
+      <PowerNeededForJump>3</PowerNeededForJump>
+
+      <MaxJumpDistance>25000</MaxJumpDistance>
+      <MaxJumpMass>250000</MaxJumpMass>
+      <JumpDelay>10.0</JumpDelay>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>         
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>SmallBlockAdvancedMicroDrive</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Micro Drive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Description>Advanced Micro Drive</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="64" />
+        <Component Subtype="BrassRod" Count="36" />
+        <Component Subtype="Insulation" Count="128" />
+        <Component Subtype="TargetingMainframe" Count="2" />
+        <Component Subtype="FluxCapacitor" Count="20" />
+        <Component Subtype="FluxCoil" Count="10" />
+        <Component Subtype="ParticleAccelerator" Count="2" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="24" />
+        <Component Subtype="CoolingUnit" Count="2" />
+        <Component Subtype="BrazingRod" Count="256" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AdvancedMicroDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BlockVariants />
+      <BuildTimeSeconds>156</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>40.25</RequiredPowerInput>
+      <PowerNeededForJump>6</PowerNeededForJump>
+
+      <MaxJumpDistance>50000</MaxJumpDistance>
+      <MaxJumpMass>437500</MaxJumpMass>
+      <JumpDelay>10.0</JumpDelay>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>         
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>SmallBlockEliteMicroDrive</SubtypeId>
+      </Id>
+      <DisplayName>Elite Micro Drive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Description>Elite Micro Drive</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="128" />
+        <Component Subtype="BrassRod" Count="72" />
+        <Component Subtype="Insulation" Count="256" />
+        <Component Subtype="TargetingMainframe" Count="4" />
+        <Component Subtype="FluxCapacitor" Count="40" />
+        <Component Subtype="FluxCoil" Count="20" />
+        <Component Subtype="ParticleAccelerator" Count="4" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="48" />
+        <Component Subtype="CoolingUnit" Count="4" />
+        <Component Subtype="BrazingRod" Count="512" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>EliteMicroDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BlockVariants />
+      <BuildTimeSeconds>312</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>46.2875</RequiredPowerInput>
+      <PowerNeededForJump>12</PowerNeededForJump>
+
+      <MaxJumpDistance>100000</MaxJumpDistance>
+      <MaxJumpMass>765625</MaxJumpMass>
+      <JumpDelay>10.0</JumpDelay>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>         
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

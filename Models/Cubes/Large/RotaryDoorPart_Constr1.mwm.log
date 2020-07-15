@@ -1,0 +1,17 @@
+Running from: C:\Users\Bryon\AppData\Local\Temp\tmpmbickku0 
+Command: D:\models\Mwmbuilder\MwmBuilder.exe /s:Sources /m:RotaryDoorPart_Constr1.fbx /o:.\ 
+INFO: 
+C:\KeenSWH\Sandbox\MediaBuild\MEContent\Materials\Materials.xml
+Materialslib
+
+INFO: 
+C:\KeenSWH\Sandbox\MediaBuild\MEContent\Materials\Materials_SElist.xml
+Materialslib
+
+INFO: 
+Material libraries were loaded from path: C:\KeenSWH\Sandbox\MediaBuild\MEContent\Materials !
+
+PROCESSED: 
+C:\Users\Bryon\AppData\Local\Temp\tmpmbickku0\Sources\RotaryDoorPart_Constr1.fbx
+: Finished in 0.4s
+

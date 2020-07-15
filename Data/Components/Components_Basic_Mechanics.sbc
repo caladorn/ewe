@@ -1,0 +1,677 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+    <Component> <!-- SteelSpring -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SteelSpring</SubtypeId>
+      </Id>
+      <DisplayName>Steel Spring</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\SteelSpring_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.75</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>20</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>35</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- NitinolSpring -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>NitinolSpring</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Spring</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\NitinolSpring_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.6</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>35</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>50</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- BallBearing -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>BallBearing</SubtypeId>
+      </Id>
+      <DisplayName>Ball Bearing</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\BallBearing_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>61</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- AluminumFanBlade -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AluminumFanBlade</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Fan Blade</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\AluminumFanBlade_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>3</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>5</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- MechanicalCable -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MechanicalCable</SubtypeId>
+      </Id>
+      <DisplayName>Mechanical Control Cable</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\MechanicalCable_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\superconductor_conducts_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>2</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>3</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- SteelPulley -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SteelPulley</SubtypeId>
+      </Id>
+      <DisplayName>Steel Pulley</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\Pulley_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>4</Volume>
+      <Model>Models\Components\motor_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>28</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>40</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- SteelGear -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SteelGear</SubtypeId>
+      </Id>
+      <DisplayName>Steel Gear</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\SteelGear_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\motor_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>32</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>45</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- RubberBushing -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>RubberBushing</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Bushing</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\RubberBushing_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>3</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>5</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- CarbideTooling -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CarbideTooling</SubtypeId>
+      </Id>
+      <DisplayName>Carbide Tooling</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\CarbideTool_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.25</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>52</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>66</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- DiamondTooling -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DiamondTooling</SubtypeId>
+      </Id>
+      <DisplayName>Diamond Tooling</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\DiamondTooling_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.25</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>67</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>72</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- CarbideRing -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CarbideRing</SubtypeId>
+      </Id>
+      <DisplayName>Carbide Ring</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\CarbideRing_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>12</MaxIntegrity>
+      <DropProbability>0.15</DropProbability>
+      <Health>10</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- RubberGasket -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>RubberGasket</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Gasket</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\RubberGasket_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.1</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>2</MaxIntegrity>
+      <DropProbability>0.15</DropProbability>
+      <Health>1</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- Filter -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Filter</SubtypeId>
+      </Id>
+      <DisplayName>Filter</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\Filter_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\steel_plate_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.2</DropProbability>
+      <Health>1</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- Tape -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Tape</SubtypeId>
+      </Id>
+      <DisplayName>Tape</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\Tape_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.1</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Components\superconductor_conducts_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.22</DropProbability>
+      <Health>1</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- ZipTies -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ZipTies</SubtypeId>
+      </Id>
+      <DisplayName>Zip Ties</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\ZipTies_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.05</DropProbability>
+      <Health>1</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- BallValve -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>BallValve</SubtypeId>
+      </Id>
+      <DisplayName>Ball Valve</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\BallValve_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>14</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>20</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- PipeFitting -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>PipeFitting</SubtypeId>
+      </Id>
+      <DisplayName>Pipe Fitting</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\PipeFitting_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>9</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>5</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- Chain -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Chain</SubtypeId>
+      </Id>
+      <DisplayName>Chain</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\Chain_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>8</Volume>
+      <Model>Models\Components\superconductor_conducts_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>26</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>45</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- Belt -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Belt</SubtypeId>
+      </Id>
+      <DisplayName>Belt</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\Belt_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>8</Volume>
+      <Model>Models\Components\superconductor_conducts_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>13</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>25</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- AluminumPiston -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AluminumPiston</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Piston</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\AluminumPiston_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\small_tube_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>34</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>34</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- TitaniumPiston -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TitaniumPiston</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Piston</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\TitaniumPiston_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1.75</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\small_tube_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>68</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>68</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- SteelStemValve -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SteelStemValve</SubtypeId>
+      </Id>
+      <DisplayName>Steel Valve</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\SteelStemValve_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>4</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>21</MaxIntegrity>
+      <DropProbability>0.4</DropProbability>
+      <Health>18</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- NitinolStemValve -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>NitinolStemValve</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Valve</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\NitinolStemValve_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>4</Volume>
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>42</MaxIntegrity>
+      <DropProbability>0.4</DropProbability>
+      <Health>42</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- Bladder -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Bladder</SubtypeId>
+      </Id>
+      <DisplayName>Bladder</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Mechanical\Bladder_Icon.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>4</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Components\motor_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>4</MaxIntegrity>
+      <DropProbability>0.12</DropProbability>
+      <Health>1</Health>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+  </Components>
+</Definitions>

@@ -1,0 +1,36 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>  
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Storage Blocks</DisplayName>
+      <Name>Storage Blocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>	  
+	  
+		<string>OxygenTank/(null)</string>
+		<string>OxygenTank/LargeBlockLargeBasicOxygenTank</string>
+		
+		<string>OxygenTank/LargeBlockSmallBasicHydrogenTank</string>
+		<string>OxygenTank/LargeHydrogenTank</string>
+		
+		<string>OxygenTank/LargeBlockSmallBasicGasolineTank</string>
+		<string>OxygenTank/LargeBlockLargeBasicGasolineTank</string>
+		
+		<string>OxygenTank/LargeBlockSmallBasicJetFuelTank</string>
+		<string>OxygenTank/LargeBlockLargeBasicJetFuelTank</string>
+		
+		<string>CargoContainer/LargeBlockSmallContainer</string>
+		<string>CargoContainer/LargeBlockLargeContainer</string>
+		<string>CargoContainer/SmallBlockMediumContainer</string>
+		
+		<string>CargoContainer/LargeBlockLockerRoom</string>
+		<string>CargoContainer/LargeBlockLockerRoomCorner</string>
+		<string>CargoContainer/LargeBlockLockers</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

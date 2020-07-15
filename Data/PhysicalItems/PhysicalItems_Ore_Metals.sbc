@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+  
+    <PhysicalItem>  <!-- Aluminum -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Aluminum</SubtypeId>
+		</Id>
+		<DisplayName>Aluminum Ore</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>Al</IconSymbol>
+		<MinimalPricePerUnit>60</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+	</PhysicalItem>
+		
+    <PhysicalItem>  <!-- Iron -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Iron</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronOre</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Fe</IconSymbol>
+		<MinimalPricePerUnit>20</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </PhysicalItem>
+
+    <PhysicalItem>  <!-- Titanium -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Titanium</SubtypeId>
+		</Id>
+		<DisplayName>Titanium Ore</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>Ti</IconSymbol>
+	    <MinimalPricePerUnit>215</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+	</PhysicalItem>
+
+    <PhysicalItem>  <!-- Copper -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Copper</SubtypeId>
+		</Id>
+		<DisplayName>Copper Ore</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>Cu</IconSymbol>
+	    <MinimalPricePerUnit>95</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+	</PhysicalItem>
+
+    <PhysicalItem>  <!-- Cobalt -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Cobalt</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_CobaltOre</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Co_cobalt.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Co</IconSymbol>
+	    <MinimalPricePerUnit>160</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </PhysicalItem>
+
+    <PhysicalItem>  <!-- Nickel -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Nickel</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Ni</IconSymbol>
+	    <MinimalPricePerUnit>85</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </PhysicalItem>
+ 	
+    <PhysicalItem>  <!-- Tin -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Tin</SubtypeId>
+		</Id>
+		<DisplayName>Tin Ore</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Sn_tin.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>Sn</IconSymbol>
+	    <MinimalPricePerUnit>50</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+	</PhysicalItem>
+
+    <PhysicalItem>  <!-- Silver -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Silver</SubtypeId>
+      </Id>
+      <DisplayName>Silver Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Ag</IconSymbol>
+	    <MinimalPricePerUnit>225</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </PhysicalItem>
+	
+    <PhysicalItem>  <!-- Gold -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Gold</SubtypeId>
+      </Id>
+      <DisplayName>Gold Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Au_gold.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Au</IconSymbol>
+	    <MinimalPricePerUnit>550</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </PhysicalItem>
+
+    <PhysicalItem>  <!-- Lead -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Lead</SubtypeId>
+		</Id>
+		<DisplayName>Lead Ore</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>Pb</IconSymbol>
+	    <MinimalPricePerUnit>175</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+	</PhysicalItem>
+
+    <PhysicalItem>  <!-- Magnesium -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Magnesium</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_MagnesiumOre</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Mg</IconSymbol>
+	    <MinimalPricePerUnit>430</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </PhysicalItem>
+	
+	<PhysicalItem>  <!-- Silicon -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Silicon</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SiliconOre</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Si</IconSymbol>
+	    <MinimalPricePerUnit>70</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </PhysicalItem>
+	
+    <PhysicalItem>  <!-- Zinc -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Zinc</SubtypeId>
+		</Id>
+		<DisplayName>Zinc Ore</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Zn_zinc.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>Zn</IconSymbol>
+	    <MinimalPricePerUnit>605</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+	</PhysicalItem>
+
+    <PhysicalItem>  <!-- Platinum -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Platinum</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pt_platinum.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Pt</IconSymbol>
+	    <MinimalPricePerUnit>1960</MinimalPricePerUnit>
+		<MinimumOfferAmount>500</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1000</MinimumOrderAmount>
+		<MaximumOrderAmount>20000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+	  
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </PhysicalItem>
+	
+    <PhysicalItem>  <!-- Molybdenum -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Molybdenum</SubtypeId>
+		</Id>
+		<DisplayName>Molybdenum Ore</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>Mo</IconSymbol>
+	  <MinimalPricePerUnit>935</MinimalPricePerUnit>
+	  <MinimumOfferAmount>500</MinimumOfferAmount>
+	  <MaximumOfferAmount>1500</MaximumOfferAmount>
+	  <MinimumOrderAmount>500</MinimumOrderAmount>
+      <MaximumOrderAmount>1500</MaximumOrderAmount>
+	  <CanPlayerOrder>true</CanPlayerOrder>
+	  
+	  <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+	  <MaximumAcquisitionAmount>1500</MaximumAcquisitionAmount>
+	</PhysicalItem>
+  
+    <PhysicalItem>  <!-- Zirconium -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Zirconium</SubtypeId>
+		</Id>
+		<DisplayName>Zirconium Ore</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>Zr</IconSymbol>
+	  	<MinimalPricePerUnit>13000</MinimalPricePerUnit>
+	  	<MinimumOfferAmount>100</MinimumOfferAmount>
+	  	<MaximumOfferAmount>1000</MaximumOfferAmount>
+	 	<MinimumOrderAmount>500</MinimumOrderAmount>
+      	<MaximumOrderAmount>2000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+	</PhysicalItem>
+		
+  </PhysicalItems>
+</Definitions>

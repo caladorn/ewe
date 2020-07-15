@@ -1,0 +1,43 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Power</DisplayName>
+      <Name>Power</Name>
+	  <StrictSearch>true</StrictSearch>
+      <ItemIds>
+		<string>BatteryBlock/LargeBlockBasicLeadBattery</string>
+		<string>BatteryBlock/SmallBlockBasicLeadBattery</string>
+		<string>BatteryBlock/SmallBlockSmallBasicLeadBattery</string>
+		<string>BatteryBlock/LargeBlockBasicLithiumBattery</string>
+		<string>BatteryBlock/SmallBlockBasicLithiumBattery</string>
+		<string>BatteryBlock/SmallBlockSmallBasicLithiumBattery</string>
+		<string>BatteryBlock/LargeBlockBasicFluorideBattery</string>
+		<string>BatteryBlock/SmallBlockBasicFluorideBattery</string>
+		<string>BatteryBlock/SmallBlockSmallBasicFluorideBattery</string>
+		
+		<string>HydrogenEngine/LargeBlockBasicGasolineEngine</string>
+		<string>HydrogenEngine/SmallBlockBasicGasolineEngine</string>
+		<string>HydrogenEngine/LargeBlockBasicJetFuelEngine</string>
+		<string>HydrogenEngine/SmallBlockBasicJetFuelEngine</string>
+		
+		<string>Reactor/LargeBlockLargeBasicThoriumReactor</string>
+		<string>Reactor/LargeBlockSmallBasicThoriumReactor</string>
+		<string>Reactor/SmallBlockLargeBasicThoriumReactor</string>
+		<string>Reactor/SmallBlockSmallBasicThoriumReactor</string>
+		<string>Reactor/LargeBlockLargeBasicPlutoniumReactor</string>
+		<string>Reactor/LargeBlockSmallBasicPlutoniumReactor</string>
+		<string>Reactor/SmallBlockLargeBasicPlutoniumReactor</string>
+		<string>Reactor/SmallBlockSmallBasicPlutoniumReactor</string>
+		<string>Reactor/LargeBlockLargeBasicFusionReactor</string>
+		<string>Reactor/LargeBlockSmallBasicFusionReactor</string>
+		<string>Reactor/SmallBlockLargeBasicFusionReactor</string>
+		<string>Reactor/SmallBlockSmallBasicFusionReactor</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

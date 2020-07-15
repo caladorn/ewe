@@ -1,0 +1,51 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>  
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>InteriorBlocks</DisplayName>
+      <Name>InteriorBlocks</Name>
+	  <StrictSearch>true</StrictSearch>
+      <ItemIds>	  
+	  
+        <string>AdvancedDoor/RotaryAirlock</string>
+        <string>AdvancedDoor/RotaryAirlockCorner</string>
+        <string>Door/(null)</string>
+        <string>AirtightSlideDoor/LargeBlockSlideDoor</string>
+        <string>AirtightHangarDoor/(null)</string>
+        <string>ReflectorLight/LargeBlockFrontLight</string>
+        <string>CubeBlock/LargeBlockInteriorWall</string>
+        <string>AirVent/(null)</string>
+        <string>CubeBlock/LargeSteelCatwalk</string>
+        <string>CubeBlock/Catwalk</string>
+		
+        <string>Ladder2/(null)</string>
+		
+        <string>CubeBlock/Window1x1Flat</string>
+        <string>CubeBlock/Window1x2Flat</string>
+        <string>CubeBlock/Window2x3Flat</string>
+        <string>CubeBlock/Window1x1Face</string>
+        <string>CubeBlock/Window1x2Face</string>
+        <string>CubeBlock/LargeWindowSquare</string>
+		
+        <string>StoreBlock/AtmBlock</string>
+        <string>StoreBlock/StoreBlock</string>
+		
+        <string>Planter/LargeBlockPlanters</string>
+		
+        <string>Cockpit/LargeBlockCouch</string>
+        <string>Cockpit/LargeBlockDesk</string>
+        <string>SurvivalKit/SurvivalKitLarge</string>
+        <string>TextPanel/LargeBlockCorner_LCD_1</string>
+        <string>TextPanel/LargeTextPanel</string>
+		
+		<string>MyProgrammableBlock/LargeProgrammableBlock</string>
+		
+		<string>ButtonPanel/ButtonPanelLarge</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

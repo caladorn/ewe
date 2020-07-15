@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Definition xsi:type="MyObjectBuilder_ReputationSettingsDefinition">
+        <Id Type="MyObjectBuilder_ReputationSettingsDefinition" Subtype="DefaultReputationSettings" />
+        <MaxReputationGainInTime>250</MaxReputationGainInTime>
+        <ResetTimeMinForRepGain>60</ResetTimeMinForRepGain>
+        <DamageSettings>
+            <GrindingWelding>5</GrindingWelding>
+            <Damaging>1</Damaging>
+            <Stealing>10</Stealing>
+            <Killing>50</Killing>
+        </DamageSettings>
+        <PirateDamageSettings>
+            <GrindingWelding>5</GrindingWelding>
+            <Damaging>1</Damaging>
+            <Stealing>10</Stealing>
+            <Killing>50</Killing>
+        </PirateDamageSettings>
+    </Definition>
+</Definitions>

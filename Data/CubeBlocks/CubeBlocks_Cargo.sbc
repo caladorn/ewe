@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SmallCargoContainer</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Description_SmallCargoContainer</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="Insulation" Count="3" />
+        <Component Subtype="PolyCarbonatePlate" Count="1" />
+        <Component Subtype="Solenoid" Count="1" />
+        <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="16" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Medium Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockMediumContainer</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_MediumCargoContainer</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <Description>Description_MediumCargoContainer</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="27" />
+        <Component Subtype="Insulation" Count="27" />
+        <Component Subtype="PolyCarbonatePlate" Count="9" />
+        <Component Subtype="Solenoid" Count="3" />
+        <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="18" />
+        <Component Subtype="Construction" Count="144" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MediumCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>1.5</X>
+        <Y>1.5</Y>
+        <Z>1.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeCargoContainer</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Description_LargeCargoContainer</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeCargoContainer</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SmallCargoContainer</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Description_SmallCargoContainer</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeCargoContainer</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Description_LargeCargoContainer</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="225" />
+        <Component Subtype="Insulation" Count="225" />
+        <Component Subtype="PolyCarbonatePlate" Count="75" />
+        <Component Subtype="Solenoid" Count="15" />
+        <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="150" />
+        <Component Subtype="Construction" Count="1200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>7.5</X>
+        <Y>7.5</Y>
+        <Z>7.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Aluminum Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockAluminumSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Aluminum Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Aluminum Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="6" />
+        <Component Subtype="AluminumRod" Count="3" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="Insulation" Count="3" />
+        <Component Subtype="PolyCarbonatePlate" Count="1" />
+        <Component Subtype="Solenoid" Count="1" />
+        <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="16" />
+        <Component Subtype="BrazingRod" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallAluminumCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Aluminum Medium Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockAluminumMediumContainer</SubtypeId>
+      </Id>
+      <DisplayName>Medium Aluminum Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <Description>Medium Aluminum Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="54" />
+        <Component Subtype="AluminumRod" Count="27" />
+        <Component Subtype="InteriorPlate" Count="27" />
+        <Component Subtype="Insulation" Count="27" />
+        <Component Subtype="PolyCarbonatePlate" Count="9" />
+        <Component Subtype="Solenoid" Count="3" />
+        <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="18" />
+        <Component Subtype="Construction" Count="144" />
+        <Component Subtype="BrazingRod" Count="72" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MediumAluminumCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>1.5</X>
+        <Y>1.5</Y>
+        <Z>1.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Aluminum Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockAluminumLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Aluminum Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Aluminum Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="150" />
+        <Component Subtype="AluminumRod" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeAluminumCargoContainer</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Aluminum Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockAluminumSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Aluminum Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Aluminum Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="150" />
+        <Component Subtype="AluminumRod" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallAluminumCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Aluminum Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockAluminumLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Aluminum Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Aluminum Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="450" />
+        <Component Subtype="AluminumRod" Count="225" />
+        <Component Subtype="InteriorPlate" Count="225" />
+        <Component Subtype="Insulation" Count="225" />
+        <Component Subtype="PolyCarbonatePlate" Count="75" />
+        <Component Subtype="Solenoid" Count="15" />
+        <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="150" />
+        <Component Subtype="Construction" Count="1200" />
+        <Component Subtype="BrazingRod" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeAluminumCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>7.5</X>
+        <Y>7.5</Y>
+        <Z>7.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Steel Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockSteelSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Steel Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Steel Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="SteelRod" Count="3" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="Insulation" Count="3" />
+        <Component Subtype="PolyCarbonatePlate" Count="1" />
+        <Component Subtype="Solenoid" Count="1" />
+        <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="16" />
+        <Component Subtype="BrazingRod" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallSteelCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Steel Medium Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockSteelMediumContainer</SubtypeId>
+      </Id>
+      <DisplayName>Medium Steel Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <Description>Medium Steel Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="54" />
+        <Component Subtype="SteelRod" Count="27" />
+        <Component Subtype="InteriorPlate" Count="27" />
+        <Component Subtype="Insulation" Count="27" />
+        <Component Subtype="PolyCarbonatePlate" Count="9" />
+        <Component Subtype="Solenoid" Count="3" />
+        <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="18" />
+        <Component Subtype="Construction" Count="144" />
+        <Component Subtype="BrazingRod" Count="72" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MediumSteelCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>1.5</X>
+        <Y>1.5</Y>
+        <Z>1.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Steel Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockSteelLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Steel Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Steel Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="150" />
+        <Component Subtype="SteelRod" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeSteelCargoContainer</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Steel Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockSteelSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Steel Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Steel Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="150" />
+        <Component Subtype="SteelRod" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallSteelCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Steel Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockSteelLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Steel Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Steel Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="450" />
+        <Component Subtype="SteelRod" Count="225" />
+        <Component Subtype="InteriorPlate" Count="225" />
+        <Component Subtype="Insulation" Count="225" />
+        <Component Subtype="PolyCarbonatePlate" Count="75" />
+        <Component Subtype="Solenoid" Count="15" />
+        <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="150" />
+        <Component Subtype="Construction" Count="1200" />
+        <Component Subtype="BrazingRod" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeSteelCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>7.5</X>
+        <Y>7.5</Y>
+        <Z>7.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Titanium Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockTitaniumSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Titanium Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Titanium Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="6" />
+        <Component Subtype="TitaniumRod" Count="3" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="Insulation" Count="3" />
+        <Component Subtype="PolyCarbonatePlate" Count="1" />
+        <Component Subtype="Solenoid" Count="1" />
+        <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="16" />
+        <Component Subtype="BrazingRod" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallTitaniumCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Titanium Medium Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockTitaniumMediumContainer</SubtypeId>
+      </Id>
+      <DisplayName>Medium Titanium Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <Description>Medium Titanium Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="54" />
+        <Component Subtype="TitaniumRod" Count="27" />
+        <Component Subtype="InteriorPlate" Count="27" />
+        <Component Subtype="Insulation" Count="27" />
+        <Component Subtype="PolyCarbonatePlate" Count="9" />
+        <Component Subtype="Solenoid" Count="3" />
+        <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="18" />
+        <Component Subtype="Construction" Count="144" />
+        <Component Subtype="BrazingRod" Count="72" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MediumTitaniumCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>1.5</X>
+        <Y>1.5</Y>
+        <Z>1.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Titanium Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockTitaniumLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Titanium Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Titanium Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="150" />
+        <Component Subtype="TitaniumRod" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeTitaniumCargoContainer</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Titanium Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockTitaniumSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Titanium Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Titanium Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="150" />
+        <Component Subtype="TitaniumRod" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallTitaniumCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Titanium Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockTitaniumLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Titanium Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Titanium Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="450" />
+        <Component Subtype="TitaniumRod" Count="225" />
+        <Component Subtype="InteriorPlate" Count="225" />
+        <Component Subtype="Insulation" Count="225" />
+        <Component Subtype="PolyCarbonatePlate" Count="75" />
+        <Component Subtype="Solenoid" Count="15" />
+        <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="150" />
+        <Component Subtype="Construction" Count="1200" />
+        <Component Subtype="BrazingRod" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeTitaniumCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>7.5</X>
+        <Y>7.5</Y>
+        <Z>7.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Nitinol Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockNitinolSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Nitinol Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Nitinol Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="6" />
+        <Component Subtype="NitinolRod" Count="3" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="Insulation" Count="3" />
+        <Component Subtype="PolyCarbonatePlate" Count="1" />
+        <Component Subtype="Solenoid" Count="1" />
+        <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="16" />
+        <Component Subtype="BrazingRod" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallNitinolCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Nitinol Medium Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockNitinolMediumContainer</SubtypeId>
+      </Id>
+      <DisplayName>Medium Nitinol Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <Description>Medium Nitinol Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="54" />
+        <Component Subtype="NitinolRod" Count="27" />
+        <Component Subtype="InteriorPlate" Count="27" />
+        <Component Subtype="Insulation" Count="27" />
+        <Component Subtype="PolyCarbonatePlate" Count="9" />
+        <Component Subtype="Solenoid" Count="3" />
+        <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="18" />
+        <Component Subtype="Construction" Count="144" />
+        <Component Subtype="BrazingRod" Count="72" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MediumNitinolCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>1.5</X>
+        <Y>1.5</Y>
+        <Z>1.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Nitinol Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockNitinolLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Nitinol Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Nitinol Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="150" />
+        <Component Subtype="NitinolRod" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeNitinolCargoContainer</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Nitinol Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockNitinolSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Nitinol Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Nitinol Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="150" />
+        <Component Subtype="NitinolRod" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallNitinolCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Nitinol Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockNitinolLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Nitinol Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Nitinol Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="450" />
+        <Component Subtype="NitinolRod" Count="225" />
+        <Component Subtype="InteriorPlate" Count="225" />
+        <Component Subtype="Insulation" Count="225" />
+        <Component Subtype="PolyCarbonatePlate" Count="75" />
+        <Component Subtype="Solenoid" Count="15" />
+        <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="150" />
+        <Component Subtype="Construction" Count="1200" />
+        <Component Subtype="BrazingRod" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeNitinolCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>7.5</X>
+        <Y>7.5</Y>
+        <Z>7.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Graphene Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockGrapheneSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Graphene Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Graphene Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="6" />
+        <Component Subtype="CarbonTube" Count="3" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="Insulation" Count="3" />
+        <Component Subtype="PolyCarbonatePlate" Count="1" />
+        <Component Subtype="Solenoid" Count="1" />
+        <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="16" />
+        <Component Subtype="BrazingRod" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallGrapheneCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Graphene Medium Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockGrapheneMediumContainer</SubtypeId>
+      </Id>
+      <DisplayName>Medium Graphene Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <Description>Medium Graphene Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="54" />
+        <Component Subtype="CarbonTube" Count="27" />
+        <Component Subtype="InteriorPlate" Count="27" />
+        <Component Subtype="Insulation" Count="27" />
+        <Component Subtype="PolyCarbonatePlate" Count="9" />
+        <Component Subtype="Solenoid" Count="3" />
+        <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="18" />
+        <Component Subtype="Construction" Count="144" />
+        <Component Subtype="BrazingRod" Count="72" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MediumGrapheneCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>1.5</X>
+        <Y>1.5</Y>
+        <Z>1.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- SmallBlock Graphene Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockGrapheneLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Graphene Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Graphene Cargo Container</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="150" />
+        <Component Subtype="CarbonTube" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeGrapheneCargoContainer</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Graphene Small Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockGrapheneSmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Small Graphene Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Description>Small Graphene Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="150" />
+        <Component Subtype="CarbonTube" Count="75" />
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Insulation" Count="75" />
+        <Component Subtype="PolyCarbonatePlate" Count="25" />
+        <Component Subtype="Solenoid" Count="5" />
+        <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="50" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="BrazingRod" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallGrapheneCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Graphene Large Cargo-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockGrapheneLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Large Graphene Cargo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <Description>Large Graphene Cargo Container</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="450" />
+        <Component Subtype="CarbonTube" Count="225" />
+        <Component Subtype="InteriorPlate" Count="225" />
+        <Component Subtype="Insulation" Count="225" />
+        <Component Subtype="PolyCarbonatePlate" Count="75" />
+        <Component Subtype="Solenoid" Count="15" />
+        <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="150" />
+        <Component Subtype="Construction" Count="1200" />
+        <Component Subtype="BrazingRod" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeGrapheneCargoContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <InventorySize>
+        <X>7.5</X>
+        <Y>7.5</Y>
+        <Z>7.5</Z>
+      </InventorySize>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+  </CubeBlocks>
+</Definitions>

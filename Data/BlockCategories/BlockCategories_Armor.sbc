@@ -1,0 +1,60 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>	
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ArmorBlocks</DisplayName>
+      <Name>Armorblocks</Name>
+	  <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/LargeBlockArmorBlock</string>
+        <string>CubeBlock/LargeBlockArmorSlope2Base</string>
+        <string>CubeBlock/LargeBlockArmorCorner2Base</string>
+        <string>CubeBlock/LargeBlockArmorRoundSlope</string>
+        <string>CubeBlock/LargeHeavyBlockArmorBlock</string>
+        <string>CubeBlock/LargeHeavyBlockArmorSlope2Base</string>
+        <string>CubeBlock/LargeHeavyBlockArmorCorner2Base</string>
+        <string>CubeBlock/LargeHeavyBlockArmorRoundSlope</string>
+		
+        <string>CubeBlock/LargeBlockSteelArmorBlock</string>
+        <string>CubeBlock/LargeBlockSteelArmorSlope2Base</string>
+        <string>CubeBlock/LargeBlockSteelArmorCorner2Base</string>
+        <string>CubeBlock/LargeBlockSteelArmorRoundSlope</string>
+        <string>CubeBlock/LargeHeavyBlockSteelArmorBlock</string>
+        <string>CubeBlock/LargeHeavyBlockSteelArmorSlope2Base</string>
+        <string>CubeBlock/LargeHeavyBlockSteelArmorCorner2Base</string>
+        <string>CubeBlock/LargeHeavyBlockSteelArmorRoundSlope</string>
+		
+        <string>CubeBlock/LargeBlockTitaniumArmorBlock</string>
+        <string>CubeBlock/LargeBlockTitaniumArmorSlope2Base</string>
+        <string>CubeBlock/LargeBlockTitaniumArmorCorner2Base</string>
+        <string>CubeBlock/LargeBlockTitaniumArmorRoundSlope</string>
+        <string>CubeBlock/LargeHeavyBlockTitaniumArmorBlock</string>
+        <string>CubeBlock/LargeHeavyBlockTitaniumArmorSlope2Base</string>
+        <string>CubeBlock/LargeHeavyBlockTitaniumArmorCorner2Base</string>
+        <string>CubeBlock/LargeHeavyBlockTitaniumArmorRoundSlope</string>
+		
+        <string>CubeBlock/LargeBlockNitinolArmorBlock</string>
+        <string>CubeBlock/LargeBlockNitinolArmorSlope2Base</string>
+        <string>CubeBlock/LargeBlockNitinolArmorCorner2Base</string>
+        <string>CubeBlock/LargeBlockNitinolArmorRoundSlope</string>
+        <string>CubeBlock/LargeHeavyBlockNitinolArmorBlock</string>
+        <string>CubeBlock/LargeHeavyBlockNitinolArmorSlope2Base</string>
+        <string>CubeBlock/LargeHeavyBlockNitinolArmorCorner2Base</string>
+        <string>CubeBlock/LargeHeavyBlockNitinolArmorRoundSlope</string>
+		
+        <string>CubeBlock/LargeBlockGrapheneArmorBlock</string>
+        <string>CubeBlock/LargeBlockGrapheneArmorSlope2Base</string>
+        <string>CubeBlock/LargeBlockGrapheneArmorCorner2Base</string>
+        <string>CubeBlock/LargeBlockGrapheneArmorRoundSlope</string>
+        <string>CubeBlock/LargeHeavyBlockGrapheneArmorBlock</string>
+        <string>CubeBlock/LargeHeavyBlockGrapheneArmorSlope2Base</string>
+        <string>CubeBlock/LargeHeavyBlockGrapheneArmorCorner2Base</string>
+        <string>CubeBlock/LargeHeavyBlockGrapheneArmorRoundSlope</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

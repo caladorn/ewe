@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<VoxelMaterials>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Coffinite -->        
+    <Id>
+      <TypeId>VoxelMaterialDefinition</TypeId>
+      <SubtypeId>Coffinite</SubtypeId>
+    </Id>
+    <MaterialTypeName>Rock</MaterialTypeName>
+    <MinedOre>Coffinite</MinedOre>
+    <MinedOreRatio>1</MinedOreRatio>
+    <CanBeHarvested>true</CanBeHarvested>
+    <IsRare>true</IsRare>
+    <SpawnsInAsteroids>true</SpawnsInAsteroids>
+    <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+		
+		<VoxelHandPreview>Textures\Voxels\Coffinite_cm.dds</VoxelHandPreview>
+
+		<ColorMetalXZnY>Textures\Voxels\Coffinite_cm.dds</ColorMetalXZnY>
+		<ColorMetalXZnYFar1>Textures\Voxels\Coffinite_cm.dds</ColorMetalXZnYFar1>
+		<ColorMetalXZnYFar2>Textures\Voxels\Coffinite_cm.dds</ColorMetalXZnYFar2>
+		
+		<ColorMetalY>Textures\Voxels\Coffinite_cm.dds</ColorMetalY>
+		<ColorMetalYFar1>Textures\Voxels\Coffinite_cm.dds</ColorMetalYFar1>
+		<ColorMetalYFar2>Textures\Voxels\Coffinite_cm.dds</ColorMetalYFar2>
+		
+		<NormalGlossXZnY>Textures\Voxels\Arsenolite_ng.dds</NormalGlossXZnY>
+		<NormalGlossXZnYFar1>Textures\Voxels\Arsenolite_ng.dds</NormalGlossXZnYFar1>
+		<NormalGlossXZnYFar2>Textures\Voxels\Arsenolite_ng.dds</NormalGlossXZnYFar2>
+		
+		<NormalGlossY>Textures\Voxels\Arsenolite_ng.dds</NormalGlossY>
+		<NormalGlossYFar1>Textures\Voxels\Arsenolite_ng.dds</NormalGlossYFar1>
+		<NormalGlossYFar2>Textures\Voxels\Arsenolite_ng.dds</NormalGlossYFar2>
+		<ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+		
+    <Scale>500</Scale>
+    <ScaleFar1>1000</ScaleFar1>
+    <ScaleFar2>2500</ScaleFar2>        
+  </VoxelMaterial>
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Hafnon -->        
+    <Id>
+      <TypeId>VoxelMaterialDefinition</TypeId>
+      <SubtypeId>Hafnon</SubtypeId>
+    </Id>
+    <MaterialTypeName>Rock</MaterialTypeName>
+    <MinedOre>Hafnon</MinedOre>
+    <MinedOreRatio>1</MinedOreRatio>
+    <CanBeHarvested>true</CanBeHarvested>
+    <IsRare>true</IsRare>
+    <SpawnsInAsteroids>true</SpawnsInAsteroids>
+    <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+		
+		<VoxelHandPreview>Textures\Voxels\Hafnon_cm.dds</VoxelHandPreview>
+
+		<ColorMetalXZnY>Textures\Voxels\Hafnon_cm.dds</ColorMetalXZnY>
+		<ColorMetalXZnYFar1>Textures\Voxels\Hafnon_cm.dds</ColorMetalXZnYFar1>
+		<ColorMetalXZnYFar2>Textures\Voxels\Hafnon_cm.dds</ColorMetalXZnYFar2>
+		
+		<ColorMetalY>Textures\Voxels\Hafnon_cm.dds</ColorMetalY>
+		<ColorMetalYFar1>Textures\Voxels\Hafnon_cm.dds</ColorMetalYFar1>
+		<ColorMetalYFar2>Textures\Voxels\Hafnon_cm.dds</ColorMetalYFar2>
+		
+		<NormalGlossXZnY>Textures\Voxels\Arsenolite_ng.dds</NormalGlossXZnY>
+		<NormalGlossXZnYFar1>Textures\Voxels\Arsenolite_ng.dds</NormalGlossXZnYFar1>
+		<NormalGlossXZnYFar2>Textures\Voxels\Arsenolite_ng.dds</NormalGlossXZnYFar2>
+		
+		<NormalGlossY>Textures\Voxels\Arsenolite_ng.dds</NormalGlossY>
+		<NormalGlossYFar1>Textures\Voxels\Arsenolite_ng.dds</NormalGlossYFar1>
+		<NormalGlossYFar2>Textures\Voxels\Arsenolite_ng.dds</NormalGlossYFar2>
+		<ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+    
+    <Scale>500</Scale>
+    <ScaleFar1>1000</ScaleFar1>
+    <ScaleFar2>2500</ScaleFar2>        
+  </VoxelMaterial>
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Huttonite -->        
+    <Id>
+      <TypeId>VoxelMaterialDefinition</TypeId>
+      <SubtypeId>Huttonite</SubtypeId>
+    </Id>
+    <MaterialTypeName>Rock</MaterialTypeName>
+    <MinedOre>Huttonite</MinedOre>
+    <MinedOreRatio>1</MinedOreRatio>
+    <CanBeHarvested>true</CanBeHarvested>
+    <IsRare>true</IsRare>
+    <SpawnsInAsteroids>true</SpawnsInAsteroids>
+    <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+		
+		<VoxelHandPreview>Textures\Voxels\Huttonite_cm.dds</VoxelHandPreview>
+
+		<ColorMetalXZnY>Textures\Voxels\Huttonite_cm.dds</ColorMetalXZnY>
+		<ColorMetalXZnYFar1>Textures\Voxels\Huttonite_cm.dds</ColorMetalXZnYFar1>
+		<ColorMetalXZnYFar2>Textures\Voxels\Huttonite_cm.dds</ColorMetalXZnYFar2>
+		
+		<ColorMetalY>Textures\Voxels\Huttonite_cm.dds</ColorMetalY>
+		<ColorMetalYFar1>Textures\Voxels\Huttonite_cm.dds</ColorMetalYFar1>
+		<ColorMetalYFar2>Textures\Voxels\Huttonite_cm.dds</ColorMetalYFar2>
+		
+		<NormalGlossXZnY>Textures\Voxels\Arsenolite_ng.dds</NormalGlossXZnY>
+		<NormalGlossXZnYFar1>Textures\Voxels\Arsenolite_ng.dds</NormalGlossXZnYFar1>
+		<NormalGlossXZnYFar2>Textures\Voxels\Arsenolite_ng.dds</NormalGlossXZnYFar2>
+		
+		<NormalGlossY>Textures\Voxels\Arsenolite_ng.dds</NormalGlossY>
+		<NormalGlossYFar1>Textures\Voxels\Arsenolite_ng.dds</NormalGlossYFar1>
+		<NormalGlossYFar2>Textures\Voxels\Arsenolite_ng.dds</NormalGlossYFar2>
+		<ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+		
+    <Scale>500</Scale>
+    <ScaleFar1>1000</ScaleFar1>
+    <ScaleFar2>2500</ScaleFar2>        
+  </VoxelMaterial>
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Monazite -->        
+    <Id>
+      <TypeId>VoxelMaterialDefinition</TypeId>
+      <SubtypeId>Monazite</SubtypeId>
+    </Id>
+    <MaterialTypeName>Rock</MaterialTypeName>
+    <MinedOre>Monazite</MinedOre>
+    <MinedOreRatio>1</MinedOreRatio>
+    <CanBeHarvested>true</CanBeHarvested>
+    <IsRare>true</IsRare>
+    <SpawnsInAsteroids>true</SpawnsInAsteroids>
+    <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+    
+    <VoxelHandPreview>Textures\Voxels\Monazite_cm.dds</VoxelHandPreview>
+
+    <ColorMetalXZnY>Textures\Voxels\Monazite_cm.dds</ColorMetalXZnY>
+    <ColorMetalXZnYFar1>Textures\Voxels\Monazite_cm.dds</ColorMetalXZnYFar1>
+    <ColorMetalXZnYFar2>Textures\Voxels\Monazite_cm.dds</ColorMetalXZnYFar2>
+    
+    <ColorMetalY>Textures\Voxels\Monazite_cm.dds</ColorMetalY>
+    <ColorMetalYFar1>Textures\Voxels\Monazite_cm.dds</ColorMetalYFar1>
+    <ColorMetalYFar2>Textures\Voxels\Monazite_cm.dds</ColorMetalYFar2>
+    
+    <NormalGlossXZnY>Textures\Voxels\Monazite_ng.dds</NormalGlossXZnY>
+    <NormalGlossXZnYFar1>Textures\Voxels\Monazite_ng.dds</NormalGlossXZnYFar1>
+    <NormalGlossXZnYFar2>Textures\Voxels\Monazite_ng.dds</NormalGlossXZnYFar2>
+    
+    <NormalGlossY>Textures\Voxels\Monazite_ng.dds</NormalGlossY>
+    <NormalGlossYFar1>Textures\Voxels\Monazite_ng.dds</NormalGlossYFar1>
+    <NormalGlossYFar2>Textures\Voxels\Monazite_ng.dds</NormalGlossYFar2>
+    <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+    
+    <Scale>500</Scale>
+    <ScaleFar1>1000</ScaleFar1>
+    <ScaleFar2>2500</ScaleFar2>        
+  </VoxelMaterial>
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Thorite -->        
+    <Id>
+      <TypeId>VoxelMaterialDefinition</TypeId>
+      <SubtypeId>Thorite</SubtypeId>
+    </Id>
+    <MaterialTypeName>Rock</MaterialTypeName>
+    <MinedOre>Thorite</MinedOre>
+    <MinedOreRatio>1</MinedOreRatio>
+    <CanBeHarvested>true</CanBeHarvested>
+    <IsRare>true</IsRare>
+    <SpawnsInAsteroids>true</SpawnsInAsteroids>
+    <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+    
+    <VoxelHandPreview>Textures\Voxels\Thorite_cm.dds</VoxelHandPreview>
+
+    <ColorMetalXZnY>Textures\Voxels\Thorite_cm.dds</ColorMetalXZnY>
+    <ColorMetalXZnYFar1>Textures\Voxels\Thorite_cm.dds</ColorMetalXZnYFar1>
+    <ColorMetalXZnYFar2>Textures\Voxels\Thorite_cm.dds</ColorMetalXZnYFar2>
+    
+    <ColorMetalY>Textures\Voxels\Thorite_cm.dds</ColorMetalY>
+    <ColorMetalYFar1>Textures\Voxels\Thorite_cm.dds</ColorMetalYFar1>
+    <ColorMetalYFar2>Textures\Voxels\Thorite_cm.dds</ColorMetalYFar2>
+    
+    <NormalGlossXZnY>Textures\Voxels\Thorite_ng.dds</NormalGlossXZnY>
+    <NormalGlossXZnYFar1>Textures\Voxels\Thorite_ng.dds</NormalGlossXZnYFar1>
+    <NormalGlossXZnYFar2>Textures\Voxels\Thorite_ng.dds</NormalGlossXZnYFar2>
+    
+    <NormalGlossY>Textures\Voxels\Thorite_ng.dds</NormalGlossY>
+    <NormalGlossYFar1>Textures\Voxels\Thorite_ng.dds</NormalGlossYFar1>
+    <NormalGlossYFar2>Textures\Voxels\Thorite_ng.dds</NormalGlossYFar2>
+    <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+    
+    <Scale>500</Scale>
+    <ScaleFar1>1000</ScaleFar1>
+    <ScaleFar2>2500</ScaleFar2>        
+  </VoxelMaterial>
+  <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Uraninite_01 -->        
+    <Id>
+      <TypeId>VoxelMaterialDefinition</TypeId>
+      <SubtypeId>Uraninite_01</SubtypeId>
+    </Id>
+    <MaterialTypeName>Rock</MaterialTypeName>
+    <MinedOre>Uraninite</MinedOre>
+    <MinedOreRatio>1</MinedOreRatio>
+    <CanBeHarvested>true</CanBeHarvested>
+    <IsRare>true</IsRare>
+    <SpawnsInAsteroids>true</SpawnsInAsteroids>
+    <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Uraninite_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_cm.dds</ColorMetalXZnY>    
+      <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <SimpleTilingSetup>
+        <InitialScale>2</InitialScale>
+        <ScaleMultiplier>7</ScaleMultiplier>
+        <InitialDistance>5</InitialDistance>
+        <DistanceMultiplier>5</DistanceMultiplier>
+
+        <Far1Distance>10</Far1Distance>
+        <Far1Scale>10</Far1Scale>
+
+        <Far2Distance>90</Far2Distance>
+        <Far2Scale>35</Far2Scale>
+      </SimpleTilingSetup>
+
+      <InitialScale>1.5</InitialScale>
+      <ScaleMultiplier>5</ScaleMultiplier>
+      <InitialDistance>5</InitialDistance>
+      <DistanceMultiplier>4</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+	  
+	    <ColorMetalXZnYFar1>Textures\Voxels\Uraninite_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Uraninite_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Uraninite_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+      <Far1Distance>10</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>90</Far2Distance>
+      <Far2Scale>35</Far2Scale>
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+
+  </VoxelMaterial>
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Pitchblend -->        
+    <Id>
+      <TypeId>VoxelMaterialDefinition</TypeId>
+      <SubtypeId>Pitchblend</SubtypeId>
+    </Id>
+    <MaterialTypeName>Rock</MaterialTypeName>
+    <MinedOre>Pitchblend</MinedOre>
+    <MinedOreRatio>1</MinedOreRatio>
+    <CanBeHarvested>true</CanBeHarvested>
+    <IsRare>true</IsRare>
+    <SpawnsInAsteroids>true</SpawnsInAsteroids>
+    <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+    
+    <VoxelHandPreview>Textures\Voxels\Pitchblend_cm.dds</VoxelHandPreview>
+
+    <ColorMetalXZnY>Textures\Voxels\Pitchblend_cm.dds</ColorMetalXZnY>
+    <ColorMetalXZnYFar1>Textures\Voxels\Pitchblend_cm.dds</ColorMetalXZnYFar1>
+    <ColorMetalXZnYFar2>Textures\Voxels\Pitchblend_cm.dds</ColorMetalXZnYFar2>
+    
+    <ColorMetalY>Textures\Voxels\Pitchblend_cm.dds</ColorMetalY>
+    <ColorMetalYFar1>Textures\Voxels\Pitchblend_cm.dds</ColorMetalYFar1>
+    <ColorMetalYFar2>Textures\Voxels\Pitchblend_cm.dds</ColorMetalYFar2>
+    
+    <NormalGlossXZnY>Textures\Voxels\Pitchblend_ng.dds</NormalGlossXZnY>
+    <NormalGlossXZnYFar1>Textures\Voxels\Pitchblend_ng.dds</NormalGlossXZnYFar1>
+    <NormalGlossXZnYFar2>Textures\Voxels\Pitchblend_ng.dds</NormalGlossXZnYFar2>
+    
+    <NormalGlossY>Textures\Voxels\Pitchblend_ng.dds</NormalGlossY>
+    <NormalGlossYFar1>Textures\Voxels\Pitchblend_ng.dds</NormalGlossYFar1>
+    <NormalGlossYFar2>Textures\Voxels\Pitchblend_ng.dds</NormalGlossYFar2>
+    <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+    
+    <Scale>500</Scale>
+    <ScaleFar1>1000</ScaleFar1>
+    <ScaleFar2>2500</ScaleFar2>        
+  </VoxelMaterial>
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Zircon -->        
+    <Id>
+      <TypeId>VoxelMaterialDefinition</TypeId>
+      <SubtypeId>Zircon</SubtypeId>
+    </Id>
+    <MaterialTypeName>Rock</MaterialTypeName>
+    <MinedOre>Zircon</MinedOre>
+    <MinedOreRatio>1</MinedOreRatio>
+    <CanBeHarvested>true</CanBeHarvested>
+    <IsRare>true</IsRare>
+    <SpawnsInAsteroids>true</SpawnsInAsteroids>
+    <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+    
+    <VoxelHandPreview>Textures\Voxels\Zircon_cm.dds</VoxelHandPreview>
+
+    <ColorMetalXZnY>Textures\Voxels\Zircon_cm.dds</ColorMetalXZnY>
+    <ColorMetalXZnYFar1>Textures\Voxels\Zircon_cm.dds</ColorMetalXZnYFar1>
+    <ColorMetalXZnYFar2>Textures\Voxels\Zircon_cm.dds</ColorMetalXZnYFar2>
+    
+    <ColorMetalY>Textures\Voxels\Zircon_cm.dds</ColorMetalY>
+    <ColorMetalYFar1>Textures\Voxels\Zircon_cm.dds</ColorMetalYFar1>
+    <ColorMetalYFar2>Textures\Voxels\Zircon_cm.dds</ColorMetalYFar2>
+    
+    <NormalGlossXZnY>Textures\Voxels\Zircon_ng.dds</NormalGlossXZnY>
+    <NormalGlossXZnYFar1>Textures\Voxels\Zircon_ng.dds</NormalGlossXZnYFar1>
+    <NormalGlossXZnYFar2>Textures\Voxels\Zircon_ng.dds</NormalGlossXZnYFar2>
+    
+    <NormalGlossY>Textures\Voxels\Zircon_ng.dds</NormalGlossY>
+    <NormalGlossYFar1>Textures\Voxels\Zircon_ng.dds</NormalGlossYFar1>
+    <NormalGlossYFar2>Textures\Voxels\Zircon_ng.dds</NormalGlossYFar2>
+    <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+    
+    <Scale>500</Scale>
+    <ScaleFar1>1000</ScaleFar1>
+    <ScaleFar2>2500</ScaleFar2>        
+  </VoxelMaterial>
+ </VoxelMaterials> 
+</Definitions>

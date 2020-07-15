@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model Name="DoorRotor">
+	<Parameter Name="RescaleFactor">0.01</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Material Name="GlassOutside">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
+	<Material Name="Decals">
+		<Parameter Name="Technique">DECAL</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Decals_Atlas_A_01_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Decals_Atlas_A_01_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_01_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Decals_Atlas_A_01_alphamask.dds</Parameter>
+	</Material>
+	<MaterialRef Name="Metal_Shiny" />
+	<MaterialRef Name="Emissive" />
+	<MaterialRef Name="PaintedMetal_Colorable" />
+	<MaterialRef Name="Chrome" />
+	<MaterialRef Name="PaintedMetal_Darker" />
+</Model>

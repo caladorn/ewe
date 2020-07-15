@@ -1,0 +1,1119 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint> <!-- FuseX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FuseX100</SubtypeId>
+      </Id>
+      <DisplayName>Fuses X10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Fuse_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="Fuse" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>	
+    <Blueprint> <!-- FuseX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FuseX10</SubtypeId>
+      </Id>
+      <DisplayName>Fuses x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Fuse_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Fuse" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>	
+    <Blueprint> <!-- Fuse -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Fuse</SubtypeId>
+      </Id>
+      <DisplayName>Fuses x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Fuse_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.25" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Fuse" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>	
+    <Blueprint> <!-- FuseDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FuseDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Fuse</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Fuse_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.0025" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="0.005" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Fuse" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- ResistorX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ResistorX100</SubtypeId>
+      </Id>
+      <DisplayName>Resistors x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Resistor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="Resistor" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ResistorX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ResistorX10</SubtypeId>
+      </Id>
+      <DisplayName>Resistors x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Resistor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Resistor" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Resistor -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Resistor</SubtypeId>
+      </Id>
+      <DisplayName>Resistors x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Resistor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Resistor" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- ResistorDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ResistorDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Resistor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Resistor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.01" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="0.01" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Resistor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- DiodeX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DiodeX100</SubtypeId>
+      </Id>
+      <DisplayName>Diodes x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Diode_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="Diode" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- DiodeX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DiodeX10</SubtypeId>
+      </Id>
+      <DisplayName>Diodes x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Diode_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Diode" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Diode -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Diode</SubtypeId>
+      </Id>
+      <DisplayName>Diodes x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Diode_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Diode" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- DiodeDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DiodeDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Diode</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Diode_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.01" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="0.01" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Diode" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- POTX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POTX100</SubtypeId>
+      </Id>
+      <DisplayName>POTs X1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\POT_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="POT" />
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- POTX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POTX10</SubtypeId>
+      </Id>
+      <DisplayName>POTs X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\POT_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="POT" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- POT -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POT</SubtypeId>
+      </Id>
+      <DisplayName>POTs X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\POT_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="POT" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- POTDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POTDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>POT</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\POT_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="POT" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- PowerCellX100 (Capacitor) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PowerCellX100</SubtypeId>
+      </Id>
+      <DisplayName>Capacitors X10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Capacitor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Zinc" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="800" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="PowerCell" />
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PowerCellX10 (Capacitor) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PowerCellX10</SubtypeId>
+      </Id>
+      <DisplayName>Capacitors x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Capacitor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Zinc" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="80" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="PowerCell" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PowerCell (Capacitor) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Capacitors x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Capacitor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Zinc" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="PowerCell" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- PowerCellDisassembly (Capacitor) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PowerCellDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Capacitor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Capacitor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.01" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="0.01" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Zinc" />
+        <Item Amount="0.02" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="0.08" TypeId="Ingot" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PowerCell" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- TransistorX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TransistorX100</SubtypeId>
+      </Id>
+      <DisplayName>Transistors x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Transistor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Germanium" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="1000" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="Transistor" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TransistorX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TransistorX10</SubtypeId>
+      </Id>
+      <DisplayName>Transistors x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Transistor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Germanium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Transistor" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Transistor -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Transistor</SubtypeId>
+      </Id>
+      <DisplayName>Transistors x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Transistor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Germanium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Transistor" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- TransistorDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TransistorDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Transistor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Transistor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Germanium" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.1" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Transistor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- CoilX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CoilX100</SubtypeId>
+      </Id>
+      <DisplayName>Coils x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Coil_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Tape" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Coil" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- CoilX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CoilX10</SubtypeId>
+      </Id>
+      <DisplayName>Coils x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Coil_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Tape" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Coil" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Coil -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Coil</SubtypeId>
+      </Id>
+      <DisplayName>Coil x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Coil_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="0.2" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="0.2" TypeId="Component" SubtypeId="Tape" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Coil" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- LEDX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LEDX100</SubtypeId>
+      </Id>
+      <DisplayName>LEDs X1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\LED_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="200" TypeId="Component" SubtypeId="BareAluminumWire" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Indium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="LED" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LEDX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LEDX10</SubtypeId>
+      </Id>
+      <DisplayName>LEDs X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\LED_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="20" TypeId="Component" SubtypeId="BareAluminumWire" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Indium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="LED" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- LED -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LED</SubtypeId>
+      </Id>
+      <DisplayName>LEDs X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\LED_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="2" TypeId="Component" SubtypeId="BareAluminumWire" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Indium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="LED" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- LEDDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LEDDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>LED</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\LED_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="0.2" TypeId="Component" SubtypeId="BareAluminumWire" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Indium" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="LED" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- BulbX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulbX100</SubtypeId>
+      </Id>
+      <DisplayName>Bulbs X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Bulb_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Tungsten" />
+        <Item Amount="700" TypeId="Ingot" SubtypeId="Argon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Bulb" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BulbX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulbX10</SubtypeId>
+      </Id>
+      <DisplayName>Bulbs X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Bulb_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Tungsten" />
+        <Item Amount="70" TypeId="Ingot" SubtypeId="Argon" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Bulb" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Bulb -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bulb</SubtypeId>
+      </Id>
+      <DisplayName>Bulb</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Bulb_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Tungsten" />
+        <Item Amount="7" TypeId="Ingot" SubtypeId="Argon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Bulb" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- SensorX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SensorX100</SubtypeId>
+      </Id>
+      <DisplayName>Sensors X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Sensor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Sensor" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SensorX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SensorX10</SubtypeId>
+      </Id>
+      <DisplayName>Sensors X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Sensor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Sensor" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Sensor -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Sensor</SubtypeId>
+      </Id>
+      <DisplayName>Sensor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Sensor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Sensor" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- HeatSinkX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HeatSinkX100</SubtypeId>
+      </Id>
+      <DisplayName>Heat Sinks X1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\HeatSink_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="600" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="ThermalPaste" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="HeatSink" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- HeatSinkX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HeatSinkX10</SubtypeId>
+      </Id>
+      <DisplayName>Heat Sinks X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\HeatSink_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="ThermalPaste" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="HeatSink" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- HeatSink -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HeatSink</SubtypeId>
+      </Id>
+      <DisplayName>Heat Sinks X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\HeatSink_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="ThermalPaste" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="HeatSink" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- HeatSinkDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HeatSinkDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Heat Sink</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\HeatSink_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.6" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="ThermalPaste" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="HeatSink" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- RadioCommunicationX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RadioCommunicationX100</SubtypeId>
+      </Id>
+      <DisplayName>Antennas X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Antenna_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="400" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Germanium" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="RadioCommunication" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RadioCommunicationX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RadioCommunicationX10</SubtypeId>
+      </Id>
+      <DisplayName>Antennas X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Antenna_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="40" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Germanium" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="RadioCommunication" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RadioCommunication -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RadioCommunication</SubtypeId>
+      </Id>
+      <DisplayName>Antenna</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Antenna_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="4" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Germanium" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Insulation" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="RadioCommunication" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- SolarCellX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SolarCellX100</SubtypeId>
+      </Id>
+      <DisplayName>Solar Cells X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1400" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="200" TypeId="Component" SubtypeId="BareCopperWire" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SolarCell" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SolarCellX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SolarCellX10</SubtypeId>
+      </Id>
+      <DisplayName>Solar Cells X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="140" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="20" TypeId="Component" SubtypeId="BareCopperWire" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="SolarCell" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SolarCell -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SolarCell</SubtypeId>
+      </Id>
+      <DisplayName>Solar Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="14" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="2" TypeId="Component" SubtypeId="BareCopperWire" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SolarCell" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- ProcessorX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ProcessorX100</SubtypeId>
+      </Id>
+      <DisplayName>Processors X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Processor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="600" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Processor" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ProcessorX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ProcessorX10</SubtypeId>
+      </Id>
+      <DisplayName>Processors X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Processor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Processor" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Processor -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Processor</SubtypeId>
+      </Id>
+      <DisplayName>Processor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Processor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Processor" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- PCBX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PCBX100</SubtypeId>
+      </Id>
+      <DisplayName>PCBs X1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\PCB_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="PCB" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PCBX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PCBX10</SubtypeId>
+      </Id>
+      <DisplayName>PCBs X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\PCB_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="PCB" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PCB -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PCB</SubtypeId>
+      </Id>
+      <DisplayName>PCBs X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\PCB_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="PCB" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint> <!-- PCBDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PCBDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>PCB</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\PCB_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.3" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PCB" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- InsulatedCopperWireX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>InsulatedCopperWireX100</SubtypeId>
+      </Id>
+      <DisplayName>Insulated Copper Wires X10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\InsulatedCopperWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Rubber" />
+        <Item Amount="20000" TypeId="Component" SubtypeId="BareCopperWire" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- InsulatedCopperWireX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>InsulatedCopperWireX10</SubtypeId>
+      </Id>
+      <DisplayName>Insulated Copper Wires X1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\InsulatedCopperWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Rubber" />
+        <Item Amount="2000" TypeId="Component" SubtypeId="BareCopperWire" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- InsulatedCopperWire -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>InsulatedCopperWire</SubtypeId>
+      </Id>
+      <DisplayName>Insulated Copper Wire x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\InsulatedCopperWire_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Rubber" />
+        <Item Amount="200" TypeId="Component" SubtypeId="BareCopperWire" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- DataCableX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DataCableX100</SubtypeId>
+      </Id>
+      <DisplayName>Data Cable x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\DataCable_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Rubber" />
+        <Item Amount="6000" TypeId="Component" SubtypeId="BareCopperWire" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="DataCable" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- DataCableX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DataCableX10</SubtypeId>
+      </Id>
+      <DisplayName>Data Cable x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\DataCable_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Rubber" />
+        <Item Amount="600" TypeId="Component" SubtypeId="BareCopperWire" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="DataCable" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- DataCable -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DataCable</SubtypeId>
+      </Id>
+      <DisplayName>Data Cable x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\DataCable_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Rubber" />
+        <Item Amount="60" TypeId="Component" SubtypeId="BareCopperWire" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="DataCable" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- FiberOpticWireX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FiberOpticWireX100</SubtypeId>
+      </Id>
+      <DisplayName>Fiber Optic Wires x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Fiber_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="FiberOpticWire" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- FiberOpticWireX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FiberOpticWireX10</SubtypeId>
+      </Id>
+      <DisplayName>Fiber Optic Wires x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Fiber_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="FiberOpticWire" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- FiberOpticWire -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FiberOpticWire</SubtypeId>
+      </Id>
+      <DisplayName>Fiber Optic Wire x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Fiber_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="FiberOpticWire" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- SwitchX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SwitchX100</SubtypeId>
+      </Id>
+      <DisplayName>Switchs X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Switch_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+        <Item Amount="100" TypeId="Component" SubtypeId="SteelBall" />
+        <Item Amount="100" TypeId="Component" SubtypeId="SteelSpring" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Switch" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- SwitchX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SwitchX10</SubtypeId>
+      </Id>
+      <DisplayName>Switchs X10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Switch_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelBall" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelSpring" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Switch" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Switch -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Switch</SubtypeId>
+      </Id>
+      <DisplayName>Switch</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Switch_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelBall" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelSpring" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="PolyCarbonate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Switch" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- ComputerX100 (Solder) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ComputerX100</SubtypeId>
+      </Id>
+      <DisplayName>Solder x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Alloys\Solder_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3300" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="5500" TypeId="Ingot" SubtypeId="Tin" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Lead" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ComputerX10 (Solder) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ComputerX10</SubtypeId>
+      </Id>
+      <DisplayName>Solder x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Alloys\Solder_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="330" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="550" TypeId="Ingot" SubtypeId="Tin" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Lead" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Computer (Solder) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Computer</SubtypeId>
+      </Id>
+      <DisplayName>Solder x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Alloys\Solder_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="33" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="55" TypeId="Ingot" SubtypeId="Tin" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Lead" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ComputerDisassembly (Solder) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ComputerDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Solder</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Alloys\Solder_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Tin" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Lead" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>

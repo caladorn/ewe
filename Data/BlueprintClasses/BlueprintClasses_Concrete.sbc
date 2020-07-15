@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlueprintClasses>  
+	<Class>  <!-- Default PureMetals-->
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>StoneCrusher</SubtypeId>
+      </Id>
+      <DisplayName>Stone Crusher</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses> 
+	<BlueprintClassEntries>
+  
+	<Entry Class="BscRefining" BlueprintSubtypeId="DemolishedConcreteToIngot" />
+	<Entry Class="BscStone" BlueprintSubtypeId="DemolishedConcreteToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="DemolishedConcreteToIngot" />
+	<Entry Class="AdvStone" BlueprintSubtypeId="DemolishedConcreteToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="DemolishedConcreteToIngot" />
+	<Entry Class="EliStone" BlueprintSubtypeId="DemolishedConcreteToIngot" />
+	
+	<Entry Class="StoneCrusher" BlueprintSubtypeId="DemolishedConcreteToGravel" />
+	
+    <Entry Class="StoneCrusher" BlueprintSubtypeId="StonetoGravel" />
+    <Entry Class="StoneCrusher" BlueprintSubtypeId="DesertRocktoGravel" />
+    <Entry Class="StoneCrusher" BlueprintSubtypeId="AnorthitetoGravel" />
+    <Entry Class="StoneCrusher" BlueprintSubtypeId="MarsRockstoGravel" />
+    <Entry Class="StoneCrusher" BlueprintSubtypeId="AlienRock_01toGravel" />
+    <Entry Class="StoneCrusher" BlueprintSubtypeId="SandtoFineSand" />
+    <Entry Class="StoneCrusher" BlueprintSubtypeId="AlienSandtoFineSand" />
+	
+  </BlueprintClassEntries>
+</Definitions>

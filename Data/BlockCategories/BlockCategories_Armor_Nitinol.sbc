@@ -1,0 +1,24 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>	
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Armor Nitinol</DisplayName>
+      <Name>ArmorblocksNitinol</Name>
+	  <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/LargeBlockNitinolArmorBlock</string>
+        <string>CubeBlock/LargeBlockNitinolArmorSlope2Base</string>
+        <string>CubeBlock/LargeBlockNitinolArmorCorner2Base</string>
+        <string>CubeBlock/LargeBlockNitinolArmorRoundSlope</string>
+        <string>CubeBlock/LargeHeavyBlockNitinolArmorBlock</string>
+        <string>CubeBlock/LargeHeavyBlockNitinolArmorSlope2Base</string>
+        <string>CubeBlock/LargeHeavyBlockNitinolArmorCorner2Base</string>
+        <string>CubeBlock/LargeHeavyBlockNitinolArmorRoundSlope</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

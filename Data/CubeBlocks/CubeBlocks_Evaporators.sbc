@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+	
+	<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>LargeBlockHydrogenEvaporator</SubtypeId>
+      </Id>
+      <DisplayName>Hydrogen Evaporator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
+      <Description>Hydrogen Evaporator</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="90" />
+        <Component Subtype="SmallCopperTube" Count="18" />
+        <Component Subtype="BallValve" Count="36" />
+        <Component Subtype="BareCopperWire" Count="180" />
+        <Component Subtype="AluminumFanBlade" Count="3" />
+        <Component Subtype="Sensor" Count="9" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="27" />
+        <Component Subtype="Construction" Count="540" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicAssembler_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicAssembler_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicAssembler_Construction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HydrogenEvaporator</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.15</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+          <IceToGasRatio>300</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>HydrogenToGas</Class>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>ArcBlockOxyGenProcess</GenerateSound>
+      <IdleSound>ArcBlockOxyGenIdle</IdleSound>
+      <PCU>100</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>LargeBlockOxygenEvaporator</SubtypeId>
+      </Id>
+      <DisplayName>Oxygen Evaporator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
+      <Description>Oxygen Evaporator</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="90" />
+        <Component Subtype="RubberHose" Count="18" />
+        <Component Subtype="BallValve" Count="36" />
+        <Component Subtype="BareAluminumWire" Count="180" />
+        <Component Subtype="AluminumFanBlade" Count="3" />
+        <Component Subtype="Sensor" Count="9" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="InsulatedCopperWire" Count="27" />
+        <Component Subtype="Construction" Count="540" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicAssembler_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicAssembler_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicAssembler_Construction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OxygenEvaporator</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.15</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Oxygen</SubtypeId>
+          </Id>
+          <IceToGasRatio>300</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>OxygenToGas</Class>
+        <Class>OxygenBottles</Class>
+      </BlueprintClasses>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>ArcBlockOxyGenProcess</GenerateSound>
+      <IdleSound>ArcBlockOxyGenIdle</IdleSound>
+      <PCU>100</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>LargeBlockGasolineSynthesizer</SubtypeId>
+      </Id>
+      <DisplayName>Gasoline Synthesizer</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
+      <Description>Gasoline Synthesizer</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="340" />
+        <Component Subtype="BrassRod" Count="32" />
+        <Component Subtype="RubberHose" Count="54" />
+        <Component Subtype="Compressor" Count="4" />
+        <Component Subtype="CatalyticConvertor" Count="4" />
+        <Component Subtype="Clamp" Count="108" />
+        <Component Subtype="Radiator" Count="16" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="EnergyCoupler" Count="54" />
+        <Component Subtype="BrazingRod" Count="680" />
+      </Components>
+      <CriticalComponent Subtype="EnergyCoupler" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicAssembler_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicAssembler_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicAssembler_Construction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GasolineSynthesizer</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+      <InventoryMaxVolume>8</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Gasoline</SubtypeId>
+          </Id>
+          <IceToGasRatio>10</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>GasolineToGas</Class>
+      </BlueprintClasses>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>ArcBlockOxyGenProcess</GenerateSound>
+      <IdleSound>ArcBlockOxyGenIdle</IdleSound>
+      <PCU>100</PCU>      
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>LargeBlockJetFuelSynthesizer</SubtypeId>
+      </Id>
+      <DisplayName>JetFuel Synthesizer</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
+      <Description>JetFuel Synthesizer</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="480" />
+        <Component Subtype="BrassRod" Count="32" />
+        <Component Subtype="RubberHose" Count="54" />
+        <Component Subtype="Compressor" Count="4" />
+        <Component Subtype="Reactor" Count="8" />
+        <Component Subtype="Detector" Count="32" />
+        <Component Subtype="CoolingUnit" Count="16" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Superconductor" Count="68" />
+        <Component Subtype="BrazingRod" Count="960" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicAssembler_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicAssembler_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicAssembler_Construction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>JetFuelSynthesizer</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+      <InventoryMaxVolume>8</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>JetFuel</SubtypeId>
+          </Id>
+          <IceToGasRatio>10</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>JetFuelToGas</Class>
+      </BlueprintClasses>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>ArcBlockOxyGenProcess</GenerateSound>
+      <IdleSound>ArcBlockOxyGenIdle</IdleSound>
+      <PCU>100</PCU>      
+    </Definition>
+  </CubeBlocks>
+</Definitions>

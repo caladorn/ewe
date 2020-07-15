@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint> <!-- DepletedUraniumX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DepletedUraniumX100</SubtypeId>
+      </Id>
+      <DisplayName>Depleted Uranium X10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\FuelRods\DepletedUranium_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>      
+      <Results>
+		<Item Amount="10000" TypeId="Ingot" SubtypeId="DepletedUranium" />
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Plutonium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- DepletedUraniumX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DepletedUraniumX10</SubtypeId>
+      </Id>
+      <DisplayName>Depleted Uranium X1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\FuelRods\DepletedUranium_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>      
+      <Results>
+		<Item Amount="1000" TypeId="Ingot" SubtypeId="DepletedUranium" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Plutonium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- DepletedUranium -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DepletedUranium</SubtypeId>
+      </Id>
+      <DisplayName>Depleted Uranium X100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\FuelRods\DepletedUranium_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>      
+      <Results>
+		<Item Amount="100" TypeId="Ingot" SubtypeId="DepletedUranium" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Plutonium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- PoloniumX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PoloniumX100</SubtypeId>
+      </Id>
+      <DisplayName>Polonium x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Polonium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Bismuth" />
+      </Prerequisites>      
+      <Results>
+		<Item Amount="1000" TypeId="Ingot" SubtypeId="Polonium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>375</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PoloniumX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PoloniumX10</SubtypeId>
+      </Id>
+      <DisplayName>Polonium x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Polonium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Bismuth" />
+      </Prerequisites>      
+      <Results>
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Polonium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Polonium -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Polonium</SubtypeId>
+      </Id>
+      <DisplayName>Polonium x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Polonium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Bismuth" />
+      </Prerequisites>      
+      <Results>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Polonium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>

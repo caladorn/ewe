@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- EWERefineryGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWERefineryGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+            <DisplayName>Refineries</DisplayName>
+            <Description>Refinering Blocks used to process raw materials</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Refinery" Subtype="StoneCrusher" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeBlockLargeAdvancedRefinery" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeBlockLargeEliteRefinery" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEAssemblerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEAssemblerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <DisplayName>DisplayName_Block_Assembler</DisplayName>
+            <Description>Block used to assemble Components</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="AdvancedComponentAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="ChemicalReactor" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NeutronCollider" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEMassAssemblerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEMassAssemblerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <DisplayName>Mass Assembler</DisplayName>
+            <Description>Assemblers that build Components in large batches</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Assembler" Subtype="BasicMassAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="AdvancedMassAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="MassChemicalReactor" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="MassNeutronCollider" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEOxygenFarmGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEOxygenFarmGroup" />
+			<Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+            <DisplayName>Gas Farms</DisplayName>
+            <Description>Blocks that produces Oxygen "Gas"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarm" />
+                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockAdvancedOxygenFarm" />
+                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockEliteOxygenFarm" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEHydrogenFarmGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEHydrogenFarmGroup" />
+			<Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+            <DisplayName>Hydrogen Farms</DisplayName>
+            <Description>Blocks that produces Hydrogen "Gas"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockBasicHydrogenFarm" />
+                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockAdvancedHydrogenFarm" />
+                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockEliteHydrogenFarm" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup> <!-- EWEGasEvaporatorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEGasEvaporatorGroup" />
+			<Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+            <DisplayName>Evaporators</DisplayName>
+            <Description>Blocks that convert "Liquids" into "Gases"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockHydrogenEvaporator" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockOxygenEvaporator" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockGasolineSynthesizer" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockJetFuelSynthesizer" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup> <!-- EWEProductivityModuleGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEProductivityModuleGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivity.dds</Icon>
+            <DisplayName>Production Speed Upgrade Modules</DisplayName>
+            <Description>Upgrades Production Blocks</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeProductivityModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeBlockAdvancedProductivityModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeBlockEliteProductivityModule" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEEffectivenessModuleGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEEffectivenessModuleGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivity.dds</Icon>
+            <DisplayName>Production Yeild Upgrade Modules</DisplayName>
+            <Description>Upgrades Production Blocks</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEffectivenessModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeBlockAdvancedEffectivenessModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeBlockEliteEffectivenessModule" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEEnergyModuleGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEEnergyModuleGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivity.dds</Icon>
+            <DisplayName>Production Power Upgrade Modules</DisplayName>
+            <Description>Upgrades Production Blocks</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEnergyModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeBlockAdvancedEnergyModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeBlockEliteEnergyModule" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEDualProductivityModuleGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEDualProductivityModuleGroup" />
+      <Icon>Textures\GUI\Icons\eezoupgradecube.dds</Icon>
+            <DisplayName>Dual Production Speed Upgrade Modules</DisplayName>
+            <Description>Upgrades 2 Production Blocks</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeDualProductivityModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeDualAdvancedProductivityModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeDualEliteProductivityModule" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEDualEffectivenessModuleGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEDualEffectivenessModuleGroup" />
+      <Icon>Textures\GUI\Icons\eezoupgradecube.dds</Icon>
+            <DisplayName>Dual Production Yeild Modules</DisplayName>
+            <Description>Upgrades 2 Production Blocks</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeDualEffectivenessModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeDualAdvancedEffectivenessModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeDualEliteEffectivenessModule" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEDualEnergyModuleGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEDualEnergyModuleGroup" />
+      <Icon>Textures\GUI\Icons\eezoupgradecube.dds</Icon>
+            <DisplayName>Dual Production Power Modules</DisplayName>
+            <Description>Upgrades 2 Production Blocks</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeDualEnergyModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeDualAdvancedEnergyModule" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeDualEliteEnergyModule" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

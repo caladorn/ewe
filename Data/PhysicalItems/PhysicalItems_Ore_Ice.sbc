@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+
+    <PhysicalItem>  <!-- Ice -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>Ice</SubtypeId>
+		</Id>
+		<DisplayName>Ice</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>H2O</IconSymbol>
+	</PhysicalItem>
+
+    <PhysicalItem>  <!-- AmberIce -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>AmberIce</SubtypeId>
+		</Id>
+		<DisplayName>Amber Ice</DisplayName>
+		<Icon>Textures\GUI\Icons\Amber_Ice_Icon.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>H2O+</IconSymbol>
+	</PhysicalItem>
+
+    <PhysicalItem>  <!-- BlueIce -->
+                <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>BlueIce</SubtypeId>
+                </Id>
+                <DisplayName>Blue Ice</DisplayName>
+                <Icon>Textures\GUI\Icons\Blue_Ice_Icon.dds</Icon>
+                <Size>
+                        <X>0.07</X>
+                        <Y>0.07</Y>
+                        <Z>0.07</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>0.2</Volume>
+                <Model>Models\Components\Sphere.mwm</Model>
+                <PhysicalMaterial>Stone</PhysicalMaterial>
+                <IconSymbol>H2O+</IconSymbol>
+        </PhysicalItem>
+
+	<PhysicalItem>  <!-- GreenIce -->
+                <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>GreenIce</SubtypeId>
+                </Id>
+                <DisplayName>Green Ice</DisplayName>
+                <Icon>Textures\GUI\Icons\Green_Ice_Icon.dds</Icon>
+                <Size>
+                        <X>0.07</X>
+                        <Y>0.07</Y>
+                        <Z>0.07</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>0.2</Volume>
+                <Model>Models\Components\Sphere.mwm</Model>
+                <PhysicalMaterial>Stone</PhysicalMaterial>
+                <IconSymbol>H2O+</IconSymbol>
+        </PhysicalItem>
+
+	<PhysicalItem>  <!-- PinkIce -->
+                <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>PinkIce</SubtypeId>
+                </Id>
+                <DisplayName>Pink Ice</DisplayName>
+                <Icon>Textures\GUI\Icons\Pink_Ice_Icon.dds</Icon>
+                <Size>
+                        <X>0.07</X>
+                        <Y>0.07</Y>
+                        <Z>0.07</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>0.2</Volume>
+                <Model>Models\Components\Sphere.mwm</Model>
+                <PhysicalMaterial>Stone</PhysicalMaterial>
+                <IconSymbol>H2O+</IconSymbol>
+        </PhysicalItem>
+
+	<PhysicalItem>  <!-- PurpleIce -->
+                <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>PurpleIce</SubtypeId>
+                </Id>
+                <DisplayName>Purple Ice</DisplayName>
+                <Icon>Textures\GUI\Icons\Purple_Ice_Icon.dds</Icon>
+                <Size>
+                        <X>0.07</X>
+                        <Y>0.07</Y>
+                        <Z>0.07</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>0.2</Volume>
+                <Model>Models\Components\Sphere.mwm</Model>
+                <PhysicalMaterial>Stone</PhysicalMaterial>
+                <IconSymbol>H2O+</IconSymbol>
+        </PhysicalItem>
+
+	<PhysicalItem>  <!-- EuropaIce -->
+                <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>EuropaIce</SubtypeId>
+                </Id>
+                <DisplayName>Europa Ice</DisplayName>
+                <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+                <Size>
+                        <X>0.07</X>
+                        <Y>0.07</Y>
+                        <Z>0.07</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>0.2</Volume>
+                <Model>Models\Components\Sphere.mwm</Model>
+                <PhysicalMaterial>Stone</PhysicalMaterial>
+                <IconSymbol>H2O+</IconSymbol>
+        </PhysicalItem>
+    <PhysicalItem>  <!-- AlienIce -->
+                <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>AlienIce</SubtypeId>
+                </Id>
+                <DisplayName>Alien Ice</DisplayName>
+                <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+                <Size>
+                        <X>0.07</X>
+                        <Y>0.07</Y>
+                        <Z>0.07</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>0.2</Volume>
+                <Model>Models\Components\Sphere.mwm</Model>
+                <PhysicalMaterial>Stone</PhysicalMaterial>
+                <IconSymbol>H2O+</IconSymbol>
+        </PhysicalItem>
+	<PhysicalItem>  <!-- Brine -->
+                <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Brine</SubtypeId>
+                </Id>
+                <DisplayName>Brine</DisplayName>
+                <Icon>Textures\GUI\Icons\ore_brine_ice.dds</Icon>
+                <Size>
+                        <X>0.07</X>
+                        <Y>0.07</Y>
+                        <Z>0.07</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>0.2</Volume>
+                <Model>Models\Components\Sphere.mwm</Model>
+                <PhysicalMaterial>Stone</PhysicalMaterial>
+                <IconSymbol>H2O+</IconSymbol>
+        </PhysicalItem>
+
+	<PhysicalItem>  <!-- MineralIce -->
+                <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>MineralIce</SubtypeId>
+                </Id>
+                <DisplayName>Mineral Ice</DisplayName>
+                <Icon>Textures\GUI\Icons\ore_Mineral_Ice.dds</Icon>
+                <Size>
+                        <X>0.07</X>
+                        <Y>0.07</Y>
+                        <Z>0.07</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>0.2</Volume>
+                <Model>Models\Components\Sphere.mwm</Model>
+                <PhysicalMaterial>Stone</PhysicalMaterial>
+                <IconSymbol>H2O+</IconSymbol>
+        </PhysicalItem>
+
+	<PhysicalItem>  <!-- AmmoniumHydroxide -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>AmmoniumHydroxide</SubtypeId>
+		</Id>
+		<DisplayName>Ammonium Hydroxide</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Ammonium_Hydroxide.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>NH4OH</IconSymbol>
+	</PhysicalItem>
+    <PhysicalItem>  <!-- CHON -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>CHON</SubtypeId>
+		</Id>
+		<DisplayName>CHON</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_CHON.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>CHON</IconSymbol>
+	</PhysicalItem>
+    <PhysicalItem>  <!-- MethaneHydrate -->
+		<Id>
+			<TypeId>Ore</TypeId>
+			<SubtypeId>MethaneHydrate</SubtypeId>
+		</Id>
+		<DisplayName>Methane Hydrate</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_Methane_Hydrate.dds</Icon>
+		<Size>
+			<X>0.07</X>
+			<Y>0.07</Y>
+			<Z>0.07</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>0.2</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Stone</PhysicalMaterial>
+		<IconSymbol>CH6O</IconSymbol>
+	</PhysicalItem>
+
+	</PhysicalItems>
+</Definitions>

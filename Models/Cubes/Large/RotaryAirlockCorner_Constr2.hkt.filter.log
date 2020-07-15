@@ -1,0 +1,17 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Bryon\AppData\Local\Temp\space_engineers_jwoq3hjx.hko -p C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Rotary Airlock\Models\Cubes\Large\RotaryAirlockCorner_Constr2.hkt C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Rotary Airlock\Models\Cubes\Large\RotaryAirlockCorner_Constr2.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Sat May 25 11:55:12 2019, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        [0xabbabfd2] Warning : 'phys5' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        [0xabbabfd2] Warning : 'phys' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        [0xabbabfd2] Warning : 'phys2' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        [0xabbabfd2] Warning : 'phys4' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        [0xabbabfd2] Warning : 'phys3' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        Created 5 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Rotary Airlock\Models\Cubes\Large\RotaryAirlockCorner_Constr2.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 5 Warnings ==========

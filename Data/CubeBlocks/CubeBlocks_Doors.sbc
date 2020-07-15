@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+<!-- <GuiVisible>false</GuiVisible> -->
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition"> <!-- LargeBlock Aluminum Interior Door -->
+      <Id>
+        <TypeId>Door</TypeId>
+	<SubtypeId></SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Interior Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
+      <Description>Aluminum Interior Door</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\door.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <OpenSound>BlockDoorSmallOpen</OpenSound>
+      <CloseSound>BlockDoorSmallClose</CloseSound>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="5" />
+        <Component Subtype="AluminumRod" Count="6" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="16" />
+        <Component Subtype="RubberBushing" Count="8" />
+        <Component Subtype="AluminumPistonAssembly" Count="4" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="Construction" Count="115" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Right" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Top" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.4" EndX="1" EndY="0.6" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.325" EndX="0.25" EndY="0.675" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.75" StartY="0.325" EndX="1" EndY="0.675" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AluminumInteriorDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <MaxOpen>1.2</MaxOpen>
+      
+      <OpeningSpeed>3</OpeningSpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition"> <!-- LargeBlock Steel Interior Door -->
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>LargeBlockSteelInteriorDoor</SubtypeId>
+      </Id>
+      <DisplayName>Steel Interior Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
+      <Description>Steel Interior Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\door.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <OpenSound>BlockDoorSmallOpen</OpenSound>
+      <CloseSound>BlockDoorSmallClose</CloseSound>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelRod" Count="6" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="16" />
+        <Component Subtype="RubberBushing" Count="8" />
+        <Component Subtype="SteelValveAssembly" Count="4" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="Construction" Count="115" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Right" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Top" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.4" EndX="1" EndY="0.6" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.325" EndX="0.25" EndY="0.675" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.75" StartY="0.325" EndX="1" EndY="0.675" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelInteriorDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>35</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <MaxOpen>1.2</MaxOpen>
+      
+      <OpeningSpeed>3</OpeningSpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition"> <!-- LargeBlock Titanium Interior Door -->
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>LargeBlockTitaniumInteriorDoor</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Interior Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
+      <Description>Titanium Interior Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\door.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <OpenSound>BlockDoorSmallOpen</OpenSound>
+      <CloseSound>BlockDoorSmallClose</CloseSound>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="5" />
+        <Component Subtype="TitaniumRod" Count="6" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="16" />
+        <Component Subtype="RubberBushing" Count="8" />
+        <Component Subtype="TitaniumPistonAssembly" Count="4" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="Construction" Count="115" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Right" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Top" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.4" EndX="1" EndY="0.6" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.325" EndX="0.25" EndY="0.675" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.75" StartY="0.325" EndX="1" EndY="0.675" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>TitaniumInteriorDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <MaxOpen>1.2</MaxOpen>
+      
+      <OpeningSpeed>3</OpeningSpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition"> <!-- LargeBlock Nitinol Interior Door -->
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>LargeBlockNitinolInteriorDoor</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Interior Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
+      <Description>Nitinol Interior Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\door.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <OpenSound>BlockDoorSmallOpen</OpenSound>
+      <CloseSound>BlockDoorSmallClose</CloseSound>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="5" />
+        <Component Subtype="NitinolRod" Count="6" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="16" />
+        <Component Subtype="RubberBushing" Count="8" />
+        <Component Subtype="NitinolValveAssembly" Count="4" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="Construction" Count="115" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Right" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Top" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.4" EndX="1" EndY="0.6" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.325" EndX="0.25" EndY="0.675" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.75" StartY="0.325" EndX="1" EndY="0.675" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>NitinolInteriorDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>108</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <MaxOpen>1.2</MaxOpen>
+      
+      <OpeningSpeed>3</OpeningSpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition"> <!-- LargeBlock Graphene Interior Door -->
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>LargeBlockGrapheneInteriorDoor</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Interior Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
+      <Description>Graphene Interior Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\door.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <OpenSound>BlockDoorSmallOpen</OpenSound>
+      <CloseSound>BlockDoorSmallClose</CloseSound>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="5" />
+        <Component Subtype="CarbonTube" Count="6" />
+        <Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="16" />
+        <Component Subtype="RubberBushing" Count="8" />
+        <Component Subtype="NitinolValveAssembly" Count="8" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="Construction" Count="115" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Right" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+        <MountPoint Side="Top" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.4" EndX="1" EndY="0.6" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.325" EndX="0.25" EndY="0.675" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.75" StartY="0.325" EndX="1" EndY="0.675" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GrapheneInteriorDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>188</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <MaxOpen>1.2</MaxOpen>
+      
+      <OpeningSpeed>3</OpeningSpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AirtightSlideDoorDefinition"> <!-- LargeBlock Aluminum SlidingDoor -->
+      <Id>
+        <TypeId>AirtightSlideDoor</TypeId>
+        <SubtypeId>LargeBlockSlideDoor</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Sliding Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlideDoor.dds</Icon>
+      <Description>Aluminum Sliding Door</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SlideDoor.mwm</Model>
+      <OpenSound>BlockDoorSlidingOpen</OpenSound>
+      <CloseSound>BlockDoorSlidingClose</CloseSound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="25" />
+        <Component Subtype="AluminumRod" Count="30" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="MetalGrid" Count="36" />
+        <Component Subtype="SteelPulley" Count="16" />
+        <Component Subtype="Belt" Count="8" />
+        <Component Subtype="Solenoid" Count="10" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="3" />
+        <Component Subtype="Computer" Count="175" />
+        <Component Subtype="Construction" Count="575" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SlideDoor_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SlideDoor_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SlideDoor_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AluminumSlidingDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>1.4</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AirtightSlideDoorDefinition"> <!-- LargeBlock Steel SlidingDoor -->
+      <Id>
+        <TypeId>AirtightSlideDoor</TypeId>
+        <SubtypeId>LargeBlockSteelSlideDoor</SubtypeId>
+      </Id>
+      <DisplayName>Steel Sliding Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlideDoor.dds</Icon>
+      <Description>Steel Sliding Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SlideDoor.mwm</Model>
+      <OpenSound>BlockDoorSlidingOpen</OpenSound>
+      <CloseSound>BlockDoorSlidingClose</CloseSound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="SteelRod" Count="30" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="MetalGrid" Count="36" />
+        <Component Subtype="SteelPulley" Count="16" />
+        <Component Subtype="Belt" Count="8" />
+        <Component Subtype="Solenoid" Count="10" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="3" />
+        <Component Subtype="Computer" Count="175" />
+        <Component Subtype="Construction" Count="575" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SlideDoor_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SlideDoor_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SlideDoor_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelSlidingDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>35</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>1.4</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AirtightSlideDoorDefinition"> <!-- LargeBlock Titanium SlidingDoor -->
+      <Id>
+        <TypeId>AirtightSlideDoor</TypeId>
+        <SubtypeId>LargeBlockTitaniumSlideDoor</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Sliding Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlideDoor.dds</Icon>
+      <Description>Titanium Sliding Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SlideDoor.mwm</Model>
+      <OpenSound>BlockDoorSlidingOpen</OpenSound>
+      <CloseSound>BlockDoorSlidingClose</CloseSound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="25" />
+        <Component Subtype="TitaniumRod" Count="30" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="MetalGrid" Count="36" />
+        <Component Subtype="SteelPulley" Count="16" />
+        <Component Subtype="Belt" Count="8" />
+        <Component Subtype="Solenoid" Count="10" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="3" />
+        <Component Subtype="Computer" Count="175" />
+        <Component Subtype="Construction" Count="575" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SlideDoor_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SlideDoor_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SlideDoor_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>TitaniumSlidingDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>1.4</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AirtightSlideDoorDefinition"> <!-- LargeBlock Nitinol SlidingDoor -->
+      <Id>
+        <TypeId>AirtightSlideDoor</TypeId>
+        <SubtypeId>LargeBlockNitinolSlideDoor</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Sliding Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlideDoor.dds</Icon>
+      <Description>Nitinol Sliding Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SlideDoor.mwm</Model>
+      <OpenSound>BlockDoorSlidingOpen</OpenSound>
+      <CloseSound>BlockDoorSlidingClose</CloseSound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="25" />
+        <Component Subtype="NitinolRod" Count="30" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="MetalGrid" Count="36" />
+        <Component Subtype="SteelGear" Count="16" />
+        <Component Subtype="Chain" Count="8" />
+        <Component Subtype="Solenoid" Count="10" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="3" />
+        <Component Subtype="Computer" Count="175" />
+        <Component Subtype="Construction" Count="575" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SlideDoor_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SlideDoor_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SlideDoor_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>NitinolSlidingDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>107</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>1.4</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AirtightSlideDoorDefinition"> <!-- LargeBlock Graphene SlidingDoor -->
+      <Id>
+        <TypeId>AirtightSlideDoor</TypeId>
+        <SubtypeId>LargeBlockGrapheneSlideDoor</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Sliding Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SlideDoor.dds</Icon>
+      <Description>Graphene Sliding Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SlideDoor.mwm</Model>
+      <OpenSound>BlockDoorSlidingOpen</OpenSound>
+      <CloseSound>BlockDoorSlidingClose</CloseSound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="25" />
+        <Component Subtype="CarbonTube" Count="30" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="MetalGrid" Count="36" />
+        <Component Subtype="SteelGear" Count="16" />
+        <Component Subtype="Chain" Count="8" />
+        <Component Subtype="Solenoid" Count="10" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="3" />
+        <Component Subtype="Computer" Count="175" />
+        <Component Subtype="Construction" Count="575" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SlideDoor_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SlideDoor_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SlideDoor_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GrapheneSlidingDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>188</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>1.4</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition"> <!-- LargeBlock Aluminum HangarDoor -->
+      <Id>
+        <TypeId>AirtightHangarDoor</TypeId>
+        <SubtypeId />
+      </Id>
+      <DisplayName>Aluminum Hangar Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+      <Description>Aluminum Hangar Door</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="2.5" z="0" />
+      <Center x="0" y="2" z="0" />
+      <Model>Models\Cubes\Large\HangarDoor_base.mwm</Model>
+      <Sound>BlockDoorHangar</Sound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="120" />
+        <Component Subtype="AluminumRod" Count="140" />
+        <Component Subtype="InteriorPlate" Count="70" />
+        <Component Subtype="Girder" Count="170" />
+        <Component Subtype="BallBearing" Count="188" />
+        <Component Subtype="SteelGear" Count="188" />
+        <Component Subtype="Chain" Count="94" />
+        <Component Subtype="MagneticCoupler" Count="48" />
+        <Component Subtype="InsulatedCopperWire" Count="14" />
+        <Component Subtype="Computer" Count="420" />
+        <Component Subtype="BrazingRod" Count="850" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AluminumHangarDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>0.1</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition"> <!-- LargeBlock Steel HangarDoor -->
+      <Id>
+        <TypeId>AirtightHangarDoor</TypeId>
+        <SubtypeId>LargeBlockSteelHangarDoor</SubtypeId>
+      </Id>
+      <DisplayName>Steel Hangar Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+      <Description>Steel Hangar Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="2.5" z="0" />
+      <Center x="0" y="2" z="0" />
+      <Model>Models\Cubes\Large\HangarDoor_base.mwm</Model>
+      <Sound>BlockDoorHangar</Sound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="SteelPlate" Count="120" />
+        <Component Subtype="SteelRod" Count="140" />
+        <Component Subtype="InteriorPlate" Count="70" />
+        <Component Subtype="Girder" Count="170" />
+        <Component Subtype="BallBearing" Count="188" />
+        <Component Subtype="SteelGear" Count="188" />
+        <Component Subtype="Chain" Count="94" />
+        <Component Subtype="MagneticCoupler" Count="48" />
+        <Component Subtype="InsulatedCopperWire" Count="14" />
+        <Component Subtype="Computer" Count="420" />
+        <Component Subtype="BrazingRod" Count="850" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelHangarDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>35</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>0.2</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition"> <!-- LargeBlock Titanium HangarDoor -->
+      <Id>
+        <TypeId>AirtightHangarDoor</TypeId>
+        <SubtypeId>LargeBlockTitaniumHangarDoor</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Hangar Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+      <Description>Titanium Hangar Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="2.5" z="0" />
+      <Center x="0" y="2" z="0" />
+      <Model>Models\Cubes\Large\HangarDoor_base.mwm</Model>
+      <Sound>BlockDoorHangar</Sound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="120" />
+        <Component Subtype="TitaniumRod" Count="140" />
+        <Component Subtype="InteriorPlate" Count="70" />
+        <Component Subtype="Girder" Count="170" />
+        <Component Subtype="BallBearing" Count="188" />
+        <Component Subtype="SteelGear" Count="188" />
+        <Component Subtype="Chain" Count="94" />
+        <Component Subtype="MagneticCoupler" Count="48" />
+        <Component Subtype="InsulatedCopperWire" Count="14" />
+        <Component Subtype="Computer" Count="420" />
+        <Component Subtype="BrazingRod" Count="850" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>TitaniumHangarDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>0.3</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition"> <!-- LargeBlock Nitinol HangarDoor -->
+      <Id>
+        <TypeId>AirtightHangarDoor</TypeId>
+        <SubtypeId>LargeBlockNitinolHangarDoor</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Hangar Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+      <Description>Nitinol Hangar Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="2.5" z="0" />
+      <Center x="0" y="2" z="0" />
+      <Model>Models\Cubes\Large\HangarDoor_base.mwm</Model>
+      <Sound>BlockDoorHangar</Sound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="120" />
+        <Component Subtype="NitinolRod" Count="140" />
+        <Component Subtype="InteriorPlate" Count="70" />
+        <Component Subtype="Girder" Count="170" />
+        <Component Subtype="BallBearing" Count="188" />
+        <Component Subtype="SteelGear" Count="188" />
+        <Component Subtype="Chain" Count="94" />
+        <Component Subtype="MagneticCoupler" Count="48" />
+        <Component Subtype="InsulatedCopperWire" Count="14" />
+        <Component Subtype="Computer" Count="420" />
+        <Component Subtype="BrazingRod" Count="850" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>NitinolHangarDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>107</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>0.4</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition"> <!-- LargeBlock Graphene HangarDoor -->
+      <Id>
+        <TypeId>AirtightHangarDoor</TypeId>
+        <SubtypeId>LargeBlockGrapheneHangarDoor</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Hangar Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+      <Description>Graphene Hangar Door</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="2.5" z="0" />
+      <Center x="0" y="2" z="0" />
+      <Model>Models\Cubes\Large\HangarDoor_base.mwm</Model>
+      <Sound>BlockDoorHangar</Sound>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="120" />
+        <Component Subtype="CarbonTube" Count="140" />
+        <Component Subtype="InteriorPlate" Count="70" />
+        <Component Subtype="Girder" Count="170" />
+        <Component Subtype="BallBearing" Count="188" />
+        <Component Subtype="SteelGear" Count="188" />
+        <Component Subtype="Chain" Count="94" />
+        <Component Subtype="MagneticCoupler" Count="48" />
+        <Component Subtype="InsulatedCopperWire" Count="14" />
+        <Component Subtype="Computer" Count="420" />
+        <Component Subtype="BrazingRod" Count="850" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+        <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GrapheneHangarDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>188</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <OpeningSpeed>0.5</OpeningSpeed>
+      <SubpartMovementDistance>2.5</SubpartMovementDistance>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>      
+    </Definition>
+
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Aluminum RotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>RotaryAirlock</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Aluminum Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Straight passthrough.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlock.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="40" />
+        <Component Subtype="AluminumRod" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="10" />
+        <Component Subtype="MetalGrid" Count="65" />
+        <Component Subtype="SteelPulley" Count="30" />
+        <Component Subtype="Belt" Count="15" />
+        <Component Subtype="Solenoid" Count="8" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="6" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="Construction" Count="620" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+	    <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlock_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlock_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AluminumRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <IsAirTight>true</IsAirTight>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>true</InvertRotation>
+		  <Speed>80</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+      <PCU>115</PCU>   
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Steel RotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>SteelRotaryAirlock</SubtypeId>
+      </Id>
+      <DisplayName>Steel Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Steel Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Straight passthrough.</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlock.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="40" />
+        <Component Subtype="SteelRod" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="10" />
+        <Component Subtype="MetalGrid" Count="65" />
+        <Component Subtype="SteelPulley" Count="30" />
+        <Component Subtype="Belt" Count="15" />
+        <Component Subtype="Solenoid" Count="8" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="6" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="Construction" Count="620" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+	    <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlock_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlock_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <IsAirTight>true</IsAirTight>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>true</InvertRotation>
+		  <Speed>90</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+      <PCU>115</PCU>   
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Titanium RotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TitaniumRotaryAirlock</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Titanium Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Straight passthrough.</Description>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlock.mwm</Model>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="40" />
+        <Component Subtype="TitaniumRod" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="10" />
+        <Component Subtype="MetalGrid" Count="65" />
+        <Component Subtype="SteelPulley" Count="30" />
+        <Component Subtype="Belt" Count="15" />
+        <Component Subtype="Solenoid" Count="8" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="6" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="Construction" Count="620" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+	    <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlock_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlock_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>TitaniumRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <IsAirTight>true</IsAirTight>
+      <BuildTimeSeconds>75</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>true</InvertRotation>
+		  <Speed>100</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+      <PCU>115</PCU>   
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Nitinol RotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>NitinolRotaryAirlock</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Nitinol Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Straight passthrough.</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlock.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="40" />
+        <Component Subtype="NitinolRod" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="10" />
+        <Component Subtype="MetalGrid" Count="65" />
+        <Component Subtype="SteelGear" Count="30" />
+        <Component Subtype="Chain" Count="15" />
+        <Component Subtype="Solenoid" Count="8" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="6" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="Construction" Count="620" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+	    <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlock_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlock_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>NitinolRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <IsAirTight>true</IsAirTight>
+      <BuildTimeSeconds>130</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>true</InvertRotation>
+		  <Speed>110</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+      <PCU>115</PCU>   
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Graphene RotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>GrapheneRotaryAirlock</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Graphene Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Straight passthrough.</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlock.mwm</Model>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="40" />
+        <Component Subtype="CarbonTube" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="10" />
+        <Component Subtype="MetalGrid" Count="65" />
+        <Component Subtype="SteelGear" Count="30" />
+        <Component Subtype="Chain" Count="15" />
+        <Component Subtype="Solenoid" Count="8" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="6" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="Construction" Count="620" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+	    <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlock_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlock_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GrapheneRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+	  <IsAirTight>true</IsAirTight>
+      <BuildTimeSeconds>225</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>true</InvertRotation>
+		  <Speed>120</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+      <PCU>115</PCU>   
+    </Definition>
+		
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Aluminum CornerRotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>RotaryAirlockCorner</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Corner Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Aluminum Corner Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Angled passthrough.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlockCorner.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="46" />
+        <Component Subtype="AluminumRod" Count="24" />
+        <Component Subtype="BulletproofGlass" Count="12" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="BallBearing" Count="36" />
+        <Component Subtype="SteelPulley" Count="36" />
+        <Component Subtype="Belt" Count="18" />
+        <Component Subtype="Solenoid" Count="9" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="7" />
+        <Component Subtype="Computer" Count="260" />
+        <Component Subtype="Construction" Count="720" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.89" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.97" EndX="0.89" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.01" EndX="0.89" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.90" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlockCorner_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlockCorner_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AluminumCornerRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorCornerPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>false</InvertRotation>
+		  <Speed>80</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+	  <IsAirTight>true</IsAirTight>
+      <PCU>115</PCU>   
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Steel CornerRotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>SteelRotaryAirlockCorner</SubtypeId>
+      </Id>
+      <DisplayName>Steel Corner Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Steel Corner Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Angled passthrough.</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlockCorner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="46" />
+        <Component Subtype="SteelRod" Count="24" />
+        <Component Subtype="BulletproofGlass" Count="12" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="BallBearing" Count="36" />
+        <Component Subtype="SteelPulley" Count="36" />
+        <Component Subtype="Belt" Count="18" />
+        <Component Subtype="Solenoid" Count="9" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="7" />
+        <Component Subtype="Computer" Count="260" />
+        <Component Subtype="Construction" Count="720" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.89" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.97" EndX="0.89" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.01" EndX="0.89" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.90" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlockCorner_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlockCorner_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCornerRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>42</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorCornerPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>false</InvertRotation>
+		  <Speed>90</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+	  <IsAirTight>true</IsAirTight>
+      <PCU>115</PCU>   
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Titanium CornerRotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>TitaniumRotaryAirlockCorner</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Corner Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Titanium Corner Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Angled passthrough.</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlockCorner.mwm</Model>
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="46" />
+        <Component Subtype="TitaniumRod" Count="24" />
+        <Component Subtype="BulletproofGlass" Count="12" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="BallBearing" Count="36" />
+        <Component Subtype="SteelPulley" Count="36" />
+        <Component Subtype="Belt" Count="18" />
+        <Component Subtype="Solenoid" Count="9" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="7" />
+        <Component Subtype="Computer" Count="260" />
+        <Component Subtype="Construction" Count="720" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.89" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.97" EndX="0.89" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.01" EndX="0.89" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.90" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlockCorner_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlockCorner_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>TitaniumCornerRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>75</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorCornerPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>false</InvertRotation>
+		  <Speed>100</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+	  <IsAirTight>true</IsAirTight>
+      <PCU>115</PCU>   
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Nitinol CornerRotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>NitinolRotaryAirlockCorner</SubtypeId>
+      </Id>
+      <DisplayName>Nitinol Corner Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Nitinol Corner Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Angled passthrough.</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlockCorner.mwm</Model>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="46" />
+        <Component Subtype="NitinolRod" Count="24" />
+        <Component Subtype="BulletproofGlass" Count="12" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="BallBearing" Count="36" />
+        <Component Subtype="SteelGear" Count="36" />
+        <Component Subtype="Chain" Count="18" />
+        <Component Subtype="Solenoid" Count="9" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="7" />
+        <Component Subtype="Computer" Count="260" />
+        <Component Subtype="Construction" Count="720" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.89" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.97" EndX="0.89" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.01" EndX="0.89" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.90" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlockCorner_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlockCorner_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>NitinolCornerRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>130</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorCornerPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>false</InvertRotation>
+		  <Speed>110</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+	  <IsAirTight>true</IsAirTight>
+      <PCU>115</PCU>   
+    </Definition>
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition"> <!-- LargeBlock Graphene CornerRotoryDoor -->
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>GrapheneRotaryAirlockCorner</SubtypeId>
+      </Id>
+      <DisplayName>Graphene Corner Rotary Airlock Door</DisplayName>
+      <Icon>Textures\GUI\Icons\RotaryAirlock.dds</Icon>
+      <Description>Graphene Corner Rotary Airlock Door is a 100% sealed door that is never opened to vacuum. Angled passthrough.</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RotaryAirlockCorner.mwm</Model>
+      <Components>
+        <Component Subtype="GraphenePlate" Count="46" />
+        <Component Subtype="CarbonTube" Count="24" />
+        <Component Subtype="BulletproofGlass" Count="12" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="BallBearing" Count="36" />
+        <Component Subtype="SteelGear" Count="36" />
+        <Component Subtype="Chain" Count="18" />
+        <Component Subtype="Solenoid" Count="9" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="InsulatedCopperWire" Count="7" />
+        <Component Subtype="Computer" Count="260" />
+        <Component Subtype="Construction" Count="720" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.00" EndX="0.10" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.89" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.97" EndX="0.89" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.11" StartY="0.01" EndX="0.89" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.03" />
+		<MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.90" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RotaryAirlockCorner_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RotaryAirlockCorner_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GrapheneCornerRotaryAirlockDoor</BlockPairName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>225</BuildTimeSeconds>
+      <DisassembleRatio>1.5</DisassembleRatio>
+	  <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+	  <Subparts>
+        <SubpartDefinition>
+          <Name>RotaryDoorCornerPart</Name>
+        </SubpartDefinition>
+      </Subparts>
+	  <OpeningSequence>
+		<Opening>
+		  <IDs>0</IDs> 
+		  <Move>Rotate</Move>
+		  <RotationAxis>Y</RotationAxis>
+		  <MaxOpen>180</MaxOpen>
+		  <InvertRotation>false</InvertRotation>
+		  <Speed>120</Speed>
+          <PivotPosition x="0" y="0" z="0" />
+		  <OpenSound>ParticleHeavyMech</OpenSound>
+		  <CloseSound>ParticleHeavyMech</CloseSound>
+		</Opening>
+	  </OpeningSequence>
+	  <IsAirTight>true</IsAirTight>
+      <PCU>115</PCU>   
+    </Definition>
+	
+	</CubeBlocks>
+</Definitions>

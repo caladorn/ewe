@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>StoneCrusher</SubtypeId>
+      </Id>
+      <DisplayName>Stone Crusher</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
+      <Description>Crushes Stone</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="60" />
+        <Component Subtype="SteelRod" Count="14" />
+        <Component Subtype="DiamondTooling" Count="6" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="InsulatedCopperWire" Count="20" />
+        <Component Subtype="Computer" Count="80" />
+        <Component Subtype="SteelBolt" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicAssembler_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicAssembler_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicAssembler_Construction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>StoneCrusher</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>3</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>StoneCrusher</Class>
+      </BlueprintClasses>
+      <RefineSpeed>1</RefineSpeed>
+      <MaterialEfficiency>1</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>20000</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition> 
+  </CubeBlocks>
+</Definitions>

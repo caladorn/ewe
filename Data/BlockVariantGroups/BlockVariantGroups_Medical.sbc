@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- EWEMedicalGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEMedicalGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_MedicalGroup</DisplayName>
+            <Description>Description_BlockGroup_MedicalGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockCryoChamber" />
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoom" />
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />
+            </Blocks>
+        </BlockVariantGroup>
+	</BlockVariantGroups>
+</Definitions>
