@@ -608,7 +608,7 @@
         <Component Subtype="Superconductor" Count="30" />
         <Component Subtype="BrazingRod" Count="650" />
       </Components>
-      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <CriticalComponent Subtype="Superconductor" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
