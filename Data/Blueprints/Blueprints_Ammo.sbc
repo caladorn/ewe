@@ -1,1349 +1,1406 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Blueprints>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>ChargeX100</SubtypeId>
-			</Id>
-			<DisplayName>Charges x10000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Charge_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="272" />
-				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="1622" />
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4322" />
-				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="3784" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Charge" Amount="10000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>ChargeX10</SubtypeId>
-			</Id>
-			<DisplayName>Charges x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Charge_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="27.2" />
-				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="162.2" />
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="432.2" />
-				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="378.4" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Charge" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Charge</SubtypeId>
-			</Id>
-			<DisplayName>Charges x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Charge_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="2.72" />
-				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="16.22" />
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="43.22" />
-				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="37.84" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Charge" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>ExplosivesX100</SubtypeId>
-			</Id>
-			<DisplayName>Explosives x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="16.7" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="340" />
-				<Item TypeId="Component" SubtypeId="Igniter" Amount="100" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Explosives" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>ExplosivesX10</SubtypeId>
-			</Id>
-			<DisplayName>Explosives x10</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="1.67" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="34" />
-				<Item TypeId="Component" SubtypeId="Igniter" Amount="10" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Explosives" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Explosives</SubtypeId>
-			</Id>
-			<DisplayName>Explosive</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="0.167" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="3.4" />
-				<Item TypeId="Component" SubtypeId="Igniter" Amount="1.0" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Explosives" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>UraniumWarheadX100</SubtypeId>
-			</Id>
-			<DisplayName>Uranium Warhead x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="Beryllium" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="Uranium" Amount="1000" />
-				<Item TypeId="Ingot" SubtypeId="Rhodium" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Cesium" Amount="50" />
-				<Item TypeId="Ingot" SubtypeId="Mercury" Amount="100" />
-				<Item TypeId="Component" SubtypeId="Explosives" Amount="100" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="UraniumWarhead" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>UraniumWarheadX10</SubtypeId>
-			</Id>
-			<DisplayName>Uranium Warhead x10</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Beryllium" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Uranium" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="Rhodium" Amount="1" />
-				<Item TypeId="Ingot" SubtypeId="Cesium" Amount="5" />
-				<Item TypeId="Ingot" SubtypeId="Mercury" Amount="10" />
-				<Item TypeId="Component" SubtypeId="Explosives" Amount="10" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="UraniumWarhead" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>UraniumWarhead</SubtypeId>
-			</Id>
-			<DisplayName>Uranium Warhead</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="1" />
-				<Item TypeId="Ingot" SubtypeId="Beryllium" Amount="1" />
-				<Item TypeId="Ingot" SubtypeId="Uranium" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Rhodium" Amount="0.1" />
-				<Item TypeId="Ingot" SubtypeId="Cesium" Amount="0.5" />
-				<Item TypeId="Ingot" SubtypeId="Mercury" Amount="1" />
-				<Item TypeId="Component" SubtypeId="Explosives" Amount="1" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="UraniumWarhead" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>PlutoniumWarheadX100</SubtypeId>
-			</Id>
-			<DisplayName>Plutonium Warhead x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="Beryllium" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="Plutonium" Amount="1000" />
-				<Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Hafnium" Amount="50" />
-				<Item TypeId="Ingot" SubtypeId="Vanadium" Amount="100" />
-				<Item TypeId="Component" SubtypeId="Explosives" Amount="100" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>175</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>PlutoniumWarheadX10</SubtypeId>
-			</Id>
-			<DisplayName>Plutonium Warhead x10</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Beryllium" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Plutonium" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="1" />
-				<Item TypeId="Ingot" SubtypeId="Hafnium" Amount="5" />
-				<Item TypeId="Ingot" SubtypeId="Vanadium" Amount="10" />
-				<Item TypeId="Component" SubtypeId="Explosives" Amount="10" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>PlutoniumWarhead</SubtypeId>
-			</Id>
-			<DisplayName>Plutonium Warhead</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="1" />
-				<Item TypeId="Ingot" SubtypeId="Beryllium" Amount="1" />
-				<Item TypeId="Ingot" SubtypeId="Plutonium" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="0.1" />
-				<Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.5" />
-				<Item TypeId="Ingot" SubtypeId="Vanadium" Amount="1" />
-				<Item TypeId="Component" SubtypeId="Explosives" Amount="1" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>FusionWarheadX100</SubtypeId>
-			</Id>
-			<DisplayName>Fusion Warhead x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="Beryllium" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="9000" />
-				<Item TypeId="Ingot" SubtypeId="Radium" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Polonium" Amount="50" />
-				<Item TypeId="Ingot" SubtypeId="Thallium" Amount="100" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="100" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="FusionWarhead" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>FusionWarheadX10</SubtypeId>
-			</Id>
-			<DisplayName>Fusion Warhead x10</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Beryllium" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="900" />
-				<Item TypeId="Ingot" SubtypeId="Radium" Amount="1" />
-				<Item TypeId="Ingot" SubtypeId="Polonium" Amount="5" />
-				<Item TypeId="Ingot" SubtypeId="Thallium" Amount="10" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="10" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="FusionWarhead" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>FusionWarhead</SubtypeId>
-			</Id>
-			<DisplayName>Fusion Warhead</DisplayName>
-			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="1" />
-				<Item TypeId="Ingot" SubtypeId="Beryllium" Amount="1" />
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="90" />
-				<Item TypeId="Ingot" SubtypeId="Radium" Amount="0.1" />
-				<Item TypeId="Ingot" SubtypeId="Polonium" Amount="0.5" />
-				<Item TypeId="Ingot" SubtypeId="Thallium" Amount="1" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="1" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="FusionWarhead" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>PrimerX100</SubtypeId>
-			</Id>
-			<DisplayName>Primers x5000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Brass" Amount="0.4" />
-				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.22" />
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.29" />
-				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.15" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Primer" Amount="5000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>PrimerX10</SubtypeId>
-			</Id>
-			<DisplayName>Primers x500</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Brass" Amount="0.04" />
-				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.022" />
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.029" />
-				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.015" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Primer" Amount="500" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Primer</SubtypeId>
-			</Id>
-			<DisplayName>Primers x50</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Brass" Amount="0.004" />
-				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.0022" />
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.0029" />
-				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.0015" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Primer" Amount="50" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>CartridgeX100</SubtypeId>
-			</Id>
-			<DisplayName>Cartridges x10000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Brass" Amount="1220" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="10000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>CartridgeX10</SubtypeId>
-			</Id>
-			<DisplayName>Cartridges x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Brass" Amount="122" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Cartridge</SubtypeId>
-			</Id>
-			<DisplayName>Cartridges x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Brass" Amount="12.2" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>BulletX100</SubtypeId>
-			</Id>
-			<DisplayName>Bullets x10000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Lead" Amount="4320" />
-				<Item TypeId="Ingot" SubtypeId="Antimony" Amount="45" />
-				<Item TypeId="Ingot" SubtypeId="Tin" Amount="135" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Bullet" Amount="10000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>BulletX10</SubtypeId>
-			</Id>
-			<DisplayName>Bullets x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Lead" Amount="432" />
-				<Item TypeId="Ingot" SubtypeId="Antimony" Amount="4.5" />
-				<Item TypeId="Ingot" SubtypeId="Tin" Amount="13.5" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Bullet" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Bullet</SubtypeId>
-			</Id>
-			<DisplayName>Bullets x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Lead" Amount="43.2" />
-				<Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.45" />
-				<Item TypeId="Ingot" SubtypeId="Tin" Amount="1.35" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="Bullet" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>FMJ_BulletX100</SubtypeId>
-			</Id>
-			<DisplayName>FMJ Bullets x10000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="246" />
-				<Item TypeId="Ingot" SubtypeId="Lead" Amount="3690" />
-				<Item TypeId="Ingot" SubtypeId="Antimony" Amount="41" />
-				<Item TypeId="Ingot" SubtypeId="Tin" Amount="123" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>187.5</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="10000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>FMJ_BulletX10</SubtypeId>
-			</Id>
-			<DisplayName>FMJ Bullets x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="24.6" />
-				<Item TypeId="Ingot" SubtypeId="Lead" Amount="369" />
-				<Item TypeId="Ingot" SubtypeId="Antimony" Amount="4.1" />
-				<Item TypeId="Ingot" SubtypeId="Tin" Amount="12.3" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>37.5</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>FMJ_Bullet</SubtypeId>
-			</Id>
-			<DisplayName>FMJ Bullets x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="2.46" />
-				<Item TypeId="Ingot" SubtypeId="Lead" Amount="36.9" />
-				<Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.41" />
-				<Item TypeId="Ingot" SubtypeId="Tin" Amount="1.23" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>7.5</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>AP_BulletX100</SubtypeId>
-			</Id>
-			<DisplayName>AP Bullets x10000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="402" />
-				<Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="6030" />
-				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="67" />
-				<Item TypeId="Ingot" SubtypeId="Tungsten" Amount="201" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>187.5</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="AP_Bullet" Amount="10000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>AP_BulletX10</SubtypeId>
-			</Id>
-			<DisplayName>AP Bullets x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="40.2" />
-				<Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="603" />
-				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="6.7" />
-				<Item TypeId="Ingot" SubtypeId="Tungsten" Amount="20.1" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>37.5</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="AP_Bullet" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>AP_Bullet</SubtypeId>
-			</Id>
-			<DisplayName>AP Bullets x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="4.02" />
-				<Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="60.3" />
-				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="0.67" />
-				<Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="2.01" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>7.5</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="AP_Bullet" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HEIAP_BulletX100</SubtypeId>
-			</Id>
-			<DisplayName>HEIAP Bullets x10000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="366" />
-				<Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="4880" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="610" />
-				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="61" />
-				<Item TypeId="Ingot" SubtypeId="Tungsten" Amount="183" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="10000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HEIAP_BulletX10</SubtypeId>
-			</Id>
-			<DisplayName>HEIAP Bullets x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="36.6" />
-				<Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="488" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="61" />
-				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="6.1" />
-				<Item TypeId="Ingot" SubtypeId="Tungsten" Amount="18.3" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HEIAP_Bullet</SubtypeId>
-			</Id>
-			<DisplayName>HEIAP Bullets x100</DisplayName>
-			<Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="3.66" />
-				<Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="48.8" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="6.1" />
-				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="0.61" />
-				<Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="1.83" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>NATO_5p56x45mmX100</SubtypeId>
-			</Id>
-			<DisplayName>NATO 5.56x45mms x5000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Brass" Amount="156" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="120" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="30000" />
-				<Item TypeId="Ingot" SubtypeId="Lead" Amount="51.84" />
-				<Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.54" />
-				<Item TypeId="Ingot" SubtypeId="Tin" Amount="1.62" />
-				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="120" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>NATO_5p56x45mmX10</SubtypeId>
-			</Id>
-			<DisplayName>NATO 5.56x45mms x500</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Brass" Amount="15.6" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="12" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="3000" />
-				<Item TypeId="Ingot" SubtypeId="Lead" Amount="5.184" />
-				<Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.054" />
-				<Item TypeId="Ingot" SubtypeId="Tin" Amount="0.162" />
-				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="12" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>NATO_5p56x45mmMagazine</SubtypeId>
-			</Id>
-			<DisplayName>NATO 5.56x45mms x50</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Ingot" SubtypeId="Brass" Amount="1.56" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="1.2" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="300" />
-				<Item TypeId="Ingot" SubtypeId="Lead" Amount="0.5184" />
-				<Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.0054" />
-				<Item TypeId="Ingot" SubtypeId="Tin" Amount="0.0162" />
-				<Item TypeId="Ingot" SubtypeId="945Steel" Amount="1.2" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>NATO_25x184mmX100</SubtypeId>
-			</Id>
-			<DisplayName>NATO 25x184mms x5000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="150000" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="38400" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="150000" />
-				<Item TypeId="Component" SubtypeId="Bullet" Amount="150000" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>NATO_25x184mmX10</SubtypeId>
-			</Id>
-			<DisplayName>NATO 25x184mms x500</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="15000" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="3840" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="15000" />
-				<Item TypeId="Component" SubtypeId="Bullet" Amount="15000" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>NATO_25x184mmMagazine</SubtypeId>
-			</Id>
-			<DisplayName>NATO 25x184mms x50</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="1500" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="384" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="1500" />
-				<Item TypeId="Component" SubtypeId="Bullet" Amount="1500" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>FMJ_NATO_25x184mmX100</SubtypeId>
-			</Id>
-			<DisplayName>FMJ NATO 25x184mms x5000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="120000" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="30720" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="120000" />
-				<Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="120000" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>325</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="FMJ_NATO_25x184mm" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>FMJ_NATO_25x184mmX10</SubtypeId>
-			</Id>
-			<DisplayName>FMJ NATO 25x184mms x500</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="12000" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="3072" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="12000" />
-				<Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="12000" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="FMJ_NATO_25x184mm" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>FMJ_NATO_25x184mm</SubtypeId>
-			</Id>
-			<DisplayName>FMJ NATO 25x184mm x50</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="1200" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="307.2" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="1200" />
-				<Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="1200" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="FMJ_NATO_25x184mm" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>AP_NATO_25x184mmX100</SubtypeId>
-			</Id>
-			<DisplayName>AP NATO 25x184mms x5000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="75000" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="19200" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="75000" />
-				<Item TypeId="Component" SubtypeId="AP_Bullet" Amount="75000" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>325</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="AP_NATO_25x184mm" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>AP_NATO_25x184mmX10</SubtypeId>
-			</Id>
-			<DisplayName>AP NATO 25x184mms x500</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="7500" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="1920" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="7500" />
-				<Item TypeId="Component" SubtypeId="AP_Bullet" Amount="7500" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="AP_NATO_25x184mm" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>AP_NATO_25x184mm</SubtypeId>
-			</Id>
-			<DisplayName>AP NATO 25x184mm x50</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="750" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="192" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="750" />
-				<Item TypeId="Component" SubtypeId="AP_Bullet" Amount="750" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="AP_NATO_25x184mm" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HEIAP_NATO_25x184mmX100</SubtypeId>
-			</Id>
-			<DisplayName>HEIAP NATO 25x184mms x5000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="75000" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="19200" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="75000" />
-				<Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="75000" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>325</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="HEIAP_NATO_25x184mm" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HEIAP_NATO_25x184mmX10</SubtypeId>
-			</Id>
-			<DisplayName>HEIAP NATO 25x184mms x500</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="7500" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="1920" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="7500" />
-				<Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="7500" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="HEIAP_NATO_25x184mm" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HEIAP_NATO_25x184mm</SubtypeId>
-			</Id>
-			<DisplayName>HEIAP NATO 25x184mm x50</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="Cartridge" Amount="750" />
-				<Item TypeId="Component" SubtypeId="Gunpowder" Amount="192" />
-				<Item TypeId="Component" SubtypeId="Primer" Amount="750" />
-				<Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="750" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="HEIAP_NATO_25x184mm" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>RocketX100</SubtypeId>
-			</Id>
-			<DisplayName>Rocket x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="860" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="1000" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="4800" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="4800" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="4800" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="600" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>375</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Rocket" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>RocketX10</SubtypeId>
-			</Id>
-			<DisplayName>Rocket x100</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="86" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="480" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="480" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="480" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="60" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Rocket" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Rocket</SubtypeId>
-			</Id>
-			<DisplayName>Rocket x10</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="8.6" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="10.0" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10.0" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="48" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="48" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="48" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="6" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Rocket" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Burst_RocketX100</SubtypeId>
-			</Id>
-			<DisplayName>Burst Rocket x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="1120" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="1000" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="7200" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="7200" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="14400" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="1200" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Burst_Rocket" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Burst_RocketX10</SubtypeId>
-			</Id>
-			<DisplayName>Burst Rocket x100</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="112" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="720" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="720" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="1440" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="120" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Burst_Rocket" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Burst_Rocket</SubtypeId>
-			</Id>
-			<DisplayName>Burst Rocket x10</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="11.2" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="10.0" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10.0" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="72" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="72" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="144" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="12" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Burst_Rocket" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Cruise_MissileX100</SubtypeId>
-			</Id>
-			<DisplayName>Cruise Missile x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="3200" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="8800" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="144000" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="400" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="400" />
-				<Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="400" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="400000" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="1200" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Cruise_MissileX10</SubtypeId>
-			</Id>
-			<DisplayName>Cruise Missile x100</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="320" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="880" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="14400" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="40" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="40" />
-				<Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="40" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="40000" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="120" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Cruise_Missile</SubtypeId>
-			</Id>
-			<DisplayName>Cruise Missile x10</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="32" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="88" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1440" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="4" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="4" />
-				<Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="4" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="4000" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="12" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Javelian_Cruise_MissileX100</SubtypeId>
-			</Id>
-			<DisplayName>Javelian Cruise Missile x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="4800" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="17600" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="288000" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="600" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="600" />
-				<Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="600" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="1200" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="1800" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>625</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Javelian_CruiseMissile" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Javelian_Cruise_MissileX10</SubtypeId>
-			</Id>
-			<DisplayName>Javelian Cruise Missile x100</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="480" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="1760" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="28800" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="60" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="60" />
-				<Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="60" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="120" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="180" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Javelian_CruiseMissile" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Javelian_CruiseMissile</SubtypeId>
-			</Id>
-			<DisplayName>Javelian Cruise Missile x10</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="48" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="176" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="2880" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="6" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="6" />
-				<Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="6" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="12" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="18" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Javelian_CruiseMissile" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>TorpedoX100</SubtypeId>
-			</Id>
-			<DisplayName>Torpedo x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="SteelPlate" Amount="2400" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="1000" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="144000" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="100" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="100" />
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="100" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="1000" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="1000" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Torpedo" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>TorpedoX10</SubtypeId>
-			</Id>
-			<DisplayName>Torpedo x100</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="SteelPlate" Amount="240" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="14400" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="10" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="10" />
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="10" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="100" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="100" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Torpedo" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Torpedo</SubtypeId>
-			</Id>
-			<DisplayName>Torpedo x10</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="SteelPlate" Amount="24" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1440" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="1" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="1" />
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="1" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="10" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="10" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Torpedo" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HEAT_TorpedoX100</SubtypeId>
-			</Id>
-			<DisplayName>HEAT Torpedo x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="SteelPlate" Amount="1000" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="1000" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="144000" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="100" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="100" />
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="100" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="2000" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="1000" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>875</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="HEAT_Torpedo" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HEAT_TorpedoX10</SubtypeId>
-			</Id>
-			<DisplayName>HEAT Torpedo x100</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="SteelPlate" Amount="100" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="14400" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="10" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="10" />
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="10" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="200" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="100" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>175</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="HEAT_Torpedo" Amount="10" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HEAT_Torpedo</SubtypeId>
-			</Id>
-			<DisplayName>HEAT Torpedo x10</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="SteelPlate" Amount="10" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="10" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1440" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="1" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="1" />
-				<Item TypeId="Component" SubtypeId="LargeTube" Amount="1" />
-				<Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="20" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="10" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="HEAT_Torpedo" Amount="1" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Missile200mmX100</SubtypeId>
-			</Id>
-			<DisplayName>200mm Missiles x1000</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="3000" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="1000" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="1000" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="1000" />
-				<Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="1000" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="5000" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="1000" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Missile200mm" Amount="1000" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Missile200mmX10</SubtypeId>
-			</Id>
-			<DisplayName>200mm Missiles x100</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="300" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="100" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="100" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="100" />
-				<Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="100" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="500" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="100" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Missile200mm" Amount="100" />
-			</Results>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Missile200mm</SubtypeId>
-			</Id>
-			<DisplayName>200mm Missiles x10</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="AluminumPlate" Amount="30.0" />
-				<Item TypeId="Component" SubtypeId="Bladder" Amount="10.0" />
-				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10.0" />
-				<Item TypeId="Component" SubtypeId="PressureRegulator" Amount="10.0" />
-				<Item TypeId="Component" SubtypeId="Thrust" Amount="10.0" />
-				<Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="10.0" />
-				<Item TypeId="Component" SubtypeId="Charge" Amount="50.0" />
-				<Item TypeId="Component" SubtypeId="BrazingRod" Amount="10.0" />
-			</Prerequisites>
-			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
-			<Results>
-				<Item TypeId="AmmoMagazine" SubtypeId="Missile200mm" Amount="10" />
-			</Results>
-		</Blueprint>
-	</Blueprints>
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GunpowderX100</SubtypeId>
+      </Id>
+      <DisplayName>Gunpowder x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Charge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3600"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="2850"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1500"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="1050"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GunpowderX10</SubtypeId>
+      </Id>
+      <DisplayName>Gunpowder x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Charge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="360"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="285"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="150"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="105"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="100"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Gunpowder</SubtypeId>
+      </Id>
+      <DisplayName>Gunpowder x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="36"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="28.5"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="15"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="10.5"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="10"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HighExplosiveX100</SubtypeId>
+      </Id>
+      <DisplayName>High Explosive x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="272"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1622"/>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4322"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="3784"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HighExplosiveX10</SubtypeId>
+      </Id>
+      <DisplayName>High Explosive x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="27.2"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="162.2"/>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="432.2"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="378.4"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HighExplosive</SubtypeId>
+      </Id>
+      <DisplayName>High Explosive x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="2.72"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="16.22"/>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="43.22"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="37.84"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ExplosivesX100</SubtypeId>
+      </Id>
+      <DisplayName>Explosives x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="16.7"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="340"/>
+        <Item TypeId="Component" SubtypeId="Igniter" Amount="100"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Explosives" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ExplosivesX10</SubtypeId>
+      </Id>
+      <DisplayName>Explosives x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="1.67"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="34"/>
+        <Item TypeId="Component" SubtypeId="Igniter" Amount="10"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Explosives" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Explosives</SubtypeId>
+      </Id>
+      <DisplayName>Explosive</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="0.167"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="3.4"/>
+        <Item TypeId="Component" SubtypeId="Igniter" Amount="1.0"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Explosives" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumWarheadX100</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Warhead x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="1000"/>
+        <Item TypeId="Ingot" SubtypeId="Rhodium" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Cesium" Amount="50"/>
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="Explosives" Amount="100"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="UraniumWarhead" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumWarheadX10</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Warhead x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="Rhodium" Amount="1"/>
+        <Item TypeId="Ingot" SubtypeId="Cesium" Amount="5"/>
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="Explosives" Amount="10"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="UraniumWarhead" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Warhead</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="1"/>
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="1"/>
+        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Rhodium" Amount="0.1"/>
+        <Item TypeId="Ingot" SubtypeId="Cesium" Amount="0.5"/>
+        <Item TypeId="Ingot" SubtypeId="Mercury" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="Explosives" Amount="1"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="UraniumWarhead" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlutoniumWarheadX100</SubtypeId>
+      </Id>
+      <DisplayName>Plutonium Warhead x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="1000"/>
+        <Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="50"/>
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="Explosives" Amount="100"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>175</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlutoniumWarheadX10</SubtypeId>
+      </Id>
+      <DisplayName>Plutonium Warhead x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="1"/>
+        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="5"/>
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="Explosives" Amount="10"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlutoniumWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Plutonium Warhead</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="1"/>
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="1"/>
+        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Ruthenium" Amount="0.1"/>
+        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.5"/>
+        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="Explosives" Amount="1"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FusionWarheadX100</SubtypeId>
+      </Id>
+      <DisplayName>Fusion Warhead x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="9000"/>
+        <Item TypeId="Ingot" SubtypeId="Radium" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Polonium" Amount="50"/>
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="100"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="FusionWarhead" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FusionWarheadX10</SubtypeId>
+      </Id>
+      <DisplayName>Fusion Warhead x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="900"/>
+        <Item TypeId="Ingot" SubtypeId="Radium" Amount="1"/>
+        <Item TypeId="Ingot" SubtypeId="Polonium" Amount="5"/>
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="10"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="FusionWarhead" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FusionWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Fusion Warhead</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="1"/>
+        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="1"/>
+        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="90"/>
+        <Item TypeId="Ingot" SubtypeId="Radium" Amount="0.1"/>
+        <Item TypeId="Ingot" SubtypeId="Polonium" Amount="0.5"/>
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="1"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="FusionWarhead" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PrimerX100</SubtypeId>
+      </Id>
+      <DisplayName>Primers x5000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Brass" Amount="0.4"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.22"/>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.29"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.15"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="5000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PrimerX10</SubtypeId>
+      </Id>
+      <DisplayName>Primers x500</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Brass" Amount="0.04"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.022"/>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.029"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.015"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="500"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Primer</SubtypeId>
+      </Id>
+      <DisplayName>Primers x50</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Brass" Amount="0.004"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.0022"/>
+        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.0029"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.0015"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="50"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulletX100</SubtypeId>
+      </Id>
+      <DisplayName>Bullets x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="4320"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="45"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="135"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Bullet" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulletX10</SubtypeId>
+      </Id>
+      <DisplayName>Bullets x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="432"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="4.5"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="13.5"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Bullet" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bullet</SubtypeId>
+      </Id>
+      <DisplayName>Bullets x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="43.2"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.45"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="1.35"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Bullet" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FMJ_BulletX100</SubtypeId>
+      </Id>
+      <DisplayName>FMJ Bullets x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="246"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="3690"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="41"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="123"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>187.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FMJ_BulletX10</SubtypeId>
+      </Id>
+      <DisplayName>FMJ Bullets x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="24.6"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="369"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="4.1"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="12.3"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>37.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FMJ_Bullet</SubtypeId>
+      </Id>
+      <DisplayName>FMJ Bullets x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="2.46"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="36.9"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.41"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="1.23"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>7.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AP_BulletX100</SubtypeId>
+      </Id>
+      <DisplayName>AP Bullets x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="402"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="6030"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="67"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="201"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>187.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="AP_Bullet" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AP_BulletX10</SubtypeId>
+      </Id>
+      <DisplayName>AP Bullets x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="40.2"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="603"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="6.7"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="20.1"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>37.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="AP_Bullet" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AP_Bullet</SubtypeId>
+      </Id>
+      <DisplayName>AP Bullets x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="4.02"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="60.3"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="0.67"/>
+        <Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="2.01"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>7.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="AP_Bullet" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEIAP_BulletX100</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP Bullets x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="366"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="4880"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="610"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="61"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="183"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEIAP_BulletX10</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP Bullets x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="36.6"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="488"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="61"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="6.1"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="18.3"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEIAP_Bullet</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP Bullets x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="3.66"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="48.8"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="6.1"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="0.61"/>
+        <Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="1.83"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmX100</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mms x5000</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Brass" Amount="156"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="120"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="30000"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="51.84"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.54"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="1.62"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="120"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmX10</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mms x500</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Brass" Amount="15.6"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="12"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="3000"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="5.184"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.054"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="0.162"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="12"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mms x50</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Brass" Amount="1.56"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="1.2"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="300"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.5184"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.0054"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="0.0162"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="1.2"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmX100</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms x5000</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="150000"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="38400"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="150000"/>
+        <Item TypeId="Component" SubtypeId="Bullet" Amount="150000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmX10</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms x500</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="15000"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="3840"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="15000"/>
+        <Item TypeId="Component" SubtypeId="Bullet" Amount="15000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms x50</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="1500"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="384"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="1500"/>
+        <Item TypeId="Component" SubtypeId="Bullet" Amount="1500"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FMJ_NATO_25x184mmX100</SubtypeId>
+      </Id>
+      <DisplayName>FMJ NATO 25x184mms x5000</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="120000"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="30720"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="120000"/>
+        <Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="120000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>325</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="FMJ_NATO_25x184mm" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FMJ_NATO_25x184mmX10</SubtypeId>
+      </Id>
+      <DisplayName>FMJ NATO 25x184mms x500</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="12000"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="3072"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="12000"/>
+        <Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="12000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="FMJ_NATO_25x184mm" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FMJ_NATO_25x184mm</SubtypeId>
+      </Id>
+      <DisplayName>FMJ NATO 25x184mm x50</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="1200"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="307.2"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="1200"/>
+        <Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="1200"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="FMJ_NATO_25x184mm" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AP_NATO_25x184mmX100</SubtypeId>
+      </Id>
+      <DisplayName>AP NATO 25x184mms x5000</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="75000"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="19200"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="75000"/>
+        <Item TypeId="Component" SubtypeId="AP_Bullet" Amount="75000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>325</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="AP_NATO_25x184mm" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AP_NATO_25x184mmX10</SubtypeId>
+      </Id>
+      <DisplayName>AP NATO 25x184mms x500</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="7500"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="1920"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="7500"/>
+        <Item TypeId="Component" SubtypeId="AP_Bullet" Amount="7500"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="AP_NATO_25x184mm" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AP_NATO_25x184mm</SubtypeId>
+      </Id>
+      <DisplayName>AP NATO 25x184mm x50</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="750"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="192"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="750"/>
+        <Item TypeId="Component" SubtypeId="AP_Bullet" Amount="750"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="AP_NATO_25x184mm" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEIAP_NATO_25x184mmX100</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP NATO 25x184mms x5000</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="75000"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="19200"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="75000"/>
+        <Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="75000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>325</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="HEIAP_NATO_25x184mm" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEIAP_NATO_25x184mmX10</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP NATO 25x184mms x500</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="7500"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="1920"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="7500"/>
+        <Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="7500"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="HEIAP_NATO_25x184mm" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEIAP_NATO_25x184mm</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP NATO 25x184mm x50</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="750"/>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="192"/>
+        <Item TypeId="Component" SubtypeId="Primer" Amount="750"/>
+        <Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="750"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="HEIAP_NATO_25x184mm" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RocketX100</SubtypeId>
+      </Id>
+      <DisplayName>Rocket x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="860"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="4800"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="4800"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="4800"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="600"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>375</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Rocket" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RocketX10</SubtypeId>
+      </Id>
+      <DisplayName>Rocket x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="86"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="480"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="480"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="480"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="60"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Rocket" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Rocket</SubtypeId>
+      </Id>
+      <DisplayName>Rocket</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="8.6"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="10.0"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10.0"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="48"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="48"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="48"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="6"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Rocket" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Burst_RocketX100</SubtypeId>
+      </Id>
+      <DisplayName>Burst Rocket x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="1120"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="7200"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="7200"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="14400"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="1200"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Burst_Rocket" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Burst_RocketX10</SubtypeId>
+      </Id>
+      <DisplayName>Burst Rocket x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="112"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="720"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="720"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="1440"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="120"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Burst_Rocket" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Burst_Rocket</SubtypeId>
+      </Id>
+      <DisplayName>Burst Rocket</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="11.2"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="10.0"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10.0"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="72"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="72"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="144"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="12"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Burst_Rocket" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cruise_MissileX100</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="3200"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="8800"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="144000"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="400"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="400"/>
+        <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="400"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="400000"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="1200"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cruise_MissileX10</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="320"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="880"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="14400"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="40"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="40"/>
+        <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="40"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="40000"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="120"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cruise_Missile</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="32"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="88"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1440"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="4"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="4"/>
+        <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="4"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="4000"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="12"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Javelian_Cruise_MissileX100</SubtypeId>
+      </Id>
+      <DisplayName>Javelian Cruise Missile x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="4800"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="17600"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="288000"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="600"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="600"/>
+        <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="600"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="1200"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="1800"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>625</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Javelian_CruiseMissile" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Javelian_Cruise_MissileX10</SubtypeId>
+      </Id>
+      <DisplayName>Javelian Cruise Missile x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="480"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="1760"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="28800"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="60"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="60"/>
+        <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="60"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="120"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="180"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Javelian_CruiseMissile" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Javelian_CruiseMissile</SubtypeId>
+      </Id>
+      <DisplayName>Javelian Cruise Missile</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="48"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="176"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="2880"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="6"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="6"/>
+        <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="6"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="12"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="18"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Javelian_CruiseMissile" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TorpedoX100</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="SteelPlate" Amount="2400"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="144000"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="1000"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="1000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Torpedo" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TorpedoX10</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="SteelPlate" Amount="240"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="14400"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="100"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Torpedo" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Torpedo</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="SteelPlate" Amount="24"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1440"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="10"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Torpedo" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEAT_TorpedoX100</SubtypeId>
+      </Id>
+      <DisplayName>HEAT Torpedo x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="SteelPlate" Amount="1000"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="144000"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="2000"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="1000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>875</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="HEAT_Torpedo" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEAT_TorpedoX10</SubtypeId>
+      </Id>
+      <DisplayName>HEAT Torpedo x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="SteelPlate" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="14400"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="200"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="100"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>175</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="HEAT_Torpedo" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEAT_Torpedo</SubtypeId>
+      </Id>
+      <DisplayName>HEAT Torpedo</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="SteelPlate" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="10"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1440"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="LargeTube" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="PlutoniumWarhead" Amount="20"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="10"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="HEAT_Torpedo" Amount="1"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mmX100</SubtypeId>
+      </Id>
+      <DisplayName>200mm Missiles x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="3000"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="1000"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="1000"/>
+        <Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="1000"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="5000"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="1000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Missile200mm" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mmX10</SubtypeId>
+      </Id>
+      <DisplayName>200mm Missiles x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="300"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="500"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="100"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Missile200mm" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mm</SubtypeId>
+      </Id>
+      <DisplayName>200mm Missiles x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="30.0"/>
+        <Item TypeId="Component" SubtypeId="Bladder" Amount="10.0"/>
+        <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10.0"/>
+        <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="10.0"/>
+        <Item TypeId="Component" SubtypeId="Thrust" Amount="10.0"/>
+        <Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="10.0"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="50.0"/>
+        <Item TypeId="Component" SubtypeId="BrazingRod" Amount="10.0"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="AmmoMagazine" SubtypeId="Missile200mm" Amount="10"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CartridgeX100</SubtypeId>
+      </Id>
+      <DisplayName>Cartridges x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Brass" Amount="1220"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CartridgeX10</SubtypeId>
+      </Id>
+      <DisplayName>Cartridges x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Brass" Amount="122"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cartridge</SubtypeId>
+      </Id>
+      <DisplayName>Cartridges x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Brass" Amount="12.2"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Cartridge" Amount="100"/>
+      </Results>
+    </Blueprint>
+  </Blueprints>
 </Definitions>
