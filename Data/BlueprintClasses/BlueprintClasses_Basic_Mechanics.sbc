@@ -65,7 +65,7 @@
     <Entry Class="BscMassProdMech" BlueprintSubtypeId="DiamondToolingX10" />
     <Entry Class="BscMassProdMech" BlueprintSubtypeId="CarbideRingX10" />
     <Entry Class="BscMassProdMech" BlueprintSubtypeId="RubberGasketX10" />
-    <Entry Class="BscMassProdMech" BlueprintSubtypeId="Filter" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="FilterX10" />
     <Entry Class="BscMassProdMech" BlueprintSubtypeId="TapeX10" />
     <Entry Class="BscMassProdMech" BlueprintSubtypeId="ZipTiesX10" />
     <Entry Class="BscMassProdMech" BlueprintSubtypeId="BallValveX10" />
