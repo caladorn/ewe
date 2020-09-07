@@ -12,7 +12,7 @@
         <Item TypeId="Ore" SubtypeId="Coffinite" Amount="350" />
       </Prerequisites>
       <Results>
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="116.046" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="116.046" />
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="31.204" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="14.935" />
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="12.319" />
@@ -33,7 +33,7 @@
         <Item TypeId="Ore" SubtypeId="Coffinite" Amount="8750" />
       </Prerequisites>
       <Results>
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="2901.151" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="2901.151" />
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="780.111" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="373.384" />
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="307.97" />
@@ -54,7 +54,7 @@
         <Item TypeId="Ore" SubtypeId="Coffinite" Amount="17500" />
       </Prerequisites>
       <Results>
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="5802.302" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="5802.302" />
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1560.222" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="746.767" />
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="615.94" />
@@ -134,7 +134,7 @@
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="15.624" />
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="9.35" />
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="1.19" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="1.17" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="1.17" />
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="1.17" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
@@ -155,7 +155,7 @@
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="390.605" />
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="233.75" />
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="29.75" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="29.25" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="29.25" />
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="29.25" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
@@ -176,7 +176,7 @@
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="781.21" />
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="467.5" />
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="59.5" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="58.5" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="58.5" />
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="58.5" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
@@ -197,7 +197,7 @@
         <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="22.144" />
         <Item TypeId="Ingot" SubtypeId="Cerium" Amount="17.863" />
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="14.809" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="10.15" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="10.15" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="7.397" />
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="4.481" />
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="2.21" />
@@ -223,7 +223,7 @@
         <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="553.607" />
         <Item TypeId="Ingot" SubtypeId="Cerium" Amount="446.569" />
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="370.222" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="253.75" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="253.75" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="184.919" />
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="112.026" />
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="55.25" />
@@ -249,7 +249,7 @@
         <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="1107.214" />
         <Item TypeId="Ingot" SubtypeId="Cerium" Amount="893.137" />
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="740.444" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="507.5" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="507.5" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="369.839" />
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="224.052" />
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="110.5" />
@@ -274,7 +274,7 @@
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="56.625" />
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="18.09" />
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="10.501" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="3.095" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="3.095" />
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="2.486" />
         <Item TypeId="Ingot" SubtypeId="Boron" Amount="2.392" />
         <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="1.3" />
@@ -303,7 +303,7 @@
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1415.632" />
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="452.242" />
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="262.532" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="77.367" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="77.367" />
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="62.154" />
         <Item TypeId="Ingot" SubtypeId="Boron" Amount="59.79" />
         <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="32.492" />
@@ -332,7 +332,7 @@
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2831.264" />
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="904.483" />
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="525.064" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="154.734" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="154.734" />
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="124.308" />
         <Item TypeId="Ingot" SubtypeId="Boron" Amount="119.581" />
         <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="64.984" />
@@ -357,7 +357,7 @@
         <Item TypeId="Ore" SubtypeId="Pitchblend" Amount="300" />
       </Prerequisites>
       <Results>
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="131.758" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="131.758" />
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="17.712" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="2.43" />
         <Item TypeId="Ingot" SubtypeId="Helium" Amount="0.23" />
@@ -380,7 +380,7 @@
         <Item TypeId="Ore" SubtypeId="Pitchblend" Amount="7500" />
       </Prerequisites>
       <Results>
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="3293.945" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="3293.945" />
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="442.805" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="60.75" />
         <Item TypeId="Ingot" SubtypeId="Helium" Amount="5.75" />
@@ -403,7 +403,7 @@
         <Item TypeId="Ore" SubtypeId="Pitchblend" Amount="15000" />
       </Prerequisites>
       <Results>
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="6587.89" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="6587.89" />
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="885.61" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="121.5" />
         <Item TypeId="Ingot" SubtypeId="Helium" Amount="11.5" />
@@ -504,7 +504,7 @@
         <Item TypeId="Ore" SubtypeId="Uraninite" Amount="300" />
       </Prerequisites>
       <Results>
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="131.775" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="131.775" />
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="17.715" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="2.43" />
         <Item TypeId="Ingot" SubtypeId="Radium" Amount="0.3" />
@@ -527,7 +527,7 @@
         <Item TypeId="Ore" SubtypeId="Uraninite" Amount="7500" />
       </Prerequisites>
       <Results>
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="3294.386" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="3294.386" />
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="442.864" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="60.75" />
         <Item TypeId="Ingot" SubtypeId="Radium" Amount="7.5" />
@@ -550,7 +550,7 @@
         <Item TypeId="Ore" SubtypeId="Uraninite" Amount="15000" />
       </Prerequisites>
       <Results>
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="6588.772" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="6588.772" />
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="885.728" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="121.5" />
         <Item TypeId="Ingot" SubtypeId="Radium" Amount="15.0" />
@@ -580,7 +580,7 @@
         <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="9.572" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="3.68" />
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="0.75" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="0.35" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="0.35" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -602,7 +602,7 @@
         <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="239.302" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="92.0" />
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="18.75" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="8.75" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="8.75" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -624,7 +624,7 @@
         <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="478.605" />
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="184.0" />
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="37.5" />
-        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="17.5" />
+        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="17.5" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>

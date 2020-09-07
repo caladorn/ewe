@@ -63,8 +63,8 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ChromiumSteelDisassembly</SubtypeId>
       </Id>
-      <Icon>Chromium Steel</Icon>
-      <DisplayName>Textures\GUI\Icons\ingot\iron_ingot.dds</DisplayName>
+      <DisplayName>Chromium Steel</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Alloys\ChromiumSteel_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.9698"/>
         <Item TypeId="Ingot" SubtypeId="Manganese" Amount="0.0035"/>
