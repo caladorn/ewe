@@ -44,7 +44,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>300</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>300</RequiredPowerInput>
+      <RequiredPowerInput>50</RequiredPowerInput>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>50</OperationalPowerConsumption>
       <Public>true</Public>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -98,7 +100,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>300</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>75</RequiredPowerInput>
+      <RequiredPowerInput>0.4</RequiredPowerInput>
+			<StandbyPowerConsumption>0.00001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.4</OperationalPowerConsumption>
       <Public>true</Public>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>

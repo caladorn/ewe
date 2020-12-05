@@ -51,6 +51,11 @@
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+
+	  <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+	  <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+	  <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.15</OperationalPowerConsumption>
       <ProducedGases>
@@ -71,6 +76,11 @@
       <GenerateSound>ArcBlockOxyGenProcess</GenerateSound>
       <IdleSound>ArcBlockOxyGenIdle</IdleSound>
       <PCU>100</PCU>      
+	  <TieredUpdateTimes>
+		<unsignedInt>300</unsignedInt>
+		<unsignedInt>600</unsignedInt>
+		<unsignedInt>1200</unsignedInt>
+	  </TieredUpdateTimes>
     </Definition>
 	<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>

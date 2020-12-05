@@ -1015,6 +1015,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <BuildTimeSeconds>32</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1024,6 +1027,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
+			<TieredUpdateTimes>
+				<unsignedInt>100</unsignedInt>
+				<unsignedInt>300</unsignedInt>
+				<unsignedInt>600</unsignedInt>
+			</TieredUpdateTimes>
       <IsAirTight>false</IsAirTight>      
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
@@ -1093,6 +1101,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <BuildTimeSeconds>64</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1171,6 +1182,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <BuildTimeSeconds>128</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1245,6 +1259,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1316,6 +1333,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1387,6 +1407,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <BuildTimeSeconds>200</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1459,6 +1482,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
@@ -1530,6 +1556,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
@@ -1601,6 +1630,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
@@ -1683,6 +1715,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1766,6 +1801,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1849,6 +1887,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+			<BlueprintClasses>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
       <BuildTimeSeconds>120</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
