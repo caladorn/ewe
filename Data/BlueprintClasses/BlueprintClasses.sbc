@@ -44,9 +44,9 @@
   </BlueprintClasses>
   <BlueprintClassEntries>
    
-	<Entry Class="HydrogenToGas" BlueprintSubtypeId="HydrogentoGas" />
+    <Entry Class="HydrogenToGas" BlueprintSubtypeId="HydrogentoGas" />
     <Entry Class="OxygenToGas" BlueprintSubtypeId="OxygentoGas" />
-	<Entry Class="GasolineToGas" BlueprintSubtypeId="GasolinetoGas" />
+    <Entry Class="GasolineToGas" BlueprintSubtypeId="GasolinetoGas" />
     <Entry Class="JetFuelToGas" BlueprintSubtypeId="JetFueltoGas" />
 	
     <Entry Class="EliteTools" BlueprintSubtypeId="AdvancedOxygenBottle" />

@@ -956,7 +956,7 @@
       </Id>
       <DisplayName>Small Basic Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
-      <Description>Small Basic Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Small Basic Hydrogen Tank</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
@@ -1041,7 +1041,7 @@
       </Id>
       <DisplayName>Small Advanced Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
-      <Description>Small Advanced Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Small Advanced Hydrogen Tank</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1122,7 +1122,7 @@
       </Id>
       <DisplayName>Small Elite Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
-      <Description>Small Elite Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Small Elite Hydrogen Tank</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1204,7 +1204,7 @@
       </Id>
       <DisplayName>Large Basic Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
-      <Description>Large Basic Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Large Basic Hydrogen Tank</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -1277,7 +1277,7 @@
       </Id>
       <DisplayName>Large Advanced Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
-      <Description>Large Advanced Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Large Advanced Hydrogen Tank</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1351,7 +1351,7 @@
       </Id>
       <DisplayName>Large Elite Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
-      <Description>Large Elite Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Large Elite Hydrogen Tank</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1426,7 +1426,7 @@
       </Id>
       <DisplayName>Small Basic Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
-      <Description>Small Basic Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Small Basic Hydrogen Tank</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -1499,7 +1499,7 @@
       </Id>
       <DisplayName>Small Advanced Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
-      <Description>Small Advanced Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Small Advanced Hydrogen Tank</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1573,7 +1573,7 @@
       </Id>
       <DisplayName>Small Elite Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
-      <Description>Small Elite Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Small Elite Hydrogen Tank</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1648,7 +1648,7 @@
       </Id>
       <DisplayName>Large Basic Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
-      <Description>Large Basic Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Large Basic Hydrogen Tank</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="5" />
@@ -1733,7 +1733,7 @@
       </Id>
       <DisplayName>Large Advanced Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
-      <Description>Large Advanced Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Large Advanced Hydrogen Tank</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1819,7 +1819,7 @@
       </Id>
       <DisplayName>Large Elite Hydrogen Tank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
-      <Description>Large Elite Hydrogen Tank (Bottle Refills Broken)</Description>
+      <Description>Large Elite Hydrogen Tank</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
