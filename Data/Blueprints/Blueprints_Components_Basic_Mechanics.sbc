@@ -561,7 +561,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TapeX10</SubtypeId>
       </Id>
-      <DisplayName>Tapes x500</DisplayName>
+      <DisplayName>Tapes x50</DisplayName>
       <Icon>Textures\GUI\Icons\component\Mechanical\Tape_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Rubber" />

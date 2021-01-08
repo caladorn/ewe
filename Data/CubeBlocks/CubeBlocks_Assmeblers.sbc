@@ -76,7 +76,7 @@
       <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
       <Description>Basic Component Assembler</Description>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
@@ -286,8 +286,8 @@
       <Icon>Textures\GUI\Blocks\ChemicalReactor.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-	  <Size x="4" y="3" z="3" />
-	  <Center x="1" y="0" z="1" />
+	    <Size x="4" y="3" z="3" />
+	    <Center x="1" y="0" z="1" />
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\Cubes\LBChemPlant.mwm</Model>
       <Components>
@@ -304,18 +304,18 @@
         <Component Subtype="BrazingRod" Count="650" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Front" StartX="0.01" StartY="0.00" EndX="3.99" EndY="0.99" />
-		<MountPoint Side="Back" StartX="0.01" StartY="0.00" EndX="3.99" EndY="0.99" />
-		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
-		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
-		<MountPoint Side="Bottom" StartX="0.01" StartY="0.01" EndX="3.99" EndY="2.99" />
-		<MountPoint Side="Top" StartX="2.71" StartY="0.38" EndX="3.26" EndY="2.62" />
-	</MountPoints>
+    	<MountPoints>
+    		<MountPoint Side="Front" StartX="0.01" StartY="0.00" EndX="3.99" EndY="0.99" />
+    		<MountPoint Side="Back" StartX="0.01" StartY="0.00" EndX="3.99" EndY="0.99" />
+    		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+    		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+    		<MountPoint Side="Bottom" StartX="0.01" StartY="0.01" EndX="3.99" EndY="2.99" />
+    		<MountPoint Side="Top" StartX="2.71" StartY="0.38" EndX="3.26" EndY="2.62" />
+    	</MountPoints>
       <BuildProgressModels>
-		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\LBChemPlant_Constr1.mwm" />
-		<Model BuildPercentUpperBound="0.67" File="Models\Cubes\LBChemPlant_Constr2.mwm" />
-		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\LBChemPlant_Constr3.mwm" />
+    		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\LBChemPlant_Constr1.mwm" />
+    		<Model BuildPercentUpperBound="0.67" File="Models\Cubes\LBChemPlant_Constr2.mwm" />
+    		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\LBChemPlant_Constr3.mwm" />
       </BuildProgressModels>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -467,7 +467,7 @@
       <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>15</InventoryMaxVolume>
+      <InventoryMaxVolume>25</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>4</Y>
@@ -501,8 +501,8 @@
       <Description>Advanced Mass Production Block</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-	  <Size x="7" y="5" z="7" />
-	  <Center x="3" y="0" z="3" />
+	    <Size x="7" y="5" z="7" />
+	   <Center x="3" y="0" z="3" />
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\Cubes\LBMassChemPlant.mwm</Model>
       <Components>
@@ -521,37 +521,37 @@
         <Component Subtype="BrazingRod" Count="650" />
       </Components>
       <CriticalComponent Subtype="Superconductor" Index="0" />
-	  <MountPoints>
-		<MountPoint Side="Front" StartX="2.04" StartY="0.02" EndX="4.96" EndY="1.01" />
-		<MountPoint Side="Back" StartX="2.04" StartY="0.02" EndX="4.96" EndY="1.01" />
-		<MountPoint Side="Left" StartX="2.00" StartY="0.02" EndX="5.00" EndY="1.01" />
-		<MountPoint Side="Right" StartX="2.00" StartY="0.02" EndX="5.00" EndY="1.01" />
-		<MountPoint Side="Bottom" StartX="1.23" StartY="1.07" EndX="5.77" EndY="5.93" />
-		<MountPoint Side="Top" StartX="4.57" StartY="2.47" EndX="4.95" EndY="4.53" />
-		<MountPoint Side="Top" StartX="2.06" StartY="2.47" EndX="2.44" EndY="4.53" />
-		<MountPoint Side="Top" StartX="2.47" StartY="4.56" EndX="4.54" EndY="4.95" />
-		<MountPoint Side="Top" StartX="2.47" StartY="2.05" EndX="4.54" EndY="2.44" />
-		<MountPoint Side="Top" StartX="4.56" StartY="4.57" EndX="4.95" EndY="4.94" />
-		<MountPoint Side="Top" StartX="1.27" StartY="1.27" EndX="1.65" EndY="1.65" />
-		<MountPoint Side="Top" StartX="1.66" StartY="1.66" EndX="2.05" EndY="2.04" />
-		<MountPoint Side="Top" StartX="2.06" StartY="2.04" EndX="2.44" EndY="2.42" />
-		<MountPoint Side="Bottom" StartX="2.02" StartY="5.96" EndX="4.98" EndY="6.97" />
-		<MountPoint Side="Bottom" StartX="2.02" StartY="0.03" EndX="4.98" EndY="1.04" />
-		<MountPoint Side="Bottom" StartX="5.80" StartY="2.02" EndX="6.97" EndY="4.98" />
-		<MountPoint Side="Bottom" StartX="0.03" StartY="2.02" EndX="1.20" EndY="4.98" />
-		<MountPoint Side="Top" StartX="4.96" StartY="4.96" EndX="5.34" EndY="5.33" />
-		<MountPoint Side="Top" StartX="5.35" StartY="5.34" EndX="5.73" EndY="5.71" />
-		<MountPoint Side="Top" StartX="4.58" StartY="2.05" EndX="4.95" EndY="2.43" />
-		<MountPoint Side="Top" StartX="1.28" StartY="5.34" EndX="1.65" EndY="5.72" />
-		<MountPoint Side="Top" StartX="1.67" StartY="4.95" EndX="2.04" EndY="5.33" />
-		<MountPoint Side="Top" StartX="2.05" StartY="4.56" EndX="2.42" EndY="4.94" />
-		<MountPoint Side="Top" StartX="4.97" StartY="1.66" EndX="5.34" EndY="2.04" />
-		<MountPoint Side="Top" StartX="5.35" StartY="1.27" EndX="5.72" EndY="1.65" />
-	  </MountPoints>
+  	  <MountPoints>
+    		<MountPoint Side="Front" StartX="2.04" StartY="0.02" EndX="4.96" EndY="1.01" />
+    		<MountPoint Side="Back" StartX="2.04" StartY="0.02" EndX="4.96" EndY="1.01" />
+    		<MountPoint Side="Left" StartX="2.00" StartY="0.02" EndX="5.00" EndY="1.01" />
+    		<MountPoint Side="Right" StartX="2.00" StartY="0.02" EndX="5.00" EndY="1.01" />
+    		<MountPoint Side="Bottom" StartX="1.23" StartY="1.07" EndX="5.77" EndY="5.93" />
+    		<MountPoint Side="Top" StartX="4.57" StartY="2.47" EndX="4.95" EndY="4.53" />
+    		<MountPoint Side="Top" StartX="2.06" StartY="2.47" EndX="2.44" EndY="4.53" />
+    		<MountPoint Side="Top" StartX="2.47" StartY="4.56" EndX="4.54" EndY="4.95" />
+    		<MountPoint Side="Top" StartX="2.47" StartY="2.05" EndX="4.54" EndY="2.44" />
+    		<MountPoint Side="Top" StartX="4.56" StartY="4.57" EndX="4.95" EndY="4.94" />
+    		<MountPoint Side="Top" StartX="1.27" StartY="1.27" EndX="1.65" EndY="1.65" />
+    		<MountPoint Side="Top" StartX="1.66" StartY="1.66" EndX="2.05" EndY="2.04" />
+    		<MountPoint Side="Top" StartX="2.06" StartY="2.04" EndX="2.44" EndY="2.42" />
+    		<MountPoint Side="Bottom" StartX="2.02" StartY="5.96" EndX="4.98" EndY="6.97" />
+    		<MountPoint Side="Bottom" StartX="2.02" StartY="0.03" EndX="4.98" EndY="1.04" />
+    		<MountPoint Side="Bottom" StartX="5.80" StartY="2.02" EndX="6.97" EndY="4.98" />
+    		<MountPoint Side="Bottom" StartX="0.03" StartY="2.02" EndX="1.20" EndY="4.98" />
+    		<MountPoint Side="Top" StartX="4.96" StartY="4.96" EndX="5.34" EndY="5.33" />
+    		<MountPoint Side="Top" StartX="5.35" StartY="5.34" EndX="5.73" EndY="5.71" />
+    		<MountPoint Side="Top" StartX="4.58" StartY="2.05" EndX="4.95" EndY="2.43" />
+    		<MountPoint Side="Top" StartX="1.28" StartY="5.34" EndX="1.65" EndY="5.72" />
+    		<MountPoint Side="Top" StartX="1.67" StartY="4.95" EndX="2.04" EndY="5.33" />
+    		<MountPoint Side="Top" StartX="2.05" StartY="4.56" EndX="2.42" EndY="4.94" />
+    		<MountPoint Side="Top" StartX="4.97" StartY="1.66" EndX="5.34" EndY="2.04" />
+    		<MountPoint Side="Top" StartX="5.35" StartY="1.27" EndX="5.72" EndY="1.65" />
+  	  </MountPoints>
       <BuildProgressModels>
-		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\LBMassChemPlant_Constr1.mwm" />
-		<Model BuildPercentUpperBound="0.67" File="Models\Cubes\LBMassChemPlant_Constr2.mwm" />
-		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\LBMassChemPlant_Constr3.mwm" />
+    		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\LBMassChemPlant_Constr1.mwm" />
+    		<Model BuildPercentUpperBound="0.67" File="Models\Cubes\LBMassChemPlant_Constr2.mwm" />
+    		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\LBMassChemPlant_Constr3.mwm" />
       </BuildProgressModels>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -560,7 +560,7 @@
       <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>15</InventoryMaxVolume>
+      <InventoryMaxVolume>20</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>4</Y>

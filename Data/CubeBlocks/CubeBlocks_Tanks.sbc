@@ -92,7 +92,7 @@
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
       <Description>Small Advanced Oxygen Tank</Description>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -173,7 +173,7 @@
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
       <Description>Small Elite Oxygen Tank</Description>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -328,7 +328,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
       <Description>Large Advanced Oxygen Tank</Description>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -402,7 +402,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
       <Description>Large Elite Oxygen Tank</Description>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -550,7 +550,7 @@
       <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
       <Description>Small Advanced Oxygen Tank</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -624,7 +624,7 @@
       <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
       <Description>Small Elite Oxygen Tank</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -784,7 +784,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
       <Description>Large Advanced Oxygen Tank</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="5" />
       <ModelOffset x="0" y="0" z="0" />
@@ -870,7 +870,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
       <Description>Large Elite Oxygen Tank</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="5" />
       <ModelOffset x="0" y="0" z="0" />
@@ -1015,6 +1015,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <BuildTimeSeconds>32</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1093,6 +1096,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <BuildTimeSeconds>64</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1113,7 +1119,7 @@
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
       <Description>Small Elite Hydrogen Tank (Bottle Refills Broken)</Description>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -1171,6 +1177,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <BuildTimeSeconds>128</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1245,6 +1254,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1262,7 +1274,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
       <Description>Large Advanced Hydrogen Tank (Bottle Refills Broken)</Description>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -1316,6 +1328,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1333,7 +1348,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
       <Description>Large Elite Hydrogen Tank (Bottle Refills Broken)</Description>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -1387,6 +1402,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <BuildTimeSeconds>200</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1459,6 +1477,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
@@ -1475,7 +1496,7 @@
       <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
       <Description>Small Advanced Hydrogen Tank (Bottle Refills Broken)</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -1530,6 +1551,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
@@ -1546,7 +1570,7 @@
       <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
       <Description>Small Elite Hydrogen Tank (Bottle Refills Broken)</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -1601,6 +1625,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
@@ -1683,6 +1710,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1700,7 +1730,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
       <Description>Large Advanced Hydrogen Tank (Bottle Refills Broken)</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="5" />
       <ModelOffset x="0" y="0" z="0" />
@@ -1766,6 +1796,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -1783,7 +1816,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
       <Description>Large Elite Hydrogen Tank (Bottle Refills Broken)</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="5" />
       <ModelOffset x="0" y="0" z="0" />
@@ -1849,6 +1882,9 @@
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
       </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
       <BuildTimeSeconds>120</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>

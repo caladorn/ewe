@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+	
+	<Entry Class="Ice" BlueprintSubtypeId="Ice_IceToGas" />
+	<Entry Class="Ice" BlueprintSubtypeId="AmberIce_IceToGas" />
+	<Entry Class="Ice" BlueprintSubtypeId="BlueIce_IceToGas" />
+	<Entry Class="Ice" BlueprintSubtypeId="GreenIce_IceToGas" />
+	<Entry Class="Ice" BlueprintSubtypeId="PinkIce_IceToGas" />
+	<Entry Class="Ice" BlueprintSubtypeId="PurpleIce_IceToGas" />
+	<Entry Class="Ice" BlueprintSubtypeId="EuropaIce_IceToGas" />
+	<Entry Class="Ice" BlueprintSubtypeId="AlienIce_IceToGas" />
+
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_Ice_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_AmberIce_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_BlueIce_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_GreenIce_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_PinkIce_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_PurpleIce_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_EuropaIce_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_AlienIce_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_Brine_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_MineralIce_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_AmmoniumHydroxide_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_CHON_OreToIngot" />
+	<Entry Class="BscIce" BlueprintSubtypeId="Bsc_MethaneHydrate_OreToIngot" />	
+	
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_Ice_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_AmberIce_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_BlueIce_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_GreenIce_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_PinkIce_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_PurpleIce_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_EuropaIce_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_AlienIce_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_Brine_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_MineralIce_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_AmmoniumHydroxide_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_CHON_OreToIngot" />
+	<Entry Class="AdvIce" BlueprintSubtypeId="Adv_MethaneHydrate_OreToIngot" />
+	
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_Ice_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_AmberIce_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_BlueIce_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_GreenIce_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_PinkIce_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_PurpleIce_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_EuropaIce_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_AlienIce_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_Brine_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_MineralIce_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_AmmoniumHydroxide_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_CHON_OreToIngot" />
+	<Entry Class="EliIce" BlueprintSubtypeId="Eli_MethaneHydrate_OreToIngot" />
+	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Ice_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_AmberIce_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_BlueIce_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_GreenIce_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_PinkIce_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_PurpleIce_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_EuropaIce_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_AlienIce_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Brine_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_MineralIce_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_AmmoniumHydroxide_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_CHON_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_MethaneHydrate_OreToIngot" />
+	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Ice_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_AmberIce_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_BlueIce_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_GreenIce_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_PinkIce_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_PurpleIce_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_EuropaIce_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_AlienIce_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Brine_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_MineralIce_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_AmmoniumHydroxide_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_CHON_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_MethaneHydrate_OreToIngot" />
+	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Ice_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_AmberIce_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_BlueIce_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_GreenIce_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_PinkIce_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_PurpleIce_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_EuropaIce_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_AlienIce_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Brine_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_MineralIce_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_AmmoniumHydroxide_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_CHON_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_MethaneHydrate_OreToIngot" />
+	
+	
+  </BlueprintClassEntries>
+</Definitions>

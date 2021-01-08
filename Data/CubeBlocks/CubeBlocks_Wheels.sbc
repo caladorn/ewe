@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-    <Definition>
+    <Definition> <!-- SmallRealWheel1x1 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheel1x1</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -64,14 +64,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- SmallRealWheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheel</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -127,14 +127,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- SmallRealWheel5x5 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheel5x5</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -189,14 +189,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- RealWheel1x1 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel1x1</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -253,14 +253,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- RealWheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -317,14 +317,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- RealWheel5x5 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel5x5</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -380,14 +380,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- SmallRealWheel1x1mirrored -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheel1x1mirrored</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -443,14 +443,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- SmallRealWheelmirrored -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheelmirrored</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -506,14 +506,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- SmallRealWheel5x5mirrored -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheel5x5mirrored</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -568,14 +568,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- RealWheel1x1mirrored -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel1x1mirrored</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -631,14 +631,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- RealWheelmirrored -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheelmirrored</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -695,14 +695,14 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- RealWheel5x5mirrored -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel5x5mirrored</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -758,7 +758,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- Wheel1x1 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>Wheel1x1</SubtypeId>
@@ -822,7 +822,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- SmallWheel1x1 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallWheel1x1</SubtypeId>
@@ -885,7 +885,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition>
+    <Definition> <!-- Wheel3x3 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>Wheel3x3</SubtypeId>
@@ -947,7 +947,7 @@
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>      
     </Definition>
-    <Definition>
+    <Definition> <!-- SmallWheel3x3 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallWheel3x3</SubtypeId>
@@ -1008,7 +1008,7 @@
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>      
     </Definition>
-    <Definition>
+    <Definition> <!-- Wheel5x5 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>Wheel5x5</SubtypeId>
@@ -1071,7 +1071,7 @@
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>      
     </Definition>
-    <Definition>
+    <Definition> <!-- SmallWheel5x5 -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallWheel5x5</SubtypeId>
@@ -1135,13 +1135,13 @@
     </Definition>
 
 
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Suspension3x3 -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension3x3</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1218,13 +1218,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Suspension5x5 -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension5x5</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1297,13 +1297,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Suspension1x1 -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension1x1</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1379,13 +1379,13 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- SmallSuspension3x3 -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension3x3</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1458,13 +1458,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- SmallSuspension5x5 -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension5x5</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1535,13 +1535,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- SmallSuspension1x1 -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension1x1</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1614,13 +1614,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Suspension3x3mirrored -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension3x3mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1698,13 +1698,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Suspension5x5mirrored -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension5x5mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1777,13 +1777,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Suspension1x1mirrored -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension1x1mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1858,13 +1858,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- SmallSuspension3x3mirrored -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension3x3mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1938,13 +1938,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- SmallSuspension5x5mirrored -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension5x5mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -2015,13 +2015,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>      
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- SmallSuspension1x1mirrored -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension1x1mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>

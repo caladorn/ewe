@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+   
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelSpringX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="NitinolSpringX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BallBearingX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="AluminumFanBladeX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="MechanicalCableX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelPulleyX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelGearX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="RubberBushingX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="CarbideToolingX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="DiamondToolingX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="CarbideRingX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="RubberGasketX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="FilterX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="TapeX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="ZipTiesX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BallValveX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="ChainX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BeltX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BladderX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="AluminumPistonX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="TitaniumPistonX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelStemValveX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="NitinolStemValveX100" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="CanvasX100" />
+	
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelSpringX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="NitinolSpringX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BallBearingX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="AluminumFanBladeX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="MechanicalCableX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelPulleyX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelGearX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="RubberBushingX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="CarbideToolingX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="DiamondToolingX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="CarbideRingX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="RubberGasketX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="FilterX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="TapeX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="ZipTiesX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BallValveX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="ChainX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BeltX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BladderX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="AluminumPistonX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="TitaniumPistonX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelStemValveX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="NitinolStemValveX10" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="CanvasX10" />
+	
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelSpring" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="NitinolSpring" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BallBearing" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="AluminumFanBlade" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="MechanicalCable" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelPulley" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelGear" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="RubberBushing" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="CarbideTooling" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="DiamondTooling" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="CarbideRing" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="RubberGasket" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="Filter" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="Tape" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="ZipTies" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="BallValve" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="Chain" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="Belt" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="Bladder" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="AluminumPiston" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="TitaniumPiston" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="SteelStemValve" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="NitinolStemValve" />
+    <Entry Class="BscMassProdMech" BlueprintSubtypeId="Canvas" />
+	
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="SteelSpring" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="NitinolSpring" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="BallBearing" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="AluminumFanBlade" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="MechanicalCable" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="SteelPulley" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="SteelGear" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="RubberBushing" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="CarbideTooling" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="DiamondTooling" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="CarbideRing" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="RubberGasket" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="Filter" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="Tape" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="ZipTies" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="BallValve" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="Chain" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="Belt" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="Bladder" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="AluminumPiston" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="TitaniumPiston" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="SteelStemValve" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="NitinolStemValve" />
+    <Entry Class="BasicMechanics" BlueprintSubtypeId="Canvas" />
+	
+  </BlueprintClassEntries>
+</Definitions>

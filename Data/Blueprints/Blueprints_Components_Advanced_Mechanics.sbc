@@ -9,7 +9,7 @@
       <DisplayName>Pneumatic Motor x100</DisplayName>
       <Icon>Textures\GUI\Icons\component\Mechanical\PneumaticMotor_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Component" SubtypeId="BallValve" />
+        <Item Amount="200" TypeId="Component" SubtypeId="BallValve" />
         <Item Amount="500" TypeId="Ingot" SubtypeId="Oil" />
         <Item Amount="100" TypeId="Component" SubtypeId="TitaniumPistonAssembly" />
         <Item Amount="100" TypeId="Component" SubtypeId="Motor" />
@@ -25,7 +25,7 @@
       <DisplayName>Pneumatic Motor x10</DisplayName>
       <Icon>Textures\GUI\Icons\component\Mechanical\PneumaticMotor_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="BallValve" />
+        <Item Amount="20" TypeId="Component" SubtypeId="BallValve" />
         <Item Amount="50" TypeId="Ingot" SubtypeId="Oil" />
         <Item Amount="10" TypeId="Component" SubtypeId="TitaniumPistonAssembly" />
         <Item Amount="10" TypeId="Component" SubtypeId="Motor" />
@@ -41,7 +41,7 @@
       <DisplayName>Pneumatic Motor</DisplayName>
       <Icon>Textures\GUI\Icons\component\Mechanical\PneumaticMotor_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="BallValve" />
+        <Item Amount="2" TypeId="Component" SubtypeId="BallValve" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Oil" />
         <Item Amount="1" TypeId="Component" SubtypeId="TitaniumPistonAssembly" />
         <Item Amount="1" TypeId="Component" SubtypeId="Motor" />

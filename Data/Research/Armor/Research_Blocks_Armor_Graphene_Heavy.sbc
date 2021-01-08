@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+LargeHeavyBlockGrapheneArmorBlock
+LargeHeavyBlockGrapheneArmorSlope
+LargeHeavyBlockGrapheneArmorCorner
+LargeHeavyBlockGrapheneArmorCornerInv
+LargeBlockHeavyGrapheneArmorCornerSquare
+LargeBlockHeavyGrapheneArmorCornerSquareInverted
+SmallHeavyBlockGrapheneArmorBlock
+SmallHeavyBlockGrapheneArmorSlope
+SmallHeavyBlockGrapheneArmorCorner
+SmallHeavyBlockGrapheneArmorCornerInv
+SmallBlockHeavyGrapheneArmorCornerSquare
+SmallBlockHeavyGrapheneArmorCornerSquareInverted
+LargeHeavyBlockGrapheneArmorSlope2Base
+LargeHeavyBlockGrapheneArmorSlope2Tip
+LargeHeavyHalfGrapheneArmorBlock
+LargeHeavyHalfSlopeGrapheneArmorBlock
+LargeBlockHeavyGrapheneArmorHalfSlopeCorner
+LargeBlockHeavyGrapheneArmorHalfCorner
+LargeBlockHeavyGrapheneArmorHalfSlopedCorner
+SmallHeavyBlockGrapheneArmorSlope2Base
+SmallHeavyBlockGrapheneArmorSlope2Tip
+HeavyHalfGrapheneArmorBlock
+HeavyHalfSlopeGrapheneArmorBlock
+SmallBlockHeavyGrapheneArmorHalfSlopeCorner
+SmallBlockHeavyGrapheneArmorHalfCorner
+SmallBlockHeavyGrapheneArmorHalfSlopedCorner
+LargeHeavyBlockGrapheneArmorCorner2Base
+LargeHeavyBlockGrapheneArmorCorner2Tip
+LargeHeavyBlockGrapheneArmorInvCorner2Base
+LargeHeavyBlockGrapheneArmorInvCorner2Tip
+LargeBlockHeavyGrapheneArmorHalfSlopeCornerInverted
+LargeBlockHeavyGrapheneArmorHalfSlopeInverted
+SmallHeavyBlockGrapheneArmorCorner2Base
+SmallHeavyBlockGrapheneArmorCorner2Tip
+SmallHeavyBlockGrapheneArmorInvCorner2Base
+SmallHeavyBlockGrapheneArmorInvCorner2Tip
+SmallBlockHeavyGrapheneArmorHalfSlopeCornerInverted
+SmallBlockHeavyGrapheneArmorHalfSlopeInverted
+LargeHeavyBlockGrapheneArmorRoundSlope
+LargeHeavyBlockGrapheneArmorRoundCorner
+LargeHeavyBlockGrapheneArmorRoundCornerInv
+SmallHeavyBlockGrapheneArmorRoundSlope
+SmallHeavyBlockGrapheneArmorRoundCorner
+SmallHeavyBlockGrapheneArmorRoundCornerInv
+LargeBlockHeavyGrapheneArmorSlopedCornerTip
+LargeBlockHeavyGrapheneArmorSlopedCornerBase
+LargeBlockHeavyGrapheneArmorSlopedCorner
+LargeBlockHeavyGrapheneArmorHalfSlopedCornerBase
+SmallBlockHeavyGrapheneArmorSlopedCornerTip
+SmallBlockHeavyGrapheneArmorSlopedCornerBase
+SmallBlockHeavyGrapheneArmorSlopedCorner
+SmallBlockHeavyGrapheneArmorHalfSlopedCornerBase
+-->
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorSlope" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorCornerInv" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorCornerSquare" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorCornerSquareInverted" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorSlope" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorCornerInv" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorCornerSquare" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorCornerSquareInverted" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorSlope2Base" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorSlope2Tip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfGrapheneArmorBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfSlopeGrapheneArmorBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopeCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopedCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorSlope2Base" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorSlope2Tip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfGrapheneArmorBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfSlopeGrapheneArmorBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopeCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopedCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorCorner2Base" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorCorner2Tip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorInvCorner2Base" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorInvCorner2Tip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopeCornerInverted" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopeInverted" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorCorner2Base" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorCorner2Tip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorInvCorner2Base" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorInvCorner2Tip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopeCornerInverted" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopeInverted" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorRoundSlope" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorRoundCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorRoundCornerInv" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorRoundSlope" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorRoundCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorRoundCornerInv" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorSlopedCornerTip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorSlopedCornerBase" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorSlopedCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopedCornerBase" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorSlopedCornerTip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorSlopedCornerBase" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorSlopedCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopedCornerBase" />
+      <UnlockedByGroups>
+        <GroupSubtype>0109</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    
+  </ResearchBlocks>
+</Definitions>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+LargeHydrogenEngine 0317
+SmallHydrogenEngine 0317
+LargeBlockAdvancedHydroEngine 0318
+SmallBlockAdvancedHydroEngine 0318
+LargeBlockEliteHydroEngine 0319
+SmallBlockEliteHydroEngine 0319
+
+LargeBlockBasicGasolineEngine 0320
+SmallBlockBasicGasolineEngine 0320
+LargeBlockAdvancedGasolineEngine 0321
+SmallBlockAdvancedGasolineEngine 0321
+LargeBlockEliteGasolineEngine 0322
+SmallBlockEliteGasolineEngine 0322
+
+LargeBlockBasicJetFuelEngine 0323
+SmallBlockBasicJetFuelEngine 0323
+LargeBlockAdvancedJetFuelEngine 0324
+SmallBlockAdvancedJetFuelEngine 0324
+LargeBlockEliteJetFuelEngine 0325
+SmallBlockEliteJetFuelEngine 0325
+-->
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic Hydrogen Engine 0317 Unlocked @ 0312 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeHydrogenEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0312</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic Hydrogen 0317 Unlocked @ 0312 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallHydrogenEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0312</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced Hydrogen 0318 Unlocked @ 0317 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockAdvancedHydroEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0317</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced Hydrogen 0318 Unlocked @ 0317 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockAdvancedHydroEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0317</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite Hydrogen 0319 Unlocked @ 0318 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockEliteHydroEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0318</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite Hydrogen 0319 Unlocked @ 0318 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockEliteHydroEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0318</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic Gasoline Engine 0320 Unlocked @ 0317 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockBasicGasolineEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0317</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic Gasoline 0320 Unlocked @ 0317 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockBasicGasolineEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0317</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced Gasoline 0321 Unlocked @ 0320 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockAdvancedGasolineEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0320</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced Gasoline 0321 Unlocked @ 0320 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockAdvancedGasolineEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0320</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite Gasoline 0322 Unlocked @ 0321 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockEliteGasolineEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0321</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite Gasoline 0322 Unlocked @ 0321 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockEliteGasolineEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0321</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic JetFuel Engine 0323 Unlocked @ 0320 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockBasicJetFuelEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0320</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic JetFuel 0323 Unlocked @ 0320 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockBasicJetFuelEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0320</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced JetFuel 0324 Unlocked @ 0323 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockAdvancedJetFuelEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0323</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced JetFuel 0324 Unlocked @ 0323 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockAdvancedJetFuelEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0323</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite JetFuel 0325 Unlocked @ 0324 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockEliteJetFuelEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0324</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite JetFuel 0325 Unlocked @ 0324 -->
+      <Id Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockEliteJetFuelEngine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0324</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+   
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="201SteelX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="ChromiumSteelX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="945SteelX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="NitinolX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="BrassX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="CupronickelX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="ElectrumX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="GumMetalX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="PolyCarbonateX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="GlassX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="RubberX100" />
+	<Entry Class="MassProdAlloys" BlueprintSubtypeId="MagnetX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="TungstenCarbideX100" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="CementX100" />
+	
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="201SteelX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="ChromiumSteelX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="945SteelX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="NitinolX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="BrassX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="CupronickelX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="ElectrumX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="GumMetalX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="PolyCarbonateX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="GlassX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="RubberX10" />
+	<Entry Class="MassProdAlloys" BlueprintSubtypeId="MagnetX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="TungstenCarbideX10" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="CementX10" />
+	
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="201Steel" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="ChromiumSteel" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="945Steel" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="Nitinol" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="Brass" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="Cupronickel" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="Electrum" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="GumMetal" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="PolyCarbonate" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="Glass" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="Rubber" />
+	<Entry Class="MassProdAlloys" BlueprintSubtypeId="Magnet" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="TungstenCarbide" />
+    <Entry Class="MassProdAlloys" BlueprintSubtypeId="Cement" />
+	
+    <Entry Class="Alloys" BlueprintSubtypeId="201Steel" />
+    <Entry Class="Alloys" BlueprintSubtypeId="ChromiumSteel" />
+    <Entry Class="Alloys" BlueprintSubtypeId="945Steel" />
+    <Entry Class="Alloys" BlueprintSubtypeId="Nitinol" />
+    <Entry Class="Alloys" BlueprintSubtypeId="Brass" />
+    <Entry Class="Alloys" BlueprintSubtypeId="Cupronickel" />
+    <Entry Class="Alloys" BlueprintSubtypeId="Electrum" />
+    <Entry Class="Alloys" BlueprintSubtypeId="GumMetal" />
+    <Entry Class="Alloys" BlueprintSubtypeId="PolyCarbonate" />
+    <Entry Class="Alloys" BlueprintSubtypeId="Glass" />
+    <Entry Class="Alloys" BlueprintSubtypeId="Rubber" />
+	<Entry Class="Alloys" BlueprintSubtypeId="Magnet" />
+    <Entry Class="Alloys" BlueprintSubtypeId="TungstenCarbide" />
+    <Entry Class="Alloys" BlueprintSubtypeId="Cement" />
+	
+  </BlueprintClassEntries>
+</Definitions>

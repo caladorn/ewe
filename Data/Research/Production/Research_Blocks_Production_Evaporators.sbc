@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+LargeBlockOxygenEvaporator 0207
+(OxygenGenerator\null) 0208
+OxygenGeneratorSmall 0208
+LargeBlockHydrogenEvaporator 0208
+LargeBlockGasolineSynthesizer 0209
+LargeBlockJetFuelSynthesizer 0210
+-->
+
+<!--      DEACTIVATED
+    <ResearchBlock xsi:type="ResearchBlock">  
+      <Id Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="LargeBlockOxygenEvaporator" />
+      <UnlockedByGroups>
+        <GroupSubtype>0000</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+-->
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- OxygenGen -->
+      <Id Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="" /> <!-- Vanila Large Grid O2 Gen -->
+      <UnlockedByGroups>
+        <GroupSubtype>0206</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- SmallOxygenGen -->
+      <Id Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="OxygenGeneratorSmall" />
+      <UnlockedByGroups>
+        <GroupSubtype>0206</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- HydrogenEvaporator -->
+      <Id Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="LargeBlockHydrogenEvaporator" />
+      <UnlockedByGroups>
+        <GroupSubtype>0206</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- GasolineSynthesizer -->
+      <Id Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="LargeBlockGasolineSynthesizer" />
+      <UnlockedByGroups>
+        <GroupSubtype>0207</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- JetFuelSynthesizer -->
+      <Id Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="LargeBlockJetFuelSynthesizer" />
+      <UnlockedByGroups>
+        <GroupSubtype>0208</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+LargeBlockOxygenFarm 0211
+LargeBlockAdvancedOxygenFarm 0212
+LargeBlockEliteOxygenFarm 0213
+LargeBlockBasicHydrogenFarm 0211
+LargeBlockAdvancedHydrogenFarm 0214
+LargeBlockEliteHydrogenFarm 0215
+-->
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- OxygenFarm -->
+      <Id Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockOxygenFarm" />
+      <UnlockedByGroups>
+        <GroupSubtype>0207</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- OxygenFarm -->
+      <Id Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockAdvancedOxygenFarm" />
+      <UnlockedByGroups>
+        <GroupSubtype>0210</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- OxygenFarm -->
+      <Id Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockEliteOxygenFarm" />
+      <UnlockedByGroups>
+        <GroupSubtype>0211</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- HydrogenFarm -->
+      <Id Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockBasicHydrogenFarm" />
+      <UnlockedByGroups>
+        <GroupSubtype>0207</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- HydrogenFarm -->
+      <Id Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockAdvancedHydrogenFarm" />
+      <UnlockedByGroups>
+        <GroupSubtype>0210</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">  <!-- HydrogenFarm -->
+      <Id Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockEliteHydrogenFarm" />
+      <UnlockedByGroups>
+        <GroupSubtype>0213</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

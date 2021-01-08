@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+    <AmmoMagazine> <!-- NATO_5p56x45mm -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>NATO_5p56x45mm</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.05</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>0.45</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Weapons\Rifle_Ammo.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>30</Capacity>
+      <AmmoDefinitionId Subtype="SmallCaliber" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+	
+    <AmmoMagazine> <!-- NATO_25x184mm -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>NATO_25x184mm</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>118</Mass>
+      <Volume>26.55</Volume>
+      <Model>Models\Weapons\Ammo_Box.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>150</Capacity>
+      <AmmoDefinitionId Subtype="NATO_25x184mm" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+    <AmmoMagazine> <!-- FMJ_NATO_25x184mm -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>FMJ_NATO_25x184mm</SubtypeId>
+      </Id>
+      <DisplayName>FMJ NATO 25x184mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>94</Mass>
+      <Volume>33.1875</Volume>
+      <Model>Models\Weapons\Ammo_Box.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>120</Capacity>
+      <AmmoDefinitionId Subtype="FMJ_NATO_25x184mm" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+    <AmmoMagazine> <!-- AP_NATO_25x184mm -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>AP_NATO_25x184mm</SubtypeId>
+      </Id>
+      <DisplayName>AP NATO 25x184mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>78.8</Mass>
+      <Volume>53.1</Volume>
+      <Model>Models\Weapons\Ammo_Box.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>75</Capacity>
+      <AmmoDefinitionId Subtype="AP_NATO_25x184mm" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+    <AmmoMagazine> <!-- HEIAP_NATO_25x184mm -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>HEIAP_NATO_25x184mm</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP NATO 25x184mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>74</Mass>
+      <Volume>53.1</Volume>
+      <Model>Models\Weapons\Ammo_Box.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>75</Capacity>
+      <AmmoDefinitionId Subtype="HEIAP_NATO_25x184mm" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+	
+    <AmmoMagazine> <!-- Rocket -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Rocket</SubtypeId>
+      </Id>
+      <DisplayName>Rocket</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>216</Mass>
+      <Volume>177.9</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>48</Capacity>
+      <AmmoDefinitionId Subtype="Rocket" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+    <AmmoMagazine> <!-- Burst_Rocket -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Burst_Rocket</SubtypeId>
+      </Id>
+      <DisplayName>Burst Rocket</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>468</Mass>
+      <Volume>266.85</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>72</Capacity>
+      <AmmoDefinitionId Subtype="Burst_Rocket" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+    <AmmoMagazine> <!-- Cruise_Missile -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Cruise_Missile</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>5200</Mass>
+      <Volume>4723</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>12</Capacity>
+      <AmmoDefinitionId Subtype="Cruise_Missile" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+    <AmmoMagazine> <!-- Javelian_CruiseMissile -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Javelian_CruiseMissile</SubtypeId>
+      </Id>
+      <DisplayName>Javelian CruiseMissile</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>5200</Mass>
+      <Volume>4723</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>13</Capacity>
+      <AmmoDefinitionId Subtype="Javelian_CruiseMissile" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+    <AmmoMagazine> <!-- Torpedo -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Torpedo</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>2356</Mass>
+      <Volume>1570</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Torpedo" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+    <AmmoMagazine> <!-- HEAT_Torpedo -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>HEAT_Torpedo</SubtypeId>
+      </Id>
+      <DisplayName>HEAT Torpedo</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>2356</Mass>
+      <Volume>1570</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="HEAT_Torpedo" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+	
+  </AmmoMagazines>
+</Definitions>

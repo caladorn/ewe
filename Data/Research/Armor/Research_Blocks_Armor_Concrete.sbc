@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+LargeHeavyBlockConcreteArmorBlock
+LargeHeavyBlockConcreteArmorSlope
+LargeHeavyBlockConcreteArmorCorner
+LargeHeavyBlockConcreteArmorCornerInv
+LargeBlockHeavyConcreteArmorCornerSquare
+LargeBlockHeavyConcreteArmorCornerSquareInverted
+LargeHeavyBlockConcreteArmorSlope2Base
+LargeHeavyBlockConcreteArmorSlope2Tip
+LargeHeavyHalfConcreteArmorBlock
+LargeHeavyHalfSlopeConcreteArmorBlock
+LargeBlockHeavyConcreteArmorHalfSlopeCorner
+LargeBlockHeavyConcreteArmorHalfCorner
+LargeBlockHeavyConcreteArmorHalfSlopedCorner
+LargeHeavyBlockConcreteArmorCorner2Base
+LargeHeavyBlockConcreteArmorCorner2Tip
+LargeHeavyBlockConcreteArmorInvCorner2Base
+LargeHeavyBlockConcreteArmorInvCorner2Tip
+LargeBlockHeavyConcreteArmorHalfSlopeCornerInverted
+LargeBlockHeavyConcreteArmorHalfSlopeInverted
+LargeHeavyBlockConcreteArmorRoundSlope
+LargeHeavyBlockConcreteArmorRoundCorner
+LargeHeavyBlockConcreteArmorRoundCornerInv
+LargeBlockHeavyConcreteArmorSlopedCornerTip
+LargeBlockHeavyConcreteArmorSlopedCornerBase
+LargeBlockHeavyConcreteArmorSlopedCorner
+LargeBlockHeavyConcreteArmorHalfSlopedCornerBase
+-->
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorSlope" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorCornerInv" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorCornerSquare" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorCornerSquareInverted" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorSlope2Base" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorSlope2Tip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfConcreteArmorBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfSlopeConcreteArmorBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopeCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopedCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorCorner2Base" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorCorner2Tip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorInvCorner2Base" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorInvCorner2Tip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopeCornerInverted" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopeInverted" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorRoundSlope" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorRoundCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorRoundCornerInv" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorSlopedCornerTip" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorSlopedCornerBase" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorSlopedCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopedCornerBase" />
+      <UnlockedByGroups>
+        <GroupSubtype>0100</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

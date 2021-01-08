@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+StoneCrusher 0200
+Blast Furnace (small ref) 0200
+LargeRefinery 0204
+LargeBlockLargeAdvancedRefinery 0205
+LargeBlockLargeEliteRefinery 0206
+-->
+
+<!--          DEACTIVATED
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_RefineryDefinition" Subtype="StoneCrusher" />
+      <UnlockedByGroups>
+        <GroupSubtype>0000</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_RefineryDefinition" Subtype="Blast Furnace" />
+      <UnlockedByGroups>
+        <GroupSubtype>0000</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+-->
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_RefineryDefinition" Subtype="LargeRefinery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0200</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_RefineryDefinition" Subtype="LargeBlockLargeAdvancedRefinery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0203</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_RefineryDefinition" Subtype="LargeBlockLargeEliteRefinery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0204</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

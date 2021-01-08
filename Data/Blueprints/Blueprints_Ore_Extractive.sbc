@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+
+    <Blueprint>  <!-- Bsc_Stone_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Stone_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Stone</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="136.8" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="19.46" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="22.37" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="24.16" TypeId="Ingot" SubtypeId="Calcium" />
+        <Item Amount="10.63" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="46.64" TypeId="Ore" SubtypeId="Oxygen" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Bsc_DesertRock_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_DesertRock_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Stone</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1050" TypeId="Ore" SubtypeId="DesertRock" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="303.18" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="125.05" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="7.54" TypeId="Ingot" SubtypeId="Iron" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Bsc_MarsRocks_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_MarsRocks_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Mars Stone</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+      <Prerequisites>
+        <Item Amount="900" TypeId="Ore" SubtypeId="MarsRocks" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="116.64" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="16.59" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="19.08" TypeId="Ingot" SubtypeId="Lead" />
+        <Item Amount="20.6" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="9.07" TypeId="Ingot" SubtypeId="Chromium" />
+        <Item Amount="39.77" TypeId="Ore" SubtypeId="Oxygen" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Bsc_Anorthite_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Anorthite_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Anorthite</DisplayName>
+		<Icon>Textures\GUI\Icons\ore_anorthite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="950" TypeId="Ore" SubtypeId="Anorthite" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="116.28" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="16.54" TypeId="Ingot" SubtypeId="Tin" />
+        <Item Amount="19.02" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="20.54" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="9.04" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="39.64" TypeId="Ore" SubtypeId="Chlorine" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Bsc_AlienRock_01_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_AlienRock_01_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Alien Stone</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Ore" SubtypeId="AlienRock_01" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="97.92" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="13.93" TypeId="Ingot" SubtypeId="Tungsten" />
+        <Item Amount="16.02" TypeId="Ingot" SubtypeId="Potassium" />
+        <Item Amount="17.3" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="7.61" TypeId="Ingot" SubtypeId="Thallium" />
+        <Item Amount="33.38" TypeId="Ore" SubtypeId="Fluorine" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint>  <!-- Bsc_Sand_02_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Sand_02_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sand</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_sand.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Sand_02" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="237.6" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="475.2" TypeId="Ore" SubtypeId="Oxygen" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Bsc_AlienSand_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_AlienSand_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sand</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_sand.dds</Icon>
+      <Prerequisites>
+        <Item Amount="650" TypeId="Ore" SubtypeId="AlienSand" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="111.02" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="229.97" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="55.51" TypeId="Ingot" SubtypeId="Titanium" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Soil_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Soil_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Soil</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_soil.dds</Icon>
+      <Prerequisites>
+        <Item Amount="750" TypeId="Ore" SubtypeId="Soil" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="382.5" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="35.7" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="44.06" TypeId="Ore" SubtypeId="Nitrogen" />
+        <Item Amount="51.7" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="24.42" TypeId="Ingot" SubtypeId="Silicon" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Bsc_MarsSoil_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_MarsSoil_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Soil</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_mars_soil.dds</Icon>
+      <Prerequisites>
+        <Item Amount="550" TypeId="Ore" SubtypeId="MarsSoil" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="129.36" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="32.52" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="12.56" TypeId="Ore" SubtypeId="Nitrogen" />
+        <Item Amount="10.11" TypeId="Ingot" SubtypeId="Phosphorus" />
+        <Item Amount="8.06" TypeId="Ingot" SubtypeId="Sulfur" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Bsc_Regolith_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Regolith_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Soil</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_regolith.dds</Icon>
+      <Prerequisites>
+        <Item Amount="650" TypeId="Ore" SubtypeId="Regolith" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="217.62" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="36.01" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="23.06" TypeId="Ingot" SubtypeId="Phosphorus" />
+        <Item Amount="18.65" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="8.58" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Bsc_AlienSoil_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_AlienSoil_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Soil</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_alien_soil.dds</Icon>
+      <Prerequisites>
+        <Item Amount="450" TypeId="Ore" SubtypeId="AlienSoil" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="92.34" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="25.07" TypeId="Ore" SubtypeId="Chlorine" />
+        <Item Amount="16.58" TypeId="Ore" SubtypeId="Fluorine" />
+        <Item Amount="10.45" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="0.76" TypeId="Ingot" SubtypeId="Iodine" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Organic_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Organic_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Organic</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_soil.dds</Icon>
+      <Prerequisites>
+        <Item Amount="750" TypeId="Ore" SubtypeId="Organic" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="382.5" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="35.7" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="44.06" TypeId="Ore" SubtypeId="Nitrogen" />
+        <Item Amount="51.7" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="24.42" TypeId="Ingot" SubtypeId="Silicon" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Bsc_AlienOrganic_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_AlienOrganic_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Organic</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_biomass.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ore" SubtypeId="AlienOrganic" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="119.7" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="32.5" TypeId="Ore" SubtypeId="Chlorine" />
+        <Item Amount="21.5" TypeId="Ore" SubtypeId="Fluorine" />
+        <Item Amount="13.54" TypeId="Ingot" SubtypeId="Iodine" />
+        <Item Amount="3.97" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint>  <!-- Bsc_AminoAcids_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_AminoAcids_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Amino Acids</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_CCL4_Carbon_Tetrachloride.dds</Icon>
+      <Prerequisites>
+        <Item Amount="575" TypeId="Ore" SubtypeId="CarbonTetrachloride_AminoAcids" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="227.7" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="77.41" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="38.7" TypeId="Ore" SubtypeId="Chlorine" />
+        <Item Amount="23.57" TypeId="Ore" SubtypeId="Nitrogen" />
+        <Item Amount="15.4" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  </Blueprints>
+</Definitions>

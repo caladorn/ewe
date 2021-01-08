@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- SteelArmorLightCubeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorLightCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <DisplayName>Steel Light Armor Blocks</DisplayName>
+            <Description>Steel Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorCornerSquareInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- SteelArmorLightRampGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorLightRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
+            <DisplayName>Steel Light Armor Ramps</DisplayName>
+            <Description>Steel Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfSlopeSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorHalfSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfSteelSlopeArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- SteelArmorLightRampCornerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorLightRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
+            <DisplayName>Steel Light Armor Ramp Corners</DisplayName>
+            <Description>Steel Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorHalfSlopeInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- SteelArmorLightRoundGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorLightRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Steel Light Armor Slopes</DisplayName>
+            <Description>Steel Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- SteelArmorHeavyCubeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorHeavyCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <DisplayName>Steel Heavy Armor Blocks</DisplayName>
+            <Description>Steel Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorCornerSquareInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- SteelArmorHeavyRampGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorHeavyRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
+            <DisplayName>Steel Heavy Armor Ramps</DisplayName>
+            <Description>Steel Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfSlopeSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorHalfSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfSlopeSteelArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- SteelArmorHeavyRampCornerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorHeavyRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
+            <DisplayName>Steel Heavy Armor Ramp Corners</DisplayName>
+            <Description>Steel Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorHalfSlopeInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- SteelArmorHeavyRoundGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorHeavyRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
+            <DisplayName>Steel Heavy Armor Slopes</DisplayName>
+            <Description>Steel Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockSteelArmorRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockSteelArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorLightSlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightArmorSlopedCorners</DisplayName>
+            <Description>Description_LightArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSteelArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockSteelArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmorHeavySlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_HeavySteelArmorSlopedCorners</DisplayName>
+            <Description>Description_HeavySteelArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavySteelArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavySteelArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

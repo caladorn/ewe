@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+LargeBlockLargeBasicThoriumReactor 0326
+LargeBlockSmallBasicThoriumReactor 0326
+SmallBlockLargeBasicThoriumReactor 0326
+SmallBlockSmallBasicThoriumReactor 0326
+LargeBlockLargeAdvancedThoriumReactor 0327
+LargeBlockSmallAdvancedThoriumReactor 0327
+SmallBlockLargeAdvancedThoriumReactor 0327
+SmallBlockSmallAdvancedThoriumReactor 0327
+LargeBlockLargeEliteThoriumReactor 0328
+LargeBlockSmallEliteThoriumReactor 0328
+SmallBlockLargeEliteThoriumReactor 0328
+SmallBlockSmallEliteThoriumReactor 0328
+
+LargeBlockLargeGenerator 0329
+LargeBlockSmallGenerator 0329
+SmallBlockLargeGenerator 0329
+SmallBlockSmallGenerator 0329
+LargeBlockLargeAdvancedUraniumReactor 0330
+LargeBlockSmallAdvancedUraniumReactor 0330
+SmallBlockLargeAdvancedUraniumReactor 0330
+SmallBlockSmallAdvancedUraniumReactor 0330
+LargeBlockLargeEliteUraniumReactor 0331
+LargeBlockSmallEliteUraniumReactor 0331
+SmallBlockLargeEliteUraniumReactor 0331
+SmallBlockSmallEliteUraniumReactor 0331
+
+LargeBlockLargeBasicPlutoniumReactor 0332
+LargeBlockSmallBasicPlutoniumReactor 0332
+SmallBlockLargeBasicPlutoniumReactor 0332
+SmallBlockSmallBasicPlutoniumReactor 0332
+LargeBlockLargeAdvancedPlutoniumReactor 0333
+LargeBlockSmallAdvancedPlutoniumReactor 0333
+SmallBlockLargeAdvancedPlutoniumReactor 0333
+SmallBlockSmallAdvancedPlutoniumReactor 0333
+LargeBlockLargeElitePlutoniumReactor 0334
+LargeBlockSmallElitePlutoniumReactor 0334
+SmallBlockLargeElitePlutoniumReactor 0334
+SmallBlockSmallElitePlutoniumReactor 0334
+
+LargeBlockLargeBasicFusionReactor 0335
+LargeBlockSmallBasicFusionReactor 0335
+SmallBlockLargeBasicFusionReactor 0335
+SmallBlockSmallBasicFusionReactor 0335
+LargeBlockLargeAdvancedFusionReactor 0336
+LargeBlockSmallAdvancedFusionReactor 0336
+SmallBlockLargeAdvancedFusionReactor 0336
+SmallBlockSmallAdvancedFusionReactor 0336
+LargeBlockLargeEliteFusionReactor 0337
+LargeBlockSmallEliteFusionReactor 0337
+SmallBlockLargeEliteFusionReactor 0337
+SmallBlockSmallEliteFusionReactor 0337
+-->
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicThoriumReactor 0326 Unlocked @ 0323 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeBasicThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0323</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicThoriumReactor 0326 Unlocked @ 0323 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallBasicThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0323</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicThoriumReactor 0326 Unlocked @ 0323 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeBasicThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0323</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicThoriumReactor 0326 Unlocked @ 0323 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallBasicThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0323</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedThoriumReactor 0327 Unlocked @ 0326 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeAdvancedThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0326</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedThoriumReactor 0327 Unlocked @ 0326 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallAdvancedThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0326</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedThoriumReactor 0327 Unlocked @ 0326 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeAdvancedThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0326</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedThoriumReactor 0327 Unlocked @ 0326 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallAdvancedThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0326</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteThoriumReactor 0328 Unlocked @ 0327 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeEliteThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0327</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteThoriumReactor 0328 Unlocked @ 0327 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallEliteThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0327</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteThoriumReactor 0328 Unlocked @ 0327 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeEliteThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0327</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteThoriumReactor 0328 Unlocked @ 0327 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallEliteThoriumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0327</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicUraniumReactor 0329 Unlocked @ 0326 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeGenerator" />
+      <UnlockedByGroups>
+        <GroupSubtype>0326</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicUraniumReactor 0329 Unlocked @ 0326 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallGenerator" />
+      <UnlockedByGroups>
+        <GroupSubtype>0326</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicUraniumReactor 0329 Unlocked @ 0326 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeGenerator" />
+      <UnlockedByGroups>
+        <GroupSubtype>0326</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicUraniumReactor 0329 Unlocked @ 0326 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallGenerator" />
+      <UnlockedByGroups>
+        <GroupSubtype>0326</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedUraniumReactor 0330 Unlocked @ 0329 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeAdvancedUraniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0329</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedUraniumReactor 0330 Unlocked @ 0329 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallAdvancedUraniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0329</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedUraniumReactor 0330 Unlocked @ 0329 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeAdvancedUraniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0329</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedUraniumReactor 0330 Unlocked @ 0329 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallAdvancedUraniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0329</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteUraniumReactor 0331 Unlocked @ 0330 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeEliteUraniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0330</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteUraniumReactor 0331 Unlocked @ 0330 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallEliteUraniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0330</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteUraniumReactor 0331 Unlocked @ 0330 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeEliteUraniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0330</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteUraniumReactor 0331 Unlocked @ 0330 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallEliteUraniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0330</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicPlutoniumReactor 0332 Unlocked @ 0331 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeBasicPlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0331</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicPlutoniumReactor 0332 Unlocked @ 0331 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallBasicPlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0331</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicPlutoniumReactor 0332 Unlocked @ 0331 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeBasicPlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0331</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicPlutoniumReactor 0332 Unlocked @ 0331 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallBasicPlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0331</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedPlutoniumReactor 0333 Unlocked @ 0332 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeAdvancedPlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0332</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedPlutoniumReactor 0333 Unlocked @ 0332 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallAdvancedPlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0332</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedPlutoniumReactor 0333 Unlocked @ 0332 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeAdvancedPlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0332</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedPlutoniumReactor 0333 Unlocked @ 0332 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallAdvancedPlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0332</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- ElitePlutoniumReactor 0334 Unlocked @ 0333 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeElitePlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0333</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- ElitePlutoniumReactor 0334 Unlocked @ 0333 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallElitePlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0333</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- ElitePlutoniumReactor 0334 Unlocked @ 0333 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeElitePlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0333</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- ElitePlutoniumReactor 0334 Unlocked @ 0333 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallElitePlutoniumReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0333</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicFusionReactor 0335 Unlocked @ 0334 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeBasicFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0334</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicFusionReactor 0335 Unlocked @ 0334 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallBasicFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0334</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicFusionReactor 0335 Unlocked @ 0334 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeBasicFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0334</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- BasicFusionReactor 0335 Unlocked @ 0334 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallBasicFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0334</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedFusionReactor 0336 Unlocked @ 0335 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeAdvancedFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0335</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedFusionReactor 0336 Unlocked @ 0335 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallAdvancedFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0335</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedFusionReactor 0336 Unlocked @ 0335 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeAdvancedFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0335</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- AdvancedFusionReactor 0336 Unlocked @ 0335 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallAdvancedFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0335</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteFusionReactor 0337 Unlocked @ 0336 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeEliteFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0336</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteFusionReactor 0337 Unlocked @ 0336 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallEliteFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0336</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteFusionReactor 0337 Unlocked @ 0336 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeEliteFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0336</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- EliteFusionReactor 0337 Unlocked @ 0336 -->
+      <Id Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallEliteFusionReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0336</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    
+  </ResearchBlocks>
+</Definitions>

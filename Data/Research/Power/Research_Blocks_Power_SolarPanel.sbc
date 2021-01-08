@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+LargeBlockSolarPanel 0312
+SmallBlockSolarPanel 0312
+LargeBlockAdvancedSolarPanel 0313
+SmallBlockAdvancedSolarPanel 0313
+LargeBlockEliteSolarPanel 0314
+SmallBlockEliteSolarPanel 0314
+-->
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic SolarPanel 0312 Unlocked @ 0300 -->
+      <Id Type="MyObjectBuilder_SolarPanelDefinition" Subtype="LargeBlockSolarPanel" />
+      <UnlockedByGroups>
+        <GroupSubtype>0300</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic SolarPanel 0312 Unlocked @ 0300 -->
+      <Id Type="MyObjectBuilder_SolarPanelDefinition" Subtype="SmallBlockSolarPanel" />
+      <UnlockedByGroups>
+        <GroupSubtype>0300</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced SolarPanel 0313 Unlocked @ 0312 -->
+      <Id Type="MyObjectBuilder_SolarPanelDefinition" Subtype="LargeBlockAdvancedSolarPanel" />
+      <UnlockedByGroups>
+        <GroupSubtype>0312</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced SolarPanel 0313 Unlocked @ 0312 -->
+      <Id Type="MyObjectBuilder_SolarPanelDefinition" Subtype="SmallBlockAdvancedSolarPanel" />
+      <UnlockedByGroups>
+        <GroupSubtype>0312</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite SolarPanel 0314 Unlocked @ 0313 -->
+      <Id Type="MyObjectBuilder_SolarPanelDefinition" Subtype="LargeBlockEliteSolarPanel" />
+      <UnlockedByGroups>
+        <GroupSubtype>0313</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite SolarPanel 0314 Unlocked @ 0313 -->
+      <Id Type="MyObjectBuilder_SolarPanelDefinition" Subtype="SmallBlockEliteSolarPanel" />
+      <UnlockedByGroups>
+        <GroupSubtype>0313</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

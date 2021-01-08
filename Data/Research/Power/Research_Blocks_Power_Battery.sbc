@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+LargeBlockBatteryBlock 0300
+SmallBlockBatteryBlock 0300
+SmallBlockSmallBatteryBlock 0300
+LargeBlockAdvancedCapacitorBank 0301
+SmallBlockAdvancedCapacitorBank 0301
+SmallBlockSmallAdvancedCapacitorBank 0301
+LargeBlockEliteCapacitorBank 0302
+SmallBlockEliteCapacitorBank 0302
+SmallBlockSmallEliteCapacitorBank 0302
+
+LargeBlockBasicLeadBattery 0303
+SmallBlockBasicLeadBattery 0303
+SmallBlockSmallBasicLeadBattery 0303
+LargeBlockAdvancedLeadBattery 0304
+SmallBlockAdvancedLeadBattery 0304
+SmallBlockSmallAdvancedLeadBattery 0304
+LargeBlockEliteLeadBattery 0305
+SmallBlockEliteLeadBattery 0305
+SmallBlockSmallEliteLeadBattery 0305
+
+LargeBlockBasicLithiumBattery 0306
+SmallBlockBasicLithiumBattery 0306
+SmallBlockSmallBasicLithiumBattery 0306
+LargeBlockAdvancedLithiumBattery 0307
+SmallBlockAdvancedLithiumBattery 0307
+SmallBlockSmallAdvancedLithiumBattery 0307
+LargeBlockEliteLithiumBattery 0308
+SmallBlockEliteLithiumBattery 0308
+SmallBlockSmallEliteLithiumBattery 0308
+
+LargeBlockBasicFluorideBattery 0309
+SmallBlockBasicFluorideBattery 0309
+SmallBlockSmallBasicFluorideBattery 0309
+LargeBlockAdvancedFluorideBattery 0310
+SmallBlockAdvancedFluorideBattery 0310
+SmallBlockSmallAdvancedFluorideBattery 0310
+LargeBlockEliteFluorideBattery 0311
+SmallBlockEliteFluorideBattery 0311
+SmallBlockSmallEliteFluorideBattery 0311
+-->
+
+<!--			DEACTIVATED
+    <ResearchBlock xsi:type="ResearchBlock">  Basic Capacitor 0300 Unlocked @ 0000 
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockBatteryBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0000</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">  Basic Capacitor 0300 Unlocked @ 0000 
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockBatteryBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0000</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">  Basic Capacitor 0300 Unlocked @ 0000 
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallBatteryBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0000</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+-->
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced Capacitor 0301 Unlocked @ 0300 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockAdvancedCapacitorBank" />
+      <UnlockedByGroups>
+        <GroupSubtype>0300</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced Capacitor 0301 Unlocked @ 0300 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockAdvancedCapacitorBank" />
+      <UnlockedByGroups>
+        <GroupSubtype>0300</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced Capacitor 0301 Unlocked @ 0300 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallAdvancedCapacitorBank" />
+      <UnlockedByGroups>
+        <GroupSubtype>0300</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite Capacitor 0302 Unlocked @ 0301 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockEliteCapacitorBank" />
+      <UnlockedByGroups>
+        <GroupSubtype>0301</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite Capacitor 0302 Unlocked @ 0301 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockEliteCapacitorBank" />
+      <UnlockedByGroups>
+        <GroupSubtype>0301</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite Capacitor 0302 Unlocked @ 0301 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallEliteCapacitorBank" />
+      <UnlockedByGroups>
+        <GroupSubtype>0301</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic LeadBattery 0303 Unlocked @ 0000 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockBasicLeadBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0300</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic LeadBattery 0303 Unlocked @ 0000 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockBasicLeadBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0300</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic LeadBattery 0303 Unlocked @ 0000 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallBasicLeadBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0300</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced LeadBattery 0304 Unlocked @ 0303 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockAdvancedLeadBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0303</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced LeadBattery 0304 Unlocked @ 0303 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockAdvancedCapacitorBank" />
+      <UnlockedByGroups>
+        <GroupSubtype>0303</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced LeadBattery 0304 Unlocked @ 0303 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallAdvancedLeadBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0303</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite LeadBattery 0305 Unlocked @ 0304 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockEliteLeadBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0304</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite LeadBattery 0305 Unlocked @ 0304 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockEliteLeadBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0304</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite LeadBattery 0305 Unlocked @ 0304 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallEliteLeadBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0304</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic LithiumBattery 0306 Unlocked @ 0304 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockBasicLithiumBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0304</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic LithiumBattery 0306 Unlocked @ 0304 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockBasicLithiumBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0304</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic LithiumBattery 0306 Unlocked @ 0304 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallBasicLithiumBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0304</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced LithiumBattery 0307 Unlocked @ 0306 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockAdvancedLithiumBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0306</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced LithiumBattery 0307 Unlocked @ 0306 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockAdvancedCapacitorBank" />
+      <UnlockedByGroups>
+        <GroupSubtype>0306</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced LithiumBattery 0307 Unlocked @ 0306 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallAdvancedLithiumBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0306</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite LithiumBattery 0308 Unlocked @ 0307 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockEliteLithiumBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0307</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite LithiumBattery 0308 Unlocked @ 0307 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockEliteLithiumBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0307</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite LithiumBattery 0308 Unlocked @ 0307 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallEliteLithiumBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0307</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic FluorideBattery 0309 Unlocked @ 0308 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockBasicFluorideBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0308</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic FluorideBattery 0309 Unlocked @ 0308 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockBasicFluorideBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0308</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic FluorideBattery 0309 Unlocked @ 0308 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallBasicFluorideBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0308</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced FluorideBattery 0310 Unlocked @ 0309 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockAdvancedFluorideBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0309</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced FluorideBattery 0310 Unlocked @ 0309 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockAdvancedCapacitorBank" />
+      <UnlockedByGroups>
+        <GroupSubtype>0309</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced FluorideBattery 0310 Unlocked @ 0309 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallAdvancedFluorideBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0309</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite FluorideBattery 0311 Unlocked @ 0310 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockEliteFluorideBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0310</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite FluorideBattery 0311 Unlocked @ 0310 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockEliteFluorideBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0310</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Elite FluorideBattery 0311 Unlocked @ 0310 -->
+      <Id Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallEliteFluorideBattery" />
+      <UnlockedByGroups>
+        <GroupSubtype>0310</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

@@ -11,6 +11,10 @@
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockAdvancedSolarPanel" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockEliteSolarPanel" />
+
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockAdvancedSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockEliteSolarPanel" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -23,6 +27,7 @@
                 <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
                 <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockAdvancedWindTurbine" />
                 <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockEliteWindTurbine" />
+
             </Blocks>
         </BlockVariantGroup>
 
@@ -36,6 +41,10 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockAdvancedCapacitorBank" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockEliteCapacitorBank" />
 				
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockAdvancedCapacitorBank" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockEliteCapacitorBank" />
+                
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallAdvancedCapacitorBank" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallEliteCapacitorBank" />
@@ -52,6 +61,10 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockAdvancedLeadBattery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockEliteLeadBattery" />
 				
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBasicLeadBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockAdvancedLeadBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockEliteLeadBattery" />
+                
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBasicLeadBattery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallAdvancedLeadBattery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallEliteLeadBattery" />
@@ -68,6 +81,10 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockAdvancedLithiumBattery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockEliteLithiumBattery" />
 				
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBasicLithiumBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockAdvancedLithiumBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockEliteLithiumBattery" />
+                
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBasicLithiumBattery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallAdvancedLithiumBattery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallEliteLithiumBattery" />
@@ -84,6 +101,10 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockAdvancedFluorideBattery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockEliteFluorideBattery" />
 				
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBasicFluorideBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockAdvancedFluorideBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockEliteFluorideBattery" />
+                
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBasicFluorideBattery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallAdvancedFluorideBattery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallEliteFluorideBattery" />				
@@ -98,7 +119,11 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockAdvancedHydroEngine" />
-                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockEliteHydroEngine" />				
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockEliteHydroEngine" />
+
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallBlockAdvancedHydroEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallBlockEliteHydroEngine" />    				
             </Blocks>
         </BlockVariantGroup>
 
@@ -110,7 +135,11 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockBasicGasolineEngine" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockAdvancedGasolineEngine" />
-                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockEliteGasolineEngine" />				
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockEliteGasolineEngine" />
+
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallBlockBasicGasolineEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallBlockAdvancedGasolineEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallBlockEliteGasolineEngine" />     				
             </Blocks>
         </BlockVariantGroup>
 
@@ -122,7 +151,11 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockBasicJetFuelEngine" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockAdvancedJetFuelEngine" />
-                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockEliteJetFuelEngine" />				
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeBlockEliteJetFuelEngine" />
+
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallBlockBasicJetFuelEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallBlockAdvancedJetFuelEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallBlockEliteJetFuelEngine" />  				
             </Blocks>
         </BlockVariantGroup>
 
@@ -136,9 +169,17 @@
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeAdvancedThoriumReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeEliteThoriumReactor" />
 				
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeBasicThoriumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeAdvancedThoriumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeEliteThoriumReactor" />
+                
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallBasicThoriumReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallAdvancedThoriumReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallEliteThoriumReactor" />
+
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallBasicThoriumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallAdvancedThoriumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallEliteThoriumReactor" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -152,9 +193,17 @@
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeAdvancedUraniumReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeEliteUraniumReactor" />
 				
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeAdvancedUraniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeEliteUraniumReactor" />
+                
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallAdvancedUraniumReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallEliteUraniumReactor" />
+
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallAdvancedUraniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallEliteUraniumReactor" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -168,9 +217,17 @@
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeAdvancedPlutoniumReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeElitePlutoniumReactor" />
 				
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeBasicPlutoniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeAdvancedPlutoniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeElitePlutoniumReactor" />
+                
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallBasicPlutoniumReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallAdvancedPlutoniumReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallElitePlutoniumReactor" />
+
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallBasicPlutoniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallAdvancedPlutoniumReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallElitePlutoniumReactor" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -183,10 +240,18 @@
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeBasicFusionReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeAdvancedFusionReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeEliteFusionReactor" />
-				
+                
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeBasicFusionReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeAdvancedFusionReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeEliteFusionReactor" />
+                
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallBasicFusionReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallAdvancedFusionReactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallEliteFusionReactor" />
+
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallBasicFusionReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallAdvancedFusionReactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallEliteFusionReactor" />
             </Blocks>
         </BlockVariantGroup>
 

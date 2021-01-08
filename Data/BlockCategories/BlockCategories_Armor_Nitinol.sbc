@@ -14,10 +14,12 @@
         <string>CubeBlock/LargeBlockNitinolArmorSlope2Base</string>
         <string>CubeBlock/LargeBlockNitinolArmorCorner2Base</string>
         <string>CubeBlock/LargeBlockNitinolArmorRoundSlope</string>
+        <string>CubeBlock/LargeBlockNitinolArmorSlopedCornerTip</string>
         <string>CubeBlock/LargeHeavyBlockNitinolArmorBlock</string>
         <string>CubeBlock/LargeHeavyBlockNitinolArmorSlope2Base</string>
         <string>CubeBlock/LargeHeavyBlockNitinolArmorCorner2Base</string>
         <string>CubeBlock/LargeHeavyBlockNitinolArmorRoundSlope</string>
+        <string>CubeBlock/LargeBlockHeavyNitinolArmorSlopedCornerTip</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

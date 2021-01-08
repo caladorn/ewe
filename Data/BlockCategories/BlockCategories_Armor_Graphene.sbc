@@ -14,10 +14,12 @@
         <string>CubeBlock/LargeBlockGrapheneArmorSlope2Base</string>
         <string>CubeBlock/LargeBlockGrapheneArmorCorner2Base</string>
         <string>CubeBlock/LargeBlockGrapheneArmorRoundSlope</string>
+        <string>CubeBlock/LargeBlockGrapheneArmorSlopedCornerTip</string>
         <string>CubeBlock/LargeHeavyBlockGrapheneArmorBlock</string>
         <string>CubeBlock/LargeHeavyBlockGrapheneArmorSlope2Base</string>
         <string>CubeBlock/LargeHeavyBlockGrapheneArmorCorner2Base</string>
         <string>CubeBlock/LargeHeavyBlockGrapheneArmorRoundSlope</string>
+        <string>CubeBlock/LargeBlockHeavyGrapheneArmorSlopedCornerTip</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

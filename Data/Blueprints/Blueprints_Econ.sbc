@@ -12,7 +12,7 @@
         <Item Amount="1" TypeId="Component" SubtypeId="ShieldEmitter" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Electrum" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Hafnium" />
-        <Item Amount="5" TypeId="Ingot" SubtypeId="Krypton" />
+        <Item Amount="5" TypeId="Ore" SubtypeId="Krypton" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Polonium" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Plutonium" />
       </Prerequisites>

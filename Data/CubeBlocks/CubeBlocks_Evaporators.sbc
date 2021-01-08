@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 	
-	<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
         <TypeId>OxygenGenerator</TypeId>
         <SubtypeId>LargeBlockHydrogenEvaporator</SubtypeId>
@@ -42,6 +42,7 @@
       </BuildProgressModels>
       <BlockPairName>HydrogenEvaporator</BlockPairName>
       <EdgeType>Light</EdgeType>
+      <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
@@ -51,6 +52,9 @@
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.15</OperationalPowerConsumption>
       <ProducedGases>
@@ -66,13 +70,24 @@
         <Class>HydrogenToGas</Class>
         <Class>HydrogenBottles</Class>
       </BlueprintClasses>
-      <DamageEffectId>213</DamageEffectId>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <GenerateSound>ArcBlockOxyGenProcess</GenerateSound>
-      <IdleSound>ArcBlockOxyGenIdle</IdleSound>
-      <PCU>100</PCU>      
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+        <unsignedInt>1200</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
-	<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
         <TypeId>OxygenGenerator</TypeId>
         <SubtypeId>LargeBlockOxygenEvaporator</SubtypeId>
@@ -112,6 +127,7 @@
       </BuildProgressModels>
       <BlockPairName>OxygenEvaporator</BlockPairName>
       <EdgeType>Light</EdgeType>
+      <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
@@ -121,6 +137,9 @@
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.15</OperationalPowerConsumption>
       <ProducedGases>
@@ -136,11 +155,22 @@
         <Class>OxygenToGas</Class>
         <Class>OxygenBottles</Class>
       </BlueprintClasses>
-      <DamageEffectId>213</DamageEffectId>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <GenerateSound>ArcBlockOxyGenProcess</GenerateSound>
-      <IdleSound>ArcBlockOxyGenIdle</IdleSound>
-      <PCU>100</PCU>      
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+        <unsignedInt>1200</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
 	<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
@@ -183,6 +213,7 @@
       </BuildProgressModels>
       <BlockPairName>GasolineSynthesizer</BlockPairName>
       <EdgeType>Light</EdgeType>
+      <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
@@ -192,6 +223,9 @@
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
       <ProducedGases>
@@ -206,11 +240,22 @@
       <BlueprintClasses>
         <Class>GasolineToGas</Class>
       </BlueprintClasses>
-      <DamageEffectId>213</DamageEffectId>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <GenerateSound>ArcBlockOxyGenProcess</GenerateSound>
-      <IdleSound>ArcBlockOxyGenIdle</IdleSound>
-      <PCU>100</PCU>      
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+        <unsignedInt>1200</unsignedInt>
+      </TieredUpdateTimes>    
     </Definition>
 	<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
@@ -253,6 +298,7 @@
       </BuildProgressModels>
       <BlockPairName>JetFuelSynthesizer</BlockPairName>
       <EdgeType>Light</EdgeType>
+      <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
@@ -262,6 +308,9 @@
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
       <ProducedGases>
@@ -276,11 +325,22 @@
       <BlueprintClasses>
         <Class>JetFuelToGas</Class>
       </BlueprintClasses>
-      <DamageEffectId>213</DamageEffectId>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <GenerateSound>ArcBlockOxyGenProcess</GenerateSound>
-      <IdleSound>ArcBlockOxyGenIdle</IdleSound>
-      <PCU>100</PCU>      
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+        <unsignedInt>1200</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
   </CubeBlocks>
 </Definitions>

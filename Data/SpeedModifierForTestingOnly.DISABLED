@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Definition xsi:type="EnvironmentDefinition">
+    <Id>
+      <TypeId>EnvironmentDefinition</TypeId>
+      <SubtypeId>Default</SubtypeId>
+    </Id>
+    <SmallShipMaxSpeed>5000</SmallShipMaxSpeed>
+    <LargeShipMaxSpeed>5000</LargeShipMaxSpeed>
+    <SmallShipMaxAngularSpeed>360</SmallShipMaxAngularSpeed>
+    <LargeShipMaxAngularSpeed>180</LargeShipMaxAngularSpeed>
+  </Definition>
+</Definitions>

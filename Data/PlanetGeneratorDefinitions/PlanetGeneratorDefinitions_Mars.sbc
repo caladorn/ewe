@@ -566,6 +566,83 @@
 
     <HillParams Min = "-0.01" Max ="0.12"/>
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
+	<!-- Mars Planet's Weather Settings -->
+	
+	<WeatherFrequencyMin>1800</WeatherFrequencyMin>
+	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
+	<WeatherGenerators>
+		<WeatherGenerator>
+			<Voxel>MarsSoil</Voxel>
+			<Weathers>
+				<Weather>
+					<Name>MarsStormLight</Name>
+					<Weight>2</Weight>
+					<MinLength>600</MinLength>
+					<MaxLength>1800</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+				<Weather>
+					<Name>MarsStormHeavy</Name>
+					<Weight>1</Weight>
+					<MinLength>1200</MinLength>
+					<MaxLength>3600</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+            	<Weather>
+					<Name>Dust</Name>
+					<Weight>2</Weight>
+					<MinLength>600</MinLength>
+					<MaxLength>1200</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+			</Weathers>
+		</WeatherGenerator>
+		<WeatherGenerator>
+			<Voxel>Rock</Voxel>
+			<Weathers>
+				<Weather>
+					<Name>MarsStormLight</Name>
+					<Weight>2</Weight>
+					<MinLength>600</MinLength>
+					<MaxLength>1800</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+				<Weather>
+					<Name>MarsStormHeavy</Name>
+					<Weight>1</Weight>
+					<MinLength>1200</MinLength>
+					<MaxLength>3600</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+            	<Weather>
+					<Name>Dust</Name>
+					<Weight>2</Weight>
+					<MinLength>600</MinLength>
+					<MaxLength>1200</MaxLength>
+					<SpawnOffset>2000</SpawnOffset>
+				</Weather>
+			</Weathers>
+		</WeatherGenerator>
+        <WeatherGenerator>
+            <Voxel>Snow</Voxel>
+            <Weathers>
+                <Weather>
+                    <Name>SnowLight</Name>
+                    <Weight>1</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>900</MaxLength>
+                    <SpawnOffset>2000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>FogLight</Name>
+                    <Weight>2</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>900</MaxLength>
+                    <SpawnOffset>2000</SpawnOffset>
+                </Weather>
+            </Weathers>
+        </WeatherGenerator>
+	</WeatherGenerators>
   </Definition>
 
 </Definitions>

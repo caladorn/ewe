@@ -83,7 +83,7 @@
 				<Component Subtype="FluxCoil" Count="12" />
 				<Component Subtype="FluxCapacitor" Count="56" />
 				<Component Subtype="Transformer" Count="20" />
-				<Component Subtype="ShieldEmitter" Count="100" />
+				<Component Subtype="ShieldComponent" Count="100" />
 				<Component Subtype="CoolingUnit" Count="1" />
 				<Component Subtype="Superconductor" Count="600" />
 				<Component Subtype="Computer" Count="500" />

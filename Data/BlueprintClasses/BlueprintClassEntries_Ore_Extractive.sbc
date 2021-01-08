@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_Stone_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Stone_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_Stone_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Stone_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_Stone_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_Stone_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_DesertRock_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_DesertRock_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_DesertRock_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_DesertRock_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_DesertRock_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_DesertRock_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_MarsRocks_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_MarsRocks_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_MarsRocks_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_MarsRocks_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_MarsRocks_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_MarsRocks_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_Anorthite_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Anorthite_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_Anorthite_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Anorthite_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_Anorthite_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_Anorthite_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_AlienRock_01_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_AlienRock_01_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_AlienRock_01_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_AlienRock_01_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_AlienRock_01_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_AlienRock_01_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_Sand_02_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Sand_02_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_Sand_02_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Sand_02_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_Sand_02_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_Sand_02_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_AlienSand_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_AlienSand_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_AlienSand_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_AlienSand_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_AlienSand_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_AlienSand_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_Soil_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Soil_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_Soil_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Soil_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_Soil_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_Soil_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_MarsSoil_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_MarsSoil_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_MarsSoil_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_MarsSoil_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_MarsSoil_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_MarsSoil_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_Regolith_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Regolith_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_Regolith_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Regolith_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_Regolith_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_Regolith_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_AlienSoil_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_AlienSoil_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_AlienSoil_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_AlienSoil_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_AlienSoil_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_AlienSoil_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_Organic_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Organic_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_Organic_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Organic_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_Organic_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_Organic_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_AlienOrganic_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_AlienOrganic_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_AlienOrganic_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_AlienOrganic_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_AlienOrganic_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_AlienOrganic_OreToIngot" />
+		
+        <Entry Class="BscStone" BlueprintSubtypeId="Bsc_AminoAcids_OreToIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="Bsc_AminoAcids_OreToIngot" />
+        <Entry Class="AdvStone" BlueprintSubtypeId="Adv_AminoAcids_OreToIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="Adv_AminoAcids_OreToIngot" />
+        <Entry Class="EliStone" BlueprintSubtypeId="Eli_AminoAcids_OreToIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="Eli_AminoAcids_OreToIngot" />
+		
+  </BlueprintClassEntries>
+</Definitions>

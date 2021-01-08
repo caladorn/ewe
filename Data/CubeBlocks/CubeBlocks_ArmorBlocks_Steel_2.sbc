@@ -1,0 +1,2988 @@
+<?xml version="1.0" encoding="UTF-8"?><Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorCornerSquare</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light Armor Corner Square</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CornerSquare.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>CornerSquare</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate004-->
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleRightPlate001-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfCornerLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfCornerLeft001-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfCornerRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfCornerRight001-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate009-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\CornerSquareConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\CornerSquareConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\CornerSquareConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelRod" Count="5" />
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="BrazingRod" Count="5" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--CornerSquare-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorCornerSquare</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorCornerSquare</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorCornerSquare</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CornerSquare.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>CornerSquare</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate004-->
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleRightPlate001-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfCornerLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfCornerLeft001-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfCornerRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfCornerRight001-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate009-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\CornerSquareConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\CornerSquareConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\CornerSquareConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--CornerSquare-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorCornerSquare</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>1.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorCornerSquareInverted</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorCornerSquareInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CornerSquareInverted.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>CornerSquareInverted</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\CornerSquareINVLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerSquareINVLeft001-->
+                    <Side Model="Models\Cubes\Large\Armor\CornerSquareINVRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerSquareINVRight001-->
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate005-->
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleRightPlate002-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate010-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate011-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate012-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\CornerSquareInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\CornerSquareInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\CornerSquareInvertedConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Back" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Right" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="SteelRod" Count="5" />
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="BrazingRod" Count="15" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--CornerSquare-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorCornerSquareInverted</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorCornerSquareInverted</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorCornerSquareInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CornerSquareInverted.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>CornerSquareInverted</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\CornerSquareINVLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerSquareINVLeft001-->
+                    <Side Model="Models\Cubes\Small\Armor\CornerSquareINVRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerSquareINVRight001-->
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate005-->
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleRightPlate002-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate010-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate011-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate012-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Back" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Right" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="SteelRod" Count="5" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="5" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--CornerSquare-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorCornerSquareInverted</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorHalfCorner</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfCorner.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfCorner</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate003-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfCornerDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfCornerDiagonal001-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopedCornerBaseTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopedCornerBaseTop002-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront004-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront005-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfCornerConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Bottom" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="SteelRod" Count="5" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="5" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfCorner-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfCorner</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorHalfCorner</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfCorner.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfCorner</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate003-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfCornerDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfCornerDiagonal001-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopedCornerBaseTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopedCornerBaseTop002-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront004-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront005-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfCornerConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Bottom" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelRod" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="3" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfCorner-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfCorner</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>1.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorHalfSlopeCorner</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopeCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCorner.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopeCorner</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlateCorner2TipFront001-->
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlateCorner2TipFront002-->
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlateCorner2TipFront003-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopeCornerTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeCornerTriangle001-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopeCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopeCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopeCornerConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.45" EndY="0.45" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.45" Side="Back" StartX="0.55" StartY="0.0"/>
+                <MountPoint EndX="0.55" EndY="0.55" Side="Bottom" StartX="1.0" StartY="1.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="SteelRod" Count="5" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="5" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopeCorner-->
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopeCorner</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorHalfSlopeCorner</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopeCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCorner.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopeCorner</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlateCorner2TipFront001-->
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlateCorner2TipFront002-->
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlateCorner2TipFront003-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopeCornerTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeCornerTriangle001-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.45" EndY="0.45" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.45" Side="Back" StartX="0.55" StartY="0.0"/>
+                <MountPoint EndX="0.55" EndY="0.55" Side="Bottom" StartX="1.0" StartY="1.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelRod" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="3" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopeCorner-->
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopeCorner</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>1.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorHalfSlopeCornerInverted</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopeCornerInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCornerInverted.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopeCornerInverted</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopeCornerInvTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeCornerInvTriangle001-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopeInvertedLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedLeft002-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopeInvertedLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedLeft003-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopeInvertedRight_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedRight002-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate018-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate020-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate021-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopeCornerInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopeCornerInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopeCornerInvertedConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.6" EndY="0.6" Side="Front" StartX="0.5" StartY="0.5"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Top" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Top" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.6" Side="Top" StartX="0.4" StartY="0.5"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Left" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.6" Side="Left" StartX="0.4" StartY="0.5"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelRod" Count="6" />
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="BrazingRod" Count="20" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopeCornerInverted-->
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopeCornerInverted</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorHalfSlopeCornerInverted</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopeCornerInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCornerInverted.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopeCornerInverted</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopeCornerInvTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeCornerInvTriangle001-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopeInvertedLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedLeft002-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopeInvertedLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedLeft003-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopeInvertedRight_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedRight002-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate018-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate020-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate021-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.6" EndY="0.6" Side="Front" StartX="0.5" StartY="0.5"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Top" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Top" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.6" Side="Top" StartX="0.4" StartY="0.5"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Left" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.6" Side="Left" StartX="0.4" StartY="0.5"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelRod" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="5" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopeCornerInverted-->
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopeCornerInverted</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorHalfSlopedCorner</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopedCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCorner.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopedCorner</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate006-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfCornerDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfCornerDiagonal002-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopedCornerTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopedCornerTop001-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseLeft002-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseRight002-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopedCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopedCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopedCornerConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Bottom" StartX="0.5" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="SteelRod" Count="3" />
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="BrazingRod" Count="10" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopedCorner-->
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopedCorner</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorHalfSlopedCorner</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopedCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCorner.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopedCorner</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate006-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfCornerDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfCornerDiagonal002-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopedCornerTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopedCornerTop001-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseLeft002-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseRight002-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Bottom" StartX="0.5" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelRod" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="2" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopedCorner-->
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopedCorner</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>1.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorHalfSlopedCornerBase</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopedCornerBase</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCornerBase.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopedCornerBase</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopedCornerBaseTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopedCornerBaseTop-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopedCornerBaseTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopedCornerBaseTriangle-->
+                    <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipLeft-->
+                    <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipRight001-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate001-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront006-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopedCornerBaseConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopedCornerBaseConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopedCornerBaseConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+                <MountPoint EndX="0.2" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Back" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.1" Side="Back" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.1" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Right" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Right" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="SteelRod" Count="3" />
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="BrazingRod" Count="10" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopedCornerBase-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopedCornerBase</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorHalfSlopedCornerBase</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopedCornerBase</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCornerBase.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopedCornerBase</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopedCornerBaseTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopedCornerBaseTop-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopedCornerBaseTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopedCornerBaseTriangle-->
+                    <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipLeft-->
+                    <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipRight001-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate001-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront006-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+                <MountPoint EndX="0.2" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Back" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.1" Side="Back" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.1" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Right" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Right" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelRod" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="2" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopedCornerBase-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopedCornerBase</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorHalfSlopeInverted</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopeInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopeInverted.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopeInverted</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopeInvertedDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedDiagonal-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopeInvertedLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedLeft001-->
+                    <Side Model="Models\Cubes\Large\Armor\HalfSlopeInvertedRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedRight001-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate013-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate014-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront007-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront008-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopeInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopeInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopeInvertedConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Top" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.6" Side="Front" StartX="0.4" StartY="0.5"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Back" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.6" EndY="0.5" Side="Back" StartX="0.5" StartY="0.6"/>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelRod" Count="6" />
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="BrazingRod" Count="20" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopeInverted-->
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopeInverted</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <MirroringZ>None</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorHalfSlopeInverted</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorHalfSlopeInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfSlopeInverted.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>HalfSlopeInverted</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopeInvertedDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedDiagonal-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopeInvertedLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedLeft001-->
+                    <Side Model="Models\Cubes\Small\Armor\HalfSlopeInvertedRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--HalfSlopeInvertedRight001-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate013-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate014-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront007-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseFront008-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Top" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.6" Side="Front" StartX="0.4" StartY="0.5"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Back" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.6" EndY="0.5" Side="Back" StartX="0.5" StartY="0.6"/>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelRod" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="5" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--HalfSlopeInverted-->
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorHalfSlopeInverted</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <MirroringZ>None</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorSlopedCorner</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorSlopedCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCorner.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>SlopedCorner</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipLeft_OtherBones002-->
+                    <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipRight_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipRight_OtherBones002-->
+                    <Side Model="Models\Cubes\Large\Armor\SlopedCornerTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTop-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate007-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseLeft001-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseRight001-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SlopedCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SlopedCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\SlopedCornerConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Back" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.1" Side="Back" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.1" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Right" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Right" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="SteelRod" Count="3" />
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="BrazingRod" Count="10" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--SlopedCorner-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorSlopedCorner</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorSlopedCorner</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorSlopedCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCorner.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>SlopedCorner</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipLeft_OtherBones002-->
+                    <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipRight_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipRight_OtherBones002-->
+                    <Side Model="Models\Cubes\Small\Armor\SlopedCornerTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTop-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate007-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseLeft001-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseRight001-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Back" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.1" Side="Back" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.1" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Right" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Right" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelRod" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="2" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--SlopedCorner-->
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorSlopedCorner</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorSlopedCornerBase</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorSlopedCornerBase</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerBase.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>SlopedCornerBase</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate002-->
+                    <Side Model="Models\Cubes\Large\Armor\SlopedCornerBaseTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerBaseTriangle001-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate004-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate005-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate006-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseLeft-->
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseRight-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SlopedCornerBaseConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SlopedCornerBaseConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\SlopedCornerBaseConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Back" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Top" StartX="0.0" StartY="1.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Top" StartX="0.5" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelRod" Count="6" />
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="BrazingRod" Count="20" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--SlopedCornerBase-->
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorSlopedCornerBase</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>HalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorSlopedCornerBase</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorSlopedCornerBase</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerBase.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>SlopedCornerBase</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate002-->
+                    <Side Model="Models\Cubes\Small\Armor\SlopedCornerBaseTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerBaseTriangle001-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate004-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate005-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlate006-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseLeft-->
+                    <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SquarePlateSlope2BaseRight-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Back" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Right" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Front" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="1.0" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Top" StartX="0.0" StartY="1.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Top" StartX="0.5" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelRod" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="5" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--SlopedCornerBase-->
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="2" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="2" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorSlopedCornerBase</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>HalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSteelArmorSlopedCornerTip</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorSlopedCornerTip</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>SlopedCornerTip</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate001-->
+                    <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipLeft001-->
+                    <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipRight-->
+                    <Side Model="Models\Cubes\Large\Armor\SlopedCornerTipTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipTriangle-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SlopedCornerTipConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SlopedCornerTipConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\SlopedCornerTipConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Bottom" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.5"/>
+                <MountPoint EndX="0.2" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.4" Side="Back" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.1" Side="Back" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.1" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Left" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.8" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="SteelRod" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="2" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--SlopedCornerTip-->
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorSlopedCornerTip</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>HalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockSteelArmorSlopedCornerTip</SubtypeId>
+            </Id>
+            <DisplayName>Steel Light ArmorSlopedCornerTip</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
+            <Description>Steel Light Armor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0.0" y="0.0" z="0.0"/>
+            <CubeDefinition>
+                <CubeTopology>SlopedCornerTip</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--CornerTriangleLeftPlate001-->
+                    <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipLeft001-->
+                    <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipRight-->
+                    <Side Model="Models\Cubes\Small\Armor\SlopedCornerTipTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <!--SlopedCornerTipTriangle-->
+                </Sides>
+            </CubeDefinition>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint EndX="0.5" EndY="0.5" Side="Bottom" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.5"/>
+                <MountPoint EndX="0.2" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.4" Side="Back" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.1" Side="Back" StartX="0.8" StartY="0.0"/>
+                <MountPoint EndX="0.2" EndY="0.1" Side="Left" StartX="0.0" StartY="0.0"/>
+                <MountPoint EndX="0.8" EndY="0.4" Side="Left" StartX="0.2" StartY="0.0"/>
+                <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.8" StartY="0.0"/>
+            </MountPoints>
+            <Components>
+                <Component Subtype="SteelRod" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="BrazingRod" Count="1" />
+            </Components>
+            <CriticalComponent Index="0" Subtype="SteelPlate"/>
+            
+			<Skeleton><!--SlopedCornerTip-->
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="2" y="0" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="0" z="0" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="1" y="1" z="2" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+				<BoneInfo>
+				  <BonePosition x="0" y="1" z="1" />
+				  <BoneOffset x="127" y="127" z="127" />
+				</BoneInfo>
+			  </Skeleton>
+            <BlockPairName>SteelLightArmorSlopedCornerTip</BlockPairName>
+            <PhysicsOption>Convex</PhysicsOption>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>1.0</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>HalfY</MirroringZ>
+            <PCUConsole>2</PCUConsole>
+            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+            <InventoryMaxVolume>1.0</InventoryMaxVolume>
+            <Model/>
+            <UseModelIntersection>false</UseModelIntersection>
+            <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+    </CubeBlocks>
+</Definitions>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- EWESmallOxygenTankGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallOxygenTankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
+            <DisplayName>Small Oxygen Tanks</DisplayName>
+            <Description>Oxygen Tanks for storing "Gases"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallAdvancedOxygenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallEliteOxygenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallAdvancedOxygenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallEliteOxygenTank" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWELargeOxygenTankGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeOxygenTankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+            <DisplayName>Large Oxygen Tanks</DisplayName>
+            <Description>Oxygen Tanks for storing "Gases"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeBasicOxygenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeAdvancedOxygenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeEliteOxygenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeBasicOxygenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeAdvancedOxygenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeEliteOxygenTank" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup> <!-- EWESmallHydrogenTankGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallHydrogenTankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
+            <DisplayName>Small Hydrogen Tanks</DisplayName>
+            <Description>Hydrogen Tanks for storing "Gases"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallBasicHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallAdvancedHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallEliteHydrogenTank" />
+
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallBasicHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallAdvancedHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallEliteHydrogenTank" />
+            </Blocks>
+        </BlockVariantGroup>		
+        <BlockVariantGroup> <!-- EWELargeHydrogenTankGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeHydrogenTankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+            <DisplayName>Large Hydrogen Tanks</DisplayName>
+            <Description>Hydrogen Tanks for storing "Gases"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeAdvancedHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeEliteHydrogenTank" />
+
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeAdvancedHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeEliteHydrogenTank" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup> <!-- EWESmallGasolineTankGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallGasolineTankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
+            <DisplayName>Small Gasoline Tanks</DisplayName>
+            <Description>Gasoline Tanks for storing "Gases"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallBasicGasolineTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallAdvancedGasolineTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallEliteGasolineTank" />
+                
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallBasicGasolineTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallAdvancedGasolineTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallEliteGasolineTank" />                
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWELargeGasolineTankGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeGasolineTankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+            <DisplayName>Large Gasoline Tanks</DisplayName>
+            <Description>Gasoline Tanks for storing "Gases"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeBasicGasolineTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeAdvancedGasolineTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeEliteGasolineTank" />
+
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeBasicGasolineTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeAdvancedGasolineTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeEliteGasolineTank" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- EWEJetFuelTankGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallJetFuelTankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
+            <DisplayName>Small JetFuel Tanks</DisplayName>
+            <Description>JetFuel Tanks for storing "Gases"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallBasicJetFuelTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallAdvancedJetFuelTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallEliteJetFuelTank" />
+
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallBasicJetFuelTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallAdvancedJetFuelTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallEliteJetFuelTank" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWELargeJetFuelTankGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeJetFuelTankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+            <DisplayName>JetFuel Tanks</DisplayName>
+            <Description>JetFuel Tanks for storing "Gases"</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeBasicJetFuelTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeAdvancedJetFuelTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeEliteJetFuelTank" />
+
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeBasicJetFuelTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeAdvancedJetFuelTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeEliteJetFuelTank" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

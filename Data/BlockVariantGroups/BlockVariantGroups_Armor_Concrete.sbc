@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- ConcreteArmorHeavyCubeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConcreteArmorHeavyCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <DisplayName>Concrete Armor Blocks</DisplayName>
+            <Description>Concrete Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- ConcreteArmorHeavyRampGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConcreteArmorHeavyRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
+            <DisplayName>Concrete Armor Ramps</DisplayName>
+            <Description>Concrete Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfConcreteArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfSlopeConcreteArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- ConcreteArmorHeavyRampCornerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConcreteArmorHeavyRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
+            <DisplayName>Concrete Armor Ramp Corners</DisplayName>
+            <Description>Concrete Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- ConcreteArmorHeavyRoundGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConcreteArmorHeavyRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
+            <DisplayName>Concrete Armor Slopes</DisplayName>
+            <Description>Concrete Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockConcreteArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConcreteArmorHeavySlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
+            <DisplayName>Concrete Armor Sloped Corners</DisplayName>
+            <Description>Concrete Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyConcreteArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

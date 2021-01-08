@@ -1,0 +1,1134 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PlanetGeneratorDefinitions>
+    <PlanetGeneratorDefinition>
+      <Id>
+        <TypeId>PlanetGeneratorDefinition</TypeId>
+        <SubtypeId>Pertam</SubtypeId>
+      </Id>
+
+
+	<Difficulty>DifficultyHard</Difficulty>
+    <!--!!!Important!! Read if you want to mod Planets! -->
+    <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
+    <!--Make sure you are not modding a switched off channel-->
+    <PlanetMaps Material="true" Ores="true" Biome="true" Occlusion="true"/>
+
+    <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
+      <PostprocessingSteps>
+        <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
+          <LodSettings>
+            <Settings FromLod="0">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.02</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="1">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.04</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="2">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.06</EdgeThreshold>
+              <PlaneThreshold>.06</PlaneThreshold>
+            </Settings>
+          </LodSettings>
+        </Step>
+      </PostprocessingSteps>
+    </MesherPostprocessing>
+ 
+  <SurfaceDetail>
+      <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
+      <Size>300</Size>
+      <Scale>8</Scale>
+      <Slope Min="40" Max="80" />
+      <Transition>10</Transition>
+    </SurfaceDetail>
+	
+
+	
+    <DistortionTable>
+      <Distortion Type="Perlin" Value ="92" Frequency="10" Height="4" LayerCount="6"/>
+    </DistortionTable>
+
+    <OreMappings>
+      <Ore Value="1" Type="Sylvite" Start="40" Depth="5"/>
+      <Ore Value="2" Type="Sylvite" Start="90" Depth="9"/>
+      <Ore Value="3" Type="Titanite" Start="65" Depth="5"/>
+      <Ore Value="4" Type="Titanite" Start="146" Depth="9"/>
+      <Ore Value="5" Type="Copper" Start="100" Depth="4"/>
+      <Ore Value="6" Type="Copper" Start="225" Depth="7"/>
+      <Ore Value="7" Type="Iodargyrite" Start="24" Depth="1"/>
+      <Ore Value="8" Type="Chalcopyrite" Start="35" Depth="2"/>
+      <Ore Value="9" Type="Chalcopyrite" Start="78" Depth="3"/>
+      <Ore Value="10" Type="Huttonite" Start="80" Depth="5"/>
+      <Ore Value="11" Type="Huttonite" Start="180" Depth="9"/>
+      <Ore Value="12" Type="AlienIce" Start="2" Depth="2"/>
+      <Ore Value="13" Type="AlienIce" Start="4" Depth="3"/>
+      <Ore Value="15" Type="Monazite" Start="100" Depth="5"/>
+      <Ore Value="16" Type="Monazite" Start="225" Depth="9"/>
+      <Ore Value="17" Type="Pyrochlore" Start="65" Depth="3"/>
+      <Ore Value="18" Type="Pyrochlore" Start="146" Depth="5"/>
+      <Ore Value="19" Type="Iron_02" Start="50" Depth="2"/>
+      <Ore Value="20" Type="Iron_02" Start="112" Depth="3"/>
+      <Ore Value="22" Type="Sulfur" Start="50" Depth="5"/>
+      <Ore Value="23" Type="Sulfur" Start="112" Depth="9"/>
+      <Ore Value="24" Type="Germanite" Start="64" Depth="4"/>
+      <Ore Value="25" Type="Germanite" Start="144" Depth="7"/>
+      <Ore Value="26" Type="Hafnon" Start="100" Depth="6"/>
+      <Ore Value="27" Type="Hafnon" Start="225" Depth="10"/>
+      <Ore Value="29" Type="Aluminum" Start="50" Depth="3"/>
+      <Ore Value="30" Type="Aluminum" Start="112" Depth="5"/>
+      <Ore Value="31" Type="Iron_01" Start="100" Depth="5"/>
+      <Ore Value="32" Type="Iron_01" Start="225" Depth="9"/>
+      <Ore Value="33" Type="Cadmoselite" Start="57" Depth="4"/>
+      <Ore Value="34" Type="Cadmoselite" Start="128" Depth="7"/>
+      <Ore Value="36" Type="Coffinite" Start="155" Depth="6"/>
+      <Ore Value="37" Type="Coffinite" Start="348" Depth="10"/>
+      <Ore Value="38" Type="Cinnabar" Start="30" Depth="2"/>
+      <Ore Value="39" Type="Cinnabar" Start="67" Depth="3"/>
+      <Ore Value="40" Type="AlienIce_03" Start="4" Depth="2"/>
+      <Ore Value="41" Type="AlienIce_03" Start="9" Depth="3"/>
+      <Ore Value="43" Type="Silver_01" Start="90" Depth="2"/>
+      <Ore Value="44" Type="Silver_01" Start="202" Depth="3"/>
+      <Ore Value="45" Type="Cerite" Start="55" Depth="4"/>
+      <Ore Value="46" Type="Cerite" Start="123" Depth="7"/>
+      <Ore Value="47" Type="Silver_01" Start="180" Depth="6"/>
+      <Ore Value="48" Type="Silver_01" Start="405" Depth="10"/>
+      <Ore Value="50" Type="Ilmenite" Start="180" Depth="6"/>
+      <Ore Value="51" Type="Ilmenite" Start="405" Depth="10"/>
+      <Ore Value="52" Type="Cobaltite" Start="38" Depth="2"/>
+      <Ore Value="53" Type="Cobaltite" Start="85" Depth="3"/>
+      <Ore Value="54" Type="Zinc" Start="75" Depth="5"/>
+      <Ore Value="55" Type="Zinc" Start="168" Depth="9"/>
+      <Ore Value="57" Type="Copper" Start="175" Depth="6"/>
+      <Ore Value="58" Type="Copper" Start="393" Depth="10"/>
+      <Ore Value="59" Type="Boracite" Start="28" Depth="3"/>
+      <Ore Value="60" Type="Boracite" Start="63" Depth="5"/>
+      <Ore Value="61" Type="Arsenolite" Start="20" Depth="3"/>
+      <Ore Value="62" Type="Arsenolite" Start="45" Depth="5"/>
+      <Ore Value="64" Type="Cassiterite" Start="20" Depth="2"/>
+      <Ore Value="65" Type="Cassiterite" Start="45" Depth="3"/>
+      <Ore Value="66" Type="Strontiofluorite" Start="43" Depth="3"/>
+      <Ore Value="67" Type="Strontiofluorite" Start="96" Depth="5"/>
+      <Ore Value="68" Type="Aluminum" Start="250" Depth="7"/>
+      <Ore Value="69" Type="Aluminum" Start="562" Depth="12"/>
+      <Ore Value="71" Type="Pyrochlore" Start="130" Depth="7"/>
+      <Ore Value="72" Type="Pyrochlore" Start="292" Depth="12"/>
+      <Ore Value="73" Type="Iron_01" Start="200" Depth="12"/>
+      <Ore Value="74" Type="Iron_01" Start="450" Depth="21"/>
+      <Ore Value="75" Type="Gold_01" Start="75" Depth="2"/>
+      <Ore Value="76" Type="Gold_01" Start="168" Depth="3"/>
+      <Ore Value="78" Type="Thorite" Start="85" Depth="5"/>
+      <Ore Value="79" Type="Thorite" Start="191" Depth="9"/>
+      <Ore Value="80" Type="Pyrite" Start="50" Depth="3"/>
+      <Ore Value="81" Type="Pyrite" Start="112" Depth="5"/>
+      <Ore Value="82" Type="Lead" Start="100" Depth="3"/>
+      <Ore Value="83" Type="Lead" Start="225" Depth="5"/>
+      <Ore Value="85" Type="Sphalerite" Start="65" Depth="3"/>
+      <Ore Value="86" Type="Sphalerite" Start="146" Depth="5"/>
+      <Ore Value="87" Type="Wulfenite" Start="65" Depth="8"/>
+      <Ore Value="88" Type="Wulfenite" Start="146" Depth="14"/>
+      <Ore Value="89" Type="Chaoite" Start="50" Depth="4"/>
+      <Ore Value="90" Type="Chaoite" Start="112" Depth="7"/>
+      <Ore Value="92" Type="Chamosite" Start="45" Depth="3"/>
+      <Ore Value="93" Type="Chamosite" Start="101" Depth="5"/>
+      <Ore Value="94" Type="Spodumene" Start="15" Depth="5"/>
+      <Ore Value="95" Type="Spodumene" Start="33" Depth="9"/>
+      <Ore Value="96" Type="Nickel_01" Start="68" Depth="3"/>
+      <Ore Value="97" Type="Nickel_01" Start="153" Depth="5"/>
+      <Ore Value="99" Type="Beryl" Start="35" Depth="4"/>
+      <Ore Value="100" Type="Beryl" Start="78" Depth="7"/>
+      <Ore Value="101" Type="Nickel_01" Start="115" Depth="5"/>
+      <Ore Value="102" Type="Nickel_01" Start="258" Depth="9"/>
+      <Ore Value="103" Type="Tin" Start="40" Depth="4"/>
+      <Ore Value="104" Type="Tin" Start="90" Depth="7"/>
+      <Ore Value="106" Type="Telluropalladinite" Start="39" Depth="3"/>
+      <Ore Value="107" Type="Telluropalladinite" Start="87" Depth="5"/>
+      <Ore Value="108" Type="Rutheniridosmine" Start="55" Depth="8"/>
+      <Ore Value="109" Type="Rutheniridosmine" Start="123" Depth="14"/>
+      <Ore Value="110" Type="Zinc" Start="135" Depth="8"/>
+      <Ore Value="111" Type="Zinc" Start="303" Depth="14"/>
+      <Ore Value="113" Type="Graphite" Start="68" Depth="3"/>
+      <Ore Value="114" Type="Graphite" Start="153" Depth="5"/>
+      <Ore Value="115" Type="Zircon" Start="65" Depth="4"/>
+      <Ore Value="116" Type="Zircon" Start="146" Depth="7"/>
+      <Ore Value="117" Type="Thorite" Start="45" Depth="4"/>
+      <Ore Value="118" Type="Thorite" Start="101" Depth="7"/>
+      <Ore Value="120" Type="Zircon" Start="50" Depth="2"/>
+      <Ore Value="121" Type="Zircon" Start="112" Depth="3"/>
+      <Ore Value="122" Type="Ferchromide" Start="50" Depth="4"/>
+      <Ore Value="123" Type="Ferchromide" Start="112" Depth="7"/>
+      <Ore Value="124" Type="Fontarnauite" Start="20" Depth="2"/>
+      <Ore Value="125" Type="Fontarnauite" Start="45" Depth="3"/>
+      <Ore Value="127" Type="Columbite" Start="33" Depth="3"/>
+      <Ore Value="128" Type="Columbite" Start="74" Depth="5"/>
+      <Ore Value="129" Type="Cadmoindite" Start="43" Depth="4"/>
+      <Ore Value="130" Type="Cadmoindite" Start="96" Depth="7"/>
+      <Ore Value="131" Type="Cobalt_01" Start="150" Depth="4"/>
+      <Ore Value="132" Type="Cobalt_01" Start="337" Depth="7"/>
+      <Ore Value="134" Type="Cobalt_01" Start="200" Depth="6"/>
+      <Ore Value="135" Type="Cobalt_01" Start="450" Depth="10"/>
+      <Ore Value="136" Type="Quartz" Start="10" Depth="3"/>
+      <Ore Value="137" Type="Quartz" Start="22" Depth="5"/>
+      <Ore Value="138" Type="Calaverite" Start="70" Depth="4"/>
+      <Ore Value="139" Type="Calaverite" Start="157" Depth="7"/>
+      <Ore Value="141" Type="Fluorapatite" Start="65" Depth="3"/>
+      <Ore Value="142" Type="Fluorapatite" Start="146" Depth="5"/>
+      <Ore Value="143" Type="Borcarite" Start="65" Depth="3"/>
+      <Ore Value="144" Type="Borcarite" Start="146" Depth="5"/>
+      <Ore Value="145" Type="Kentbrooksite" Start="30" Depth="5"/>
+      <Ore Value="146" Type="Kentbrooksite" Start="67" Depth="9"/>
+      <Ore Value="148" Type="Pitchblend" Start="100" Depth="9"/>
+      <Ore Value="149" Type="Pitchblend" Start="225" Depth="16"/>
+      <Ore Value="150" Type="Zinc" Start="135" Depth="8"/>
+      <Ore Value="151" Type="Zinc" Start="303" Depth="14"/>
+      <Ore Value="152" Type="Magnesium_01" Start="140" Depth="6"/>
+      <Ore Value="153" Type="Magnesium_01" Start="315" Depth="10"/>
+      <Ore Value="155" Type="Realgar" Start="29" Depth="4"/>
+      <Ore Value="156" Type="Realgar" Start="65" Depth="7"/>
+      <Ore Value="157" Type="Uraninite_01" Start="35" Depth="3"/>
+      <Ore Value="158" Type="Uraninite_01" Start="78" Depth="5"/>
+      <Ore Value="159" Type="Ruthenarsenite" Start="44" Depth="7"/>
+      <Ore Value="160" Type="Ruthenarsenite" Start="99" Depth="12"/>
+      <Ore Value="162" Type="Chromferide" Start="15" Depth="2"/>
+      <Ore Value="163" Type="Chromferide" Start="33" Depth="3"/>
+      <Ore Value="164" Type="Halite" Start="24" Depth="3"/>
+      <Ore Value="165" Type="Halite" Start="54" Depth="5"/>
+      <Ore Value="166" Type="Lead" Start="225" Depth="9"/>
+      <Ore Value="167" Type="Lead" Start="506" Depth="16"/>
+      <Ore Value="169" Type="Silicon_01" Start="90" Depth="3"/>
+      <Ore Value="170" Type="Silicon_01" Start="202" Depth="5"/>
+      <Ore Value="171" Type="Platinum_01" Start="235" Depth="8"/>
+      <Ore Value="172" Type="Platinum_01" Start="528" Depth="14"/>
+      <Ore Value="173" Type="Tin" Start="65" Depth="5"/>
+      <Ore Value="174" Type="Tin" Start="146" Depth="9"/>
+      <Ore Value="176" Type="Platinum_01" Start="115" Depth="5"/>
+      <Ore Value="177" Type="Platinum_01" Start="258" Depth="9"/>
+      <Ore Value="178" Type="Iron_02" Start="75" Depth="3"/>
+      <Ore Value="179" Type="Iron_02" Start="168" Depth="5"/>
+      <Ore Value="180" Type="Indite" Start="39" Depth="3"/>
+      <Ore Value="181" Type="Indite" Start="87" Depth="5"/>
+      <Ore Value="183" Type="Coal" Start="80" Depth="3"/>
+      <Ore Value="184" Type="Coal" Start="180" Depth="5"/>
+      <Ore Value="185" Type="Tin" Start="85" Depth="6"/>
+      <Ore Value="186" Type="Tin" Start="191" Depth="10"/>
+      <Ore Value="187" Type="Rhodochrosite" Start="33" Depth="6"/>
+      <Ore Value="188" Type="Rhodochrosite" Start="74" Depth="10"/>
+      <Ore Value="190" Type="Monazite" Start="250" Depth="12"/>
+      <Ore Value="191" Type="Monazite" Start="562" Depth="21"/>
+      <Ore Value="192" Type="Lepidolite" Start="75" Depth="5"/>
+      <Ore Value="193" Type="Lepidolite" Start="168" Depth="9"/>
+      <Ore Value="194" Type="Chromite" Start="60" Depth="4"/>
+      <Ore Value="195" Type="Chromite" Start="135" Depth="7"/>
+      <Ore Value="196" Type="Iodargyrite" Start="138" Depth="4"/>
+      <Ore Value="197" Type="Zinc" Start="75" Depth="5"/>
+      <Ore Value="198" Type="Zinc" Start="168" Depth="9"/>
+      <Ore Value="199" Type="Hematite" Start="120" Depth="4"/>
+      <Ore Value="200" Type="Hematite" Start="270" Depth="7"/>
+      <Ore Value="201" Type="Orpiment" Start="15" Depth="3"/>
+      <Ore Value="202" Type="Orpiment" Start="33" Depth="5"/>
+      <Ore Value="204" Type="Palladseite" Start="47" Depth="4"/>
+      <Ore Value="205" Type="Palladseite" Start="105" Depth="7"/>
+      <Ore Value="206" Type="Gold_01" Start="150" Depth="4"/>
+      <Ore Value="207" Type="Gold_01" Start="337" Depth="7"/>
+      <Ore Value="208" Type="Silicon_01" Start="38" Depth="2"/>
+      <Ore Value="209" Type="Silicon_01" Start="85" Depth="3"/>
+      <Ore Value="211" Type="Titanium" Start="55" Depth="5"/>
+      <Ore Value="212" Type="Titanium" Start="123" Depth="9"/>
+      <Ore Value="213" Type="AlienIce_03" Start="5" Depth="2"/>
+      <Ore Value="214" Type="AlienIce_03" Start="11" Depth="3"/>
+      <Ore Value="215" Type="Stibiotantalite" Start="62" Depth="5"/>
+      <Ore Value="216" Type="Stibiotantalite" Start="139" Depth="9"/>
+      <Ore Value="218" Type="Titanium" Start="25" Depth="3"/>
+      <Ore Value="219" Type="Titanium" Start="56" Depth="5"/>
+      <Ore Value="220" Type="Bismutotantalite" Start="75" Depth="5"/>
+      <Ore Value="221" Type="Bismutotantalite" Start="168" Depth="9"/>
+      <Ore Value="222" Type="Uraninite_01" Start="85" Depth="5"/>
+      <Ore Value="223" Type="Uraninite_01" Start="191" Depth="9"/>
+      <Ore Value="224" Type="Magnesium_01" Start="72" Depth="4"/>
+      <Ore Value="225" Type="Magnesium_01" Start="162" Depth="7"/>
+      <Ore Value="226" Type="Molybdenum" Start="40" Depth="2"/>
+      <Ore Value="227" Type="Molybdenum" Start="136" Depth="5"/>
+    </OreMappings>
+
+    <SoundRules>
+      <SoundRule>
+        <Height Min="0" Max="1"/>
+        <Latitude Min="0" Max="90"/>
+        <SunAngleFromZenith Min="0" Max="90"/>
+        <EnvironmentSound>AmbTitanMoonDay</EnvironmentSound>
+      </SoundRule>
+
+      <SoundRule>
+        <Height Min="0" Max="1"/>
+        <Latitude Min="0" Max="90"/>
+        <SunAngleFromZenith Min="90" Max="180"/>
+        <EnvironmentSound>AmbTitanMoonNight</EnvironmentSound>
+      </SoundRule>
+    </SoundRules>
+
+    <MusicCategories>
+      <MusicCategory Category="Alien" Frequency="0.45" />
+      <MusicCategory Category="Mystery" Frequency="0.15" />
+      <MusicCategory Category="Danger" Frequency="0.1" />
+    </MusicCategories>
+
+    <!--<CustomMaterialTable>
+      <Material Material="DesertRocks" Value ="204" MaxDepth ="5"/>
+      <Material Material="Grass_old" Value ="229" MaxDepth ="5"/>
+      <Material Material="Sand" Value ="255" MaxDepth ="5"/>
+    </CustomMaterialTable>-->
+
+      <ComplexMaterials>
+  <!-- =============== Voxel Rules ================ --> 
+        <MaterialGroup Name="Default" Value="0">
+          <Rule>
+            <Layers>
+              <Layer Material="PertamSand" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="10"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks3" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="10" Max="20"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="20" Max="30"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks2" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="30" Max="35"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="35" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="PertamDesert" Value="127">
+          <Rule>
+            <Layers>
+              <Layer Material="PertamSand" Depth="30"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="GrassOld" Value="229">
+          <Rule>
+            <Layers>
+              <Layer Material="Grass_old" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="5" Max="15"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks3" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="15" Max="20"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="20" Max="30"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks2" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="30" Max="35"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="35" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="Sand" Value="255">
+          <Rule>
+            <Layers>
+              <Layer Material="PertamSand" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="10"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks3" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="10" Max="20"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="20" Max="30"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks2" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="30" Max="35"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="35" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="DustyRocks" Value="194">
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks3" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="1" Max="10"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="10" Max="20"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks2" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="20" Max="30"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="30" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="CrackedSoil" Value="102">
+          <Rule>
+            <Layers>
+              <Layer Material="CrackedSoil" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="5"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="5" Max="25"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks2" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="25" Max="35"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="35" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="Soil" Value="51">
+          <Rule>
+            <Layers>
+              <Layer Material="Soil" Depth="3"/>
+              <Layer Material="Ice_03" Depth="3"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="15"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="15" Max="30"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks2" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="30" Max="35"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="35" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="GreenGrass" Value="64">
+          <Rule>
+            <Layers>
+              <Layer Material="Grass" Depth="3"/>
+              <Layer Material="Ice_03" Depth="5"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="25"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="25" Max="35"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="35" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="OasisIce" Value="38">
+          <Rule>
+            <Layers>
+              <Layer Material="Soil" Depth="3"/>
+              <Layer Material="Ice_03" Depth="6"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="3"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="Grass" Depth="3"/>
+              <Layer Material="Ice_03" Depth="4"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="3" Max="35"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="35" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="Rocks" Value="204">
+          <Rule>
+            <Layers>
+              <Layer Material="PertamSand" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="10"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks3" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="10" Max="20"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="20" Max="30"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks2" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="30" Max="35"/>
+          </Rule>
+
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="30"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="35" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <MaterialGroup Name="RocksTop" Value="94">
+          <Rule>
+            <Layers>
+              <Layer Material="DustyRocks" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="90"/>
+          </Rule>
+        </MaterialGroup>
+
+        <!--<MaterialGroup Name="Path" Value="31">
+          <Rule>
+            <Layers>
+              <Layer Material="Soil" Depth="3"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="40"/>
+          </Rule>
+        </MaterialGroup>-->
+		
+      </ComplexMaterials>
+
+<!-- Rules that define where environment items will spawn -->
+    <EnvironmentItems>
+      <Item>
+        <Biomes>
+          <Biome>255</Biome>
+        </Biomes>
+        <Materials>
+          <Material>Grass</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassOldForestMedium" Density="0.4"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.6"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="PertamGrassOldBushFoliage" Density="0.8"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="40"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>255</Biome>
+        </Biomes>
+        <Materials>
+          <Material>PertamSand</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="PertamSandFoliage" Density="0.01"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="PertamSandBushFoliage" Density="0.3"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="40"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>255</Biome>
+        </Biomes>
+        <Materials>
+          <Material>Grass_old</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassOldForestMedium" Density="0.02"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="PertamSandFoliage" Density="0.08"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="PertamGrassOldBushFoliage" Density="0.8"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.6"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="40"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>255</Biome>
+        </Biomes>
+        <Materials>
+          <Material>CrackedSoil</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="PertamSandFoliage" Density="0.02"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="PertamSandBushFoliage" Density="0.05"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="40"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>153</Biome>
+        </Biomes>
+        <Materials>
+          <Material>DustyRocks3</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.01" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.01" />
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="PertamSandBushFoliage" Density="1"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="1"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="PertamSandFoliage" Density="0.04"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="40"/>
+        </Rule>
+      </Item>
+
+      <Item>
+          <Biomes>
+            <Biome>255</Biome>
+          </Biomes>
+          <Materials>
+            <Material>DustyRocks</Material>
+          </Materials>
+          <Items>
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.01" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.03" />
+            <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="PertamSandBushFoliage" Density="0.6"/>
+            <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.6"/>
+            <Item TypeId="MyObjectBuilder_Trees" SubtypeId="PertamSandFoliage" Density="0.05"/>
+          </Items>
+          <Rule>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="40"/>
+          </Rule>
+        </Item>
+
+        <Item>
+          <Biomes>
+            <Biome>255</Biome>
+          </Biomes>
+          <Materials>
+            <Material>DustyRocks2</Material>
+          </Materials>
+          <Items>
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.01" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.03" />
+            <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.1"/>
+            <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="PertamSandBushFoliage" Density="0.1"/>
+            <Item TypeId="MyObjectBuilder_Trees" SubtypeId="PertamSandFoliage" Density="0.02"/>
+          </Items>
+          <Rule>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="40"/>
+          </Rule>
+        </Item>
+
+        <Item>
+          <Biomes>
+            <Biome>255</Biome>
+          </Biomes>
+          <Materials>
+            <Material>DustyRocks3</Material>
+          </Materials>
+          <Items>
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.01" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.03" />
+            <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="PertamSandBushFoliage" Density="1"/>
+            <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="1"/>
+            <Item TypeId="MyObjectBuilder_Trees" SubtypeId="PertamSandFoliage" Density="0.07"/>
+          </Items>
+          <Rule>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="40"/>
+          </Rule>
+        </Item>
+    </EnvironmentItems>
+
+     <MaximumOxygen>1.0</MaximumOxygen>
+     <SurfaceGravity>1.2</SurfaceGravity>
+     <DefaultSurfaceMaterial Material="PertamSand" MaxDepth="10"/>
+     <DefaultSubSurfaceMaterial Material="DesertRocks"/>
+     <HasAtmosphere>true</HasAtmosphere>
+	 
+	 <!-- <DefaultSurfaceTemperature>ExtremeFreeze</DefaultSurfaceTemperature> -->
+    
+    <Atmosphere>
+      <Breathable>true</Breathable>
+      <OxygenDensity>0.8</OxygenDensity>
+      <Density>1</Density>
+      <LimitAltitude>2</LimitAltitude>
+      <MaxWindSpeed>80</MaxWindSpeed>
+    </Atmosphere>
+	
+      <!-- Earthlike Planet's Atmosphere settings -->
+      <AtmosphereSettings>
+          <RayleighScattering>
+              <X>11.7</X>
+              <Y>17.7</Y>
+              <Z>23.65</Z>
+          </RayleighScattering>
+          <MieScattering>50</MieScattering>
+          <MieColorScattering>
+              <X>44</X>
+              <Y>62</Y>
+              <Z>150</Z>
+          </MieColorScattering>
+          <RayleighHeight>15</RayleighHeight>
+          <RayleighHeightSpace>8</RayleighHeightSpace>
+          <RayleighTransitionModifier>0.45</RayleighTransitionModifier>
+          <MieHeight>200</MieHeight>
+          <MieG>0.999832332</MieG>
+          <Intensity>60</Intensity>
+          <SeaLevelModifier>1.0</SeaLevelModifier>
+          <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+          <FogIntensity>1.0</FogIntensity>
+          <Scale>1</Scale>
+          <SunColor>
+            <X>1</X>
+            <Y>0.91</Y>
+            <Z>0.82</Z>
+          </SunColor>
+          <SunSpecularColor>
+            <X>1</X>
+            <Y>0.84</Y>
+            <Z>0.68</Z>
+          </SunSpecularColor>
+      </AtmosphereSettings>
+
+    <!-- Earthlike Planet's Clouds settings-->
+
+    <CloudLayers>
+      <CloudLayer>
+        <!-- Far layer -->
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/EarthFarClouds_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>0.9</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>1</Y>
+          <Z>0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>1.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>2.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+
+      <!-- Near layers -->
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.0</RelativeAltitude>
+        <RotationAxis>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>0.15</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>2.0</RelativeAltitude>
+        <RotationAxis>
+          <X>0.2</X>
+          <Y>1</Y>
+          <Z>-0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>0.5</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture_cm.dds</Texture>
+        </Textures>
+        <RelativeAltitude>3.0</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>1</Y>
+          <Z>0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>1.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+    </CloudLayers>	
+	
+    <MaterialsMaxDepth Min="4000" Max="4000"/>
+    <MaterialsMinDepth Min="20" Max="20"/>
+
+    <HillParams Min = "-0.025" Max ="0.025"/>
+
+    <AnimalSpawnInfo>
+      <Animals>
+        <Animal Type="SpaceSpiderBrown"/>
+        <Animal Type="SpaceSpiderBlack"/>
+      </Animals>
+      <SpawnDelayMin>1800000</SpawnDelayMin>
+      <SpawnDelayMax>10800000</SpawnDelayMax>
+      <WaveCountMin>1</WaveCountMin>
+      <WaveCountMax>6</WaveCountMax>
+    </AnimalSpawnInfo>
+        
+    <MinimumSurfaceLayerDepth>1</MinimumSurfaceLayerDepth>
+	<!-- Pertam Planet's Weather Settings -->
+	
+	<WeatherFrequencyMin>600</WeatherFrequencyMin>
+	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
+	<WeatherGenerators>
+		<WeatherGenerator>
+			<Voxel>Sand</Voxel>
+			<Weathers>
+                <Weather>
+                    <Name>Dust</Name>
+                    <Weight>1</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>600</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>SandStormLight</Name>
+                    <Weight>2</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>1200</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>SandStormHeavy</Name>
+                    <Weight>1</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>1800</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>ElectricStorm</Name>
+                    <Weight>1</Weight>
+                    <MinLength>60</MinLength>
+                    <MaxLength>600</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+			</Weathers>
+		</WeatherGenerator>
+        <WeatherGenerator>
+            <Voxel>Rock</Voxel>
+            <Weathers>
+                <Weather>
+                    <Name>Dust</Name>
+                    <Weight>1</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>600</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>SandStormLight</Name>
+                    <Weight>2</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>1200</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>SandStormHeavy</Name>
+                    <Weight>1</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>1800</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>ElectricStorm</Name>
+                    <Weight>1</Weight>
+                    <MinLength>60</MinLength>
+                    <MaxLength>600</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+            </Weathers>
+        </WeatherGenerator>
+        <WeatherGenerator>
+            <Voxel>Soil</Voxel>
+            <Weathers>
+                <Weather>
+                    <Name>Dust</Name>
+                    <Weight>1</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>600</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>SandStormLight</Name>
+                    <Weight>2</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>1200</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>SandStormHeavy</Name>
+                    <Weight>1</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>1800</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>ElectricStorm</Name>
+                    <Weight>1</Weight>
+                    <MinLength>60</MinLength>
+                    <MaxLength>600</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+            </Weathers>
+        </WeatherGenerator>
+        <WeatherGenerator>
+            <Voxel>GrassDry</Voxel>
+            <Weathers>
+                <Weather>
+                    <Name>Dust</Name>
+                    <Weight>1</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>600</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>SandStormLight</Name>
+                    <Weight>2</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>1200</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>SandStormHeavy</Name>
+                    <Weight>1</Weight>
+                    <MinLength>300</MinLength>
+                    <MaxLength>1800</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+                <Weather>
+                    <Name>ElectricStorm</Name>
+                    <Weight>1</Weight>
+                    <MinLength>60</MinLength>
+                    <MaxLength>600</MaxLength>
+                    <SpawnOffset>1000</SpawnOffset>
+                </Weather>
+            </Weathers>
+        </WeatherGenerator>
+	</WeatherGenerators>
+    </PlanetGeneratorDefinition>
+  </PlanetGeneratorDefinitions>
+</Definitions>

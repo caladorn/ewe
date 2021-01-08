@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Aluminum_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Iron_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Titanium_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Copper_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Cobalt_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Nickel_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Tin_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Silver_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Gold_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Lead_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Magnesium_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Silicon_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Zinc_OreToIngot" />	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Platinum_OreToIngot" />
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Molybdenum_OreToIngot" />
+	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Aluminum_OreToIngot" />
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Iron_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Titanium_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Copper_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Cobalt_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Nickel_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Tin_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Silver_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Gold_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Lead_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Magnesium_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Silicon_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Zinc_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Platinum_OreToIngot" />	
+	<Entry Class="AdvBscPureMetals" BlueprintSubtypeId="Adv_Molybdenum_OreToIngot" />
+	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Aluminum_OreToIngot" />
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Iron_OreToIngot" />
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Titanium_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Copper_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Cobalt_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Nickel_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Tin_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Silver_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Gold_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Lead_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Magnesium_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Silicon_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Zinc_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Platinum_OreToIngot" />	
+	<Entry Class="EliBscPureMetals" BlueprintSubtypeId="Eli_Molybdenum_OreToIngot" />
+	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Aluminum_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Iron_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Titanium_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Copper_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Cobalt_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Nickel_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Tin_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Silver_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Gold_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Lead_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Magnesium_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Silicon_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Zinc_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Platinum_OreToIngot" />	
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Molybdenum_OreToIngot" />	
+	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Aluminum_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Iron_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Titanium_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Copper_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Cobalt_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Nickel_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Tin_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Silver_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Gold_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Lead_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Magnesium_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Silicon_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Zinc_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Platinum_OreToIngot" />	
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Molybdenum_OreToIngot" />
+	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Aluminum_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Iron_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Titanium_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Copper_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Cobalt_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Nickel_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Tin_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Silver_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Gold_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Lead_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Magnesium_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Silicon_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Zinc_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Platinum_OreToIngot" />	
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Molybdenum_OreToIngot" />
+	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Molybdenum_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Molybdenum_OreToIngot" />
+	<Entry Class="AdvPureMetals" BlueprintSubtypeId="Adv_Molybdenum_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Molybdenum_OreToIngot" />
+	<Entry Class="EliPureMetals" BlueprintSubtypeId="Eli_Molybdenum_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Molybdenum_OreToIngot" />
+	
+	<Entry Class="BscPureMetals" BlueprintSubtypeId="Bsc_Zirconium_OreToIngot" />
+	<Entry Class="BscRefining" BlueprintSubtypeId="Bsc_Zirconium_OreToIngot" />
+	<Entry Class="AdvPureMetals" BlueprintSubtypeId="Adv_Zirconium_OreToIngot" />
+	<Entry Class="AdvRefining" BlueprintSubtypeId="Adv_Zirconium_OreToIngot" />
+	<Entry Class="EliPureMetals" BlueprintSubtypeId="Eli_Zirconium_OreToIngot" />
+	<Entry Class="EliRefining" BlueprintSubtypeId="Eli_Zirconium_OreToIngot" />
+	
+  </BlueprintClassEntries>
+</Definitions>

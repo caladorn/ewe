@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+   
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="CartridgeX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ExplosivesX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="BulletX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_BulletX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="AP_BulletX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEIAP_BulletX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="PrimerX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ChargeX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="CartridgeX100" />
+	
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_5p56x45mmX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_25x184mmX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_NATO_25x184mmX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="AP_NATO_25x184mmX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEIAP_NATO_25x184mmX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="RocketX100" />	
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Burst_RocketX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cruise_MissileX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Javelian_Cruise_MissileX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="TorpedoX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEAT_TorpedoX100" />
+	
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="CartridgeX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ExplosivesX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="BulletX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_BulletX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="AP_BulletX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEIAP_BulletX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="PrimerX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ChargeX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="CartridgeX10" />
+	
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_5p56x45mmX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_25x184mmX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_NATO_25x184mmX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="AP_NATO_25x184mmX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEIAP_NATO_25x184mmX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="RocketX10" />	
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Burst_RocketX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cruise_MissileX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Javelian_Cruise_MissileX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="TorpedoX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEAT_TorpedoX10" />
+	
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cartridge" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Explosives" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Bullet" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_Bullet" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="AP_Bullet" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEIAP_Bullet" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Primer" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Charge" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cartridge" />
+	
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_25x184mmMagazine" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_NATO_25x184mm" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="AP_NATO_25x184mm" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEIAP_NATO_25x184mm" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Rocket" />	
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Burst_Rocket" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cruise_Missile" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Javelian_Cruise_Missile" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Torpedo" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HEAT_Torpedo" />
+	
+    <Entry Class="Ammo" BlueprintSubtypeId="Cartridge" />
+    <Entry Class="Ammo" BlueprintSubtypeId="Explosives" />
+    <Entry Class="Ammo" BlueprintSubtypeId="Bullet" />
+    <Entry Class="Ammo" BlueprintSubtypeId="FMJ_Bullet" />
+    <Entry Class="Ammo" BlueprintSubtypeId="AP_Bullet" />
+    <Entry Class="Ammo" BlueprintSubtypeId="HEIAP_Bullet" />
+    <Entry Class="Ammo" BlueprintSubtypeId="Primer" />
+    <Entry Class="Ammo" BlueprintSubtypeId="Charge" />
+	
+    <Entry Class="Ammo" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+    <Entry Class="Ammo" BlueprintSubtypeId="NATO_25x184mmMagazine" />
+    <Entry Class="Ammo" BlueprintSubtypeId="FMJ_NATO_25x184mm" />
+    <Entry Class="Ammo" BlueprintSubtypeId="AP_NATO_25x184mm" />
+    <Entry Class="Ammo" BlueprintSubtypeId="HEIAP_NATO_25x184mm" />
+    <Entry Class="Ammo" BlueprintSubtypeId="Rocket" />	
+    <Entry Class="Ammo" BlueprintSubtypeId="Burst_Rocket" />
+    <Entry Class="Ammo" BlueprintSubtypeId="Cruise_Missile" />
+    <Entry Class="Ammo" BlueprintSubtypeId="Javelian_CruiseMissile" />
+    <Entry Class="Ammo" BlueprintSubtypeId="Torpedo" />
+    <Entry Class="Ammo" BlueprintSubtypeId="HEAT_Torpedo" />
+	
+  </BlueprintClassEntries>
+</Definitions>

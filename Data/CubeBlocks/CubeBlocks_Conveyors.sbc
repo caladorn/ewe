@@ -35,7 +35,7 @@
         <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
         <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
       </Mountpoints>
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorConstruction_2.mwm" />
       </BuildProgressModels>
@@ -78,7 +78,7 @@
         <Component Subtype="Construction" Count="240" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorConstruction_3.mwm" />
@@ -121,7 +121,7 @@
         <Component Subtype="Construction" Count="432" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CollectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CollectorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CollectorConstruction_3.mwm" />
@@ -178,7 +178,7 @@
         <Component Subtype="Construction" Count="144" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CollectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CollectorConstruction_2.mwm" />
       </BuildProgressModels>
@@ -234,7 +234,7 @@
         <Component Subtype="Construction" Count="360" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConnectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConnectorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConnectorConstruction_3.mwm" />
@@ -288,7 +288,7 @@
         <Component Subtype="Construction" Count="120" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorConstruction_2.mwm" />
       </BuildProgressModels>
@@ -341,7 +341,7 @@
         <Component Subtype="Construction" Count="210" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorMediumConstruction_2.mwm" />
       </BuildProgressModels>
@@ -374,7 +374,7 @@
       </Id>
       <DisplayName>DisplayName_Block_ConveyorTube</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
-      <GuiVisible>true</GuiVisible>
+         <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -391,7 +391,7 @@
         <Component Subtype="Construction" Count="160" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeConstruction_2.mwm" />
       </BuildProgressModels>
@@ -424,7 +424,7 @@
       <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
       <Description>Description_ConveyorTube</Description>
-      <GuiVisible>true</GuiVisible>
+         <GuiVisible>true</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -452,7 +452,7 @@
         <MountPoint Side="Front" StartX="0.2" StartY="0.8" EndX="0.8" EndY="0.9" />
       </MountPoints>
       <CriticalComponent Subtype="Construction" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>ConveyorTubeSmall</BlockPairName>
@@ -489,7 +489,7 @@
         <Component Subtype="Construction" Count="96" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_2.mwm" />
       </BuildProgressModels>
@@ -539,7 +539,7 @@
         <Component Subtype="Construction" Count="64" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorFrameMediumConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>ConveyorFrame</BlockPairName>
@@ -589,7 +589,7 @@
         <Component Subtype="Construction" Count="160" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeCurvedConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeCurvedConstruction_2.mwm" />
       </BuildProgressModels>
@@ -640,7 +640,7 @@
         <Component Subtype="Construction" Count="32" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeCurvedConstruction_1.mwm" />
       </BuildProgressModels>
       <MountPoints>
@@ -683,7 +683,7 @@
         <Component Subtype="Construction" Count="48" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorTurnMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTurnMediumConstruction_2.mwm" />
       </BuildProgressModels>
@@ -736,7 +736,7 @@
         <Component Subtype="Construction" Count="160" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ConveyorHubConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\ConveyorHubConstruction_2.mwm" />
       </BuildProgressModels>
@@ -795,7 +795,7 @@
         <Component Subtype="Construction" Count="320" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorSorterConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorSorterConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorSorterConstruction_3.mwm" />
@@ -845,7 +845,7 @@
         <Component Subtype="Construction" Count="160" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorSorterMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorSorterMediumConstruction_2.mwm" />
       </BuildProgressModels>
@@ -894,7 +894,7 @@
         <Component Subtype="Construction" Count="100" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorSorterSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorSorterSmallConstruction_2.mwm" />
       </BuildProgressModels>
@@ -928,7 +928,7 @@
       </Id>
       <DisplayName>Long Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\ConveyorTubeLong.dds</Icon>
-      <GuiVisible>true</GuiVisible>
+         <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="10" />
@@ -945,7 +945,7 @@
         <Component Subtype="Construction" Count="800" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\LargeConveyorTubeLong_Constr1.mwm" />
       </BuildProgressModels>
       <MountPoints>
@@ -970,7 +970,7 @@
       </Id>
       <DisplayName>Medium Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\ConveyorTubeMedium.dds</Icon>
-      <GuiVisible>true</GuiVisible>
+         <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="5" />
@@ -987,7 +987,7 @@
         <Component Subtype="Construction" Count="480" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\LargeConveyorTubeMedium_Constr1.mwm" />
       </BuildProgressModels>
       <MountPoints>
@@ -1032,7 +1032,7 @@
         <Component Subtype="BrazingRod" Count="36" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>PPStraight_Armored_Con</BlockPairName>
@@ -1052,7 +1052,7 @@
       </Id>
       <DisplayName>Aluminum Armored Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
-	  <GuiVisible>true</GuiVisible>
+	     <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1072,7 +1072,7 @@
         <Component Subtype="BrazingRod" Count="126" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPStraight_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPStraight_cons2.mwm" /> 
       </BuildProgressModels>
@@ -1123,7 +1123,7 @@
         <Component Subtype="BrazingRod" Count="45" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeCurvedConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>PPCorner_Armored_Con</BlockPairName>
@@ -1164,7 +1164,7 @@
         <Component Subtype="BrazingRod" Count="158" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.50" File="Models\Large\PPCorner_Cons2.mwm" />  
       </BuildProgressModels>
@@ -1216,7 +1216,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPTee_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>PPTee_Armored_Con</BlockPairName>
@@ -1255,7 +1255,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPTee_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPTee_Cons2.mwm" />
       </BuildProgressModels>
@@ -1306,7 +1306,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPX_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>PPX_Armored_Con</BlockPairName>
@@ -1345,7 +1345,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPX_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPX_cons2.mwm" />
       </BuildProgressModels>
@@ -1396,7 +1396,7 @@
         <Component Subtype="BrazingRod" Count="88" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPFive_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>PPFive_Armored_Con</BlockPairName>
@@ -1437,7 +1437,7 @@
         <Component Subtype="BrazingRod" Count="308" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPFive_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPFive_cons2.mwm" />
       </BuildProgressModels>
@@ -1488,7 +1488,7 @@
         <Component Subtype="BrazingRod" Count="110" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPSix_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>PPSix_Armored_Con</BlockPairName>
@@ -1527,7 +1527,7 @@
         <Component Subtype="BrazingRod" Count="385" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPSix_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPSix_cons2.mwm" />
       </BuildProgressModels>
@@ -1570,7 +1570,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPCorner3x_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>PPCorner3x_Armored_Con</BlockPairName>
@@ -1612,7 +1612,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner3x_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPCorner3x_cons2.mwm" />
       </BuildProgressModels>
@@ -1655,7 +1655,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PP4nX_small_con.mwm" />
       </BuildProgressModels>
       <BlockPairName>PP4nX_Armored_Con</BlockPairName>
@@ -1697,7 +1697,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PP4nX1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PP4nX2.mwm" />
       </BuildProgressModels>
@@ -1740,7 +1740,7 @@
         <Component Subtype="BrazingRod" Count="36" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelPPStraight_Armored_Con</BlockPairName>
@@ -1760,7 +1760,7 @@
       </Id>
       <DisplayName>Steel Armored Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
-	  <GuiVisible>true</GuiVisible>
+	     <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1780,7 +1780,7 @@
         <Component Subtype="BrazingRod" Count="126" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPStraight_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPStraight_cons2.mwm" /> 
       </BuildProgressModels>
@@ -1831,7 +1831,7 @@
         <Component Subtype="BrazingRod" Count="45" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeCurvedConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelPPCorner_Armored_Con</BlockPairName>
@@ -1872,7 +1872,7 @@
         <Component Subtype="BrazingRod" Count="158" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.50" File="Models\Large\PPCorner_Cons2.mwm" />  
       </BuildProgressModels>
@@ -1924,7 +1924,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPTee_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelPPTee_Armored_Con</BlockPairName>
@@ -1963,7 +1963,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPTee_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPTee_Cons2.mwm" />
       </BuildProgressModels>
@@ -2014,7 +2014,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPX_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelPPX_Armored_Con</BlockPairName>
@@ -2053,7 +2053,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPX_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPX_cons2.mwm" />
       </BuildProgressModels>
@@ -2104,7 +2104,7 @@
         <Component Subtype="BrazingRod" Count="88" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPFive_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelPPFive_Armored_Con</BlockPairName>
@@ -2145,7 +2145,7 @@
         <Component Subtype="BrazingRod" Count="308" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPFive_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPFive_cons2.mwm" />
       </BuildProgressModels>
@@ -2196,7 +2196,7 @@
         <Component Subtype="BrazingRod" Count="110" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPSix_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelPPSix_Armored_Con</BlockPairName>
@@ -2235,7 +2235,7 @@
         <Component Subtype="BrazingRod" Count="385" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPSix_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPSix_cons2.mwm" />
       </BuildProgressModels>
@@ -2278,7 +2278,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPCorner3x_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelPPCorner3x_Armored_Con</BlockPairName>
@@ -2320,7 +2320,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner3x_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPCorner3x_cons2.mwm" />
       </BuildProgressModels>
@@ -2363,7 +2363,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PP4nX_small_con.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelPP4nX_Armored_Con</BlockPairName>
@@ -2405,7 +2405,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PP4nX1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PP4nX2.mwm" />
       </BuildProgressModels>
@@ -2448,7 +2448,7 @@
         <Component Subtype="BrazingRod" Count="36" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>TitaniumPPStraight_Armored_Con</BlockPairName>
@@ -2468,7 +2468,7 @@
       </Id>
       <DisplayName>Titanium Armored Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
-	  <GuiVisible>true</GuiVisible>
+	     <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -2488,7 +2488,7 @@
         <Component Subtype="BrazingRod" Count="126" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPStraight_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPStraight_cons2.mwm" /> 
       </BuildProgressModels>
@@ -2539,7 +2539,7 @@
         <Component Subtype="BrazingRod" Count="45" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeCurvedConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>TitaniumPPCorner_Armored_Con</BlockPairName>
@@ -2580,7 +2580,7 @@
         <Component Subtype="BrazingRod" Count="158" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.50" File="Models\Large\PPCorner_Cons2.mwm" />  
       </BuildProgressModels>
@@ -2632,7 +2632,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPTee_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>TitaniumPPTee_Armored_Con</BlockPairName>
@@ -2671,7 +2671,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPTee_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPTee_Cons2.mwm" />
       </BuildProgressModels>
@@ -2722,7 +2722,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPX_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>TitaniumPPX_Armored_Con</BlockPairName>
@@ -2761,7 +2761,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPX_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPX_cons2.mwm" />
       </BuildProgressModels>
@@ -2812,7 +2812,7 @@
         <Component Subtype="BrazingRod" Count="88" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPFive_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>TitaniumPPFive_Armored_Con</BlockPairName>
@@ -2853,7 +2853,7 @@
         <Component Subtype="BrazingRod" Count="308" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPFive_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPFive_cons2.mwm" />
       </BuildProgressModels>
@@ -2904,7 +2904,7 @@
         <Component Subtype="BrazingRod" Count="110" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPSix_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>TitaniumPPSix_Armored_Con</BlockPairName>
@@ -2943,7 +2943,7 @@
         <Component Subtype="BrazingRod" Count="385" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPSix_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPSix_cons2.mwm" />
       </BuildProgressModels>
@@ -2986,7 +2986,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPCorner3x_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>TitaniumPPCorner3x_Armored_Con</BlockPairName>
@@ -3028,7 +3028,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner3x_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPCorner3x_cons2.mwm" />
       </BuildProgressModels>
@@ -3071,7 +3071,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PP4nX_small_con.mwm" />
       </BuildProgressModels>
       <BlockPairName>TitaniumPP4nX_Armored_Con</BlockPairName>
@@ -3113,7 +3113,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PP4nX1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PP4nX2.mwm" />
       </BuildProgressModels>
@@ -3156,7 +3156,7 @@
         <Component Subtype="BrazingRod" Count="36" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>NitinolPPStraight_Armored_Con</BlockPairName>
@@ -3176,7 +3176,7 @@
       </Id>
       <DisplayName>Nitinol Armored Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
-	  <GuiVisible>true</GuiVisible>
+	     <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -3196,7 +3196,7 @@
         <Component Subtype="BrazingRod" Count="126" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPStraight_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPStraight_cons2.mwm" /> 
       </BuildProgressModels>
@@ -3247,7 +3247,7 @@
         <Component Subtype="BrazingRod" Count="45" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeCurvedConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>NitinolPPCorner_Armored_Con</BlockPairName>
@@ -3288,7 +3288,7 @@
         <Component Subtype="BrazingRod" Count="158" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.50" File="Models\Large\PPCorner_Cons2.mwm" />  
       </BuildProgressModels>
@@ -3340,7 +3340,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPTee_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>NitinolPPTee_Armored_Con</BlockPairName>
@@ -3379,7 +3379,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPTee_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPTee_Cons2.mwm" />
       </BuildProgressModels>
@@ -3430,7 +3430,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPX_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>NitinolPPX_Armored_Con</BlockPairName>
@@ -3469,7 +3469,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPX_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPX_cons2.mwm" />
       </BuildProgressModels>
@@ -3520,7 +3520,7 @@
         <Component Subtype="BrazingRod" Count="88" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPFive_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>NitinolPPFive_Armored_Con</BlockPairName>
@@ -3561,7 +3561,7 @@
         <Component Subtype="BrazingRod" Count="308" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPFive_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPFive_cons2.mwm" />
       </BuildProgressModels>
@@ -3612,7 +3612,7 @@
         <Component Subtype="BrazingRod" Count="110" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPSix_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>NitinolPPSix_Armored_Con</BlockPairName>
@@ -3651,7 +3651,7 @@
         <Component Subtype="BrazingRod" Count="385" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPSix_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPSix_cons2.mwm" />
       </BuildProgressModels>
@@ -3694,7 +3694,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPCorner3x_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>NitinolPPCorner3x_Armored_Con</BlockPairName>
@@ -3736,7 +3736,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner3x_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPCorner3x_cons2.mwm" />
       </BuildProgressModels>
@@ -3779,7 +3779,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PP4nX_small_con.mwm" />
       </BuildProgressModels>
       <BlockPairName>NitinolPP4nX_Armored_Con</BlockPairName>
@@ -3821,7 +3821,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PP4nX1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PP4nX2.mwm" />
       </BuildProgressModels>
@@ -3864,7 +3864,7 @@
         <Component Subtype="BrazingRod" Count="36" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>GraphenePPStraight_Armored_Con</BlockPairName>
@@ -3884,7 +3884,7 @@
       </Id>
       <DisplayName>Graphene Armored Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
-	  <GuiVisible>true</GuiVisible>
+	     <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -3904,7 +3904,7 @@
         <Component Subtype="BrazingRod" Count="126" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPStraight_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPStraight_cons2.mwm" /> 
       </BuildProgressModels>
@@ -3955,7 +3955,7 @@
         <Component Subtype="BrazingRod" Count="45" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeCurvedConstruction_1.mwm" />
       </BuildProgressModels>
       <BlockPairName>GraphenePPCorner_Armored_Con</BlockPairName>
@@ -3996,7 +3996,7 @@
         <Component Subtype="BrazingRod" Count="158" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.50" File="Models\Large\PPCorner_Cons2.mwm" />  
       </BuildProgressModels>
@@ -4048,7 +4048,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPTee_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>GraphenePPTee_Armored_Con</BlockPairName>
@@ -4087,7 +4087,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPTee_Cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPTee_Cons2.mwm" />
       </BuildProgressModels>
@@ -4138,7 +4138,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPX_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>GraphenePPX_Armored_Con</BlockPairName>
@@ -4177,7 +4177,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPX_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPX_cons2.mwm" />
       </BuildProgressModels>
@@ -4228,7 +4228,7 @@
         <Component Subtype="BrazingRod" Count="88" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPFive_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>GraphenePPFive_Armored_Con</BlockPairName>
@@ -4269,7 +4269,7 @@
         <Component Subtype="BrazingRod" Count="308" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPFive_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPFive_cons2.mwm" />
       </BuildProgressModels>
@@ -4320,7 +4320,7 @@
         <Component Subtype="BrazingRod" Count="110" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPSix_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>GraphenePPSix_Armored_Con</BlockPairName>
@@ -4359,7 +4359,7 @@
         <Component Subtype="BrazingRod" Count="385" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPSix_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPSix_cons2.mwm" />
       </BuildProgressModels>
@@ -4402,7 +4402,7 @@
         <Component Subtype="BrazingRod" Count="56" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PPCorner3x_Small_Con.mwm" />
       </BuildProgressModels>
       <BlockPairName>GraphenePPCorner3x_Armored_Con</BlockPairName>
@@ -4444,7 +4444,7 @@
         <Component Subtype="BrazingRod" Count="197" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PPCorner3x_cons1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PPCorner3x_cons2.mwm" />
       </BuildProgressModels>
@@ -4487,7 +4487,7 @@
         <Component Subtype="BrazingRod" Count="70" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <BuildProgressModels>
+        <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Small\PP4nX_small_con.mwm" />
       </BuildProgressModels>
       <BlockPairName>GraphenePP4nX_Armored_Con</BlockPairName>
@@ -4529,7 +4529,7 @@
         <Component Subtype="BrazingRod" Count="246" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-	  <BuildProgressModels>
+	    <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Large\PP4nX1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large\PP4nX2.mwm" />
       </BuildProgressModels>

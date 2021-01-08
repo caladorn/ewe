@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+BasicAssembler 0200
+LargeAssembler 0201
+AdvancedComponentAssembler 0201
+ChemicalReactor	0201
+NeutronCollider 0201
+BasicMassAssembler 0202
+AdvancedMassAssembler 0202
+MassChemicalReactor 0202
+MassNeutronCollider 0202
+-->
+
+<!-- Block Types
+MyObjectBuilder_AssemblerDefinition
+-->
+<!--   DEACTIVATED
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="BasicAssembler" />
+      <UnlockedByGroups>
+        <GroupSubtype>0000</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    -->
+    
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeAssembler" />
+      <UnlockedByGroups>
+        <GroupSubtype>0200</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="AdvancedComponentAssembler" />
+      <UnlockedByGroups>
+        <GroupSubtype>0200</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="ChemicalReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0200</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="NeutronCollider" />
+      <UnlockedByGroups>
+        <GroupSubtype>0200</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="BasicMassAssembler" />
+      <UnlockedByGroups>
+        <GroupSubtype>0201</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="AdvancedMassAssembler" />
+      <UnlockedByGroups>
+        <GroupSubtype>0201</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="MassChemicalReactor" />
+      <UnlockedByGroups>
+        <GroupSubtype>0201</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="MassNeutronCollider" />
+      <UnlockedByGroups>
+        <GroupSubtype>0201</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

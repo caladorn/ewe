@@ -310,10 +310,10 @@
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DesertRocks</SubtypeId>
       </Id>
-      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <MaterialTypeName>Rock</MaterialTypeName>
-      <AllowRespawn>false</AllowRespawn>
+      <AllowRespawn>true</AllowRespawn>
       <MinedOre>DesertRock</MinedOre>
       <MinedOreRatio>1</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
@@ -365,7 +365,7 @@
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>MarsRocks</SubtypeId>
       </Id>
-      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <MaterialTypeName>Rock</MaterialTypeName>
       <AllowRespawn>false</AllowRespawn>
@@ -391,7 +391,7 @@
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>MoonRocks</SubtypeId>
       </Id>
-      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <MaterialTypeName>Rock</MaterialTypeName>
       <AllowRespawn>false</AllowRespawn>
@@ -484,7 +484,7 @@
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>AlienRockyMountain</SubtypeId>
       </Id>
-      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>AlienRock_01</MinedOre>

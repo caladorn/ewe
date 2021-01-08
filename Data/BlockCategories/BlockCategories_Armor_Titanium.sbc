@@ -14,10 +14,12 @@
         <string>CubeBlock/LargeBlockTitaniumArmorSlope2Base</string>
         <string>CubeBlock/LargeBlockTitaniumArmorCorner2Base</string>
         <string>CubeBlock/LargeBlockTitaniumArmorRoundSlope</string>
+        <string>CubeBlock/LargeBlockTitaniumArmorSlopedCornerTip</string>
         <string>CubeBlock/LargeHeavyBlockTitaniumArmorBlock</string>
         <string>CubeBlock/LargeHeavyBlockTitaniumArmorSlope2Base</string>
         <string>CubeBlock/LargeHeavyBlockTitaniumArmorCorner2Base</string>
         <string>CubeBlock/LargeHeavyBlockTitaniumArmorRoundSlope</string>
+        <string>CubeBlock/LargeBlockHeavyTitaniumArmorSlopedCornerTip</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

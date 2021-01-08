@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchGroups>  
+  
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Capacitor Batteries 0300 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0300" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockBatteryBlock" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockBatteryBlock" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallBatteryBlock" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Capacitor Batteries 0301 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0301" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockAdvancedCapacitorBank" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockAdvancedCapacitorBank" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallAdvancedCapacitorBank" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Capacitor Batteries 0302 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0302" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockEliteCapacitorBank" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockEliteCapacitorBank" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallEliteCapacitorBank" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Lead Batteries 0303 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0303" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockBasicLeadBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockBasicLeadBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallBasicLeadBattery" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Lead Batteries 0304 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0304" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockAdvancedLeadBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockAdvancedLeadBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallAdvancedLeadBattery" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Lead Batteries 0305 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0305" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockEliteLeadBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockEliteLeadBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallEliteLeadBattery" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Lithium Batteries 0306 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0306" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockBasicLithiumBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockBasicLithiumBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallBasicLithiumBattery" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Lithium Batteries 0307 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0307" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockAdvancedLithiumBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockAdvancedLithiumBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallAdvancedLithiumBattery" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Lithium Batteries 0308 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0308" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockEliteLithiumBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockEliteLithiumBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallEliteLithiumBattery" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Fluoride Batteries 0309 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0309" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockBasicFluorideBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockBasicFluorideBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallBasicFluorideBattery" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Fluoride Batteries 0310 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0310" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockAdvancedFluorideBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockAdvancedFluorideBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallAdvancedFluorideBattery" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Fluoride Batteries 0311 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0311" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="LargeBlockEliteFluorideBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockEliteFluorideBattery" />
+        <BlockId Type="MyObjectBuilder_BatteryBlockDefinition" Subtype="SmallBlockSmallEliteFluorideBattery" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Wind Solar 0312 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0312" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SolarPanelDefinition" Subtype="LargeBlockSolarPanel" />
+        <BlockId Type="MyObjectBuilder_SolarPanelDefinition" Subtype="SmallBlockSolarPanel" />
+        <BlockId Type="MyObjectBuilder_WindTurbineDefinition" Subtype="LargeBlockWindTurbine" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Solar 0313 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0313" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SolarPanelDefinition" Subtype="LargeBlockAdvancedSolarPanel" />
+        <BlockId Type="MyObjectBuilder_SolarPanelDefinition" Subtype="SmallBlockAdvancedSolarPanel" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Solar 0314 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0314" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SolarPanelDefinition" Subtype="LargeBlockEliteSolarPanel" />
+        <BlockId Type="MyObjectBuilder_SolarPanelDefinition" Subtype="SmallBlockEliteSolarPanel" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite WindTurbine 0315 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0315" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_WindTurbineDefinition" Subtype="LargeBlockAdvancedWindTurbine" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite WindTurbine 0316 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0316" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_WindTurbineDefinition" Subtype="LargeBlockEliteWindTurbine" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Hydro Engine 0317 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0317" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeHydrogenEngine" />
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallHydrogenEngine" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Hydro Engine 0318 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0318" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockAdvancedHydroEngine" />
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockAdvancedHydroEngine" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Hydro Engine 0319 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0319" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockEliteHydroEngine" />
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockEliteHydroEngine" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Gasoline Engine 0320 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0320" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockBasicGasolineEngine" />
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockBasicGasolineEngine" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Gasoline Engine 0321 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0321" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockAdvancedGasolineEngine" />
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockAdvancedGasolineEngine" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Gasoline Engine 0322 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0322" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockEliteGasolineEngine" />
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockEliteGasolineEngine" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic JetFuel Engine 0323 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0323" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockBasicJetFuelEngine" />
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockBasicJetFuelEngine" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced JetFuel Engine 0324 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0324" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockAdvancedJetFuelEngine" />
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockAdvancedJetFuelEngine" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite JetFuel Engine 0325 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0325" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="LargeBlockEliteJetFuelEngine" />
+        <BlockId Type="MyObjectBuilder_HydrogenEngineDefinition" Subtype="SmallBlockEliteJetFuelEngine" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Thorium Reactor 0326 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0326" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeBasicThoriumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallBasicThoriumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeBasicThoriumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallBasicThoriumReactor" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Thorium Reactor 0327 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0327" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeAdvancedThoriumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallAdvancedThoriumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeAdvancedThoriumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallAdvancedThoriumReactor" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Thorium Reactor 0328 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0328" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeEliteThoriumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallEliteThoriumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeEliteThoriumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallEliteThoriumReactor" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Uranium Reactor 0329 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0329" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeGenerator" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallGenerator" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeGenerator" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallGenerator" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Uranium Reactor 0330 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0330" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeAdvancedUraniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallAdvancedUraniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeAdvancedUraniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallAdvancedUraniumReactor" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Uranium Reactor 0331 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0331" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeEliteUraniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallEliteUraniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeEliteUraniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallEliteUraniumReactor" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Plutonium Reactor 0332 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0332" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeBasicPlutoniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallBasicPlutoniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeBasicPlutoniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallBasicPlutoniumReactor" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Plutonium Reactor 0333 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0333" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeAdvancedPlutoniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallAdvancedPlutoniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeAdvancedPlutoniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallAdvancedPlutoniumReactor" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Plutonium Reactor 0334 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0334" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeElitePlutoniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallElitePlutoniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeElitePlutoniumReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallElitePlutoniumReactor" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Basic Fusion Reactor 0335 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0335" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeBasicFusionReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallBasicFusionReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeBasicFusionReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallBasicFusionReactor" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Advanced Fusion Reactor 0336 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0336" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeAdvancedFusionReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallAdvancedFusionReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeAdvancedFusionReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallAdvancedFusionReactor" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- Elite Fusion Reactor 0337 -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0337" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockLargeEliteFusionReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="LargeBlockSmallEliteFusionReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockLargeEliteFusionReactor" />
+        <BlockId Type="MyObjectBuilder_ReactorDefinition" Subtype="SmallBlockSmallEliteFusionReactor" />
+      </Members>
+    </ResearchGroup>
+
+  </ResearchGroups>  
+</Definitions>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- GrapheneArmorLightCubeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorLightCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <DisplayName>Graphene Light Armor Blocks</DisplayName>
+            <Description>Graphene Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorCornerSquareInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- GrapheneArmorLightRampGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorLightRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
+            <DisplayName>Graphene Light Armor Ramps</DisplayName>
+            <Description>Graphene Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfSlopeGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorHalfSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfGrapheneSlopeArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- GrapheneArmorLightRampCornerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorLightRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
+            <DisplayName>Graphene Light Armor Ramp Corners</DisplayName>
+            <Description>Graphene Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorHalfSlopeInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- GrapheneArmorLightRoundGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorLightRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Graphene Light Armor Slopes</DisplayName>
+            <Description>Graphene Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- GrapheneArmorHeavyCubeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorHeavyCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <DisplayName>Graphene Heavy Armor Blocks</DisplayName>
+            <Description>Graphene Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorCornerSquareInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- GrapheneArmorHeavyRampGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorHeavyRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
+            <DisplayName>Graphene Heavy Armor Ramps</DisplayName>
+            <Description>Graphene Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfSlopeGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfSlopeGrapheneArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- GrapheneArmorHeavyRampCornerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorHeavyRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
+            <DisplayName>Graphene Heavy Armor Ramp Corners</DisplayName>
+            <Description>Graphene Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopeInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- GrapheneArmorHeavyRoundGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorHeavyRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
+            <DisplayName>Graphene Heavy Armor Slopes</DisplayName>
+            <Description>Graphene Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockGrapheneArmorRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockGrapheneArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorLightSlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightArmorSlopedCorners</DisplayName>
+            <Description>Description_LightArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockGrapheneArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockGrapheneArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmorHeavySlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_HeavyGrapheneArmorSlopedCorners</DisplayName>
+            <Description>Description_HeavyGrapheneArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyGrapheneArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyGrapheneArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

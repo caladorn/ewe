@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumOreToUraninite</SubtypeId>
+      </Id>
+      <DisplayName>Uraninite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_UO2_uranite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="Uraninite" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ScrapIngotToIronIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Scrap" />
+      </Prerequisites>
+      <Result Amount="80" TypeId="Ingot" SubtypeId="Iron" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ScrapToIronIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Scrap" />
+      </Prerequisites>
+      <Result Amount="80" TypeId="Ingot" SubtypeId="Iron" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+    <Blueprint>  <!-- Bsc_Organic_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Organic_IngotToOre</SubtypeId>
+      </Id>
+      <DisplayName>Organic</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_soil.dds</Icon>
+      <Prerequisites>
+        <Item Amount="382.5" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="35.7" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="44.06" TypeId="Ore" SubtypeId="Nitrogen" />
+        <Item Amount="51.7" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="24.42" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="750" TypeId="Ore" SubtypeId="Organic" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

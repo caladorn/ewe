@@ -155,58 +155,6 @@
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
 	
-    <Blueprint> <!-- StatorX100 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>StatorX100</SubtypeId>
-      </Id>
-      <DisplayName>Stator x100</DisplayName>
-      <Icon>Textures\GUI\Icons\component\Mechanical\Stator_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="300" TypeId="Component" SubtypeId="Coil" />
-        <Item Amount="400" TypeId="Component" SubtypeId="ZipTies" />
-        <Item Amount="600" TypeId="Component" SubtypeId="Diode" />
-        <Item Amount="1200" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="300" TypeId="Component" SubtypeId="InsulatedCopperWire" />
-      </Prerequisites>
-      <Result Amount="100" TypeId="Component" SubtypeId="Stator" />
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- StatorX10 -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>StatorX10</SubtypeId>
-      </Id>
-      <DisplayName>Stator x10</DisplayName>
-      <Icon>Textures\GUI\Icons\component\Mechanical\Stator_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="30" TypeId="Component" SubtypeId="Coil" />
-        <Item Amount="40" TypeId="Component" SubtypeId="ZipTies" />
-        <Item Amount="60" TypeId="Component" SubtypeId="Diode" />
-        <Item Amount="120" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="30" TypeId="Component" SubtypeId="InsulatedCopperWire" />
-      </Prerequisites>
-      <Result Amount="10" TypeId="Component" SubtypeId="Stator" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- Stator -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Stator</SubtypeId>
-      </Id>
-      <DisplayName>Stator</DisplayName>
-      <Icon>Textures\GUI\Icons\component\Mechanical\Stator_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="3" TypeId="Component" SubtypeId="Coil" />
-        <Item Amount="4" TypeId="Component" SubtypeId="ZipTies" />
-        <Item Amount="6" TypeId="Component" SubtypeId="Diode" />
-        <Item Amount="12" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="3" TypeId="Component" SubtypeId="InsulatedCopperWire" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Stator" />
-      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
     <Blueprint> <!-- ControlRodX100 -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -546,7 +494,7 @@
         <Item Amount="2500" TypeId="Ingot" SubtypeId="Arsenic" />
         <Item Amount="500" TypeId="Ingot" SubtypeId="Gold" />
         <Item Amount="100" TypeId="Component" SubtypeId="FiberOpticWire" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Xenon" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Xenon" />
         <Item Amount="6400" TypeId="Component" SubtypeId="Transistor" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="QuantumDrive" />
@@ -564,7 +512,7 @@
         <Item Amount="250" TypeId="Ingot" SubtypeId="Arsenic" />
         <Item Amount="50" TypeId="Ingot" SubtypeId="Gold" />
         <Item Amount="10" TypeId="Component" SubtypeId="FiberOpticWire" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Xenon" />
+        <Item Amount="10" TypeId="Ore" SubtypeId="Xenon" />
         <Item Amount="640" TypeId="Component" SubtypeId="Transistor" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="QuantumDrive" />
@@ -582,7 +530,7 @@
         <Item Amount="25" TypeId="Ingot" SubtypeId="Arsenic" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Gold" />
         <Item Amount="1" TypeId="Component" SubtypeId="FiberOpticWire" />
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Xenon" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Xenon" />
         <Item Amount="64" TypeId="Component" SubtypeId="Transistor" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="QuantumDrive" />
@@ -715,7 +663,7 @@
         <Item Amount="12800" TypeId="Component" SubtypeId="LED" />
         <Item Amount="100" TypeId="Component" SubtypeId="GraphenePlate" />
         <Item Amount="600" TypeId="Ingot" SubtypeId="Vanadium" />
-        <Item Amount="7000" TypeId="Ingot" SubtypeId="Krypton" />
+        <Item Amount="7000" TypeId="Ore" SubtypeId="Krypton" />
         <Item Amount="1500" TypeId="Ingot" SubtypeId="Thallium" />
         <Item Amount="700" TypeId="Ingot" SubtypeId="Electrum" />
       </Prerequisites>
@@ -735,7 +683,7 @@
         <Item Amount="1280" TypeId="Component" SubtypeId="LED" />
         <Item Amount="10" TypeId="Component" SubtypeId="GraphenePlate" />
         <Item Amount="60" TypeId="Ingot" SubtypeId="Vanadium" />
-        <Item Amount="700" TypeId="Ingot" SubtypeId="Krypton" />
+        <Item Amount="700" TypeId="Ore" SubtypeId="Krypton" />
         <Item Amount="150" TypeId="Ingot" SubtypeId="Thallium" />
         <Item Amount="70" TypeId="Ingot" SubtypeId="Electrum" />
       </Prerequisites>
@@ -755,7 +703,7 @@
         <Item Amount="128" TypeId="Component" SubtypeId="LED" />
         <Item Amount="1" TypeId="Component" SubtypeId="GraphenePlate" />
         <Item Amount="6" TypeId="Ingot" SubtypeId="Vanadium" />
-        <Item Amount="70" TypeId="Ingot" SubtypeId="Krypton" />
+        <Item Amount="70" TypeId="Ore" SubtypeId="Krypton" />
         <Item Amount="15" TypeId="Ingot" SubtypeId="Thallium" />
         <Item Amount="7" TypeId="Ingot" SubtypeId="Electrum" />
       </Prerequisites>
@@ -1260,7 +1208,7 @@
         <Item Amount="50" TypeId="Ingot" SubtypeId="Ruthenium" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Electrum" />
         <Item Amount="50" TypeId="Ingot" SubtypeId="Thallium" />
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Neon" />
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Neon" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="FluxCoil" />
       <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
@@ -1276,7 +1224,7 @@
         <Item Amount="5" TypeId="Ingot" SubtypeId="Ruthenium" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Electrum" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Thallium" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Neon" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Neon" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="FluxCoil" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
@@ -1292,7 +1240,7 @@
         <Item Amount="0.5" TypeId="Ingot" SubtypeId="Ruthenium" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Electrum" />
         <Item Amount="0.5" TypeId="Ingot" SubtypeId="Thallium" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Neon" />
+        <Item Amount="10" TypeId="Ore" SubtypeId="Neon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="FluxCoil" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -1308,7 +1256,7 @@
       <Prerequisites>
         <Item Amount="50" TypeId="Ingot" SubtypeId="Radium" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Electrum" />
-        <Item Amount="5000" TypeId="Ingot" SubtypeId="Xenon" />
+        <Item Amount="5000" TypeId="Ore" SubtypeId="Xenon" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="FluxCapacitor" />
       <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
@@ -1324,7 +1272,7 @@
         <Item Amount="5" TypeId="Ingot" SubtypeId="Radium" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Electrum" />
         <Item Amount="7.5" TypeId="Ingot" SubtypeId="Vanadium" />
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Xenon" />
+        <Item Amount="500" TypeId="Ore" SubtypeId="Xenon" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="FluxCapacitor" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
@@ -1340,7 +1288,7 @@
         <Item Amount="0.5" TypeId="Ingot" SubtypeId="Radium" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Electrum" />
         <Item Amount="0.75" TypeId="Ingot" SubtypeId="Vanadium" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Xenon" />
+        <Item Amount="50" TypeId="Ore" SubtypeId="Xenon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="FluxCapacitor" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -1457,7 +1405,7 @@
         <Item Amount="10" TypeId="Ingot" SubtypeId="Iridium" />
         <Item Amount="200" TypeId="Ingot" SubtypeId="Calcium" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="300" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="300" TypeId="Ore" SubtypeId="Oxygen" />
       </Prerequisites>
       <Result Amount="1000" TypeId="Component" SubtypeId="Igniter" />
       <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
@@ -1475,7 +1423,7 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="Iridium" />
         <Item Amount="20" TypeId="Ingot" SubtypeId="Calcium" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="30" TypeId="Ore" SubtypeId="Oxygen" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="Igniter" />
       <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
@@ -1493,7 +1441,7 @@
         <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iridium" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Calcium" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="3" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="3" TypeId="Ore" SubtypeId="Oxygen" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="Igniter" />
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
@@ -1525,12 +1473,12 @@
       <DisplayName>Projector x10</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\Projector_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="300" TypeId="Ingot" SubtypeId="Lanthanum" />
-        <Item Amount="100" TypeId="Component" SubtypeId="MicroChip" />
-        <Item Amount="3200" TypeId="Component" SubtypeId="LED" />
-        <Item Amount="300" TypeId="Component" SubtypeId="Rectifier" />
-        <Item Amount="300" TypeId="Component" SubtypeId="Sensor" />
-        <Item Amount="2000" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Lanthanum" />
+        <Item Amount="10" TypeId="Component" SubtypeId="MicroChip" />
+        <Item Amount="320" TypeId="Component" SubtypeId="LED" />
+        <Item Amount="30" TypeId="Component" SubtypeId="Rectifier" />
+        <Item Amount="30" TypeId="Component" SubtypeId="Sensor" />
+        <Item Amount="200" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="Projector" />
       <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
@@ -1567,7 +1515,7 @@
         <Item Amount="100" TypeId="Component" SubtypeId="Amplifier" />
         <Item Amount="100" TypeId="Component" SubtypeId="ThermoCouple" />
         <Item Amount="300" TypeId="Ingot" SubtypeId="Electrum" />
-        <Item Amount="2500" TypeId="Ingot" SubtypeId="Krypton" />
+        <Item Amount="2500" TypeId="Ore" SubtypeId="Krypton" />
         <Item Amount="600" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="BeamEmiter" />
@@ -1581,13 +1529,13 @@
       <DisplayName>Beam Emiter x10</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\BeamEmiter_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Thallium" />
-        <Item Amount="100" TypeId="Component" SubtypeId="Projector" />
-        <Item Amount="100" TypeId="Component" SubtypeId="Amplifier" />
-        <Item Amount="100" TypeId="Component" SubtypeId="ThermoCouple" />
-        <Item Amount="300" TypeId="Ingot" SubtypeId="Electrum" />
-        <Item Amount="2500" TypeId="Ingot" SubtypeId="Krypton" />
-        <Item Amount="600" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Thallium" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Projector" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Amplifier" />
+        <Item Amount="10" TypeId="Component" SubtypeId="ThermoCouple" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Electrum" />
+        <Item Amount="250" TypeId="Ore" SubtypeId="Krypton" />
+        <Item Amount="60" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="BeamEmiter" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
@@ -1605,7 +1553,7 @@
         <Item Amount="1" TypeId="Component" SubtypeId="Amplifier" />
         <Item Amount="1" TypeId="Component" SubtypeId="ThermoCouple" />
         <Item Amount="3" TypeId="Ingot" SubtypeId="Electrum" />
-        <Item Amount="25" TypeId="Ingot" SubtypeId="Krypton" />
+        <Item Amount="25" TypeId="Ore" SubtypeId="Krypton" />
         <Item Amount="6" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="BeamEmiter" />
@@ -1774,13 +1722,13 @@
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
     </Blueprint>
 	
-    <Blueprint> <!-- ShieldEmitterX100 -->
+    <Blueprint> <!-- ShieldComponentX100 -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ShieldEmitterX100</SubtypeId>
+        <SubtypeId>ShieldComponentX100</SubtypeId>
       </Id>
       <DisplayName>Shield Emitter x100</DisplayName>
-      <Icon>Textures\GUI\Icons\component\Electronic\ShieldEmitter_Icon.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\Electronic\ShieldComponent_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Component" SubtypeId="Solder" />
         <Item Amount="100" TypeId="Component" SubtypeId="IonProjector" />
@@ -1788,16 +1736,16 @@
         <Item Amount="100" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="800" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
-      <Result Amount="100" TypeId="Component" SubtypeId="ShieldEmitter" />
+      <Result Amount="100" TypeId="Component" SubtypeId="ShieldComponent" />
       <BaseProductionTimeInSeconds>375</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint> <!-- ShieldEmitterX10 -->
+    <Blueprint> <!-- ShieldComponentX10 -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ShieldEmitterX10</SubtypeId>
+        <SubtypeId>ShieldComponentX10</SubtypeId>
       </Id>
       <DisplayName>Shield Emitter x10</DisplayName>
-      <Icon>Textures\GUI\Icons\component\Electronic\ShieldEmitter_Icon.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\Electronic\ShieldComponent_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="Solder" />
         <Item Amount="10" TypeId="Component" SubtypeId="IonProjector" />
@@ -1805,16 +1753,16 @@
         <Item Amount="10" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="80" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
-      <Result Amount="10" TypeId="Component" SubtypeId="ShieldEmitter" />
+      <Result Amount="10" TypeId="Component" SubtypeId="ShieldComponent" />
       <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint> <!-- ShieldEmitter -->
+    <Blueprint> <!-- ShieldComponent -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ShieldEmitter</SubtypeId>
+        <SubtypeId>ShieldComponent</SubtypeId>
       </Id>
       <DisplayName>Shield Emitter</DisplayName>
-      <Icon>Textures\GUI\Icons\component\Electronic\ShieldEmitter_Icon.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\Electronic\ShieldComponent_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Solder" />
         <Item Amount="1" TypeId="Component" SubtypeId="IonProjector" />
@@ -1822,7 +1770,7 @@
         <Item Amount="1" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="8" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="ShieldEmitter" />
+      <Result Amount="1" TypeId="Component" SubtypeId="ShieldComponent" />
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
     </Blueprint>
 	
@@ -2009,7 +1957,7 @@
         <Item Amount="100" TypeId="Component" SubtypeId="ParticleAccelerator" />
         <Item Amount="100" TypeId="Component" SubtypeId="Superconductor" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Scandium" />
-        <Item Amount="10000" TypeId="Ingot" SubtypeId="Xenon" />
+        <Item Amount="10000" TypeId="Ore" SubtypeId="Xenon" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="FusionChamber" />
       <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
@@ -2026,7 +1974,7 @@
         <Item Amount="10" TypeId="Component" SubtypeId="ParticleAccelerator" />
         <Item Amount="10" TypeId="Component" SubtypeId="Superconductor" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Scandium" />
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Xenon" />
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Xenon" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="FusionChamber" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
@@ -2043,7 +1991,7 @@
         <Item Amount="1" TypeId="Component" SubtypeId="ParticleAccelerator" />
         <Item Amount="1" TypeId="Component" SubtypeId="Superconductor" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Scandium" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Xenon" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Xenon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="FusionChamber" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -2061,7 +2009,7 @@
         <Item Amount="500" TypeId="Component" SubtypeId="BareCopperWire" />
         <Item Amount="1000" TypeId="Ingot" SubtypeId="Lithium" />
         <Item Amount="1000" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="10000" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="10000" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="1000" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="LithiumPowerCell" />
@@ -2079,7 +2027,7 @@
         <Item Amount="50" TypeId="Component" SubtypeId="BareCopperWire" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Lithium" />
         <Item Amount="100" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="100" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="LithiumPowerCell" />
@@ -2097,7 +2045,7 @@
         <Item Amount="5" TypeId="Component" SubtypeId="BareCopperWire" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Lithium" />
         <Item Amount="10" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="10" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="LithiumPowerCell" />
@@ -2116,7 +2064,7 @@
         <Item Amount="500" TypeId="Component" SubtypeId="BareCopperWire" />
         <Item Amount="1000" TypeId="Ingot" SubtypeId="Lead" />
         <Item Amount="1000" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="10000" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="10000" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="1000" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="LeadPowerCell" />
@@ -2134,7 +2082,7 @@
         <Item Amount="50" TypeId="Component" SubtypeId="BareCopperWire" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Lead" />
         <Item Amount="100" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="100" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="LeadPowerCell" />
@@ -2152,7 +2100,7 @@
         <Item Amount="5" TypeId="Component" SubtypeId="BareCopperWire" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Lead" />
         <Item Amount="10" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="10" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="LeadPowerCell" />
@@ -2169,9 +2117,9 @@
       <Prerequisites>
         <Item Amount="300" TypeId="Component" SubtypeId="Transistor" />
         <Item Amount="1000" TypeId="Component" SubtypeId="BareCopperWire" />
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Fluorine" />
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Fluorine" />
         <Item Amount="1000" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="50000" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="50000" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="1000" TypeId="Component" SubtypeId="BulletproofGlass" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="FluoridePowerCell" />
@@ -2187,9 +2135,9 @@
       <Prerequisites>
         <Item Amount="30" TypeId="Component" SubtypeId="Transistor" />
         <Item Amount="100" TypeId="Component" SubtypeId="BareCopperWire" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Fluorine" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Fluorine" />
         <Item Amount="100" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="5000" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="5000" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="100" TypeId="Component" SubtypeId="BulletproofGlass" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="FluoridePowerCell" />
@@ -2205,9 +2153,9 @@
       <Prerequisites>
         <Item Amount="3" TypeId="Component" SubtypeId="Transistor" />
         <Item Amount="10" TypeId="Component" SubtypeId="BareCopperWire" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Fluorine" />
+        <Item Amount="10" TypeId="Ore" SubtypeId="Fluorine" />
         <Item Amount="10" TypeId="Component" SubtypeId="Computer" />
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="500" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="10" TypeId="Component" SubtypeId="BulletproofGlass" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="FluoridePowerCell" />

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+   
+	<Entry Class="AdvMassProdWeap" BlueprintSubtypeId="FiringPinX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BoltCarrierX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BoltX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="TriggerX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BarrelX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="MagazineX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="ReceiverX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BufferX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="RailX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="UraniumWarheadX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="PlutoniumWarheadX100" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="FusionWarheadX100" />
+	
+	<Entry Class="AdvMassProdWeap" BlueprintSubtypeId="FiringPinX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BoltCarrierX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BoltX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="TriggerX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BarrelX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="MagazineX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="ReceiverX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BufferX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="RailX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="UraniumWarheadX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="PlutoniumWarheadX10" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="FusionWarheadX10" />
+	
+	<Entry Class="AdvMassProdWeap" BlueprintSubtypeId="FiringPin" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="BoltCarrier" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="Bolt" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="Trigger" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="Barrel" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="Magazine" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="Receiver" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="Buffer" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="Rail" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="UraniumWarhead" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="PlutoniumWarhead" />
+    <Entry Class="AdvMassProdWeap" BlueprintSubtypeId="FusionWarhead" />
+	
+	<Entry Class="WeaponComponents" BlueprintSubtypeId="FiringPin" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="BoltCarrier" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="Bolt" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="Trigger" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="Barrel" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="Magazine" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="Receiver" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="Buffer" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="Rail" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="UraniumWarhead" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="PlutoniumWarhead" />
+    <Entry Class="WeaponComponents" BlueprintSubtypeId="FusionWarhead" />
+	
+  </BlueprintClassEntries>
+</Definitions>

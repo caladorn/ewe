@@ -1,502 +1,461 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PhysicalItems>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Medkit</SubtypeId>
-      </Id>
-      <DisplayName>Basic Medkit</DisplayName>
-      <Description>Heals 20% of health over 15 seconds</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>10</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.2" Time="15"/>
-      </Stats>
-
-      <MinimalPricePerUnit>750</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Adv_Medkit</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Medkit</DisplayName>
-      <Description>Heals 35% of health over 15 seconds</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>15</Mass>
-      <Volume>12</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.35" Time="15"/>
-      </Stats>
-
-      <MinimalPricePerUnit>1250</MinimalPricePerUnit>
-      <MinimumOfferAmount>500</MinimumOfferAmount>
-      <MaximumOfferAmount>5000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Eli_Medkit</SubtypeId>
-      </Id>
-      <DisplayName>Elite Medkit</DisplayName>
-      <Description>Heals 75% of health over 15 seconds</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>20</Mass>
-      <Volume>15</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.75" Time="15"/>
-      </Stats>
-
-      <MinimalPricePerUnit>2500</MinimalPricePerUnit>
-      <MinimumOfferAmount>50</MinimumOfferAmount>
-      <MaximumOfferAmount>500</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Bsc_Inst_Medkit</SubtypeId>
-      </Id>
-      <DisplayName>Basic Instant Medkit</DisplayName>
-      <Description>Instantly heals Back 20% of health</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>12</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.2" Time="0.25"/>
-      </Stats>
-
-      <MinimalPricePerUnit>3500</MinimalPricePerUnit>
-      <MinimumOfferAmount>100</MinimumOfferAmount>
-      <MaximumOfferAmount>1000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Adv_Inst_Medkit</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Instant Medkit</DisplayName>
-      <Description>Instantly heals Back 35% of health</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>15</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.35" Time="0.25"/>
-      </Stats>
-
-      <MinimalPricePerUnit>7000</MinimalPricePerUnit>
-      <MinimumOfferAmount>10</MinimumOfferAmount>
-      <MaximumOfferAmount>100</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Eli_Inst_Medkit</SubtypeId>
-      </Id>
-      <DisplayName>Elite Instant Medkit</DisplayName>
-      <Description>Instantly heals Back 75% of health</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>20</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.75" Time="0.25"/>
-      </Stats>
-
-      <MinimalPricePerUnit>15000</MinimalPricePerUnit>
-      <MinimumOfferAmount>1</MinimumOfferAmount>
-      <MaximumOfferAmount>10</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Powerkit</SubtypeId>
-      </Id>
-      <DisplayName>Basic Power Kit</DisplayName>
-      <Description>Recharges 20% of power over 15 seconds</Description>
-      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
-      <Size>
-        <X>0.14</X>
-        <Y>0.43</Y>
-        <Z>0.14</Z>
-      </Size>
-      <Mass>9</Mass>
-      <Volume>9</Volume>
-      <Model>Models\Items\PowerKit.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="BatteryCharge" Value ="0.2" Time="15"/>
-      </Stats>
-
-      <MinimalPricePerUnit>1000</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Adv_Powerkit</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Power Kit</DisplayName>
-      <Description>Recharges 35% of power over 15 seconds</Description>
-      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>15</Mass>
-      <Volume>11</Volume>
-      <Model>Models\Items\PowerKit.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="BatteryCharge" Value ="0.35" Time="15"/>
-      </Stats>
-
-      <MinimalPricePerUnit>1650</MinimalPricePerUnit>
-      <MinimumOfferAmount>500</MinimumOfferAmount>
-      <MaximumOfferAmount>5000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Eli_Powerkit</SubtypeId>
-      </Id>
-      <DisplayName>Elite Power Kit</DisplayName>
-      <Description>Recharges 75% of power over 15 seconds</Description>
-      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>20</Mass>
-      <Volume>16</Volume>
-      <Model>Models\Items\PowerKit.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="BatteryCharge" Value ="0.75" Time="15"/>
-      </Stats>
-
-      <MinimalPricePerUnit>3350</MinimalPricePerUnit>
-      <MinimumOfferAmount>50</MinimumOfferAmount>
-      <MaximumOfferAmount>500</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Bsc_Inst_Powerkit</SubtypeId>
-      </Id>
-      <DisplayName>Basic Instant Power Kit</DisplayName>
-      <Description>Instantly recharges 20% of power</Description>
-      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>11</Volume>
-      <Model>Models\Items\PowerKit.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="BatteryCharge" Value ="0.2" Time="0.25"/>
-      </Stats>
-
-      <MinimalPricePerUnit>4650</MinimalPricePerUnit>
-      <MinimumOfferAmount>100</MinimumOfferAmount>
-      <MaximumOfferAmount>1000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Adv_Inst_Powerkit</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Instant Power Kit</DisplayName>
-      <Description>Instantly recharges 35% of power</Description>
-      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>14</Volume>
-      <Model>Models\Items\PowerKit.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="BatteryCharge" Value ="0.35" Time="0.25"/>
-      </Stats>
-
-      <MinimalPricePerUnit>9350</MinimalPricePerUnit>
-      <MinimumOfferAmount>10</MinimumOfferAmount>
-      <MaximumOfferAmount>100</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Eli_Inst_Powerkit</SubtypeId>
-      </Id>
-      <DisplayName>Elite Instant Power Kit</DisplayName>
-      <Description>Instantly recharges 75% of power</Description>
-      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>20</Volume>
-      <Model>Models\Items\PowerKit.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="BatteryCharge" Value ="0.75" Time="0.25"/>
-      </Stats>
-
-      <MinimalPricePerUnit>20000</MinimalPricePerUnit>
-      <MinimumOfferAmount>1</MinimumOfferAmount>
-      <MaximumOfferAmount>10</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>SurvivalKit</SubtypeId>
-      </Id>
-      <DisplayName>Basic Survival Kit</DisplayName>
-      <Description>Heals 20% of health and recharges 20% of power over 15 seconds</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.14</X>
-        <Y>0.43</Y>
-        <Z>0.14</Z>
-      </Size>
-      <Mass>9</Mass>
-      <Volume>9</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.2" Time="15"/>
-         <Stat Name="BatteryCharge" Value ="0.2" Time="15"/>
-      </Stats>
-
-      <MinimalPricePerUnit>2000</MinimalPricePerUnit>
-      <MinimumOfferAmount>100</MinimumOfferAmount>
-      <MaximumOfferAmount>1000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Adv_SurvivalKit</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Survival Kit</DisplayName>
-      <Description>Heals 35% of health and recharges 35% of power over 15 seconds</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>15</Mass>
-      <Volume>11</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.35" Time="15"/>
-         <Stat Name="BatteryCharge" Value ="0.35" Time="15"/>
-      </Stats>
-
-      <MinimalPricePerUnit>3300</MinimalPricePerUnit>
-      <MinimumOfferAmount>50</MinimumOfferAmount>
-      <MaximumOfferAmount>500</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Eli_SurvivalKit</SubtypeId>
-      </Id>
-      <DisplayName>Elite Survival Kit</DisplayName>
-      <Description>Heals 75% of health and recharges 75% of power over 15 seconds</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>20</Mass>
-      <Volume>16</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.75" Time="15"/>
-         <Stat Name="BatteryCharge" Value ="0.75" Time="15"/>
-      </Stats>
-
-      <MinimalPricePerUnit>6700</MinimalPricePerUnit>
-      <MinimumOfferAmount>5</MinimumOfferAmount>
-      <MaximumOfferAmount>50</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Bsc_Inst_SurvivalKit</SubtypeId>
-      </Id>
-      <DisplayName>Basic Instant Survival Kit</DisplayName>
-      <Description>Instantly heals 20% of health and recharges 20% of power.</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>11</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.2" Time="0.25"/>
-         <Stat Name="BatteryCharge" Value ="0.2" Time="0.25"/>
-      </Stats>
-
-      <MinimalPricePerUnit>9300</MinimalPricePerUnit>
-      <MinimumOfferAmount>10</MinimumOfferAmount>
-      <MaximumOfferAmount>100</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Adv_Inst_SurvivalKit</SubtypeId>
-      </Id>
-      <DisplayName>Advanced Instant Survival Kit</DisplayName>
-      <Description>Instantly heals 35% of health and recharges 35% of power.</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>14</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.35" Time="0.25"/>
-         <Stat Name="BatteryCharge" Value ="0.35" Time="0.25"/>
-      </Stats>
-
-      <MinimalPricePerUnit>18700</MinimalPricePerUnit>
-      <MinimumOfferAmount>1</MinimumOfferAmount>
-      <MaximumOfferAmount>10</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Eli_Inst_SurvivalKit</SubtypeId>
-      </Id>
-      <DisplayName>Elite Instant Survival Kit</DisplayName>
-      <Description>Instantly heals 75% of health and recharges 75% of power.</Description>
-      <Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>20</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-
-      <Stats>
-         <Stat Name="Health" Value ="0.75" Time="0.25"/>
-         <Stat Name="BatteryCharge" Value ="0.75" Time="0.25"/>
-      </Stats>
-
-      <MinimalPricePerUnit>40000</MinimalPricePerUnit>
-      <MinimumOfferAmount>1</MinimumOfferAmount>
-      <MaximumOfferAmount>5</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-  </PhysicalItems>
+	<PhysicalItems>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Adv_Inst_Medkit</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Instant Medkit</DisplayName>
+			<Description>Instantly heals Back 35% of health</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>1.02</Mass>
+			<Volume>4.8</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.35" Time="0.25"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>7000</MinimalPricePerUnit>
+			<MinimumOfferAmount>10</MinimumOfferAmount>
+			<MaximumOfferAmount>100</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Adv_Inst_Powerkit</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Instant Power Kit</DisplayName>
+			<Description>Instantly recharges 35% of power</Description>
+			<Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>7.47</Mass>
+			<Volume>2.67</Volume>
+			<Model>Models\Items\PowerKit.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="BatteryCharge" Value="0.35" Time="0.25"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>9350</MinimalPricePerUnit>
+			<MinimumOfferAmount>10</MinimumOfferAmount>
+			<MaximumOfferAmount>100</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Adv_Inst_SurvivalKit</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Instant Survival Kit</DisplayName>
+			<Description>Instantly heals 35% of health and recharges 35% of power.</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>8.49</Mass>
+			<Volume>7.47</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.35" Time="0.25"></Stat>
+				<Stat Name="BatteryCharge" Value="0.35" Time="0.25"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>18700</MinimalPricePerUnit>
+			<MinimumOfferAmount>1</MinimumOfferAmount>
+			<MaximumOfferAmount>10</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Adv_Medkit</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Medkit</DisplayName>
+			<Description>Heals 35% of health over 15 seconds</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>1.02</Mass>
+			<Volume>4.8</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.35" Time="15"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>1250</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>5000</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Adv_Powerkit</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Power Kit</DisplayName>
+			<Description>Recharges 35% of power over 15 seconds</Description>
+			<Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>0.93</Mass>
+			<Volume>0.33</Volume>
+			<Model>Models\Items\PowerKit.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="BatteryCharge" Value="0.35" Time="15"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>1650</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>5000</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Adv_SurvivalKit</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Survival Kit</DisplayName>
+			<Description>Heals 35% of health and recharges 35% of power over 15 seconds</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>1.96</Mass>
+			<Volume>5.13</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.35" Time="15"></Stat>
+				<Stat Name="BatteryCharge" Value="0.35" Time="15"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>3300</MinimalPricePerUnit>
+			<MinimumOfferAmount>50</MinimumOfferAmount>
+			<MaximumOfferAmount>500</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Bsc_Inst_Medkit</SubtypeId>
+			</Id>
+			<DisplayName>Basic Instant Medkit</DisplayName>
+			<Description>Instantly heals Back 20% of health</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>0.51</Mass>
+			<Volume>2.4</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.2" Time="0.25"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>3500</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>1000</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Bsc_Inst_Powerkit</SubtypeId>
+			</Id>
+			<DisplayName>Basic Instant Power Kit</DisplayName>
+			<Description>Instantly recharges 20% of power</Description>
+			<Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>6.4</Mass>
+			<Volume>2.29</Volume>
+			<Model>Models\Items\PowerKit.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="BatteryCharge" Value="0.2" Time="0.25"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>4650</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>1000</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Bsc_Inst_SurvivalKit</SubtypeId>
+			</Id>
+			<DisplayName>Basic Instant Survival Kit</DisplayName>
+			<Description>Instantly heals 20% of health and recharges 20% of power.</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>6.91</Mass>
+			<Volume>4.69</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.2" Time="0.25"></Stat>
+				<Stat Name="BatteryCharge" Value="0.2" Time="0.25"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>9300</MinimalPricePerUnit>
+			<MinimumOfferAmount>10</MinimumOfferAmount>
+			<MaximumOfferAmount>100</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Eli_Inst_Medkit</SubtypeId>
+			</Id>
+			<DisplayName>Elite Instant Medkit</DisplayName>
+			<Description>Instantly heals Back 75% of health</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>2.05</Mass>
+			<Volume>9.6</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.75" Time="0.25"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>15000</MinimalPricePerUnit>
+			<MinimumOfferAmount>1</MinimumOfferAmount>
+			<MaximumOfferAmount>10</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Eli_Inst_Powerkit</SubtypeId>
+			</Id>
+			<DisplayName>Elite Instant Power Kit</DisplayName>
+			<Description>Instantly recharges 75% of power</Description>
+			<Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>10.67</Mass>
+			<Volume>3.81</Volume>
+			<Model>Models\Items\PowerKit.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="BatteryCharge" Value="0.75" Time="0.25"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>20000</MinimalPricePerUnit>
+			<MinimumOfferAmount>1</MinimumOfferAmount>
+			<MaximumOfferAmount>10</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Eli_Inst_SurvivalKit</SubtypeId>
+			</Id>
+			<DisplayName>Elite Instant Survival Kit</DisplayName>
+			<Description>Instantly heals 75% of health and recharges 75% of power.</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>12.71</Mass>
+			<Volume>13.41</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.75" Time="0.25"></Stat>
+				<Stat Name="BatteryCharge" Value="0.75" Time="0.25"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>40000</MinimalPricePerUnit>
+			<MinimumOfferAmount>1</MinimumOfferAmount>
+			<MaximumOfferAmount>5</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Eli_Medkit</SubtypeId>
+			</Id>
+			<DisplayName>Elite Medkit</DisplayName>
+			<Description>Heals 75% of health over 15 seconds</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>2.05</Mass>
+			<Volume>9.6</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.75" Time="15"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>2500</MinimalPricePerUnit>
+			<MinimumOfferAmount>50</MinimumOfferAmount>
+			<MaximumOfferAmount>500</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Eli_Powerkit</SubtypeId>
+			</Id>
+			<DisplayName>Elite Power Kit</DisplayName>
+			<Description>Recharges 75% of power over 15 seconds</Description>
+			<Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>1.33</Mass>
+			<Volume>0.48</Volume>
+			<Model>Models\Items\PowerKit.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="BatteryCharge" Value="0.75" Time="15"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>3350</MinimalPricePerUnit>
+			<MinimumOfferAmount>50</MinimumOfferAmount>
+			<MaximumOfferAmount>500</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Eli_SurvivalKit</SubtypeId>
+			</Id>
+			<DisplayName>Elite Survival Kit</DisplayName>
+			<Description>Heals 75% of health and recharges 75% of power over 15 seconds</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>3.38</Mass>
+			<Volume>10.08</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.75" Time="15"></Stat>
+				<Stat Name="BatteryCharge" Value="0.75" Time="15"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>6700</MinimalPricePerUnit>
+			<MinimumOfferAmount>5</MinimumOfferAmount>
+			<MaximumOfferAmount>50</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Medkit</SubtypeId>
+			</Id>
+			<DisplayName>Basic Medkit</DisplayName>
+			<Description>Heals 20% of health over 15 seconds</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.5</Z>
+			</Size>
+			<Mass>0.51</Mass>
+			<Volume>2.4</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.2" Time="15"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>750</MinimalPricePerUnit>
+			<MinimumOfferAmount>1000</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>Powerkit</SubtypeId>
+			</Id>
+			<DisplayName>Basic Power Kit</DisplayName>
+			<Description>Recharges 20% of power over 15 seconds</Description>
+			<Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
+			<Size>
+				<X>0.14</X>
+				<Y>0.43</Y>
+				<Z>0.14</Z>
+			</Size>
+			<Mass>0.8</Mass>
+			<Volume>0.29</Volume>
+			<Model>Models\Items\PowerKit.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="BatteryCharge" Value="0.2" Time="15"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>1000</MinimalPricePerUnit>
+			<MinimumOfferAmount>1000</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+			<Id>
+				<TypeId>ConsumableItem</TypeId>
+				<SubtypeId>SurvivalKit</SubtypeId>
+			</Id>
+			<DisplayName>Basic Survival Kit</DisplayName>
+			<Description>Heals 20% of health and recharges 20% of power over 15 seconds</Description>
+			<Icon>Textures\GUI\Icons\Items\Medkit.dds</Icon>
+			<Size>
+				<X>0.14</X>
+				<Y>0.43</Y>
+				<Z>0.14</Z>
+			</Size>
+			<Mass>1.31</Mass>
+			<Volume>2.69</Volume>
+			<Model>Models\Items\Medkit_Item.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<Stats>
+				<Stat Name="Health" Value="0.2" Time="15"></Stat>
+				<Stat Name="BatteryCharge" Value="0.2" Time="15"></Stat>
+			</Stats>
+			<MinimalPricePerUnit>2000</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>1000</MaximumOfferAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+		</PhysicalItem>
+	</PhysicalItems>
 </Definitions>

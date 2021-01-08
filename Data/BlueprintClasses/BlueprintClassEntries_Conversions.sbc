@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <BlueprintClassEntries>
+        
+        <Entry Class="BscOre" BlueprintSubtypeId="UraniumOreToUraninite" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="UraniumOreToUraninite" />
+        <Entry Class="AdvOre" BlueprintSubtypeId="UraniumOreToUraninite" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="UraniumOreToUraninite" />
+        <Entry Class="EliOre" BlueprintSubtypeId="UraniumOreToUraninite" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="UraniumOreToUraninite" />
+
+        <Entry Class="BscOre" BlueprintSubtypeId="UraniumFuelRodConversion" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="UraniumFuelRodConversion" />
+        <Entry Class="AdvOre" BlueprintSubtypeId="UraniumFuelRodConversion" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="UraniumFuelRodConversion" />
+        <Entry Class="EliOre" BlueprintSubtypeId="UraniumFuelRodConversion" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="UraniumFuelRodConversion" />
+
+        <Entry Class="BscOre" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+        <Entry Class="AdvOre" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+        <Entry Class="EliOre" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+
+        <Entry Class="BscOre" BlueprintSubtypeId="ScrapToIronIngot" />
+        <Entry Class="BscRefining" BlueprintSubtypeId="ScrapToIronIngot" />
+        <Entry Class="AdvOre" BlueprintSubtypeId="ScrapToIronIngot" />
+        <Entry Class="AdvRefining" BlueprintSubtypeId="ScrapToIronIngot" />
+        <Entry Class="EliOre" BlueprintSubtypeId="ScrapToIronIngot" />
+        <Entry Class="EliRefining" BlueprintSubtypeId="ScrapToIronIngot" />
+
+        <Entry Class="MassProdAlloys" BlueprintSubtypeId="Bsc_Organic_IngotToOre" />
+        <Entry Class="Alloys" BlueprintSubtypeId="Bsc_Organic_IngotToOre" />
+
+  </BlueprintClassEntries>
+</Definitions>

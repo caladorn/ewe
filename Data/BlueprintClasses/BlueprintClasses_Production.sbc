@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlueprintClasses>
+  <Class>  <!-- Default PureMetals-->
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>StoneCrusher</SubtypeId>
+      </Id>
+      <DisplayName>Stone Crusher</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AdvMassProdAmmo</SubtypeId>
+      </Id>
+      <DisplayName>Ammo Mass Production</DisplayName>
+      <Description>Ammo</Description>
+      <Icon>Textures\GUI\Icons\buttons\ammo.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\ammo.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\ammo_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Alloys</SubtypeId>
+      </Id>
+      <DisplayName>Alloys</DisplayName>
+      <Description>Alloys</Description>
+      <Icon>Textures\GUI\Icons\buttons\alloy.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\alloy.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\alloy_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>MassProdAlloys</SubtypeId>
+      </Id>
+      <DisplayName>Alloy Mass Production</DisplayName>
+      <Description>Alloys</Description>
+      <Icon>Textures\GUI\Icons\buttons\alloy.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\alloy.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\alloy_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Fluids</SubtypeId>
+      </Id>
+      <DisplayName>Fluids</DisplayName>
+      <Description>Fluids</Description>
+      <Icon>Textures\GUI\Icons\buttons\fluids.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\fluids.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\fluids_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>MassProdFluids</SubtypeId>
+      </Id>
+      <DisplayName>Fluids Mass Production</DisplayName>
+      <Description>Fluids</Description>
+      <Icon>Textures\GUI\Icons\buttons\fluids.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\fluids.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\fluids_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Construction</SubtypeId>
+      </Id>
+      <DisplayName>Construction Components</DisplayName>
+      <Description>Construction Components</Description>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BscMassProdConst</SubtypeId>
+      </Id>
+      <DisplayName>Construction Components Mass Production</DisplayName>
+      <Description>Construction Components</Description>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BasicMechanics</SubtypeId>
+      </Id>
+      <DisplayName>Basic Mechanics</DisplayName>
+      <Description>Basic Mechanics</Description>
+      <Icon>Textures\GUI\Icons\buttons\basic_mechanical.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\basic_mechanical.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\basic_mechanical_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BscMassProdMech</SubtypeId>
+      </Id>
+      <DisplayName>Basic Mechanics Mass Production</DisplayName>
+      <Description>Basic Mechanics</Description>
+      <Icon>Textures\GUI\Icons\buttons\basic_mechanical.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\basic_mechanical.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\basic_mechanical_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AdvMechanics</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Mechanics</DisplayName>
+      <Description>Advanced Mechanical</Description>
+      <Icon>Textures\GUI\Icons\buttons\advanced_mechanical.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\advanced_mechanical.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\advanced_mechanical_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AdvMassProdMech</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Mechanics Mass Production</DisplayName>
+      <Description>Advanced Mechanical</Description>
+      <Icon>Textures\GUI\Icons\buttons\advanced_mechanical.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\advanced_mechanical.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\advanced_mechanical_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BasicElectroncis</SubtypeId>
+      </Id>
+      <DisplayName>Basic Electronics</DisplayName>
+      <Description>Basic Electronics</Description>
+      <Icon>Textures\GUI\Icons\buttons\basic_electric.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\basic_electric.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\basic_electric_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BscMassProdElect</SubtypeId>
+      </Id>
+      <DisplayName>Basic Electronics Mass Production</DisplayName>
+      <Description>Basic Electronics</Description>
+      <Icon>Textures\GUI\Icons\buttons\basic_electric.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\basic_electric.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\basic_electric_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AdvElectComp</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Electronics</DisplayName>
+      <Description>Advanced Electronics</Description>
+      <Icon>Textures\GUI\Icons\buttons\advanced_electric.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\advanced_electric.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\advanced_electric_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AdvMassProdElect</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Electronics Mass Production</DisplayName>
+      <Description>Advanced Electronics</Description>
+      <Icon>Textures\GUI\Icons\buttons\advanced_electric.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\advanced_electric.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\advanced_electric_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>FuelRods</SubtypeId>
+      </Id>
+      <DisplayName>FuelRods</DisplayName>
+      <Description>FuelRods</Description>
+      <Icon>Textures\GUI\Icons\buttons\nuclear.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\nuclear.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\nuclear_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>MassProdFuelRods</SubtypeId>
+      </Id>
+      <DisplayName>FuelRod Mass Production</DisplayName>
+      <Description>FuelRods</Description>
+      <Icon>Textures\GUI\Icons\buttons\nuclear.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\nuclear.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\nuclear_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NuetronActivation</SubtypeId>
+      </Id>
+      <DisplayName>Polonium</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>MassNuetronActivation</SubtypeId>
+      </Id>
+      <DisplayName>Nuetron Activation</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>WeaponComponents</SubtypeId>
+      </Id>
+      <DisplayName>Weapon Components</DisplayName>
+      <Description>Weapon Components</Description>
+      <Icon>Textures\GUI\Icons\buttons\weapon.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\weapon.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\weapon_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AdvMassProdWeap</SubtypeId>
+      </Id>
+      <DisplayName>Weapon Components Mass Production</DisplayName>
+      <Description>Weapon Components</Description>
+      <Icon>Textures\GUI\Icons\buttons\weapon.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\weapon.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\weapon_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>MedLab</SubtypeId>
+      </Id>
+      <DisplayName>Medical Lab</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+  </BlueprintClasses> 
+</Definitions>

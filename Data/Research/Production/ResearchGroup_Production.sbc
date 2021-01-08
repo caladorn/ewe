@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchGroups>  
+  
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- SmallBasicAssembler -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0200" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_AssemblerDefinition" Subtype="BasicAssembler" />
+        <BlockId Type="MyObjectBuilder_RefineryDefinition" Subtype="StoneCrusher" />
+        <BlockId Type="MyObjectBuilder_RefineryDefinition" Subtype="Blast Furnace" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- LargeAssemblers -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0201" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_AssemblerDefinition" Subtype="LargeAssembler" />
+        <BlockId Type="MyObjectBuilder_AssemblerDefinition" Subtype="AdvancedComponentAssembler" />
+        <BlockId Type="MyObjectBuilder_AssemblerDefinition" Subtype="ChemicalReactor" />
+        <BlockId Type="MyObjectBuilder_AssemblerDefinition" Subtype="NeutronCollider" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- MassAssemblers -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0202" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_AssemblerDefinition" Subtype="BasicMassAssembler" />
+        <BlockId Type="MyObjectBuilder_AssemblerDefinition" Subtype="AdvancedMassAssembler" />
+        <BlockId Type="MyObjectBuilder_AssemblerDefinition" Subtype="MassChemicalReactor" />
+        <BlockId Type="MyObjectBuilder_AssemblerDefinition" Subtype="MassNeutronCollider" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- BasicRefinery -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0203" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_RefineryDefinition" Subtype="LargeRefinery" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- AdvancedRefinery -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0204" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_RefineryDefinition" Subtype="LargeBlockLargeAdvancedRefinery" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- EliteRefinery -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0205" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_RefineryDefinition" Subtype="LargeBlockLargeEliteRefinery" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- OxygenEvaporator -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0206" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="LargeBlockOxygenEvaporator" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- HydrogenEvaporator -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0207" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="OxygenGenerator\null" />
+        <BlockId Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="OxygenGeneratorSmall" />
+        <BlockId Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="LargeBlockHydrogenEvaporator" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- GasolineSynthesizer -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0208" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="LargeBlockGasolineSynthesizer" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- JetFuelSynthesizer -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0209" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenGeneratorDefinition" Subtype="LargeBlockJetFuelSynthesizer" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- GasFarm -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0210" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockOxygenFarm" />
+        <BlockId Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockBasicHydrogenFarm" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- AdvO2Farm -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0211" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockAdvancedOxygenFarm" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- EliO2Farm -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0212" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockEliteOxygenFarm" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- AdvH2Farm -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0213" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockAdvancedHydrogenFarm" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">  <!-- EliH2GasFarm -->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0214" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenFarmDefinition" Subtype="LargeBlockEliteHydrogenFarm" />
+      </Members>
+    </ResearchGroup>
+
+  </ResearchGroups>  
+</Definitions>

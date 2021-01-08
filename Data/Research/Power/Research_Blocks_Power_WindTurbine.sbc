@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids	
+LargeBlockWindTurbine 0312
+LargeBlockAdvancedWindTurbine 0315
+LargeBlockEliteWindTurbine 0316
+-->
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic SolarPanel 0312 Unlocked @ 0300 -->
+      <Id Type="MyObjectBuilder_WindTurbineDefinition" Subtype="LargeBlockWindTurbine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0300</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic SolarPanel 0315 Unlocked @ 0312 -->
+      <Id Type="MyObjectBuilder_WindTurbineDefinition" Subtype="LargeBlockAdvancedWindTurbine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0312</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Advanced SolarPanel 0316 Unlocked @ 0315 -->
+      <Id Type="MyObjectBuilder_WindTurbineDefinition" Subtype="LargeBlockEliteWindTurbine" />
+      <UnlockedByGroups>
+        <GroupSubtype>0315</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

@@ -230,7 +230,7 @@
       <DisplayName>Hydrogen Fuel Cells X1000</DisplayName>
       <Icon>Textures\GUI\Icons\component\FuelRods\HydrogenFuelCell_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="500" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="100" TypeId="Component" SubtypeId="SmallCopperTube" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Calcium" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Zirconium" />
@@ -247,7 +247,7 @@
       <DisplayName>Hydrogen Fuel Cells X100</DisplayName>
       <Icon>Textures\GUI\Icons\component\FuelRods\HydrogenFuelCell_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="50" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="10" TypeId="Component" SubtypeId="SmallCopperTube" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Calcium" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Zirconium" />
@@ -264,7 +264,7 @@
       <DisplayName>Hydrogen Fuel Cells X10</DisplayName>
       <Icon>Textures\GUI\Icons\component\FuelRods\HydrogenFuelCell_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="5" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="5" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="1" TypeId="Component" SubtypeId="SmallCopperTube" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Calcium" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Zirconium" />
@@ -281,7 +281,7 @@
       <DisplayName>Hydrogen Fuel Cell</DisplayName>
       <Icon>Textures\GUI\Icons\component\FuelRods\HydrogenFuelCell_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="0.5" TypeId="Ore" SubtypeId="Hydrogen" />
         <Item Amount="0.1" TypeId="Component" SubtypeId="SmallCopperTube" />
         <Item Amount="0.1" TypeId="Ingot" SubtypeId="Calcium" />
         <Item Amount="0.1" TypeId="Ingot" SubtypeId="Zirconium" />

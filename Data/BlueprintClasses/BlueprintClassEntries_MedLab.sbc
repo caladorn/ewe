@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+    <Entry Class="MedLab" BlueprintSubtypeId="ZoneChip" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Datapad" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Medkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Adv_Medkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Eli_Medkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Bsc_Inst_Medkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Adv_Inst_Medkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Eli_Inst_Medkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Powerkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Adv_Powerkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Eli_Powerkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Bsc_Inst_Powerkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Adv_Inst_Powerkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Eli_Inst_Powerkit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="SurvivalKit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Adv_SurvivalKit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Eli_SurvivalKit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Bsc_Inst_SurvivalKit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Adv_Inst_SurvivalKit" />
+    <Entry Class="MedLab" BlueprintSubtypeId="Eli_Inst_SurvivalKit" />
+  </BlueprintClassEntries>
+</Definitions>

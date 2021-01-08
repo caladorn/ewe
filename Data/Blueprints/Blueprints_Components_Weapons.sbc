@@ -6,7 +6,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FiringPinX100</SubtypeId>
       </Id>
-      <DisplayName>Firing Pin</DisplayName>
+      <DisplayName>Firing Pin x100</DisplayName>
       <Icon>Textures\GUI\Icons\component\Weapon\FiringPin_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ingot" SubtypeId="Titanium" />
@@ -14,7 +14,7 @@
       <Result Amount="100" TypeId="Component" SubtypeId="FiringPin" />
       <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint> <!-- FiringPin -->
+    <Blueprint> <!-- FiringPinX10 -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FiringPinX10</SubtypeId>

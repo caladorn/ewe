@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint> <!-- NATO_5p56x45mmX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmX100</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mms x500</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="500" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NATO_5p56x45mmX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmX10</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mms x50</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="50" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NATO_5p56x45mmMagazine -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mms x5</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint> <!-- NATO_25x184mmX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmX100</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms x500</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="750" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="500" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NATO_25x184mmX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmX10</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms x50</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="75" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="50" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NATO_25x184mmMagazine -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms x5</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="7.5" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint> <!-- Cruise_MissileX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cruise_MissileX100</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="100" TypeId="Component" SubtypeId="LargeCopperTube" />
+        <Item Amount="100" TypeId="Component" SubtypeId="UraniumWarhead" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" />
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Cruise_MissileX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cruise_MissileX10</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="20" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeCopperTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="UraniumWarhead" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Cruise_Missile -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cruise_Missile</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="2" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="1" TypeId="Component" SubtypeId="LargeCopperTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="UraniumWarhead" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- TorpedoX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TorpedoX100</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="100" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="AmmoMagazine" SubtypeId="Torpedo" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TorpedoX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TorpedoX10</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="20" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="AmmoMagazine" SubtypeId="Torpedo" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Torpedo -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Torpedo</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="2" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="1" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Torpedo" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint> <!-- Missile200mmX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mmX100</SubtypeId>
+      </Id>
+      <DisplayName>200mm Missiles x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="100" TypeId="Component" SubtypeId="SmallCopperTube" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Missile200mmX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mmX10</SubtypeId>
+      </Id>
+      <DisplayName>200mm Missiles x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="10" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SmallCopperTube" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Missile200mm -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mm</SubtypeId>
+      </Id>
+      <DisplayName>200mm Missiles</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallCopperTube" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

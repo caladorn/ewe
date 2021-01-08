@@ -1,188 +1,179 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PhysicalItems>
-  
-        <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
-            <Id>
-                <TypeId>OxygenContainerObject</TypeId>
-                <SubtypeId>OxygenBottle</SubtypeId>
-            </Id>
-            <DisplayName>Basic Oxygen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\BasicOxygenBottle_Icon.dds</Icon>
-            <Size>
-                <X>0.8</X>
-                <Y>0.24</Y>
-                <Z>0.08</Z>
-            </Size>
-            <Mass>30</Mass>
-            <Volume>120</Volume>
-            <Model>Models\Components\OxygenTankItem.mwm</Model>
-            <PhysicalMaterial>Metal</PhysicalMaterial>
-            <StoredGasId>
-                <TypeId>GasProperties</TypeId>
-                <SubtypeId>Oxygen</SubtypeId>
-            </StoredGasId>
-            <Capacity>100</Capacity>
-            <MinimumOfferAmount>5</MinimumOfferAmount>
-            <MaximumOfferAmount>10</MaximumOfferAmount>
-            <MinimumOrderAmount>20</MinimumOrderAmount>
-            <MaximumOrderAmount>50</MaximumOrderAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
-
-            <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
-        </PhysicalItem>
-        <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
-            <Id>
-                <TypeId>OxygenContainerObject</TypeId>
-                <SubtypeId>AdvancedOxygenBottle</SubtypeId>
-            </Id>
-            <DisplayName>Advanced Oxygen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\AdvancedOxygenBottle_Icon.dds</Icon>
-            <Size>
-                <X>0.8</X>
-                <Y>0.24</Y>
-                <Z>0.08</Z>
-            </Size>
-            <Mass>30</Mass>
-            <Volume>120</Volume>
-            <Model>Models\Components\OxygenTankItem.mwm</Model>
-            <PhysicalMaterial>Metal</PhysicalMaterial>
-            <StoredGasId>
-                <TypeId>GasProperties</TypeId>
-                <SubtypeId>Oxygen</SubtypeId>
-            </StoredGasId>
-            <Capacity>200</Capacity>
-            <MinimumOfferAmount>25</MinimumOfferAmount>
-            <MaximumOfferAmount>500</MaximumOfferAmount>
-            <MinimumOrderAmount>20</MinimumOrderAmount>
-            <MaximumOrderAmount>50</MaximumOrderAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
-
-            <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
-        </PhysicalItem>
-        <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
-            <Id>
-                <TypeId>OxygenContainerObject</TypeId>
-                <SubtypeId>EliteOxygenBottle</SubtypeId>
-            </Id>
-            <DisplayName>Elite Oxygen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\EliteOxygenBottle_Icon.dds</Icon>
-            <Size>
-                <X>0.8</X>
-                <Y>0.24</Y>
-                <Z>0.08</Z>
-            </Size>
-            <Mass>30</Mass>
-            <Volume>120</Volume>
-            <Model>Models\Components\OxygenTankItem.mwm</Model>
-            <PhysicalMaterial>Metal</PhysicalMaterial>
-            <StoredGasId>
-                <TypeId>GasProperties</TypeId>
-                <SubtypeId>Oxygen</SubtypeId>
-            </StoredGasId>
-            <Capacity>500</Capacity>
-            <MinimumOfferAmount>50</MinimumOfferAmount>
-            <MaximumOfferAmount>1000</MaximumOfferAmount>
-            <MinimumOrderAmount>20</MinimumOrderAmount>
-            <MaximumOrderAmount>50</MaximumOrderAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
-
-            <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
-        </PhysicalItem>
-		
-        <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
-            <Id>
-                <TypeId>GasContainerObject</TypeId>
-                <SubtypeId>HydrogenBottle</SubtypeId>
-            </Id>
-            <DisplayName>Basic Hydrogen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\BasicHydrogenBottle_Icon.dds</Icon>
-            <Size>
-                <X>0.8</X>
-                <Y>0.24</Y>
-                <Z>0.08</Z>
-            </Size>
-            <Mass>30</Mass>
-            <Volume>120</Volume>
-            <Model>Models\Components\HydrogenTankItem.mwm</Model>
-            <PhysicalMaterial>Metal</PhysicalMaterial>
-            <StoredGasId>
-                <TypeId>GasProperties</TypeId>
-                <SubtypeId>Hydrogen</SubtypeId>
-            </StoredGasId>
-            <Capacity>1000</Capacity>
-            <MinimumOfferAmount>5</MinimumOfferAmount>
-            <MaximumOfferAmount>10</MaximumOfferAmount>
-            <MinimumOrderAmount>20</MinimumOrderAmount>
-            <MaximumOrderAmount>50</MaximumOrderAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
-
-            <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
-        </PhysicalItem>
-        <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
-            <Id>
-                <TypeId>GasContainerObject</TypeId>
-                <SubtypeId>AdvancedHydrogenBottle</SubtypeId>
-            </Id>
-            <DisplayName>Advanced Hydrogen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\AdvancedHydrogenBottle_Icon.dds</Icon>
-            <Size>
-                <X>0.8</X>
-                <Y>0.24</Y>
-                <Z>0.08</Z>
-            </Size>
-            <Mass>30</Mass>
-            <Volume>120</Volume>
-            <Model>Models\Components\HydrogenTankItem.mwm</Model>
-            <PhysicalMaterial>Metal</PhysicalMaterial>
-            <StoredGasId>
-                <TypeId>GasProperties</TypeId>
-                <SubtypeId>Hydrogen</SubtypeId>
-            </StoredGasId>
-            <Capacity>2000</Capacity>
-            <MinimumOfferAmount>25</MinimumOfferAmount>
-            <MaximumOfferAmount>500</MaximumOfferAmount>
-            <MinimumOrderAmount>20</MinimumOrderAmount>
-            <MaximumOrderAmount>50</MaximumOrderAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
-
-            <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
-        </PhysicalItem>
-        <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
-            <Id>
-                <TypeId>GasContainerObject</TypeId>
-                <SubtypeId>EliteHydrogenBottle</SubtypeId>
-            </Id>
-            <DisplayName>Elite Hydrogen Bottle</DisplayName>
-            <Icon>Textures\GUI\Icons\Tools\EliteHydrogenBottle_Icon.dds</Icon>
-            <Size>
-                <X>0.8</X>
-                <Y>0.24</Y>
-                <Z>0.08</Z>
-            </Size>
-            <Mass>30</Mass>
-            <Volume>120</Volume>
-            <Model>Models\Components\HydrogenTankItem.mwm</Model>
-            <PhysicalMaterial>Metal</PhysicalMaterial>
-            <StoredGasId>
-                <TypeId>GasProperties</TypeId>
-                <SubtypeId>Hydrogen</SubtypeId>
-            </StoredGasId>
-            <Capacity>5000</Capacity>
-            <MinimumOfferAmount>50</MinimumOfferAmount>
-            <MaximumOfferAmount>1000</MaximumOfferAmount>
-            <MinimumOrderAmount>20</MinimumOrderAmount>
-            <MaximumOrderAmount>50</MaximumOrderAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
-
-            <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
-        </PhysicalItem>
-		
-  </PhysicalItems>
+	<PhysicalItems>
+		<PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+			<Id>
+				<TypeId>GasContainerObject</TypeId>
+				<SubtypeId>AdvancedHydrogenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Hydrogen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\AdvancedHydrogenBottle_Icon.dds</Icon>
+			<Size>
+				<X>0.8</X>
+				<Y>0.24</Y>
+				<Z>0.08</Z>
+			</Size>
+			<Mass>13.45</Mass>
+			<Volume>17.6</Volume>
+			<Model>Models\Components\HydrogenTankItem.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<StoredGasId>
+				<TypeId>GasProperties</TypeId>
+				<SubtypeId>Hydrogen</SubtypeId>
+			</StoredGasId>
+			<Capacity>2000</Capacity>
+			<MinimumOfferAmount>25</MinimumOfferAmount>
+			<MaximumOfferAmount>500</MaximumOfferAmount>
+			<MinimumOrderAmount>20</MinimumOrderAmount>
+			<MaximumOrderAmount>50</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+			<Id>
+				<TypeId>OxygenContainerObject</TypeId>
+				<SubtypeId>AdvancedOxygenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Oxygen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\AdvancedOxygenBottle_Icon.dds</Icon>
+			<Size>
+				<X>0.8</X>
+				<Y>0.24</Y>
+				<Z>0.08</Z>
+			</Size>
+			<Mass>13.45</Mass>
+			<Volume>17.6</Volume>
+			<Model>Models\Components\OxygenTankItem.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<StoredGasId>
+				<TypeId>GasProperties</TypeId>
+				<SubtypeId>Oxygen</SubtypeId>
+			</StoredGasId>
+			<Capacity>200</Capacity>
+			<MinimumOfferAmount>25</MinimumOfferAmount>
+			<MaximumOfferAmount>500</MaximumOfferAmount>
+			<MinimumOrderAmount>20</MinimumOrderAmount>
+			<MaximumOrderAmount>50</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+			<Id>
+				<TypeId>GasContainerObject</TypeId>
+				<SubtypeId>EliteHydrogenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Elite Hydrogen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\EliteHydrogenBottle_Icon.dds</Icon>
+			<Size>
+				<X>0.8</X>
+				<Y>0.24</Y>
+				<Z>0.08</Z>
+			</Size>
+			<Mass>13.45</Mass>
+			<Volume>17.6</Volume>
+			<Model>Models\Components\HydrogenTankItem.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<StoredGasId>
+				<TypeId>GasProperties</TypeId>
+				<SubtypeId>Hydrogen</SubtypeId>
+			</StoredGasId>
+			<Capacity>5000</Capacity>
+			<MinimumOfferAmount>50</MinimumOfferAmount>
+			<MaximumOfferAmount>1000</MaximumOfferAmount>
+			<MinimumOrderAmount>20</MinimumOrderAmount>
+			<MaximumOrderAmount>50</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+			<Id>
+				<TypeId>OxygenContainerObject</TypeId>
+				<SubtypeId>EliteOxygenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Elite Oxygen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\EliteOxygenBottle_Icon.dds</Icon>
+			<Size>
+				<X>0.8</X>
+				<Y>0.24</Y>
+				<Z>0.08</Z>
+			</Size>
+			<Mass>13.45</Mass>
+			<Volume>17.6</Volume>
+			<Model>Models\Components\OxygenTankItem.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<StoredGasId>
+				<TypeId>GasProperties</TypeId>
+				<SubtypeId>Oxygen</SubtypeId>
+			</StoredGasId>
+			<Capacity>500</Capacity>
+			<MinimumOfferAmount>50</MinimumOfferAmount>
+			<MaximumOfferAmount>1000</MaximumOfferAmount>
+			<MinimumOrderAmount>20</MinimumOrderAmount>
+			<MaximumOrderAmount>50</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+			<Id>
+				<TypeId>GasContainerObject</TypeId>
+				<SubtypeId>HydrogenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Basic Hydrogen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\BasicHydrogenBottle_Icon.dds</Icon>
+			<Size>
+				<X>0.8</X>
+				<Y>0.24</Y>
+				<Z>0.08</Z>
+			</Size>
+			<Mass>13.45</Mass>
+			<Volume>17.6</Volume>
+			<Model>Models\Components\HydrogenTankItem.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<StoredGasId>
+				<TypeId>GasProperties</TypeId>
+				<SubtypeId>Hydrogen</SubtypeId>
+			</StoredGasId>
+			<Capacity>1000</Capacity>
+			<MinimumOfferAmount>5</MinimumOfferAmount>
+			<MaximumOfferAmount>10</MaximumOfferAmount>
+			<MinimumOrderAmount>20</MinimumOrderAmount>
+			<MaximumOrderAmount>50</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+		</PhysicalItem>
+		<PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+			<Id>
+				<TypeId>OxygenContainerObject</TypeId>
+				<SubtypeId>OxygenBottle</SubtypeId>
+			</Id>
+			<DisplayName>Basic Oxygen Bottle</DisplayName>
+			<Icon>Textures\GUI\Icons\Tools\BasicOxygenBottle_Icon.dds</Icon>
+			<Size>
+				<X>0.8</X>
+				<Y>0.24</Y>
+				<Z>0.08</Z>
+			</Size>
+			<Mass>13.45</Mass>
+			<Volume>17.6</Volume>
+			<Model>Models\Components\OxygenTankItem.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<StoredGasId>
+				<TypeId>GasProperties</TypeId>
+				<SubtypeId>Oxygen</SubtypeId>
+			</StoredGasId>
+			<Capacity>100</Capacity>
+			<MinimumOfferAmount>5</MinimumOfferAmount>
+			<MaximumOfferAmount>10</MaximumOfferAmount>
+			<MinimumOrderAmount>20</MinimumOrderAmount>
+			<MaximumOrderAmount>50</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+		</PhysicalItem>
+	</PhysicalItems>
 </Definitions>

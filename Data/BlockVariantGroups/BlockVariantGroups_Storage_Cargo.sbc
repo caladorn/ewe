@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- EWESmallContainerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallContainerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
+            <Description>Description_BlockGroup_ContainerGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockAluminumSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSteelSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockTitaniumSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockNitinolSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockGrapheneSmallContainer" />		
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockAluminumSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSteelSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockTitaniumSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockNitinolSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockGrapheneSmallContainer" />			
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- MediumContainerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MediumContainerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
+            <Description>Description_BlockGroup_ContainerGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockAluminumMediumContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSteelMediumContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockTitaniumMediumContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockNitinolMediumContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockGrapheneMediumContainer" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- LargeContainerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LargeContainerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
+            <Description>Description_BlockGroup_ContainerGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockAluminumLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSteelLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockTitaniumLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockNitinolLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockGrapheneLargeContainer" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockAluminumLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSteelLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockTitaniumLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockNitinolLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockGrapheneLargeContainer" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

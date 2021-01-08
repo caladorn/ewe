@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+<!-- Block Ids
+
+-->
+<!-- Block Types
+
+-->
+
+    <ResearchBlock xsi:type="ResearchBlock"> <!-- Basic Block MY_GROUPID Unlocked @ PARENT_GROUP_ID -->
+      <Id Type="MyObjectBuilder_XXXXXX" Subtype="XXXXX" />
+      <UnlockedByGroups>
+        <GroupSubtype>PARENT_GROUP_ID</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>

@@ -49,12 +49,13 @@
         <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
       </ScreenAreas>
       <BlueprintClasses>
+        <Class>StoneCrusher</Class>
         <Class>BscRefining</Class>
         <Class>BasicTools</Class>
         <Class>Construction</Class>
         <Class>BasicMechanics</Class>
         <Class>BasicElectroncis</Class>
-        <Class>Alloys</Class>MedLab
+        <Class>Alloys</Class>
         <Class>Fluids</Class>
         <Class>MedLab</Class>
       </BlueprintClasses>
@@ -63,7 +64,7 @@
       <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
 
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
@@ -137,6 +138,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <BlueprintClasses>
+        <Class>StoneCrusher</Class>
         <Class>BscRefining</Class>
         <Class>BasicTools</Class>
         <Class>Construction</Class>
@@ -154,7 +156,7 @@
 
       <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
-      <InventoryMaxVolume>3</InventoryMaxVolume>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>

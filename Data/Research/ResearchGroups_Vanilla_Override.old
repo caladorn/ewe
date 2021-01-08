@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchGroups>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="1" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="2" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="3" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="4" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="5" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="6" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="7" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="8" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="9" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="10" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="11" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="12" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="13" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="14" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="15" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="16" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="17" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="18" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="19" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="20" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="21" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="22" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="23" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="24" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="25" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="26" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="27" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="28" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="29" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKitLarge" />
+        <BlockId Type="MyObjectBuilder_SurvivalKitDefinition" Subtype="SurvivalKit" />
+      </Members>
+    </ResearchGroup>
+ 
+  </ResearchGroups>
+</Definitions>

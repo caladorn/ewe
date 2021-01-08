@@ -258,39 +258,22 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PowerCellX100</SubtypeId>
       </Id>
-      <DisplayName>Capacitors X10000</DisplayName>
-      <Icon>Textures\GUI\Icons\component\Electronic\Capacitor_Icon.dds</Icon>
-      <Prerequisites>
-        <Item Amount="100" TypeId="Component" SubtypeId="Insulation" />
-        <Item Amount="100" TypeId="Component" SubtypeId="BareCopperWire" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Zinc" />
-        <Item Amount="200" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="800" TypeId="Ingot" SubtypeId="Oxygen" />
-      </Prerequisites>
-      <Result Amount="10000" TypeId="Component" SubtypeId="PowerCell" />
-      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint> <!-- PowerCellX10 (Capacitor) -->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>PowerCellX10</SubtypeId>
-      </Id>
-      <DisplayName>Capacitors x1000</DisplayName>
+      <DisplayName>Capacitors X1000</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\Capacitor_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="Insulation" />
         <Item Amount="10" TypeId="Component" SubtypeId="BareCopperWire" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Zinc" />
         <Item Amount="20" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="80" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="80" TypeId="Ore" SubtypeId="Oxygen" />
       </Prerequisites>
       <Result Amount="1000" TypeId="Component" SubtypeId="PowerCell" />
       <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint> <!-- PowerCell (Capacitor) -->
+    <Blueprint> <!-- PowerCellX10 (Capacitor) -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>PowerCell</SubtypeId>
+        <SubtypeId>PowerCellX10</SubtypeId>
       </Id>
       <DisplayName>Capacitors x100</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\Capacitor_Icon.dds</Icon>
@@ -299,10 +282,27 @@
         <Item Amount="1" TypeId="Component" SubtypeId="BareCopperWire" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Zinc" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="8" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="8" TypeId="Ore" SubtypeId="Oxygen" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="PowerCell" />
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PowerCell (Capacitor) -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Capacitors x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Capacitor_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Component" SubtypeId="Insulation" />
+        <Item Amount="0.1" TypeId="Component" SubtypeId="BareCopperWire" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Zinc" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="0.8" TypeId="Ore" SubtypeId="Oxygen" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="PowerCell" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
 	<Blueprint> <!-- PowerCellDisassembly (Capacitor) -->
       <Id>
@@ -316,7 +316,7 @@
         <Item Amount="0.01" TypeId="Component" SubtypeId="BareCopperWire" />
         <Item Amount="0.01" TypeId="Ingot" SubtypeId="Zinc" />
         <Item Amount="0.02" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="0.08" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="0.08" TypeId="Ore" SubtypeId="Oxygen" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PowerCell" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -453,7 +453,7 @@
         <Item Amount="200" TypeId="Component" SubtypeId="BareAluminumWire" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Indium" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Gallium" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Nitrogen" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Copper" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Phosphorus" />
       </Prerequisites>
@@ -472,7 +472,7 @@
         <Item Amount="20" TypeId="Component" SubtypeId="BareAluminumWire" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Indium" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Gallium" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="10" TypeId="Ore" SubtypeId="Nitrogen" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Phosphorus" />
       </Prerequisites>
@@ -491,7 +491,7 @@
         <Item Amount="2" TypeId="Component" SubtypeId="BareAluminumWire" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Indium" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Gallium" />
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Nitrogen" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Phosphorus" />
       </Prerequisites>
@@ -510,7 +510,7 @@
         <Item Amount="0.2" TypeId="Component" SubtypeId="BareAluminumWire" />
         <Item Amount="0.1" TypeId="Ingot" SubtypeId="Indium" />
         <Item Amount="0.1" TypeId="Ingot" SubtypeId="Gallium" />
-        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="0.1" TypeId="Ore" SubtypeId="Nitrogen" />
         <Item Amount="0.1" TypeId="Ingot" SubtypeId="Copper" />
         <Item Amount="0.1" TypeId="Ingot" SubtypeId="Phosphorus" />
       </Prerequisites>
@@ -528,7 +528,7 @@
       <Prerequisites>
         <Item Amount="200" TypeId="Ingot" SubtypeId="Glass" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Tungsten" />
-        <Item Amount="700" TypeId="Ingot" SubtypeId="Argon" />
+        <Item Amount="700" TypeId="Ore" SubtypeId="Argon" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="Bulb" />
       <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
@@ -543,7 +543,7 @@
       <Prerequisites>
         <Item Amount="20" TypeId="Ingot" SubtypeId="Glass" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Tungsten" />
-        <Item Amount="70" TypeId="Ingot" SubtypeId="Argon" />
+        <Item Amount="70" TypeId="Ore" SubtypeId="Argon" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="Bulb" />
       <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
@@ -558,7 +558,7 @@
       <Prerequisites>
         <Item Amount="2" TypeId="Ingot" SubtypeId="Glass" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Tungsten" />
-        <Item Amount="7" TypeId="Ingot" SubtypeId="Argon" />
+        <Item Amount="7" TypeId="Ore" SubtypeId="Argon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Bulb" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -1115,5 +1115,57 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
 	
+    <Blueprint> <!-- StatorX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StatorX100</SubtypeId>
+      </Id>
+      <DisplayName>Stator x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Stator_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Component" SubtypeId="Coil" />
+        <Item Amount="400" TypeId="Component" SubtypeId="ZipTies" />
+        <Item Amount="600" TypeId="Component" SubtypeId="Diode" />
+        <Item Amount="1200" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="300" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Stator" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- StatorX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StatorX10</SubtypeId>
+      </Id>
+      <DisplayName>Stator x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Stator_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="Coil" />
+        <Item Amount="40" TypeId="Component" SubtypeId="ZipTies" />
+        <Item Amount="60" TypeId="Component" SubtypeId="Diode" />
+        <Item Amount="120" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="30" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Stator" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Stator -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Stator</SubtypeId>
+      </Id>
+      <DisplayName>Stator</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Stator_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Component" SubtypeId="Coil" />
+        <Item Amount="4" TypeId="Component" SubtypeId="ZipTies" />
+        <Item Amount="6" TypeId="Component" SubtypeId="Diode" />
+        <Item Amount="12" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="3" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Stator" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
   </Blueprints>
 </Definitions>

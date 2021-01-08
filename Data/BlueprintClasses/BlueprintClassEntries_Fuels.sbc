@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+   
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="ThoriumFuelRodX100" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="UraniumFuelRodX100" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="PlutoniumFuelRodX100" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="HydrogenFuelCellX100" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="DepletedUraniumX100" />
+	
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="ThoriumFuelRodX10" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="UraniumFuelRodX10" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="PlutoniumFuelRodX10" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="HydrogenFuelCellX10" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="DepletedUraniumX10" />
+	
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="ThoriumFuelRod" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="UraniumFuelRod" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="PlutoniumFuelRod" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="HydrogenFuelCell" />
+    <Entry Class="MassProdFuelRods" BlueprintSubtypeId="DepletedUranium" />
+	
+    <Entry Class="FuelRods" BlueprintSubtypeId="ThoriumFuelRod" />
+    <Entry Class="FuelRods" BlueprintSubtypeId="UraniumFuelRod" />
+    <Entry Class="FuelRods" BlueprintSubtypeId="PlutoniumFuelRod" />
+    <Entry Class="FuelRods" BlueprintSubtypeId="HydrogenFuelCell" />
+	
+    <Entry Class="MassNuetronActivation" BlueprintSubtypeId="PoloniumX100" />
+    <Entry Class="MassNuetronActivation" BlueprintSubtypeId="DepletedUraniumX100" />
+	
+    <Entry Class="MassNuetronActivation" BlueprintSubtypeId="PoloniumX10" />
+    <Entry Class="MassNuetronActivation" BlueprintSubtypeId="DepletedUraniumX10" />
+	
+    <Entry Class="MassNuetronActivation" BlueprintSubtypeId="Polonium" />
+    <Entry Class="MassNuetronActivation" BlueprintSubtypeId="DepletedUranium" />
+	
+    <Entry Class="NuetronActivation" BlueprintSubtypeId="Polonium" />
+    <Entry Class="NuetronActivation" BlueprintSubtypeId="DepletedUranium" />
+	
+  </BlueprintClassEntries>
+</Definitions>

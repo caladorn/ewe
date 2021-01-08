@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- ConveyorThickGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThickGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
+            <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+            <Description>Description_ConveyorTube</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeLong" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- AluminumArmoredConveyorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmoredConveyorGroup" />
+            <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
+            <DisplayName>Aluminum Armored Conveyors</DisplayName>
+            <Description>Aluminum Armored Conveyors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PPStraight_Armored_Con" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PPCorner_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPTee_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPX_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPFive_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPSix_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPCorner3x_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PP4nX_Armored_Con" />
+
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PPStraight_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PPCorner_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPTee_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPX_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPFive_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPSix_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PPCorner3x_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PP4nX_Armored_Con_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- SteelArmoredConveyorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SteelArmoredConveyorGroup" />
+            <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
+            <DisplayName>Steel Armored Conveyors</DisplayName>
+            <Description>Steel Armored Conveyors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="SteelPPStraight_Armored_Con" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="SteelPPCorner_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPTee_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPX_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPFive_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPSix_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPCorner3x_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPP4nX_Armored_Con" />
+
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="SteelPPStraight_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="SteelPPCorner_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPTee_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPX_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPFive_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPSix_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPPCorner3x_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SteelPP4nX_Armored_Con_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- TitaniumArmoredConveyorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmoredConveyorGroup" />
+            <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
+            <DisplayName>Titanium Armored Conveyors</DisplayName>
+            <Description>Titanium Armored Conveyors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="TitaniumPPStraight_Armored_Con" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="TitaniumPPCorner_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPTee_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPX_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPFive_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPSix_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPCorner3x_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPP4nX_Armored_Con" />
+
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="TitaniumPPStraight_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="TitaniumPPCorner_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPTee_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPX_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPFive_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPSix_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPPCorner3x_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="TitaniumPP4nX_Armored_Con_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- NitinolArmoredConveyorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmoredConveyorGroup" />
+            <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
+            <DisplayName>Nitinol Armored Conveyors</DisplayName>
+            <Description>Nitinol Armored Conveyors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="NitinolPPStraight_Armored_Con" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="NitinolPPCorner_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPTee_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPX_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPFive_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPSix_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPCorner3x_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPP4nX_Armored_Con" />
+
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="NitinolPPStraight_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="NitinolPPCorner_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPTee_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPX_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPFive_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPSix_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPPCorner3x_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="NitinolPP4nX_Armored_Con_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- GrapheneArmoredConveyorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GrapheneArmoredConveyorGroup" />
+            <Icon>Textures\Icons\PPStraight_Icon.dds</Icon>
+            <DisplayName>Graphene Armored Conveyors</DisplayName>
+            <Description>Graphene Armored Conveyors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="GraphenePPStraight_Armored_Con" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="GraphenePPCorner_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPTee_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPX_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPFive_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPSix_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPCorner3x_Armored_Con" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePP4nX_Armored_Con" />
+                
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="GraphenePPStraight_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="GraphenePPCorner_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPTee_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPX_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPFive_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPSix_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePPCorner3x_Armored_Con_Small" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="GraphenePP4nX_Armored_Con_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+   
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SolenoidX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="FuseX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="ResistorX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="DiodeX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="POTX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="PowerCellX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="TransistorX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="CoilX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="LEDX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="BulbX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SensorX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="HeatSinkX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="RadioCommunicationX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SolarCellX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="ProcessorX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="PCBX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="InsulatedCopperWireX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="DataCableX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="FiberOpticWireX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SwitchX100" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="ComputerX100" />
+    <Entry Class="AdvMassProdElect" BlueprintSubtypeId="StatorX100" />
+	
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SolenoidX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="FuseX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="ResistorX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="DiodeX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="POTX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="PowerCellX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="TransistorX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="CoilX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="LEDX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="BulbX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SensorX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="HeatSinkX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="RadioCommunicationX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SolarCellX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="ProcessorX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="PCBX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="InsulatedCopperWireX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="DataCableX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="FiberOpticWireX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SwitchX10" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="ComputerX10" />
+    <Entry Class="AdvMassProdElect" BlueprintSubtypeId="StatorX10" />
+	
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Solenoid" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Fuse" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Resistor" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Diode" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="POT" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="PowerCell" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Transistor" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Coil" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="LED" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Bulb" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Sensor" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="HeatSink" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="RadioCommunication" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="SolarCell" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Processor" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="PCB" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="InsulatedCopperWire" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="DataCable" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="FiberOpticWire" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Switch" />
+    <Entry Class="BscMassProdElect" BlueprintSubtypeId="Computer" />
+    <Entry Class="AdvMassProdElect" BlueprintSubtypeId="Stator" />
+	
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Solenoid" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Fuse" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Resistor" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Diode" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="POT" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="PowerCell" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Transistor" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Coil" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="LED" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Bulb" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Sensor" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="HeatSink" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="RadioCommunication" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="SolarCell" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Processor" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="PCB" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="InsulatedCopperWire" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="DataCable" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="FiberOpticWire" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Switch" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Computer" />
+    <Entry Class="BasicElectroncis" BlueprintSubtypeId="Stator" />
+	
+  </BlueprintClassEntries>
+</Definitions>
