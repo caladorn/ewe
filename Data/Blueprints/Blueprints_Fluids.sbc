@@ -10,8 +10,13 @@
 			<Icon>Textures\GUI\Icons\component\Fluid\MineralSpirits_Icon.dds</Icon>
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="3500" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="6000" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="400" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="6000" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="400" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="100" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
@@ -28,8 +33,13 @@
 			<Icon>Textures\GUI\Icons\component\Fluid\MineralSpirits_Icon.dds</Icon>
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="350" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="600" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="40" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="600" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="40" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="10" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -46,8 +56,13 @@
 			<Icon>Textures\GUI\Icons\component\Fluid\MineralSpirits_Icon.dds</Icon>
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="35" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="60" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="60" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="4" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="1" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -65,8 +80,13 @@
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Lithium" Amount="240" />
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="7450" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1220" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1100" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="1220" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="1100" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
 			<Results>
@@ -83,8 +103,13 @@
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Lithium" Amount="24" />
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="745" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="122" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="110" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="122" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="110" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 			<Results>
@@ -101,8 +126,13 @@
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Lithium" Amount="2.4" />
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="74.5" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="12.2" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="11" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="12.2" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="11" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
 			<Results>
@@ -171,7 +201,10 @@
 				<Item TypeId="Ingot" SubtypeId="Stearate" Amount="0.7" />
 				<Item TypeId="Ingot" SubtypeId="Lithium" Amount="0.1" />
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.2" />
+<<<<<<< Updated upstream
 				<Item TypeId="1 Ag:2 O, 4:4:4" SubtypeId="" Amount="" />
+=======
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
 			<Results>
@@ -187,7 +220,11 @@
 			<Icon>Textures\GUI\Icons\component\Fluid\Oil_Icon.dds</Icon>
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="8500" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1500" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="1500" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
 			<Results>
@@ -203,7 +240,11 @@
 			<Icon>Textures\GUI\Icons\component\Fluid\Oil_Icon.dds</Icon>
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="850" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="150" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="150" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 			<Results>
@@ -219,7 +260,11 @@
 			<Icon>Textures\GUI\Icons\component\Fluid\Oil_Icon.dds</Icon>
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="85" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="15" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="15" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 			<Results>
@@ -235,7 +280,11 @@
 			<Icon>Textures\GUI\Icons\component\Fluid\Oil_Icon.dds</Icon>
 			<Prerequisites>
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.85" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.15" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.15" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
 			<Results>
@@ -254,7 +303,11 @@
 				<Item TypeId="Ingot" SubtypeId="Gold" Amount="2670" />
 				<Item TypeId="Ingot" SubtypeId="Silver" Amount="670" />
 				<Item TypeId="Ingot" SubtypeId="Copper" Amount="2670" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1330" />
+=======
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="1330" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
 			<Results>
@@ -273,7 +326,11 @@
 				<Item TypeId="Ingot" SubtypeId="Gold" Amount="267" />
 				<Item TypeId="Ingot" SubtypeId="Silver" Amount="67" />
 				<Item TypeId="Ingot" SubtypeId="Copper" Amount="267" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="133" />
+=======
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="133" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 			<Results>
@@ -292,7 +349,11 @@
 				<Item TypeId="Ingot" SubtypeId="Gold" Amount="26.7" />
 				<Item TypeId="Ingot" SubtypeId="Silver" Amount="6.7" />
 				<Item TypeId="Ingot" SubtypeId="Copper" Amount="26.7" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="13.3" />
+=======
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="13.3" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 			<Results>
@@ -311,7 +372,11 @@
 				<Item TypeId="Ingot" SubtypeId="Gold" Amount="0.267" />
 				<Item TypeId="Ingot" SubtypeId="Silver" Amount="0.067" />
 				<Item TypeId="Ingot" SubtypeId="Copper" Amount="0.267" />
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.133" />
+=======
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.133" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
 			<Results>
@@ -406,12 +471,20 @@
 			<DisplayName>Gasoline x10000</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\Gasoline_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="7000" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="7000" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="3000" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
 			<Results>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidGasoline" Amount="10000" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidGasoline" Amount="10000" />
+>>>>>>> Stashed changes
 			</Results>
 		</Blueprint>
 		<Blueprint>
@@ -422,12 +495,20 @@
 			<DisplayName>Gasoline x1000</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\Gasoline_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="700" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="700" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="300" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
 			<Results>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidGasoline" Amount="1000" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidGasoline" Amount="1000" />
+>>>>>>> Stashed changes
 			</Results>
 		</Blueprint>
 		<Blueprint>
@@ -438,12 +519,20 @@
 			<DisplayName>Gasoline x100</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\Gasoline_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="70" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="70" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="30" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<Results>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidGasoline" Amount="100" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidGasoline" Amount="100" />
+>>>>>>> Stashed changes
 			</Results>
 		</Blueprint>
 		<Blueprint>
@@ -454,12 +543,20 @@
 			<DisplayName>Gasoline</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\Gasoline_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.7" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.7" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.3" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
 			<Results>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidGasoline" Amount="1" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidGasoline" Amount="1" />
+>>>>>>> Stashed changes
 			</Results>
 		</Blueprint>
 		<Blueprint>
@@ -470,7 +567,11 @@
 			<DisplayName>Jet Fuel x10000</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\JetFuel_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="6250" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="6250" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="2250" />
 				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="1000" />
 				<Item TypeId="Ingot" SubtypeId="Sulfur" Amount="250" />
@@ -478,7 +579,11 @@
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>225</BaseProductionTimeInSeconds>
 			<Results>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10000" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="10000" />
+>>>>>>> Stashed changes
 			</Results>
 		</Blueprint>
 		<Blueprint>
@@ -489,7 +594,11 @@
 			<DisplayName>Jet Fuel x1000</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\JetFuel_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="625" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="625" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="225" />
 				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="100" />
 				<Item TypeId="Ingot" SubtypeId="Sulfur" Amount="25" />
@@ -497,7 +606,11 @@
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
 			<Results>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="1000" />
+>>>>>>> Stashed changes
 			</Results>
 		</Blueprint>
 		<Blueprint>
@@ -508,7 +621,11 @@
 			<DisplayName>Jet Fuel x100</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\JetFuel_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="62.5" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="62.5" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="22.5" />
 				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="10" />
 				<Item TypeId="Ingot" SubtypeId="Sulfur" Amount="2.5" />
@@ -516,7 +633,11 @@
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>9</BaseProductionTimeInSeconds>
 			<Results>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="100" />
+>>>>>>> Stashed changes
 			</Results>
 		</Blueprint>
 		<Blueprint>
@@ -527,7 +648,11 @@
 			<DisplayName>Jet Fuel</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\JetFuel_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.625" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.625" />
+>>>>>>> Stashed changes
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.225" />
 				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.01" />
 				<Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.025" />
@@ -535,7 +660,11 @@
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
 			<Results>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="1" />
+>>>>>>> Stashed changes
 			</Results>
 		</Blueprint>
 		<Blueprint>
@@ -546,8 +675,13 @@
 			<DisplayName>Water x10000</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\Water_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="4350" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2170" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="4350" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="2170" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
 			<Results>
@@ -562,8 +696,13 @@
 			<DisplayName>Water x1000</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\Water_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="435" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="217" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="435" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="217" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
 			<Results>
@@ -578,8 +717,13 @@
 			<DisplayName>Water x100</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\Water_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="43.5" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="21.7" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="43.5" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="21.7" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<Results>
@@ -594,8 +738,13 @@
 			<DisplayName>Water</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\Water_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.435" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.217" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.435" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.217" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
@@ -611,8 +760,13 @@
 			<DisplayName>Ice x10000</DisplayName>
 			<Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="4350" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2170" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="4350" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="2170" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
 			<Results>
@@ -627,8 +781,13 @@
 			<DisplayName>Ice x1000</DisplayName>
 			<Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="435" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="217" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="435" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="217" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
 			<Results>
@@ -643,8 +802,13 @@
 			<DisplayName>Ice x100</DisplayName>
 			<Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="43.5" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="21.7" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="43.5" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="21.7" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<Results>
@@ -659,8 +823,13 @@
 			<DisplayName>Ice</DisplayName>
 			<Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.435" />
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.217" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.435" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.217" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
 			<Results>
@@ -735,7 +904,11 @@
 			<DisplayName>DisplayName_Item_Oxygen</DisplayName>
 			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.33" />
+=======
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.33" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
 			<Results>
@@ -750,7 +923,11 @@
 			<DisplayName>Hydrogen</DisplayName>
 			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.33" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.33" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
 			<Results>
@@ -765,7 +942,11 @@
 			<DisplayName>Gasoline</DisplayName>
 			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidGasoline" Amount="1" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidGasoline" Amount="1" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
 			<Results>
@@ -780,7 +961,11 @@
 			<DisplayName>Jet Fuel</DisplayName>
 			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1" />
+=======
+				<Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="1" />
+>>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
 			<Results>
@@ -788,4 +973,8 @@
 			</Results>
 		</Blueprint>
 	</Blueprints>
+<<<<<<< Updated upstream
 </Definitions>
+=======
+</Definitions>
+>>>>>>> Stashed changes

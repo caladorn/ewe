@@ -233,8 +233,6 @@
       </Size>
       <Mass>2356</Mass>
       <Volume>1570</Volume>
-      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
-      <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>1</Capacity>
       <AmmoDefinitionId Subtype="Torpedo" />
       <MinimumOfferAmount>50</MinimumOfferAmount>

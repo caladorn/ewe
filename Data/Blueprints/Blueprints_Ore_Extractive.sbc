@@ -12,6 +12,7 @@
         <Item TypeId="Ore" SubtypeId="Stone" Amount="1000"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="138.402"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="85.239"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="24.651"/>
@@ -24,6 +25,20 @@
         <Item TypeId="Ingot" SubtypeId="Copper" Amount="1.396"/>
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="1.218"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.119"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="84.1"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="51.8"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="15.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="9.21"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="6.68"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="5.24"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="4.87"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="2.8"/>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="0.975"/>
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="0.848"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="0.74"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.0722"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -38,6 +53,7 @@
         <Item TypeId="Ore" SubtypeId="DesertRock" Amount="500"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="77.571"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="66.07"/>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="2.595"/>
@@ -45,6 +61,15 @@
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="0.708"/>
         <Item TypeId="Ingot" SubtypeId="Potassium" Amount="0.69"/>
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="0.431"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="47.2"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="40.2"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1.58"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="1.18"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="0.43"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="0.42"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="0.262"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -59,6 +84,7 @@
         <Item TypeId="Ore" SubtypeId="MarsRocks" Amount="900"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="95.257"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="50.951"/>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="31.014"/>
@@ -70,6 +96,19 @@
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1.949"/>
         <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.119"/>
         <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.103"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="59.5"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="31.8"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="19.4"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="7.75"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="7.61"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="4.44"/>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="3.56"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="3.1"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1.22"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.0741"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.0645"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -84,6 +123,7 @@
         <Item TypeId="Ore" SubtypeId="Anorthite" Amount="950"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="96.897"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="43.576"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="39.838"/>
@@ -94,6 +134,18 @@
         <Item TypeId="Ingot" SubtypeId="Tin" Amount="1.745"/>
         <Item TypeId="Ingot" SubtypeId="Gallium" Amount="0.954"/>
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="0.861"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="61.1"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="27.5"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="25.1"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="18.2"/>
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="2.64"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1.37"/>
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="1.27"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="1.1"/>
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="0.601"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="0.543"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -129,7 +181,11 @@
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="237.6"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="475.2"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="475.2"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -144,6 +200,7 @@
         <Item TypeId="Ore" SubtypeId="AlienSand" Amount="650"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="108.781"/>
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="80.821"/>
         <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="77.836"/>
@@ -153,6 +210,18 @@
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="18.153"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="15.575"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="3.228"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="49.1"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="45.9"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="44.2"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="27.7"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="21.2"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="14.7"/>
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="10.3"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="8.85"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="3.11"/>
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="0.0"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -167,6 +236,7 @@
         <Item TypeId="Ore" SubtypeId="Soil" Amount="750"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="269.537"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="106.572"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="69.532"/>
@@ -181,6 +251,22 @@
         <Item TypeId="Ingot" SubtypeId="Argon" Amount="1.252"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.034"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.033"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="152.0"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="59.9"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="39.1"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="11.3"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="9.45"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="8.11"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="6.95"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="5.04"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="3.95"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="3.68"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="2.72"/>
+        <Item TypeId="Ingot" SubtypeId="Argon" Amount="0.704"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.019"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.0184"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -195,6 +281,7 @@
         <Item TypeId="Ore" SubtypeId="MarsSoil" Amount="550"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="79.071"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="40.583"/>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="24.703"/>
@@ -206,6 +293,19 @@
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="3.952"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1.553"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.403"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="47.2"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="24.2"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="14.7"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="7.49"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="5.9"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="5.79"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="3.38"/>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="2.71"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="2.36"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.926"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.24"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -220,6 +320,7 @@
         <Item TypeId="Ore" SubtypeId="Regolith" Amount="650"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="129.101"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="60.146"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="30.377"/>
@@ -234,6 +335,22 @@
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.304"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.14"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.012"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="74.8"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="34.9"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="17.6"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="16.7"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="16.3"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="7.48"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="6.16"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="0.704"/>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="0.528"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="0.44"/>
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="0.264"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.176"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.0811"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.00695"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -248,6 +365,7 @@
         <Item TypeId="Ore" SubtypeId="AlienSoil" Amount="450"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="47.357"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="25.475"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="25.137"/>
@@ -260,6 +378,20 @@
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="2.839"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="2.17"/>
         <Item TypeId="Ingot" SubtypeId="Iodine" Amount="0.76"/>
+=======
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="28.5"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="15.1"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="12.2"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="6.89"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="5.27"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="4.69"/>
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="4.18"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="3.66"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="3.1"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="2.03"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1.31"/>
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="0.458"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -274,6 +406,7 @@
         <Item TypeId="Ore" SubtypeId="Organic" Amount="750"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="272.512"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="169.304"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="42.618"/>
@@ -281,6 +414,15 @@
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="24.42"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.647"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.625"/>
+=======
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="155.0"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="99.6"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="18.7"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="15.3"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="13.7"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.347"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.337"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -295,6 +437,7 @@
         <Item TypeId="Ore" SubtypeId="AlienOrganic" Amount="500"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="71.515"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="52.201"/>
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="38.323"/>
@@ -302,6 +445,15 @@
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="6.352"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="5.308"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="3.97"/>
+=======
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="42.3"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="30.8"/>
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="22.6"/>
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="8.0"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="3.75"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="3.14"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="2.35"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -316,8 +468,13 @@
         <Item TypeId="Ore" SubtypeId="CarbonTetrachloride_AminoAcids" Amount="575"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="227.7"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="77.41"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="227.7"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="77.41"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="38.7"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="23.57"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="15.4"/>
@@ -335,6 +492,7 @@
         <Item TypeId="Ore" SubtypeId="Stone" Amount="5000"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="692.01"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="426.195"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="123.255"/>
@@ -347,6 +505,20 @@
         <Item TypeId="Ingot" SubtypeId="Copper" Amount="6.978"/>
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="6.089"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.594"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="421.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="259.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="74.9"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="46.0"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="33.4"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="26.2"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="24.4"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="14.0"/>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="4.88"/>
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="4.24"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="3.7"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.361"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -361,6 +533,7 @@
         <Item TypeId="Ore" SubtypeId="DesertRock" Amount="2500"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="387.854"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="330.35"/>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="12.977"/>
@@ -368,6 +541,15 @@
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="3.539"/>
         <Item TypeId="Ingot" SubtypeId="Potassium" Amount="3.451"/>
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="2.154"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="236.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="201.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="7.89"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="5.88"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="2.15"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="2.1"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="1.31"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -382,6 +564,7 @@
         <Item TypeId="Ore" SubtypeId="MarsRocks" Amount="4500"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="476.286"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="254.757"/>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="155.07"/>
@@ -393,6 +576,19 @@
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="9.747"/>
         <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.593"/>
         <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.516"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="298.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="159.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="96.9"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="38.8"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="38.1"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="22.2"/>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="17.8"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="15.5"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="6.09"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.371"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.322"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -407,6 +603,7 @@
         <Item TypeId="Ore" SubtypeId="Anorthite" Amount="4750"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="484.486"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="217.882"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="199.192"/>
@@ -417,6 +614,18 @@
         <Item TypeId="Ingot" SubtypeId="Tin" Amount="8.724"/>
         <Item TypeId="Ingot" SubtypeId="Gallium" Amount="4.768"/>
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="4.305"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="305.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="137.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="126.0"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="90.8"/>
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="13.2"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="6.83"/>
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="6.33"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="5.5"/>
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="3.01"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="2.71"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -452,7 +661,11 @@
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="11880"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="23760"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="23760"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -467,6 +680,7 @@
         <Item TypeId="Ore" SubtypeId="AlienSand" Amount="3250"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="543.907"/>
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="404.103"/>
         <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="389.182"/>
@@ -476,6 +690,18 @@
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="90.763"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="77.875"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="16.139"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="246.0"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="230.0"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="221.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="139.0"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="106.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="73.7"/>
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="51.6"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="44.2"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="15.5"/>
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="0.0"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -490,6 +716,7 @@
         <Item TypeId="Ore" SubtypeId="Soil" Amount="3750"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1347.683"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="532.858"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="347.659"/>
@@ -504,6 +731,22 @@
         <Item TypeId="Ingot" SubtypeId="Argon" Amount="6.259"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.169"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.164"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="759.0"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="299.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="195.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="56.5"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="47.2"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="40.5"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="34.7"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="25.2"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="19.7"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="18.4"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="13.6"/>
+        <Item TypeId="Ingot" SubtypeId="Argon" Amount="3.52"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.0952"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.092"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -518,6 +761,7 @@
         <Item TypeId="Ore" SubtypeId="MarsSoil" Amount="2750"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="395.356"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="202.916"/>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="123.514"/>
@@ -529,6 +773,19 @@
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="19.762"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="7.764"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="2.015"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="236.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="121.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="73.7"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="37.5"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="29.5"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="28.9"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="16.9"/>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="13.5"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="11.8"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="4.63"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="1.2"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -543,6 +800,7 @@
         <Item TypeId="Ore" SubtypeId="Regolith" Amount="3250"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="645.507"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="300.73"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="151.884"/>
@@ -557,6 +815,22 @@
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="1.519"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.7"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.06"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="374.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="174.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="88.1"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="83.6"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="81.4"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="37.4"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="30.8"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="3.52"/>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="2.64"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="2.2"/>
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="1.32"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.881"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.406"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.0348"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -571,6 +845,7 @@
         <Item TypeId="Ore" SubtypeId="AlienSoil" Amount="2250"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="236.785"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="127.375"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="125.684"/>
@@ -583,6 +858,20 @@
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="14.197"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="10.851"/>
         <Item TypeId="Ingot" SubtypeId="Iodine" Amount="3.8"/>
+=======
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="143.0"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="75.7"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="61.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="34.5"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="26.3"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="23.5"/>
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="20.9"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="18.3"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="15.5"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="10.1"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="6.54"/>
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="2.29"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -597,6 +886,7 @@
         <Item TypeId="Ore" SubtypeId="Organic" Amount="3750"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1362.559"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="846.521"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="213.09"/>
@@ -604,6 +894,15 @@
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="122.1"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="3.234"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="3.124"/>
+=======
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="773.0"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="498.0"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="93.7"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="76.5"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="68.6"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1.73"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="1.69"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -618,6 +917,7 @@
         <Item TypeId="Ore" SubtypeId="AlienOrganic" Amount="2500"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="357.574"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="261.006"/>
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="191.617"/>
@@ -625,6 +925,15 @@
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="31.761"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="26.541"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="19.85"/>
+=======
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="211.0"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="154.0"/>
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="113.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="40.0"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="18.8"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="15.7"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="11.7"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -639,8 +948,13 @@
         <Item TypeId="Ore" SubtypeId="CarbonTetrachloride_AminoAcids" Amount="28750"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="11385"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3870.9"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="11385"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="3870.9"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="1935.45"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="1178.86"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="770.19"/>
@@ -658,6 +972,7 @@
         <Item TypeId="Ore" SubtypeId="Stone" Amount="25000"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3460.05"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="2130.975"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="616.275"/>
@@ -670,6 +985,20 @@
         <Item TypeId="Ingot" SubtypeId="Copper" Amount="34.891"/>
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="30.443"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="2.97"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="2100.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1300.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="375.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="230.0"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="167.0"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="131.0"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="122.0"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="70.0"/>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="24.4"/>
+        <Item TypeId="Ingot" SubtypeId="Copper" Amount="21.2"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="18.5"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="1.81"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -684,6 +1013,7 @@
         <Item TypeId="Ore" SubtypeId="DesertRock" Amount="12500"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1939.268"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1651.752"/>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="64.885"/>
@@ -691,6 +1021,15 @@
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="17.696"/>
         <Item TypeId="Ingot" SubtypeId="Potassium" Amount="17.255"/>
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="10.769"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1180.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1000.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="39.4"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="29.4"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="10.8"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="10.5"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="6.55"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -705,6 +1044,7 @@
         <Item TypeId="Ore" SubtypeId="MarsRocks" Amount="22500"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2381.429"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1273.787"/>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="775.349"/>
@@ -716,6 +1056,19 @@
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="48.736"/>
         <Item TypeId="Ingot" SubtypeId="Lead" Amount="2.965"/>
         <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="2.578"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1490.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="796.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="485.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="194.0"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="190.0"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="111.0"/>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="88.9"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="77.5"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="30.5"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="1.85"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="1.61"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -727,6 +1080,7 @@
       <DisplayName>Anorthite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_anorthite.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ore" SubtypeId="Anorthite" Amount="23750"/>
       </Prerequisites>
       <Results>
@@ -740,6 +1094,21 @@
         <Item TypeId="Ingot" SubtypeId="Tin" Amount="43.619"/>
         <Item TypeId="Ingot" SubtypeId="Gallium" Amount="23.84"/>
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="21.526"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Anorthite" Amount="23800"/>
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1530.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="687.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="628.0"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="454.0"/>
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="65.9"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="34.2"/>
+        <Item TypeId="Ingot" SubtypeId="Lithium" Amount="31.6"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="27.5"/>
+        <Item TypeId="Ingot" SubtypeId="Gallium" Amount="15.0"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="13.6"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -775,7 +1144,11 @@
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="5940"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="11880"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="11880"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -787,6 +1160,7 @@
       <DisplayName>Sand</DisplayName>
       <Icon>Textures\GUI\Icons\ore_sand.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ore" SubtypeId="AlienSand" Amount="16250"/>
       </Prerequisites>
       <Results>
@@ -799,6 +1173,21 @@
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="453.813"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="389.375"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="80.695"/>
+=======
+        <Item TypeId="Ore" SubtypeId="AlienSand" Amount="16200"/>
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1230.0"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="1150.0"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="1110.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="694.0"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="530.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="368.0"/>
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="258.0"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="221.0"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="77.6"/>
+        <Item TypeId="Ingot" SubtypeId="Thallium" Amount="0.0"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -810,6 +1199,7 @@
       <DisplayName>Soil</DisplayName>
       <Icon>Textures\GUI\Icons\ore_soil.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ore" SubtypeId="Soil" Amount="18750"/>
       </Prerequisites>
       <Results>
@@ -827,6 +1217,25 @@
         <Item TypeId="Ingot" SubtypeId="Argon" Amount="31.293"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.847"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.818"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Soil" Amount="18800"/>
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="3790.0"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="1500.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="977.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="283.0"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="236.0"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="203.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="174.0"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="126.0"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="98.7"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="91.9"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="68.1"/>
+        <Item TypeId="Ingot" SubtypeId="Argon" Amount="17.6"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.476"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.46"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -838,6 +1247,7 @@
       <DisplayName>Soil</DisplayName>
       <Icon>Textures\GUI\Icons\ore_mars_soil.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ore" SubtypeId="MarsSoil" Amount="13750"/>
       </Prerequisites>
       <Results>
@@ -852,6 +1262,22 @@
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="98.811"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="38.819"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="10.074"/>
+=======
+        <Item TypeId="Ore" SubtypeId="MarsSoil" Amount="13800"/>
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1180.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="605.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="368.0"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="187.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="147.0"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="145.0"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="84.5"/>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="67.6"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="59.0"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="23.2"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="6.01"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -863,6 +1289,7 @@
       <DisplayName>Soil</DisplayName>
       <Icon>Textures\GUI\Icons\ore_regolith.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ore" SubtypeId="Regolith" Amount="16250"/>
       </Prerequisites>
       <Results>
@@ -880,6 +1307,25 @@
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="7.594"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="3.499"/>
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.3"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Regolith" Amount="16200"/>
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1870.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="872.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="440.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="418.0"/>
+        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="407.0"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="187.0"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="154.0"/>
+        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="17.6"/>
+        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="13.2"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="11.0"/>
+        <Item TypeId="Ingot" SubtypeId="Manganese" Amount="6.6"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="4.4"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="2.03"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.174"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -891,6 +1337,7 @@
       <DisplayName>Soil</DisplayName>
       <Icon>Textures\GUI\Icons\ore_alien_soil.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ore" SubtypeId="AlienSoil" Amount="11250"/>
       </Prerequisites>
       <Results>
@@ -906,6 +1353,23 @@
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="70.987"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="54.255"/>
         <Item TypeId="Ingot" SubtypeId="Iodine" Amount="19.0"/>
+=======
+        <Item TypeId="Ore" SubtypeId="AlienSoil" Amount="11200"/>
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="713.0"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="379.0"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="305.0"/>
+        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="172.0"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="132.0"/>
+        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="117.0"/>
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="105.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="91.5"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="77.6"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="50.7"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="32.7"/>
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="11.4"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -917,6 +1381,7 @@
       <DisplayName>Mulch</DisplayName>
       <Icon>Textures\GUI\Icons\ore_biomass.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ore" SubtypeId="Organic" Amount="18750"/>
       </Prerequisites>
       <Results>
@@ -927,6 +1392,18 @@
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="610.5"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="16.171"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="15.62"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Organic" Amount="18800"/>
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="3870.0"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="2490.0"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="468.0"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="383.0"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="343.0"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="8.67"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="8.43"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -941,6 +1418,7 @@
         <Item TypeId="Ore" SubtypeId="AlienOrganic" Amount="12500"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="1787.869"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1305.032"/>
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="958.084"/>
@@ -948,6 +1426,15 @@
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="158.806"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="132.707"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="99.25"/>
+=======
+        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="1060.0"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="771.0"/>
+        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="566.0"/>
+        <Item TypeId="Ingot" SubtypeId="Iodine" Amount="200.0"/>
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="93.8"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="78.4"/>
+        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="58.7"/>
+>>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -962,8 +1449,13 @@
         <Item TypeId="Ore" SubtypeId="CarbonTetrachloride_AminoAcids" Amount="14375"/>
       </Prerequisites>
       <Results>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="5692.5"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1935.45"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="5692.5"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1935.45"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="967.72"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="589.43"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="385.09"/>

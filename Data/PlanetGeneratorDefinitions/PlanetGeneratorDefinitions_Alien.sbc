@@ -1,15 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Alien</SubtypeId>
     </Id>
-    <!--!!!Important!! Read if you want to mod Planets! -->
-    <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
-    <!--Make sure you are not modding a switched off channel-->
     <PlanetMaps Material="true" Ores="true" Biome="true" Occlusion="true"/>
-
     <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
       <PostprocessingSteps>
         <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
@@ -33,305 +29,269 @@
         </Step>
       </PostprocessingSteps>
     </MesherPostprocessing>
-
     <SurfaceDetail>
       <Texture>Data/PlanetDataFiles/Extra/material_detail_4</Texture>
       <Size>384</Size>
       <Scale>15</Scale>
-      <Slope Min="30" Max="80" />
+      <Slope Min="30" Max="80"/>
       <Transition>10</Transition>
     </SurfaceDetail>
-
     <CustomMaterialTable>
-      <Material Material="AlienOrangeGrass" Value ="10" MaxDepth ="3"/>
-      <Material Material="AlienSand" Value ="40" MaxDepth ="3"/>
-      <Material Material="AlienRockGrass" Value ="70" MaxDepth ="3"/>
-      <Material Material="AlienGreenGrass" Value ="100" MaxDepth ="3"/>
-      <Material Material="AlienSnow" Value ="130" MaxDepth ="3"/>
-      <Material Material="AlienRockyMountain" Value ="160" MaxDepth ="3"/>
-      <Material Material="AlienGreenGrass" Value ="180" MaxDepth ="3"/>
+      <Material Material="AlienOrangeGrass" Value="10" MaxDepth="3"/>
+      <Material Material="AlienSand" Value="40" MaxDepth="3"/>
+      <Material Material="AlienRockGrass" Value="70" MaxDepth="3"/>
+      <Material Material="AlienGreenGrass" Value="100" MaxDepth="3"/>
+      <Material Material="AlienSnow" Value="130" MaxDepth="3"/>
+      <Material Material="AlienRockyMountain" Value="160" MaxDepth="3"/>
+      <Material Material="AlienGreenGrass" Value="180" MaxDepth="3"/>
     </CustomMaterialTable>
-
     <DistortionTable>
-      <Distortion Type="Perlin" Value ="92" Frequency="10" Height="4" LayerCount="6"/>
+      <Distortion Type="Perlin" Value="92" Frequency="10" Height="4" LayerCount="6"/>
     </DistortionTable>
-
     <OreMappings>
-      <Ore Value="1" Type="Sylvite" Start="40" Depth="5"/>
-      <Ore Value="2" Type="Sylvite" Start="90" Depth="9"/>
-      <Ore Value="3" Type="Titanite" Start="65" Depth="5"/>
-      <Ore Value="4" Type="Titanite" Start="146" Depth="9"/>
-      <Ore Value="5" Type="Copper" Start="100" Depth="4"/>
-      <Ore Value="6" Type="Copper" Start="225" Depth="7"/>
-      <Ore Value="7" Type="Iodargyrite" Start="24" Depth="1"/>
-      <Ore Value="8" Type="Chalcopyrite" Start="35" Depth="2"/>
-      <Ore Value="9" Type="Chalcopyrite" Start="78" Depth="3"/>
-      <Ore Value="10" Type="Huttonite" Start="80" Depth="5"/>
-      <Ore Value="11" Type="Huttonite" Start="180" Depth="9"/>
-      <Ore Value="12" Type="AlienIce" Start="2" Depth="2"/>
-      <Ore Value="13" Type="AlienIce" Start="4" Depth="3"/>
-      <Ore Value="15" Type="Monazite" Start="100" Depth="5"/>
-      <Ore Value="16" Type="Monazite" Start="225" Depth="9"/>
-      <Ore Value="17" Type="Pyrochlore" Start="65" Depth="3"/>
-      <Ore Value="18" Type="Pyrochlore" Start="146" Depth="5"/>
-      <Ore Value="19" Type="Iron_02" Start="50" Depth="2"/>
-      <Ore Value="20" Type="Iron_02" Start="112" Depth="3"/>
-      <Ore Value="22" Type="Sulfur" Start="50" Depth="5"/>
-      <Ore Value="23" Type="Sulfur" Start="112" Depth="9"/>
-      <Ore Value="24" Type="Germanite" Start="64" Depth="4"/>
-      <Ore Value="25" Type="Germanite" Start="144" Depth="7"/>
-      <Ore Value="26" Type="Hafnon" Start="100" Depth="6"/>
-      <Ore Value="27" Type="Hafnon" Start="225" Depth="10"/>
-      <Ore Value="29" Type="Aluminum" Start="50" Depth="3"/>
-      <Ore Value="30" Type="Aluminum" Start="112" Depth="5"/>
-      <Ore Value="31" Type="Iron_01" Start="100" Depth="5"/>
-      <Ore Value="32" Type="Iron_01" Start="225" Depth="9"/>
-      <Ore Value="33" Type="Cadmoselite" Start="57" Depth="4"/>
-      <Ore Value="34" Type="Cadmoselite" Start="128" Depth="7"/>
-      <Ore Value="36" Type="Coffinite" Start="155" Depth="6"/>
-      <Ore Value="37" Type="Coffinite" Start="348" Depth="10"/>
-      <Ore Value="38" Type="Cinnabar" Start="30" Depth="2"/>
-      <Ore Value="39" Type="Cinnabar" Start="67" Depth="3"/>
-      <Ore Value="40" Type="AlienIce_03" Start="4" Depth="2"/>
-      <Ore Value="41" Type="AlienIce_03" Start="9" Depth="3"/>
-      <Ore Value="43" Type="Silver_01" Start="90" Depth="2"/>
-      <Ore Value="44" Type="Silver_01" Start="202" Depth="3"/>
-      <Ore Value="45" Type="Cerite" Start="55" Depth="4"/>
-      <Ore Value="46" Type="Cerite" Start="123" Depth="7"/>
-      <Ore Value="47" Type="Silver_01" Start="180" Depth="6"/>
-      <Ore Value="48" Type="Silver_01" Start="405" Depth="10"/>
-      <Ore Value="50" Type="Ilmenite" Start="180" Depth="6"/>
-      <Ore Value="51" Type="Ilmenite" Start="405" Depth="10"/>
-      <Ore Value="52" Type="Cobaltite" Start="38" Depth="2"/>
-      <Ore Value="53" Type="Cobaltite" Start="85" Depth="3"/>
-      <Ore Value="54" Type="Zinc" Start="75" Depth="5"/>
-      <Ore Value="55" Type="Zinc" Start="168" Depth="9"/>
-      <Ore Value="57" Type="Copper" Start="175" Depth="6"/>
+      <Ore Value="1" Type="AlienIce" Start="2" Depth="2"/>
+      <Ore Value="2" Type="AlienIce" Start="4" Depth="3"/>
+      <Ore Value="3" Type="AlienIce_03" Start="4" Depth="2"/>
+      <Ore Value="4" Type="AlienIce_03" Start="5" Depth="2"/>
+      <Ore Value="5" Type="AlienIce_03" Start="9" Depth="3"/>
+      <Ore Value="6" Type="AlienIce_03" Start="11" Depth="3"/>
+      <Ore Value="7" Type="Bauxite" Start="50" Depth="3"/>
+      <Ore Value="8" Type="Bauxite" Start="112" Depth="5"/>
+      <Ore Value="9" Type="Bauxite" Start="250" Depth="7"/>
+      <Ore Value="10" Type="Bauxite" Start="562" Depth="12"/>
+      <Ore Value="11" Type="Arsenolite" Start="20" Depth="3"/>
+      <Ore Value="12" Type="Arsenolite" Start="45" Depth="5"/>
+      <Ore Value="13" Type="Beryl" Start="35" Depth="4"/>
+      <Ore Value="14" Type="Beryl" Start="78" Depth="7"/>
+      <Ore Value="15" Type="Bismutotantalite" Start="75" Depth="5"/>
+      <Ore Value="16" Type="Bismutotantalite" Start="168" Depth="9"/>
+      <Ore Value="17" Type="Boracite" Start="28" Depth="3"/>
+      <Ore Value="18" Type="Boracite" Start="63" Depth="5"/>
+      <Ore Value="19" Type="Borcarite" Start="65" Depth="3"/>
+      <Ore Value="20" Type="Borcarite" Start="146" Depth="5"/>
+      <Ore Value="21" Type="Cadmoindite" Start="43" Depth="4"/>
+      <Ore Value="22" Type="Cadmoindite" Start="96" Depth="7"/>
+      <Ore Value="23" Type="Cadmoselite" Start="57" Depth="4"/>
+      <Ore Value="24" Type="Cadmoselite" Start="128" Depth="7"/>
+      <Ore Value="25" Type="Calaverite" Start="70" Depth="4"/>
+      <Ore Value="26" Type="Calaverite" Start="157" Depth="7"/>
+      <Ore Value="27" Type="Cassiterite" Start="20" Depth="2"/>
+      <Ore Value="28" Type="Cassiterite" Start="45" Depth="3"/>
+      <Ore Value="29" Type="Cerite" Start="55" Depth="4"/>
+      <Ore Value="30" Type="Cerite" Start="123" Depth="7"/>
+      <Ore Value="31" Type="Chalcopyrite" Start="35" Depth="2"/>
+      <Ore Value="32" Type="Chalcopyrite" Start="78" Depth="3"/>
+      <Ore Value="33" Type="Chamosite" Start="45" Depth="3"/>
+      <Ore Value="34" Type="Chamosite" Start="101" Depth="5"/>
+      <Ore Value="35" Type="Chaoite" Start="50" Depth="4"/>
+      <Ore Value="36" Type="Chaoite" Start="112" Depth="7"/>
+      <Ore Value="37" Type="Chromferide" Start="15" Depth="2"/>
+      <Ore Value="38" Type="Chromferide" Start="33" Depth="3"/>
+      <Ore Value="39" Type="Chromite" Start="60" Depth="4"/>
+      <Ore Value="40" Type="Chromite" Start="135" Depth="7"/>
+      <Ore Value="41" Type="Cinnabar" Start="30" Depth="2"/>
+      <Ore Value="42" Type="Cinnabar" Start="67" Depth="3"/>
+      <Ore Value="43" Type="Coal" Start="80" Depth="3"/>
+      <Ore Value="44" Type="Coal" Start="180" Depth="5"/>
+      <Ore Value="45" Type="Cobalt_01" Start="150" Depth="4"/>
+      <Ore Value="46" Type="Cobalt_01" Start="200" Depth="6"/>
+      <Ore Value="47" Type="Cobalt_01" Start="337" Depth="7"/>
+      <Ore Value="48" Type="Cobalt_01" Start="450" Depth="10"/>
+      <Ore Value="49" Type="Cobaltite" Start="38" Depth="2"/>
+      <Ore Value="50" Type="Cobaltite" Start="85" Depth="3"/>
+      <Ore Value="51" Type="Coffinite" Start="155" Depth="6"/>
+      <Ore Value="52" Type="Coffinite" Start="348" Depth="10"/>
+      <Ore Value="53" Type="Columbite" Start="33" Depth="3"/>
+      <Ore Value="54" Type="Columbite" Start="74" Depth="5"/>
+      <Ore Value="55" Type="Copper" Start="100" Depth="4"/>
+      <Ore Value="56" Type="Copper" Start="175" Depth="6"/>
+      <Ore Value="57" Type="Copper" Start="225" Depth="7"/>
       <Ore Value="58" Type="Copper" Start="393" Depth="10"/>
-      <Ore Value="59" Type="Boracite" Start="28" Depth="3"/>
-      <Ore Value="60" Type="Boracite" Start="63" Depth="5"/>
-      <Ore Value="61" Type="Arsenolite" Start="20" Depth="3"/>
-      <Ore Value="62" Type="Arsenolite" Start="45" Depth="5"/>
-      <Ore Value="64" Type="Cassiterite" Start="20" Depth="2"/>
-      <Ore Value="65" Type="Cassiterite" Start="45" Depth="3"/>
-      <Ore Value="66" Type="Strontiofluorite" Start="43" Depth="3"/>
-      <Ore Value="67" Type="Strontiofluorite" Start="96" Depth="5"/>
-      <Ore Value="68" Type="Aluminum" Start="250" Depth="7"/>
-      <Ore Value="69" Type="Aluminum" Start="562" Depth="12"/>
-      <Ore Value="71" Type="Pyrochlore" Start="130" Depth="7"/>
-      <Ore Value="72" Type="Pyrochlore" Start="292" Depth="12"/>
-      <Ore Value="73" Type="Iron_01" Start="200" Depth="12"/>
-      <Ore Value="74" Type="Iron_01" Start="450" Depth="21"/>
-      <Ore Value="75" Type="Gold_01" Start="75" Depth="2"/>
-      <Ore Value="76" Type="Gold_01" Start="168" Depth="3"/>
-      <Ore Value="78" Type="Thorite" Start="85" Depth="5"/>
-      <Ore Value="79" Type="Thorite" Start="191" Depth="9"/>
-      <Ore Value="80" Type="Pyrite" Start="50" Depth="3"/>
-      <Ore Value="81" Type="Pyrite" Start="112" Depth="5"/>
-      <Ore Value="82" Type="Lead" Start="100" Depth="3"/>
-      <Ore Value="83" Type="Lead" Start="225" Depth="5"/>
-      <Ore Value="85" Type="Sphalerite" Start="65" Depth="3"/>
-      <Ore Value="86" Type="Sphalerite" Start="146" Depth="5"/>
-      <Ore Value="87" Type="Wulfenite" Start="65" Depth="8"/>
-      <Ore Value="88" Type="Wulfenite" Start="146" Depth="14"/>
-      <Ore Value="89" Type="Chaoite" Start="50" Depth="4"/>
-      <Ore Value="90" Type="Chaoite" Start="112" Depth="7"/>
-      <Ore Value="92" Type="Chamosite" Start="45" Depth="3"/>
-      <Ore Value="93" Type="Chamosite" Start="101" Depth="5"/>
-      <Ore Value="94" Type="Spodumene" Start="15" Depth="5"/>
-      <Ore Value="95" Type="Spodumene" Start="33" Depth="9"/>
-      <Ore Value="96" Type="Nickel_01" Start="68" Depth="3"/>
-      <Ore Value="97" Type="Nickel_01" Start="153" Depth="5"/>
-      <Ore Value="99" Type="Beryl" Start="35" Depth="4"/>
-      <Ore Value="100" Type="Beryl" Start="78" Depth="7"/>
-      <Ore Value="101" Type="Nickel_01" Start="115" Depth="5"/>
-      <Ore Value="102" Type="Nickel_01" Start="258" Depth="9"/>
-      <Ore Value="103" Type="Tin" Start="40" Depth="4"/>
-      <Ore Value="104" Type="Tin" Start="90" Depth="7"/>
-      <Ore Value="106" Type="Telluropalladinite" Start="39" Depth="3"/>
-      <Ore Value="107" Type="Telluropalladinite" Start="87" Depth="5"/>
-      <Ore Value="108" Type="Rutheniridosmine" Start="55" Depth="8"/>
-      <Ore Value="109" Type="Rutheniridosmine" Start="123" Depth="14"/>
-      <Ore Value="110" Type="Zinc" Start="135" Depth="8"/>
-      <Ore Value="111" Type="Zinc" Start="303" Depth="14"/>
-      <Ore Value="113" Type="Graphite" Start="68" Depth="3"/>
-      <Ore Value="114" Type="Graphite" Start="153" Depth="5"/>
-      <Ore Value="115" Type="Zircon" Start="65" Depth="4"/>
-      <Ore Value="116" Type="Zircon" Start="146" Depth="7"/>
-      <Ore Value="117" Type="Thorite" Start="45" Depth="4"/>
-      <Ore Value="118" Type="Thorite" Start="101" Depth="7"/>
-      <Ore Value="120" Type="Zircon" Start="50" Depth="2"/>
-      <Ore Value="121" Type="Zircon" Start="112" Depth="3"/>
-      <Ore Value="122" Type="Ferchromide" Start="50" Depth="4"/>
-      <Ore Value="123" Type="Ferchromide" Start="112" Depth="7"/>
-      <Ore Value="124" Type="Fontarnauite" Start="20" Depth="2"/>
-      <Ore Value="125" Type="Fontarnauite" Start="45" Depth="3"/>
-      <Ore Value="127" Type="Columbite" Start="33" Depth="3"/>
-      <Ore Value="128" Type="Columbite" Start="74" Depth="5"/>
-      <Ore Value="129" Type="Cadmoindite" Start="43" Depth="4"/>
-      <Ore Value="130" Type="Cadmoindite" Start="96" Depth="7"/>
-      <Ore Value="131" Type="Cobalt_01" Start="150" Depth="4"/>
-      <Ore Value="132" Type="Cobalt_01" Start="337" Depth="7"/>
-      <Ore Value="134" Type="Cobalt_01" Start="200" Depth="6"/>
-      <Ore Value="135" Type="Cobalt_01" Start="450" Depth="10"/>
-      <Ore Value="136" Type="Quartz" Start="10" Depth="3"/>
-      <Ore Value="137" Type="Quartz" Start="22" Depth="5"/>
-      <Ore Value="138" Type="Calaverite" Start="70" Depth="4"/>
-      <Ore Value="139" Type="Calaverite" Start="157" Depth="7"/>
-      <Ore Value="141" Type="Fluorapatite" Start="65" Depth="3"/>
-      <Ore Value="142" Type="Fluorapatite" Start="146" Depth="5"/>
-      <Ore Value="143" Type="Borcarite" Start="65" Depth="3"/>
-      <Ore Value="144" Type="Borcarite" Start="146" Depth="5"/>
-      <Ore Value="145" Type="Kentbrooksite" Start="30" Depth="5"/>
-      <Ore Value="146" Type="Kentbrooksite" Start="67" Depth="9"/>
-      <Ore Value="148" Type="Pitchblend" Start="100" Depth="9"/>
-      <Ore Value="149" Type="Pitchblend" Start="225" Depth="16"/>
-      <Ore Value="150" Type="Zinc" Start="135" Depth="8"/>
-      <Ore Value="151" Type="Zinc" Start="303" Depth="14"/>
-      <Ore Value="152" Type="Magnesium_01" Start="140" Depth="6"/>
-      <Ore Value="153" Type="Magnesium_01" Start="315" Depth="10"/>
-      <Ore Value="155" Type="Realgar" Start="29" Depth="4"/>
-      <Ore Value="156" Type="Realgar" Start="65" Depth="7"/>
-      <Ore Value="157" Type="Uraninite_01" Start="35" Depth="3"/>
-      <Ore Value="158" Type="Uraninite_01" Start="78" Depth="5"/>
-      <Ore Value="159" Type="Ruthenarsenite" Start="44" Depth="7"/>
-      <Ore Value="160" Type="Ruthenarsenite" Start="99" Depth="12"/>
-      <Ore Value="162" Type="Chromferide" Start="15" Depth="2"/>
-      <Ore Value="163" Type="Chromferide" Start="33" Depth="3"/>
-      <Ore Value="164" Type="Halite" Start="24" Depth="3"/>
-      <Ore Value="165" Type="Halite" Start="54" Depth="5"/>
-      <Ore Value="166" Type="Lead" Start="225" Depth="9"/>
-      <Ore Value="167" Type="Lead" Start="506" Depth="16"/>
-      <Ore Value="169" Type="Silicon_01" Start="90" Depth="3"/>
-      <Ore Value="170" Type="Silicon_01" Start="202" Depth="5"/>
-      <Ore Value="171" Type="Platinum_01" Start="235" Depth="8"/>
-      <Ore Value="172" Type="Platinum_01" Start="528" Depth="14"/>
-      <Ore Value="173" Type="Tin" Start="65" Depth="5"/>
-      <Ore Value="174" Type="Tin" Start="146" Depth="9"/>
-      <Ore Value="176" Type="Platinum_01" Start="115" Depth="5"/>
-      <Ore Value="177" Type="Platinum_01" Start="258" Depth="9"/>
-      <Ore Value="178" Type="Iron_02" Start="75" Depth="3"/>
-      <Ore Value="179" Type="Iron_02" Start="168" Depth="5"/>
-      <Ore Value="180" Type="Indite" Start="39" Depth="3"/>
-      <Ore Value="181" Type="Indite" Start="87" Depth="5"/>
-      <Ore Value="183" Type="Coal" Start="80" Depth="3"/>
-      <Ore Value="184" Type="Coal" Start="180" Depth="5"/>
-      <Ore Value="185" Type="Tin" Start="85" Depth="6"/>
-      <Ore Value="186" Type="Tin" Start="191" Depth="10"/>
-      <Ore Value="187" Type="Rhodochrosite" Start="33" Depth="6"/>
-      <Ore Value="188" Type="Rhodochrosite" Start="74" Depth="10"/>
-      <Ore Value="190" Type="Monazite" Start="250" Depth="12"/>
-      <Ore Value="191" Type="Monazite" Start="562" Depth="21"/>
-      <Ore Value="192" Type="Lepidolite" Start="75" Depth="5"/>
-      <Ore Value="193" Type="Lepidolite" Start="168" Depth="9"/>
-      <Ore Value="194" Type="Chromite" Start="60" Depth="4"/>
-      <Ore Value="195" Type="Chromite" Start="135" Depth="7"/>
-      <Ore Value="196" Type="Iodargyrite" Start="138" Depth="4"/>
-      <Ore Value="197" Type="Zinc" Start="75" Depth="5"/>
-      <Ore Value="198" Type="Zinc" Start="168" Depth="9"/>
-      <Ore Value="199" Type="Hematite" Start="120" Depth="4"/>
-      <Ore Value="200" Type="Hematite" Start="270" Depth="7"/>
-      <Ore Value="201" Type="Orpiment" Start="15" Depth="3"/>
-      <Ore Value="202" Type="Orpiment" Start="33" Depth="5"/>
-      <Ore Value="204" Type="Palladseite" Start="47" Depth="4"/>
-      <Ore Value="205" Type="Palladseite" Start="105" Depth="7"/>
-      <Ore Value="206" Type="Gold_01" Start="150" Depth="4"/>
-      <Ore Value="207" Type="Gold_01" Start="337" Depth="7"/>
-      <Ore Value="208" Type="Silicon_01" Start="38" Depth="2"/>
-      <Ore Value="209" Type="Silicon_01" Start="85" Depth="3"/>
-      <Ore Value="211" Type="Titanium" Start="55" Depth="5"/>
-      <Ore Value="212" Type="Titanium" Start="123" Depth="9"/>
-      <Ore Value="213" Type="AlienIce_03" Start="5" Depth="2"/>
-      <Ore Value="214" Type="AlienIce_03" Start="11" Depth="3"/>
-      <Ore Value="215" Type="Stibiotantalite" Start="62" Depth="5"/>
-      <Ore Value="216" Type="Stibiotantalite" Start="139" Depth="9"/>
-      <Ore Value="218" Type="Titanium" Start="25" Depth="3"/>
-      <Ore Value="219" Type="Titanium" Start="56" Depth="5"/>
-      <Ore Value="220" Type="Bismutotantalite" Start="75" Depth="5"/>
-      <Ore Value="221" Type="Bismutotantalite" Start="168" Depth="9"/>
-      <Ore Value="222" Type="Uraninite_01" Start="85" Depth="5"/>
-      <Ore Value="223" Type="Uraninite_01" Start="191" Depth="9"/>
-      <Ore Value="224" Type="Magnesium_01" Start="72" Depth="4"/>
-      <Ore Value="225" Type="Magnesium_01" Start="162" Depth="7"/>
-      <Ore Value="226" Type="Molybdenum" Start="40" Depth="2"/>
-      <Ore Value="227" Type="Molybdenum" Start="136" Depth="5"/>
+      <Ore Value="59" Type="Dolomite" Start="22" Depth="6"/>
+      <Ore Value="60" Type="Dolomite" Start="56" Depth="10"/>
+      <Ore Value="61" Type="Dolomite" Start="98" Depth="14"/>
+      <Ore Value="62" Type="Ferchromide" Start="50" Depth="4"/>
+      <Ore Value="63" Type="Ferchromide" Start="112" Depth="7"/>
+      <Ore Value="64" Type="Fluorapatite" Start="65" Depth="3"/>
+      <Ore Value="65" Type="Fluorapatite" Start="146" Depth="5"/>
+      <Ore Value="66" Type="Fontarnauite" Start="20" Depth="2"/>
+      <Ore Value="67" Type="Fontarnauite" Start="45" Depth="3"/>
+      <Ore Value="68" Type="Germanite" Start="64" Depth="4"/>
+      <Ore Value="69" Type="Germanite" Start="144" Depth="7"/>
+      <Ore Value="70" Type="Gold_01" Start="75" Depth="2"/>
+      <Ore Value="71" Type="Gold_01" Start="168" Depth="3"/>
+      <Ore Value="72" Type="Gold_01" Start="150" Depth="4"/>
+      <Ore Value="73" Type="Gold_01" Start="337" Depth="7"/>
+      <Ore Value="74" Type="Graphite" Start="68" Depth="3"/>
+      <Ore Value="75" Type="Graphite" Start="153" Depth="5"/>
+      <Ore Value="76" Type="Hafnon" Start="100" Depth="6"/>
+      <Ore Value="77" Type="Hafnon" Start="225" Depth="10"/>
+      <Ore Value="78" Type="Halite" Start="24" Depth="3"/>
+      <Ore Value="79" Type="Halite" Start="54" Depth="5"/>
+      <Ore Value="80" Type="Hematite" Start="120" Depth="4"/>
+      <Ore Value="81" Type="Hematite" Start="270" Depth="7"/>
+      <Ore Value="82" Type="Huttonite" Start="80" Depth="5"/>
+      <Ore Value="83" Type="Huttonite" Start="180" Depth="9"/>
+      <Ore Value="84" Type="Ilmenite" Start="180" Depth="6"/>
+      <Ore Value="85" Type="Ilmenite" Start="405" Depth="10"/>
+      <Ore Value="86" Type="Indite" Start="39" Depth="3"/>
+      <Ore Value="87" Type="Indite" Start="87" Depth="5"/>
+      <Ore Value="88" Type="Iodargyrite" Start="24" Depth="1"/>
+      <Ore Value="89" Type="Iodargyrite" Start="138" Depth="4"/>
+      <Ore Value="90" Type="Iron_01" Start="100" Depth="5"/>
+      <Ore Value="91" Type="Iron_01" Start="200" Depth="12"/>
+      <Ore Value="92" Type="Iron_01" Start="450" Depth="21"/>
+      <Ore Value="93" Type="Iron_02" Start="50" Depth="2"/>
+      <Ore Value="94" Type="Iron_02" Start="75" Depth="3"/>
+      <Ore Value="95" Type="Kentbrooksite" Start="30" Depth="5"/>
+      <Ore Value="96" Type="Kentbrooksite" Start="67" Depth="9"/>
+      <Ore Value="97" Type="Lead" Start="100" Depth="3"/>
+      <Ore Value="98" Type="Lead" Start="225" Depth="5"/>
+      <Ore Value="99" Type="Lead" Start="225" Depth="9"/>
+      <Ore Value="100" Type="Lead" Start="506" Depth="16"/>
+      <Ore Value="101" Type="Lepidolite" Start="75" Depth="5"/>
+      <Ore Value="102" Type="Lepidolite" Start="168" Depth="9"/>
+      <Ore Value="103" Type="Magnesium_01" Start="72" Depth="4"/>
+      <Ore Value="104" Type="Magnesium_01" Start="162" Depth="7"/>
+      <Ore Value="105" Type="Molybdenum" Start="40" Depth="2"/>
+      <Ore Value="106" Type="Molybdenum" Start="136" Depth="5"/>
+      <Ore Value="107" Type="Monazite" Start="100" Depth="5"/>
+      <Ore Value="108" Type="Monazite" Start="225" Depth="9"/>
+      <Ore Value="109" Type="Monazite" Start="250" Depth="12"/>
+      <Ore Value="110" Type="Monazite" Start="562" Depth="21"/>
+      <Ore Value="111" Type="Nickel_01" Start="68" Depth="3"/>
+      <Ore Value="112" Type="Nickel_01" Start="153" Depth="5"/>
+      <Ore Value="113" Type="Nickel_01" Start="258" Depth="9"/>
+      <Ore Value="114" Type="Orpiment" Start="15" Depth="3"/>
+      <Ore Value="115" Type="Orpiment" Start="33" Depth="5"/>
+      <Ore Value="116" Type="Olivine" Start="31" Depth="5"/>
+      <Ore Value="117" Type="Olivine" Start="42" Depth="16"/>
+      <Ore Value="118" Type="Olivine" Start="88" Depth="11"/>
+      <Ore Value="119" Type="Olivine" Start="115" Depth="18"/>
+      <Ore Value="120" Type="Palladseite" Start="47" Depth="4"/>
+      <Ore Value="121" Type="Palladseite" Start="105" Depth="7"/>
+      <Ore Value="122" Type="Pitchblend" Start="100" Depth="9"/>
+      <Ore Value="123" Type="Pitchblend" Start="225" Depth="16"/>
+      <Ore Value="124" Type="Platinum_01" Start="115" Depth="5"/>
+      <Ore Value="125" Type="Platinum_01" Start="235" Depth="8"/>
+      <Ore Value="126" Type="Platinum_01" Start="258" Depth="9"/>
+      <Ore Value="127" Type="Platinum_01" Start="528" Depth="14"/>
+      <Ore Value="128" Type="Pyrite" Start="50" Depth="3"/>
+      <Ore Value="129" Type="Pyrite" Start="112" Depth="5"/>
+      <Ore Value="130" Type="Pyrochlore" Start="65" Depth="3"/>
+      <Ore Value="131" Type="Pyrochlore" Start="146" Depth="5"/>
+      <Ore Value="132" Type="Pyrochlore" Start="130" Depth="7"/>
+      <Ore Value="133" Type="Pyrochlore" Start="292" Depth="12"/>
+      <Ore Value="134" Type="Quartz" Start="10" Depth="3"/>
+      <Ore Value="135" Type="Quartz" Start="22" Depth="5"/>
+      <Ore Value="136" Type="Realgar" Start="29" Depth="4"/>
+      <Ore Value="137" Type="Realgar" Start="65" Depth="7"/>
+      <Ore Value="138" Type="Rhodochrosite" Start="33" Depth="6"/>
+      <Ore Value="139" Type="Rhodochrosite" Start="74" Depth="10"/>
+      <Ore Value="140" Type="Ruthenarsenite" Start="44" Depth="7"/>
+      <Ore Value="141" Type="Ruthenarsenite" Start="99" Depth="12"/>
+      <Ore Value="142" Type="Rutheniridosmine" Start="55" Depth="8"/>
+      <Ore Value="143" Type="Rutheniridosmine" Start="123" Depth="14"/>
+      <Ore Value="144" Type="Silicon_01" Start="38" Depth="2"/>
+      <Ore Value="145" Type="Silicon_01" Start="90" Depth="3"/>
+      <Ore Value="146" Type="Silicon_01" Start="85" Depth="3"/>
+      <Ore Value="147" Type="Silicon_01" Start="202" Depth="5"/>
+      <Ore Value="148" Type="Silver_01" Start="90" Depth="2"/>
+      <Ore Value="149" Type="Silver_01" Start="202" Depth="3"/>
+      <Ore Value="150" Type="Silver_01" Start="180" Depth="6"/>
+      <Ore Value="151" Type="Silver_01" Start="405" Depth="10"/>
+      <Ore Value="152" Type="Sphalerite" Start="65" Depth="3"/>
+      <Ore Value="153" Type="Sphalerite" Start="146" Depth="5"/>
+      <Ore Value="154" Type="Spodumene" Start="15" Depth="5"/>
+      <Ore Value="155" Type="Spodumene" Start="33" Depth="9"/>
+      <Ore Value="156" Type="Stibiotantalite" Start="62" Depth="5"/>
+      <Ore Value="157" Type="Stibiotantalite" Start="139" Depth="9"/>
+      <Ore Value="158" Type="Strontiofluorite" Start="43" Depth="3"/>
+      <Ore Value="159" Type="Strontiofluorite" Start="96" Depth="5"/>
+      <Ore Value="160" Type="Sulfur" Start="50" Depth="5"/>
+      <Ore Value="161" Type="Sulfur" Start="112" Depth="9"/>
+      <Ore Value="162" Type="Sylvite" Start="40" Depth="5"/>
+      <Ore Value="163" Type="Sylvite" Start="90" Depth="9"/>
+      <Ore Value="164" Type="Telluropalladinite" Start="39" Depth="3"/>
+      <Ore Value="165" Type="Telluropalladinite" Start="87" Depth="5"/>
+      <Ore Value="166" Type="Thorite" Start="45" Depth="4"/>
+      <Ore Value="167" Type="Thorite" Start="85" Depth="5"/>
+      <Ore Value="168" Type="Thorite" Start="101" Depth="7"/>
+      <Ore Value="169" Type="Thorite" Start="191" Depth="9"/>
+      <Ore Value="170" Type="Tin" Start="40" Depth="4"/>
+      <Ore Value="171" Type="Tin" Start="85" Depth="6"/>
+      <Ore Value="172" Type="Tin" Start="146" Depth="9"/>
+      <Ore Value="173" Type="Titanite" Start="65" Depth="5"/>
+      <Ore Value="174" Type="Titanite" Start="146" Depth="9"/>
+      <Ore Value="175" Type="Titanium" Start="25" Depth="3"/>
+      <Ore Value="176" Type="Titanite" Start="55" Depth="5"/>
+      <Ore Value="177" Type="Titanium" Start="56" Depth="5"/>
+      <Ore Value="178" Type="Titanium" Start="123" Depth="9"/>
+      <Ore Value="179" Type="Uraninite_01" Start="35" Depth="3"/>
+      <Ore Value="180" Type="Uraninite_01" Start="78" Depth="5"/>
+      <Ore Value="181" Type="Uraninite_01" Start="85" Depth="5"/>
+      <Ore Value="182" Type="Uraninite_01" Start="191" Depth="9"/>
+      <Ore Value="183" Type="Wulfenite" Start="65" Depth="8"/>
+      <Ore Value="184" Type="Wulfenite" Start="146" Depth="14"/>
+      <Ore Value="185" Type="Zinc" Start="75" Depth="5"/>
+      <Ore Value="186" Type="Zinc" Start="135" Depth="8"/>
+      <Ore Value="187" Type="Zinc" Start="303" Depth="14"/>
+      <Ore Value="188" Type="Zircon" Start="50" Depth="2"/>
+      <Ore Value="189" Type="Zircon" Start="112" Depth="3"/>
+      <Ore Value="190" Type="Zircon" Start="65" Depth="4"/>
+      <Ore Value="191" Type="Zircon" Start="146" Depth="7"/>
     </OreMappings>
-
-    <!-- Rules that define where Ambient sounds should be played defined by angle from equator -->
     <SoundRules>
-      <!-- AlienIceland Day + Night -->
       <SoundRule>
         <Height Min="0" Max="0.42"/>
         <Latitude Min="55" Max="80"/>
         <SunAngleFromZenith Min="0" Max="180"/>
         <EnvironmentSound>AmbAlienIceland</EnvironmentSound>
       </SoundRule>
-
-      <!-- AlienPole Day + Night -->
       <SoundRule>
         <Height Min="0" Max="0.42"/>
         <Latitude Min="80" Max="90"/>
         <SunAngleFromZenith Min="0" Max="180"/>
         <EnvironmentSound>AmbAlienPole</EnvironmentSound>
       </SoundRule>
-
-      <!-- Forest amb sound rule -->
-      <!-- Mountain wind - AMB Alien High -->
       <SoundRule>
         <Height Min="0.42" Max="1"/>
         <Latitude Min="0" Max="90"/>
         <SunAngleFromZenith Min="0" Max="180"/>
         <EnvironmentSound>AmbAlienHigh</EnvironmentSound>
       </SoundRule>
-
-      <!-- Alien forest -->
-      <!-- Day -->
       <SoundRule>
         <Height Min="0" Max="0.42"/>
         <Latitude Min="15" Max="55"/>
         <SunAngleFromZenith Min="0" Max="90"/>
         <EnvironmentSound>AmbAlienForestDay</EnvironmentSound>
       </SoundRule>
-
-      <!-- Night -->
       <SoundRule>
         <Height Min="0" Max="0.42"/>
         <Latitude Min="15" Max="55"/>
         <SunAngleFromZenith Min="90" Max="180"/>
         <EnvironmentSound>AmbAlienForestNight</EnvironmentSound>
       </SoundRule>
-      <!-- Forest amb sound rule END -->
-
-      <!-- Desert amb sound rule -->
-      <!-- Day + Night -->
       <SoundRule>
         <Height Min="0" Max="0.42"/>
         <Latitude Min="0" Max="15"/>
         <SunAngleFromZenith Min="0" Max="90"/>
         <EnvironmentSound>AmbAlienDesertDay</EnvironmentSound>
       </SoundRule>
-
       <SoundRule>
         <Height Min="0" Max="0.42"/>
         <Latitude Min="0" Max="15"/>
         <SunAngleFromZenith Min="90" Max="180"/>
         <EnvironmentSound>AmbAlienDesertNight</EnvironmentSound>
       </SoundRule>
-      <!-- Desert amb sound rule END -->
     </SoundRules>
-
     <MusicCategories>
-      <MusicCategory Category="Alien" Frequency="0.75" />
-      <MusicCategory Category="Mystery" Frequency="0.15" />
-      <MusicCategory Category="Danger" Frequency="0.1" />
+      <MusicCategory Category="Alien" Frequency="0.75"/>
+      <MusicCategory Category="Mystery" Frequency="0.15"/>
+      <MusicCategory Category="Danger" Frequency="0.1"/>
     </MusicCategories>
-
-    <!-- Rules that define where materials are generated -->
     <ComplexMaterials>
-
       <MaterialGroup Name="Lake areas" Value="82">
-
-        <!-- Pole Biome -->
         <Rule>
           <Layers>
             <Layer Material="AlienIce_03" Depth="20"/>
@@ -341,9 +301,7 @@
           <Slope Min="0" Max="5"/>
         </Rule>
       </MaterialGroup>
-
       <MaterialGroup Name="DefaultSetUp" Value="0">
-        <!-- Pole Biom -->
         <Rule>
           <Layers>
             <Layer Material="AlienSnow" Depth="5"/>
@@ -361,9 +319,6 @@
           <Latitude Min="80" Max="90"/>
           <Slope Min="30" Max="90"/>
         </Rule>
-        <!-- Pole Biom End -->
-
-        <!-- Mountain tops snow cover - in iceland/woodlands -->
         <Rule>
           <Layers>
             <Layer Material="AlienSnow" Depth="2"/>
@@ -372,7 +327,6 @@
           <Latitude Min="25" Max="80"/>
           <Slope Min="0" Max="25"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienYellowGrass" Depth="2"/>
@@ -381,11 +335,6 @@
           <Latitude Min="25" Max="80"/>
           <Slope Min="25" Max="30"/>
         </Rule>
-
-        <!-- Iceland Biom -->
-
-        <!-- Iceland / pole transition -->
-
         <Rule>
           <Layers>
             <Layer Material="AlienSnow" Depth="5"/>
@@ -403,7 +352,6 @@
           <Latitude Min="70" Max="80"/>
           <Slope Min="20" Max="30"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienSnow" Depth="5"/>
@@ -429,7 +377,6 @@
           <Latitude Min="55" Max="70"/>
           <Slope Min="20" Max="30"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienSnow" Depth="5"/>
@@ -456,8 +403,6 @@
           <Latitude Min="50" Max="55"/>
           <Slope Min="0" Max="8"/>
         </Rule>
-        <!-- Iceland / pole transition end -->
-
         <Rule>
           <Layers>
             <Layer Material="AlienYellowGrass" Depth="1"/>
@@ -475,12 +420,6 @@
           <Latitude Min="45" Max="50"/>
           <Slope Min="0" Max="15"/>
         </Rule>
-
-        <!-- Iceland Biom End -->
-        <!-- Woodlands Biom -->
-
-        <!-- Woodland / Iceland transition -->
-
         <Rule>
           <Layers>
             <Layer Material="AlienOrangeGrass" Depth="1"/>
@@ -499,7 +438,6 @@
           <Latitude Min="40" Max="45"/>
           <Slope Min="20" Max="30"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienOrangeGrass" Depth="1"/>
@@ -526,7 +464,6 @@
           <Latitude Min="35" Max="40"/>
           <Slope Min="10" Max="20"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienOrangeGrass" Depth="1"/>
@@ -553,12 +490,6 @@
           <Latitude Min="30" Max="35"/>
           <Slope Min="0" Max="8"/>
         </Rule>
-
-        <!-- Woodland / Iceland transition end -->
-
-        <!-- AlienRockyMountain transition  -->
-
-
         <Rule>
           <Layers>
             <Layer Material="AlienRockyTerrain" Depth="5"/>
@@ -575,8 +506,6 @@
           <Latitude Min="10" Max="13"/>
           <Slope Min="70" Max="90"/>
         </Rule>
-
-
         <Rule>
           <Layers>
             <Layer Material="AlienRockyMountain" Depth="5"/>
@@ -585,7 +514,6 @@
           <Latitude Min="13" Max="80"/>
           <Slope Min="30" Max="90"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienRockyTerrain" Depth="5"/>
@@ -594,10 +522,6 @@
           <Latitude Min="0" Max="10"/>
           <Slope Min="30" Max="90"/>
         </Rule>
-
-        <!-- AlienRockyMountain transition end -->
-
-        <!-- Top -->
         <Rule>
           <Layers>
             <Layer Material="AlienSnow" Depth="5"/>
@@ -614,7 +538,6 @@
           <Latitude Min="0" Max="10"/>
           <Slope Min="0" Max="90"/>
         </Rule>
-        <!-- Tree line -->
         <Rule>
           <Layers>
             <Layer Material="AlienYellowGrass" Depth="1"/>
@@ -623,7 +546,6 @@
           <Latitude Min="20" Max="30"/>
           <Slope Min="0" Max="30"/>
         </Rule>
-        <!-- Pine line -->
         <Rule>
           <Layers>
             <Layer Material="AlienOrangeGrass" Depth="1"/>
@@ -633,7 +555,6 @@
           <Latitude Min="20" Max="30"/>
           <Slope Min="0" Max="30"/>
         </Rule>
-        <!-- Grass lands line -->
         <Rule>
           <Layers>
             <Layer Material="AlienGreenGrass" Depth="1"/>
@@ -652,12 +573,6 @@
           <Latitude Min="20" Max="30"/>
           <Slope Min="25" Max="30"/>
         </Rule>
-        <!-- Woodlands Biom End -->
-
-        <!-- Desert Biom -->
-
-        <!-- Desert / woodland transition -->
-
         <Rule>
           <Layers>
             <Layer Material="AlienGreenGrass" Depth="1"/>
@@ -676,7 +591,6 @@
           <Latitude Min="15" Max="20"/>
           <Slope Min="20" Max="30"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienGreenGrass" Depth="1"/>
@@ -695,7 +609,6 @@
           <Latitude Min="10" Max="15"/>
           <Slope Min="15" Max="30"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienGreenGrass" Depth="1"/>
@@ -714,10 +627,6 @@
           <Latitude Min="5" Max="10"/>
           <Slope Min="0" Max="15"/>
         </Rule>
-
-        <!-- Desert / woodland transition end-->
-
-        <!-- Top -->
         <Rule>
           <Layers>
             <Layer Material="AlienSnow" Depth="5"/>
@@ -727,8 +636,6 @@
           <Latitude Min="0" Max="20"/>
           <Slope Min="0" Max="30"/>
         </Rule>
-
-        <!-- Tree line + Pine line-->
         <Rule>
           <Layers>
             <Layer Material="AlienRockGrass" Depth="1"/>
@@ -747,8 +654,6 @@
           <Latitude Min="0" Max="5"/>
           <Slope Min="15" Max="30"/>
         </Rule>
-
-        <!-- Grass lands line -->
         <Rule>
           <Layers>
             <Layer Material="AlienRockGrass" Depth="1"/>
@@ -759,7 +664,6 @@
           <Latitude Min="0" Max="5"/>
           <Slope Min="5" Max="20"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienSand" Depth="2"/>
@@ -770,7 +674,6 @@
           <Latitude Min="0" Max="5"/>
           <Slope Min="0" Max="5"/>
         </Rule>
-
         <Rule>
           <Layers>
             <Layer Material="AlienSand" Depth="1"/>
@@ -780,20 +683,9 @@
           <Latitude Min="0" Max="5"/>
           <Slope Min="0" Max="10"/>
         </Rule>
-
-        <!-- Desert Biome End -->
       </MaterialGroup>
     </ComplexMaterials>
-
-    <!-- Rules that define where environment items will spawn -->
     <EnvironmentItems>
-
-      <!-- Flora items -->
-      <!-- Flora items end -->
-
-      <!-- Biom foliage -->
-
-      <!-- Biom foliage Alien -->
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -802,8 +694,8 @@
           <Material>AlienSnow</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_snowtop_largestone" Density="0.001" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_snowtop_largestone" Density="0.001"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -811,7 +703,6 @@
           <Slope Min="0" Max="10"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -821,7 +712,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSnowFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -829,7 +720,6 @@
           <Slope Min="0" Max="30"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -838,7 +728,7 @@
           <Material>AlienOrangeGrass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -846,7 +736,6 @@
           <Slope Min="0" Max="10"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -856,7 +745,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -864,7 +753,6 @@
           <Slope Min="0" Max="30"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -873,8 +761,8 @@
           <Material>AlienYellowGrass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.001" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.001"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -882,7 +770,6 @@
           <Slope Min="0" Max="10"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -892,7 +779,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienYellowGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -900,7 +787,6 @@
           <Slope Min="0" Max="30"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -909,7 +795,7 @@
           <Material>AlienGreenGrass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -917,7 +803,6 @@
           <Slope Min="0" Max="10"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -927,7 +812,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -935,7 +820,6 @@
           <Slope Min="0" Max="30"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -945,7 +829,7 @@
           <Material>Soil</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -953,7 +837,6 @@
           <Slope Min="0" Max="10"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -964,7 +847,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienRockGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -972,7 +855,6 @@
           <Slope Min="0" Max="30"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -981,7 +863,7 @@
           <Material>AlienSand</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -989,7 +871,6 @@
           <Slope Min="0" Max="10"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>85</Biome>
@@ -999,7 +880,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -1007,12 +888,6 @@
           <Slope Min="0" Max="30"/>
         </Rule>
       </Item>
-      <!-- Biom foliage Alien end -->
-      <!-- Biom foliage end -->
-
-      <!-- Biom woods edge -->
-
-      <!-- Alien Biom woods edge -->
       <Item>
         <Biomes>
           <Biome>113</Biome>
@@ -1030,7 +905,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>113</Biome>
@@ -1047,7 +921,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>113</Biome>
@@ -1065,7 +938,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>113</Biome>
@@ -1083,7 +955,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>113</Biome>
@@ -1101,7 +972,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>113</Biome>
@@ -1119,7 +989,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>113</Biome>
@@ -1137,11 +1006,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-      <!-- Alien Biom woods edge end -->
-
-      <!-- Biom woods edge end -->
-
-      <!-- Alien Biom woods Medium -->
       <Item>
         <Biomes>
           <Biome>141</Biome>
@@ -1159,7 +1023,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>141</Biome>
@@ -1176,7 +1039,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>141</Biome>
@@ -1194,7 +1056,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>141</Biome>
@@ -1212,7 +1073,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>141</Biome>
@@ -1230,7 +1090,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>141</Biome>
@@ -1248,7 +1107,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>141</Biome>
@@ -1266,12 +1124,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-      <!-- Alien Biom woods Medium end -->
-      <!-- Biom woods medium end -->
-
-      <!-- Biom woods large -->
-
-      <!-- Alien Biom woods Large -->
       <Item>
         <Biomes>
           <Biome>198</Biome>
@@ -1289,7 +1141,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>198</Biome>
@@ -1307,7 +1158,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>198</Biome>
@@ -1324,7 +1174,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>198</Biome>
@@ -1342,8 +1191,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
-
       <Item>
         <Biomes>
           <Biome>198</Biome>
@@ -1361,7 +1208,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>198</Biome>
@@ -1379,7 +1225,6 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-
       <Item>
         <Biomes>
           <Biome>198</Biome>
@@ -1397,20 +1242,12 @@
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
-      <!-- Alien Biom woods Large end -->
-
-      <!-- Biom woods large end -->
-
     </EnvironmentItems>
-
     <MaximumOxygen>0.0</MaximumOxygen>
     <SurfaceGravity>1.1</SurfaceGravity>
     <DefaultSurfaceMaterial Material="AlienRockGrass" MaxDepth="1"/>
     <DefaultSubSurfaceMaterial Material="AlienRockyMountain"/>
-
     <HasAtmosphere>true</HasAtmosphere>
-
-    <!-- Alien Planet's Atmosphere -->
     <AtmosphereSettings>
       <RayleighScattering>
         <X>57</X>
@@ -1433,7 +1270,6 @@
       <SeaLevelModifier>1.0</SeaLevelModifier>
       <AtmosphereTopModifier>1.100</AtmosphereTopModifier>
     </AtmosphereSettings>
-
     <Atmosphere>
       <Breathable>true</Breathable>
       <OxygenDensity>0.1</OxygenDensity>
@@ -1441,17 +1277,13 @@
       <LimitAltitude>2.0</LimitAltitude>
       <MaxWindSpeed>80</MaxWindSpeed>
     </Atmosphere>
-
-    <!-- Alien Clouds layer -->
-
     <CloudLayers>
       <CloudLayer>
-        <!-- Far layer -->
         <Color>
-            <X>0.81</X>
-            <Y>0.86</Y>
-            <Z>0.42</Z>
-            <W>1</W>
+          <X>0.81</X>
+          <Y>0.86</Y>
+          <Z>0.42</Z>
+          <W>1</W>
         </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
@@ -1470,15 +1302,14 @@
         <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
         <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
       </CloudLayer>
-      <!-- Near layers -->
       <CloudLayer>
-          <Color>
-              <X>0.81</X>
-              <Y>0.86</Y>
-              <Z>0.42</Z>
-              <W>1</W>
-          </Color>
-          <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Color>
+          <X>0.81</X>
+          <Y>0.86</Y>
+          <Z>0.42</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/AlienSky_cm.dds</Texture>
         </Textures>
@@ -1495,13 +1326,13 @@
         <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
       <CloudLayer>
-          <Color>
-              <X>0.81</X>
-              <Y>0.86</Y>
-              <Z>0.42</Z>
-              <W>1</W>
-          </Color>
-              <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Color>
+          <X>0.81</X>
+          <Y>0.86</Y>
+          <Z>0.42</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/AlienSky_cm.dds</Texture>
         </Textures>
@@ -1518,12 +1349,9 @@
         <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
     </CloudLayers>
-
     <MaterialsMaxDepth Min="4000" Max="4000"/>
     <MaterialsMinDepth Min="20" Max="20"/>
-
-    <HillParams Min = "-0.01" Max ="0.12"/>
-
+    <HillParams Min="-0.01" Max="0.12"/>
     <AnimalSpawnInfo>
       <Animals>
         <Animal Type="SpaceSpider"/>
@@ -1532,299 +1360,294 @@
       </Animals>
     </AnimalSpawnInfo>
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-	<!-- Alien Planet's Weather Settings -->
-	
-	<WeatherFrequencyMin>600</WeatherFrequencyMin>
-	<WeatherFrequencyMax>1800</WeatherFrequencyMax>
-	<WeatherGenerators>
-	<!-- Alien Grass Weather Generators-->
-		<WeatherGenerator>
-			<Voxel>AlienGreenGrass</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>AlienFogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienFogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>OrangeAlienGrass</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>AlienFogLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienFogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>AlienYellowGrass</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>AlienFogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>Dust</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>SandStormLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-        <WeatherGenerator>
-			<Voxel>Snow</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>SnowLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>SnowHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Sand</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Dust</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>SandStormLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>SandStormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Ice</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>FogLight</Name>
-					<Weight>2</Weight>
-					<MinLength>416</MinLength>
-					<MaxLength>500</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>FogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>416</MinLength>
-					<MaxLength>500</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-    	<WeatherGenerator>
-			<Voxel>Rock</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>AlienFogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienFogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-        <WeatherGenerator>
-            <Voxel>Soil</Voxel>
-            <Weathers>
-                <Weather>
-                    <Name>AlienFogLight</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>AlienRainLight</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>AlienThunderstormLight</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>Dust</Name>
-                    <Weight>2</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>SandStormLight</Name>
-                    <Weight>2</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-            </Weathers>
-        </WeatherGenerator>
-	</WeatherGenerators>
-
+    <WeatherFrequencyMin>600</WeatherFrequencyMin>
+    <WeatherFrequencyMax>1800</WeatherFrequencyMax>
+    <WeatherGenerators>
+      <WeatherGenerator>
+        <Voxel>AlienGreenGrass</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienFogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>OrangeAlienGrass</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienFogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>AlienYellowGrass</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SandStormLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Snow</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>SnowLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SnowHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Sand</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SandStormLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SandStormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Ice</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>FogLight</Name>
+            <Weight>2</Weight>
+            <MinLength>416</MinLength>
+            <MaxLength>500</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>FogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>416</MinLength>
+            <MaxLength>500</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Rock</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienFogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Soil</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SandStormLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+    </WeatherGenerators>
   </Definition>
-
 </Definitions>

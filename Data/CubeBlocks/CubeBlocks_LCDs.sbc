@@ -96,6 +96,7 @@
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0001</RequiredPowerInput>
       <TextureResolution>512</TextureResolution>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
@@ -103,6 +104,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
@@ -157,6 +167,7 @@
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0002</RequiredPowerInput>
       <TextureResolution>512</TextureResolution>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
@@ -164,6 +175,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="2" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="2" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="2" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <ScreenWidth>2</ScreenWidth>
       <ScreenHeight>1</ScreenHeight>
       <GuiVisible>false</GuiVisible>
@@ -212,6 +232,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\TextPanel_Construction_1.mwm" />
       </BuildProgressModels>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>60</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
@@ -219,6 +240,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -302,6 +332,7 @@
       <TextureResolution>512</TextureResolution>
       <ScreenWidth>2</ScreenWidth>
       <ScreenHeight>1</ScreenHeight>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
@@ -309,6 +340,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="2" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="2" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="2" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
@@ -348,6 +388,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\LCDPanel_Construction_1.mwm" />
       </BuildProgressModels>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
@@ -355,6 +396,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -417,6 +467,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <ScreenWidth>7</ScreenWidth>
       <ScreenHeight>1</ScreenHeight>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>60</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
@@ -424,6 +475,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <RequiredPowerInput>0.00006</RequiredPowerInput>
@@ -473,6 +533,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <ScreenWidth>7</ScreenWidth>
       <ScreenHeight>1</ScreenHeight>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>60</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
@@ -480,6 +541,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <RequiredPowerInput>0.00006</RequiredPowerInput>
@@ -529,6 +599,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <ScreenWidth>7</ScreenWidth>
       <ScreenHeight>1</ScreenHeight>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>60</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
@@ -536,6 +607,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <RequiredPowerInput>0.00006</RequiredPowerInput>
@@ -585,6 +665,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <ScreenWidth>7</ScreenWidth>
       <ScreenHeight>1</ScreenHeight>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>60</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
@@ -592,6 +673,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="128" ScreenWidth="7" ScreenHeight="1" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="128" ScreenWidth="1" ScreenHeight="7" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <RequiredPowerInput>0.00006</RequiredPowerInput>
@@ -643,6 +733,7 @@
       <MirroringY>Z</MirroringY>
       <ScreenWidth>22</ScreenWidth>
       <ScreenHeight>7</ScreenHeight>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>60</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="256" ScreenWidth="22" ScreenHeight="7" />
@@ -650,6 +741,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="256" ScreenWidth="22" ScreenHeight="7" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="256" ScreenWidth="7" ScreenHeight="22" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="256" ScreenWidth="22" ScreenHeight="7" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="256" ScreenWidth="7" ScreenHeight="22" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="256" ScreenWidth="22" ScreenHeight="7" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="256" ScreenWidth="7" ScreenHeight="22" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <RequiredPowerInput>0.00006</RequiredPowerInput>
       <TextureResolution>512</TextureResolution>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -693,6 +793,7 @@
       <MirroringY>Z</MirroringY>
       <ScreenWidth>22</ScreenWidth>
       <ScreenHeight>7</ScreenHeight>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>60</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="256" ScreenWidth="22" ScreenHeight="7" />
@@ -700,6 +801,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="256" ScreenWidth="22" ScreenHeight="7" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="256" ScreenWidth="7" ScreenHeight="22" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="256" ScreenWidth="22" ScreenHeight="7" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="256" ScreenWidth="7" ScreenHeight="22" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="256" ScreenWidth="22" ScreenHeight="7" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="256" ScreenWidth="7" ScreenHeight="22" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <RequiredPowerInput>0.00006</RequiredPowerInput>
       <TextureResolution>512</TextureResolution>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -742,6 +852,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <ScreenWidth>25</ScreenWidth>
       <ScreenHeight>10</ScreenHeight>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>60</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="256" ScreenWidth="25" ScreenHeight="10" />
@@ -749,6 +860,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="256" ScreenWidth="25" ScreenHeight="10" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="256" ScreenWidth="10" ScreenHeight="25" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="256" ScreenWidth="25" ScreenHeight="10" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="256" ScreenWidth="10" ScreenHeight="25" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="256" ScreenWidth="25" ScreenHeight="10" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="256" ScreenWidth="10" ScreenHeight="25" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <RequiredPowerInput>0.00006</RequiredPowerInput>
@@ -793,6 +913,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <ScreenWidth>25</ScreenWidth>
       <ScreenHeight>10</ScreenHeight>
+<<<<<<< Updated upstream
 			<MaxScreenRenderDistance>60</MaxScreenRenderDistance>
 			<ScreenAreas>
 				<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="256" ScreenWidth="25" ScreenHeight="10" />
@@ -800,6 +921,15 @@
 				<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="256" ScreenWidth="25" ScreenHeight="10" />
 				<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="256" ScreenWidth="10" ScreenHeight="25" />
 			</ScreenAreas>
+=======
+      <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+      <ScreenAreas>
+	<ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="256" ScreenWidth="25" ScreenHeight="10" />
+	<ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="256" ScreenWidth="10" ScreenHeight="25" />
+	<ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="256" ScreenWidth="25" ScreenHeight="10" />
+	<ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="256" ScreenWidth="10" ScreenHeight="25" />
+      </ScreenAreas>
+>>>>>>> Stashed changes
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <RequiredPowerInput>0.00006</RequiredPowerInput>

@@ -9,7 +9,11 @@
       <DisplayName>Gunpowder x10000</DisplayName>
       <Icon>Textures\GUI\Icons\component\Weapon\Gunpowder_Icon.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3600"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="3600"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Potassium" Amount="2850"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1500"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="1050"/>
@@ -28,7 +32,11 @@
       <DisplayName>Gunpowder x1000</DisplayName>
       <Icon>Textures\GUI\Icons\component\Weapon\Gunpowder_Icon.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="360"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="360"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Potassium" Amount="285"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="150"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="105"/>
@@ -47,7 +55,11 @@
       <DisplayName>Gunpowder x100</DisplayName>
       <Icon>Textures\GUI\Icons\component\Weapon\Gunpowder_Icon.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="36"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="36"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Potassium" Amount="28.5"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="15"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="10.5"/>
@@ -66,9 +78,15 @@
       <DisplayName>High Explosive x10000</DisplayName>
       <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="272"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1622"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4322"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="272"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1622"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="4322"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="3784"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
@@ -84,9 +102,15 @@
       <DisplayName>High Explosive x1000</DisplayName>
       <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="27.2"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="162.2"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="432.2"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="27.2"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="162.2"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="432.2"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="378.4"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
@@ -102,9 +126,15 @@
       <DisplayName>High Explosive x100</DisplayName>
       <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
       <Prerequisites>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="2.72"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="16.22"/>
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="43.22"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="2.72"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="16.22"/>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="43.22"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="37.84"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
@@ -362,7 +392,11 @@
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Brass" Amount="0.4"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.22"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.29"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.29"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.15"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
@@ -380,7 +414,11 @@
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Brass" Amount="0.04"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.022"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.029"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.029"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.015"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
@@ -398,7 +436,11 @@
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Brass" Amount="0.004"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.0022"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.0029"/>
+=======
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.0029"/>
+>>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="0.0015"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -911,7 +953,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="860"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="1000"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="4800"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="4800"/>
         <Item TypeId="Component" SubtypeId="Charge" Amount="4800"/>
@@ -932,7 +978,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="86"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="100"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="480"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="480"/>
         <Item TypeId="Component" SubtypeId="Charge" Amount="480"/>
@@ -953,7 +1003,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="8.6"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="10.0"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10.0"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="10.0"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="48"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="48"/>
         <Item TypeId="Component" SubtypeId="Charge" Amount="48"/>
@@ -974,7 +1028,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="1120"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="1000"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="7200"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="7200"/>
         <Item TypeId="Component" SubtypeId="Charge" Amount="14400"/>
@@ -995,7 +1053,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="112"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="100"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="720"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="720"/>
         <Item TypeId="Component" SubtypeId="Charge" Amount="1440"/>
@@ -1016,7 +1078,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="11.2"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="10.0"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10.0"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="10.0"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="72"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="72"/>
         <Item TypeId="Component" SubtypeId="Charge" Amount="144"/>
@@ -1037,7 +1103,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="3200"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="8800"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="144000"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="144000"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="400"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="400"/>
         <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="400"/>
@@ -1059,7 +1129,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="320"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="880"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="14400"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="14400"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="40"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="40"/>
         <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="40"/>
@@ -1081,7 +1155,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="32"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="88"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1440"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="1440"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="4"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="4"/>
         <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="4"/>
@@ -1103,7 +1181,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="4800"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="17600"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="288000"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="288000"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="600"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="600"/>
         <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="600"/>
@@ -1125,7 +1207,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="480"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="1760"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="28800"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="28800"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="60"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="60"/>
         <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="60"/>
@@ -1147,7 +1233,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="48"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="176"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="2880"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="2880"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="6"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="6"/>
         <Item TypeId="Component" SubtypeId="LargeCopperTube" Amount="6"/>
@@ -1169,7 +1259,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="SteelPlate" Amount="2400"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="144000"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="144000"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="100"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="100"/>
         <Item TypeId="Component" SubtypeId="LargeTube" Amount="100"/>
@@ -1191,7 +1285,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="SteelPlate" Amount="240"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="14400"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="14400"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="10"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="10"/>
         <Item TypeId="Component" SubtypeId="LargeTube" Amount="10"/>
@@ -1213,7 +1311,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="SteelPlate" Amount="24"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="10"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1440"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="1440"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="1"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="1"/>
         <Item TypeId="Component" SubtypeId="LargeTube" Amount="1"/>
@@ -1235,7 +1337,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="SteelPlate" Amount="1000"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="144000"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="144000"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="100"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="100"/>
         <Item TypeId="Component" SubtypeId="LargeTube" Amount="100"/>
@@ -1257,7 +1363,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="SteelPlate" Amount="100"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="14400"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="14400"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="10"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="10"/>
         <Item TypeId="Component" SubtypeId="LargeTube" Amount="10"/>
@@ -1279,7 +1389,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="SteelPlate" Amount="10"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="10"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1440"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="1440"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="1"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="1"/>
         <Item TypeId="Component" SubtypeId="LargeTube" Amount="1"/>
@@ -1301,7 +1415,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="3000"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="1000"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="1000"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="1000"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="1000"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="1000"/>
         <Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="1000"/>
@@ -1323,7 +1441,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="300"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="100"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="100"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="100"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="100"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="100"/>
         <Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="100"/>
@@ -1345,7 +1467,11 @@
       <Prerequisites>
         <Item TypeId="Component" SubtypeId="AluminumPlate" Amount="30.0"/>
         <Item TypeId="Component" SubtypeId="Bladder" Amount="10.0"/>
+<<<<<<< Updated upstream
         <Item TypeId="Ingot" SubtypeId="LiquidJetFuel" Amount="10.0"/>
+=======
+        <Item TypeId="Ore" SubtypeId="LiquidJetFuel" Amount="10.0"/>
+>>>>>>> Stashed changes
         <Item TypeId="Component" SubtypeId="PressureRegulator" Amount="10.0"/>
         <Item TypeId="Component" SubtypeId="Thrust" Amount="10.0"/>
         <Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="10.0"/>

@@ -22,6 +22,24 @@
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
+				<SubtypeId>Bauxite</SubtypeId>
+			</Id>
+			<DisplayName>Bauxite Ore</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_Bauxite.dds</Icon>
+			<Size>
+				<X>0.07</X>
+				<Y>0.07</Y>
+				<Z>0.07</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>0.329</Volume>
+			<Model>Models\Components\Sphere.mwm</Model>
+			<PhysicalMaterial>Stone</PhysicalMaterial>
+			<IconSymbol>AlOOH</IconSymbol>
+		</PhysicalItem>
+		<PhysicalItem>
+			<Id>
+				<TypeId>Ore</TypeId>
 				<SubtypeId>Beryl</SubtypeId>
 			</Id>
 			<DisplayName>Beryl Ore</DisplayName>
@@ -346,6 +364,24 @@
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
+				<SubtypeId>Dolomite</SubtypeId>
+			</Id>
+			<DisplayName>Dolomite Ore</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_Dolomite.dds</Icon>
+			<Size>
+				<X>0.07</X>
+				<Y>0.07</Y>
+				<Z>0.07</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>0.352</Volume>
+			<Model>Models\Components\Sphere.mwm</Model>
+			<PhysicalMaterial>Stone</PhysicalMaterial>
+			<IconSymbol>CaMg(CO3)2</IconSymbol>
+		</PhysicalItem>
+		<PhysicalItem>
+			<Id>
+				<TypeId>Ore</TypeId>
 				<SubtypeId>Ferchromide</SubtypeId>
 			</Id>
 			<DisplayName>Ferchromide Ore</DisplayName>
@@ -558,6 +594,24 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>KLi2AlSi4F2O12H2</IconSymbol>
+		</PhysicalItem>
+		<PhysicalItem>
+			<Id>
+				<TypeId>Ore</TypeId>
+				<SubtypeId>Olivine</SubtypeId>
+			</Id>
+			<DisplayName>Olivine Ore</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_Olivine.dds</Icon>
+			<Size>
+				<X>0.07</X>
+				<Y>0.07</Y>
+				<Z>0.07</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>0.303</Volume>
+			<Model>Models\Components\Sphere.mwm</Model>
+			<PhysicalMaterial>Stone</PhysicalMaterial>
+			<IconSymbol>MgFe2SiO4</IconSymbol>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>

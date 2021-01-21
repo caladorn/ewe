@@ -228,7 +228,11 @@
 			<DisplayName>Hydrogen Fuel Cells X1000</DisplayName>
 			<Icon>Textures\GUI\Icons\component\FuelRods\HydrogenFuelCell_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="550" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="550" />
+>>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="100" />
 				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="100" />
 				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="100" />
@@ -247,7 +251,11 @@
 			<DisplayName>Hydrogen Fuel Cells X100</DisplayName>
 			<Icon>Textures\GUI\Icons\component\FuelRods\HydrogenFuelCell_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="55" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="55" />
+>>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="10" />
 				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="10" />
 				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="10" />
@@ -266,7 +274,11 @@
 			<DisplayName>Hydrogen Fuel Cells X10</DisplayName>
 			<Icon>Textures\GUI\Icons\component\FuelRods\HydrogenFuelCell_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="5.5" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="5.5" />
+>>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="1" />
 				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="1" />
 				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="1" />
@@ -285,7 +297,11 @@
 			<DisplayName>Hydrogen Fuel Cell</DisplayName>
 			<Icon>Textures\GUI\Icons\component\FuelRods\HydrogenFuelCell_Icon.dds</Icon>
 			<Prerequisites>
+<<<<<<< Updated upstream
 				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.55" />
+=======
+				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.55" />
+>>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="SmallCopperTube" Amount="0.1" />
 				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="0.1" />
 				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="0.1" />
@@ -297,4 +313,8 @@
 			</Results>
 		</Blueprint>
 	</Blueprints>
+<<<<<<< Updated upstream
 </Definitions>
+=======
+</Definitions>
+>>>>>>> Stashed changes

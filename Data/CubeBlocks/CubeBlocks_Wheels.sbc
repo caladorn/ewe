@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+<<<<<<< Updated upstream
 	  <!--    <Definition>
+=======
+    <Definition>
+>>>>>>> Stashed changes
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheel1x1</SubtypeId>
@@ -745,7 +749,11 @@
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
+<<<<<<< Updated upstream
     </Definition>  -->
+=======
+    </Definition>
+>>>>>>> Stashed changes
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
