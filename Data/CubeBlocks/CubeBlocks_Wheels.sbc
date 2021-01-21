@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+	  <!-- COMMENT OUT THE "RealWheel" Section: It appears to be a legacy copy from SE,
+		  and the MotorSuspension section (below) is the more correct, updated
+		  version of the same blocks
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -746,6 +749,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
+	  END "Real Wheel" Legacy Comment Section -->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>

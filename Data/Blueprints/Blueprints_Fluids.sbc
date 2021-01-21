@@ -488,7 +488,7 @@
 			<DisplayName>Jet Fuel x1000</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Fluid\JetFuel_Icon.dds</Icon>
 			<Prerequisites>
-				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="625" />
+        <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="625" />
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="225" />
 				<Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="100" />
 				<Item TypeId="Ingot" SubtypeId="Sulfur" Amount="25" />
