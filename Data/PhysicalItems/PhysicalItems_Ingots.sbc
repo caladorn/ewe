@@ -156,7 +156,6 @@
       <CanPlayerOrder>true</CanPlayerOrder>
       <MinimumAcquisitionAmount>200</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
-<<<<<<< Updated upstream
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -183,41 +182,10 @@
       <CanPlayerOrder>true</CanPlayerOrder>
       <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>2500</MaximumAcquisitionAmount>
-=======
->>>>>>> Stashed changes
     </PhysicalItem>
     <PhysicalItem>
       <Id>
         <TypeId>Ingot</TypeId>
-<<<<<<< Updated upstream
-=======
-        <SubtypeId>Boron</SubtypeId>
-      </Id>
-      <DisplayName>Boron Ingot</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\boron_ingot.dds</Icon>
-      <Size>
-        <X>0.072</X>
-        <Y>0.072</Y>
-        <Z>0.072</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.4219409283</Volume>
-      <Model>Models\Ingots\silicon_ingot.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <IconSymbol>B</IconSymbol>
-      <MinimalPricePerUnit>235</MinimalPricePerUnit>
-      <MinimumOfferAmount>500</MinimumOfferAmount>
-      <MaximumOfferAmount>2500</MaximumOfferAmount>
-      <MinimumOrderAmount>500</MinimumOrderAmount>
-      <MaximumOrderAmount>2500</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
-      <MaximumAcquisitionAmount>2500</MaximumAcquisitionAmount>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ingot</TypeId>
->>>>>>> Stashed changes
         <SubtypeId>Cadmium</SubtypeId>
       </Id>
       <DisplayName>Cadmium Ingot</DisplayName>
@@ -644,11 +612,7 @@
         <Z>0.072</Z>
       </Size>
       <Mass>1</Mass>
-<<<<<<< Updated upstream
-      <Volume>14.28571429</Volume>
-=======
       <Volume>14.29</Volume>
->>>>>>> Stashed changes
       <Model>Models\Ingots\OxygenTankItem.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>H</IconSymbol>
@@ -674,11 +638,7 @@
         <Z>0.072</Z>
       </Size>
       <Mass>1</Mass>
-<<<<<<< Updated upstream
-      <Volume>0.1367989056</Volume>
-=======
       <Volume>0.1368</Volume>
->>>>>>> Stashed changes
       <Model>Models\Ingots\platinum_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>In</IconSymbol>
@@ -1094,11 +1054,7 @@
         <Z>0.072</Z>
       </Size>
       <Mass>1</Mass>
-<<<<<<< Updated upstream
-      <Volume>1.237623762</Volume>
-=======
       <Volume>1.238</Volume>
->>>>>>> Stashed changes
       <Model>Models\Ingots\OxygenTankItem.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>N</IconSymbol>
@@ -1124,11 +1080,7 @@
         <Z>0.072</Z>
       </Size>
       <Mass>1</Mass>
-<<<<<<< Updated upstream
-      <Volume>0.04426737494</Volume>
-=======
       <Volume>0.04427</Volume>
->>>>>>> Stashed changes
       <Model>Models\Ingots\nickel_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Os</IconSymbol>
@@ -1154,11 +1106,7 @@
         <Z>0.072</Z>
       </Size>
       <Mass>1</Mass>
-<<<<<<< Updated upstream
-      <Volume>0.8764241893</Volume>
-=======
       <Volume>0.8764</Volume>
->>>>>>> Stashed changes
       <Model>Models\Ingots\OxygenTankItem.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>O</IconSymbol>

@@ -92,11 +92,7 @@
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
       <Description>Small Advanced Oxygen Tank</Description>
       <CubeSize>Large</CubeSize>
-<<<<<<< Updated upstream
-	  <GuiVisible>false</GuiVisible>
-=======
       <GuiVisible>false</GuiVisible>
->>>>>>> Stashed changes
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />

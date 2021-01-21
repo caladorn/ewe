@@ -1558,11 +1558,7 @@
 				<Item TypeId="Ingot" SubtypeId="Potassium" Amount="1.1" />
 				<Item TypeId="Ingot" SubtypeId="Chlorine" Amount="1" />
 				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="2.5" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1.8" />
-=======
 				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="1.8" />
->>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
 			<Results>
@@ -1581,11 +1577,7 @@
 				<Item TypeId="Ingot" SubtypeId="Potassium" Amount="0.11" />
 				<Item TypeId="Ingot" SubtypeId="Chlorine" Amount="0.1" />
 				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="0.25" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.18" />
-=======
 				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.18" />
->>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
 			<Results>
@@ -1604,11 +1596,7 @@
 				<Item TypeId="Ingot" SubtypeId="Potassium" Amount="0.011" />
 				<Item TypeId="Ingot" SubtypeId="Chlorine" Amount="0.01" />
 				<Item TypeId="Ingot" SubtypeId="Zirconium" Amount="0.025" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.018" />
-=======
 				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.018" />
->>>>>>> Stashed changes
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
 			<Results>
@@ -2220,11 +2208,7 @@
 				<Item TypeId="Component" SubtypeId="Computer" Amount="10" />
 				<Item TypeId="Ingot" SubtypeId="Cobalt" Amount="870" />
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="1060" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="470" />
-=======
 				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="470" />
->>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="PolyCarbonatePlate" Amount="1000" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
@@ -2246,11 +2230,7 @@
 				<Item TypeId="Component" SubtypeId="Computer" Amount="1" />
 				<Item TypeId="Ingot" SubtypeId="Cobalt" Amount="87" />
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="106" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="47" />
-=======
 				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="47" />
->>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="PolyCarbonatePlate" Amount="100" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
@@ -2272,11 +2252,7 @@
 				<Item TypeId="Component" SubtypeId="Computer" Amount="0.1" />
 				<Item TypeId="Ingot" SubtypeId="Cobalt" Amount="8.7" />
 				<Item TypeId="Ingot" SubtypeId="Carbon" Amount="10.6" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4.7" />
-=======
 				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="4.7" />
->>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="PolyCarbonatePlate" Amount="10" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
@@ -2296,11 +2272,7 @@
 				<Item TypeId="Component" SubtypeId="BareCopperWire" Amount="50" />
 				<Item TypeId="Ingot" SubtypeId="Lead" Amount="2100" />
 				<Item TypeId="Component" SubtypeId="Computer" Amount="10" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="10" />
-=======
 				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="10" />
->>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="PolyCarbonatePlate" Amount="1000" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
@@ -2320,11 +2292,7 @@
 				<Item TypeId="Component" SubtypeId="BareCopperWire" Amount="5" />
 				<Item TypeId="Ingot" SubtypeId="Lead" Amount="210" />
 				<Item TypeId="Component" SubtypeId="Computer" Amount="1" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1" />
-=======
 				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="1" />
->>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="PolyCarbonatePlate" Amount="100" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
@@ -2344,11 +2312,7 @@
 				<Item TypeId="Component" SubtypeId="BareCopperWire" Amount="0.5" />
 				<Item TypeId="Ingot" SubtypeId="Lead" Amount="21" />
 				<Item TypeId="Component" SubtypeId="Computer" Amount="0.1" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.1" />
-=======
 				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.1" />
->>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="PolyCarbonatePlate" Amount="10" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -2368,11 +2332,7 @@
 				<Item TypeId="Component" SubtypeId="BareCopperWire" Amount="50" />
 				<Item TypeId="Ingot" SubtypeId="Fluorine" Amount="2683" />
 				<Item TypeId="Component" SubtypeId="Computer" Amount="20" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="142" />
-=======
 				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="142" />
->>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="BulletproofGlass" Amount="130" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
@@ -2392,11 +2352,7 @@
 				<Item TypeId="Component" SubtypeId="BareCopperWire" Amount="5" />
 				<Item TypeId="Ingot" SubtypeId="Fluorine" Amount="268.3" />
 				<Item TypeId="Component" SubtypeId="Computer" Amount="2" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="14.2" />
-=======
 				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="14.2" />
->>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="BulletproofGlass" Amount="13" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
@@ -2416,11 +2372,7 @@
 				<Item TypeId="Component" SubtypeId="BareCopperWire" Amount="0.5" />
 				<Item TypeId="Ingot" SubtypeId="Fluorine" Amount="26.83" />
 				<Item TypeId="Component" SubtypeId="Computer" Amount="0.2" />
-<<<<<<< Updated upstream
-				<Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1.42" />
-=======
 				<Item TypeId="Ore" SubtypeId="Hydrogen" Amount="1.42" />
->>>>>>> Stashed changes
 				<Item TypeId="Component" SubtypeId="BulletproofGlass" Amount="1.3" />
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
@@ -2429,8 +2381,4 @@
 			</Results>
 		</Blueprint>
 	</Blueprints>
-<<<<<<< Updated upstream
 </Definitions>
-=======
-</Definitions>
->>>>>>> Stashed changes

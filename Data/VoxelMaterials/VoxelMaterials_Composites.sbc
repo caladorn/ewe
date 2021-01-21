@@ -50,9 +50,9 @@
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       
-      <VoxelHandPreview>Textures\Voxels\Bauxite.dds</VoxelHandPreview>
+      <VoxelHandPreview>Textures\Voxels\Bauxite_cm.dds</VoxelHandPreview>
 
-      <ColorMetalXZnY>Textures\Voxels\Bauxite.dds</ColorMetalXZnY>
+      <ColorMetalXZnY>Textures\Voxels\Bauxite_cm.dds</ColorMetalXZnY>
       <ColorMetalXZnYFar1>Textures\Voxels\Bauxite_cm.dds</ColorMetalXZnYFar1>
       <ColorMetalXZnYFar2>Textures\Voxels\Bauxite_cm.dds</ColorMetalXZnYFar2>
       
@@ -485,8 +485,8 @@
     <VoxelHandPreview>Textures\Voxels\Dolomite_cm.dds</VoxelHandPreview>
 
     <ColorMetalXZnY>Textures\Voxels\Dolomite_cm.dds</ColorMetalXZnY>
-    <ColorMetalXZnYFar1>Textures\Voxels\Dolomite.dds</ColorMetalXZnYFar1>
-    <ColorMetalXZnYFar2>Textures\Voxels\Dolomite.dds</ColorMetalXZnYFar2>
+    <ColorMetalXZnYFar1>Textures\Voxels\Dolomite_cm.dds</ColorMetalXZnYFar1>
+    <ColorMetalXZnYFar2>Textures\Voxels\Dolomite_cm.dds</ColorMetalXZnYFar2>
     
     <ColorMetalY>Textures\Voxels\Dolomite_cm.dds</ColorMetalY>
     <ColorMetalYFar1>Textures\Voxels\Dolomite_cm.dds</ColorMetalYFar1>
@@ -889,7 +889,7 @@
     <SpawnsInAsteroids>true</SpawnsInAsteroids>
     <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
     
-    <VoxelHandPreview>Textures\Voxels\Olivine.dds</VoxelHandPreview>
+    <VoxelHandPreview>Textures\Voxels\Olivine_cm.dds</VoxelHandPreview>
 
     <ColorMetalXZnY>Textures\Voxels\Olivine_cm.dds</ColorMetalXZnY>
     <ColorMetalXZnYFar1>Textures\Voxels\Olivine_cm.dds</ColorMetalXZnYFar1>

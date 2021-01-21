@@ -9,17 +9,10 @@
       <DisplayName>Aluminum Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Aluminum" Amount="1000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="545.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Aluminum" Amount="1000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="312.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -31,17 +24,10 @@
       <DisplayName>Aluminum Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Aluminum" Amount="5000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="2725.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Aluminum" Amount="5000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="1560.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -53,17 +39,10 @@
       <DisplayName>Aluminum Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Aluminum" Amount="25000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="13625.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Aluminum" Amount="25000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="7800.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -75,17 +54,10 @@
       <DisplayName>Iron Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Iron" Amount="1000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="650.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Iron" Amount="1000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="368.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -97,17 +69,10 @@
       <DisplayName>Iron Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Iron" Amount="5000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="3250.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Iron" Amount="5000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="1840.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -119,17 +84,10 @@
       <DisplayName>Iron Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Iron" Amount="25000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="16250.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Iron" Amount="25000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="9190.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -141,17 +99,10 @@
       <DisplayName>Titanium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Titanium" Amount="675" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="338.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Titanium" Amount="675"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="195.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -163,17 +114,10 @@
       <DisplayName>Titanium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Titanium" Amount="3375" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="1690.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Titanium" Amount="3380"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="974.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -185,17 +129,10 @@
       <DisplayName>Titanium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Titanium" Amount="16875" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="8450.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Titanium" Amount="16900"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="4870.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -207,17 +144,10 @@
       <DisplayName>Copper Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Copper" Amount="1000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Copper" Amount="600.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Copper" Amount="1000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Copper" Amount="341.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -229,17 +159,10 @@
       <DisplayName>Copper Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Copper" Amount="5000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Copper" Amount="3000.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Copper" Amount="5000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Copper" Amount="1710.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -251,17 +174,10 @@
       <DisplayName>Copper Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Copper" Amount="25000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Copper" Amount="15000.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Copper" Amount="25000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Copper" Amount="8530.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -273,17 +189,10 @@
       <DisplayName>Cobalt Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Co_cobalt.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Cobalt" Amount="750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="338.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Cobalt" Amount="750"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="197.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -295,17 +204,10 @@
       <DisplayName>Cobalt Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Co_cobalt.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Cobalt" Amount="3750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="1690.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Cobalt" Amount="3750"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="983.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -317,17 +219,10 @@
       <DisplayName>Cobalt Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Co_cobalt.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Cobalt" Amount="18750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="8450.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Cobalt" Amount="18800"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="4910.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -339,17 +234,10 @@
       <DisplayName>Nickel Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Nickel" Amount="750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="353.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Nickel" Amount="750"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Nickel" Amount="205.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -361,17 +249,10 @@
       <DisplayName>Nickel Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Nickel" Amount="3750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="1765.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Nickel" Amount="3750"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Nickel" Amount="1020.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -383,17 +264,10 @@
       <DisplayName>Nickel Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Nickel" Amount="18750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="8825.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Nickel" Amount="18800"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Nickel" Amount="5110.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -405,17 +279,10 @@
       <DisplayName>Tin Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Sn_tin.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Tin" Amount="850" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Tin" Amount="621.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Tin" Amount="850"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Tin" Amount="349.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -427,17 +294,10 @@
       <DisplayName>Tin Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Sn_tin.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Tin" Amount="4250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Tin" Amount="3105.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Tin" Amount="4250"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Tin" Amount="1740.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -449,17 +309,10 @@
       <DisplayName>Tin Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Sn_tin.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Tin" Amount="21250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Tin" Amount="15525.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Tin" Amount="21200"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Tin" Amount="8720.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -471,17 +324,10 @@
       <DisplayName>Silver Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Silver" Amount="500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Silver" Amount="135.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Silver" Amount="500"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Silver" Amount="83.2"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -493,17 +339,10 @@
       <DisplayName>Silver Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Silver" Amount="2500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Silver" Amount="675.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Silver" Amount="2500"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Silver" Amount="416.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -515,17 +354,10 @@
       <DisplayName>Silver Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Silver" Amount="12500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Silver" Amount="3375.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Silver" Amount="12500"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Silver" Amount="2080.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -537,17 +369,10 @@
       <DisplayName>Gold Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Au_gold.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Gold" Amount="450" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Gold" Amount="54.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Gold" Amount="450"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Gold" Amount="39.2"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -559,17 +384,10 @@
       <DisplayName>Gold Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Au_gold.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Gold" Amount="2250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Gold" Amount="270.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Gold" Amount="2250"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Gold" Amount="196.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -581,17 +399,10 @@
       <DisplayName>Gold Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Au_gold.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Gold" Amount="11250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Gold" Amount="1350.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Gold" Amount="11200"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Gold" Amount="979.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -603,17 +414,10 @@
       <DisplayName>Lead Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Lead" Amount="550" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="176.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Lead" Amount="550"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Lead" Amount="106.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -625,17 +429,10 @@
       <DisplayName>Lead Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Lead" Amount="2750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="880.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Lead" Amount="2750"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Lead" Amount="531.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -647,17 +444,10 @@
       <DisplayName>Lead Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Lead" Amount="13750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="4400.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Lead" Amount="13800"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Lead" Amount="2650.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -669,17 +459,10 @@
       <DisplayName>Magnesium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Magnesium" Amount="250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="23.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Magnesium" Amount="250"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="18.1"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -691,17 +474,10 @@
       <DisplayName>Magnesium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Magnesium" Amount="1250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="115.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Magnesium" Amount="1250"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="90.3"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -713,17 +489,10 @@
       <DisplayName>Magnesium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Magnesium" Amount="6250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="575.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Magnesium" Amount="6250"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="451.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -735,17 +504,10 @@
       <DisplayName>Silicon Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Silicon" Amount="600" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="240.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Silicon" Amount="600"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="141.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -757,17 +519,10 @@
       <DisplayName>Silicon Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Silicon" Amount="3000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1200.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Silicon" Amount="3000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="706.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -779,17 +534,10 @@
       <DisplayName>Silicon Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Silicon" Amount="15000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="6000.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Silicon" Amount="15000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="3530.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -801,17 +549,10 @@
       <DisplayName>Zinc Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Zn_zinc.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Zinc" Amount="375" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="116.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Zinc" Amount="375"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Zinc" Amount="70.2"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -823,17 +564,10 @@
       <DisplayName>Zinc Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Zn_zinc.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Zinc" Amount="1875" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="580.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Zinc" Amount="1880"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Zinc" Amount="351.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -845,17 +579,10 @@
       <DisplayName>Zinc Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Zn_zinc.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Zinc" Amount="9375" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Zinc" Amount="2900.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Zinc" Amount="9380"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Zinc" Amount="1760.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -867,17 +594,10 @@
       <DisplayName>Platinum Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pt_platinum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Platinum" Amount="200" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="10.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Platinum" Amount="200"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Platinum" Amount="10.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -889,17 +609,10 @@
       <DisplayName>Platinum Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pt_platinum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Platinum" Amount="1000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="50.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Platinum" Amount="1000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Platinum" Amount="50.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -911,17 +624,10 @@
       <DisplayName>Platinum Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pt_platinum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Platinum" Amount="5000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="250.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Platinum" Amount="5000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Platinum" Amount="250.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -933,17 +639,10 @@
       <DisplayName>Molybdenum</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Molybdenum" Amount="350" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="133.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Molybdenum" Amount="350"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="78.6"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -955,17 +654,10 @@
       <DisplayName>Molybdenum</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Molybdenum" Amount="1750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="665.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Molybdenum" Amount="1750"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="393.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -977,17 +669,10 @@
       <DisplayName>Molybdenum</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Molybdenum" Amount="8750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="3325.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Molybdenum" Amount="8750"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Molybdenum" Amount="1970.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -999,17 +684,10 @@
       <DisplayName>Zirconium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Zirconium" Amount="425" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="136.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Zirconium" Amount="425"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="82.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1021,17 +699,10 @@
       <DisplayName>Zirconium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Zirconium" Amount="2125" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="680.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Zirconium" Amount="2120"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="410.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1043,17 +714,10 @@
       <DisplayName>Zirconium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Zirconium" Amount="10625" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="3400.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Zirconium" Amount="10600"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="2050.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>

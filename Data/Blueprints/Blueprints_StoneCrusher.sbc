@@ -15,7 +15,7 @@
 				<Item TypeId="Ingot" SubtypeId="Calcium" Amount="150" />
 				<Item TypeId="Ingot" SubtypeId="Aluminum" Amount="80" />
 				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="60" />
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="150" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="150" />
 			</Results>
 			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
@@ -49,7 +49,7 @@
 			</Prerequisites>
 			<Results>
 				<Item TypeId="Ingot" SubtypeId="Silicon" Amount="237" />
-				<Item TypeId="Ingot" SubtypeId="Oxygen" Amount="475" />
+				<Item TypeId="Ore" SubtypeId="Oxygen" Amount="475" />
 			</Results>
 			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>

@@ -113,27 +113,6 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
 
-<<<<<<< Updated upstream
-            <Components>
-				<Component Subtype="NitinolPlate" Count="300" />
-				<Component Subtype="CopperRod" Count="40" />
-				<Component Subtype="BareBrassWire" Count="450" />
-				<Component Subtype="QuantumProcessor" Count="1" />
-				<Component Subtype="FluxCoil" Count="12" />
-				<Component Subtype="FluxCapacitor" Count="56" />
-				<Component Subtype="Transformer" Count="20" />
-				<Component Subtype="ShieldEmitter" Count="100" />
-				<Component Subtype="CoolingUnit" Count="1" />
-				<Component Subtype="Superconductor" Count="600" />
-				<Component Subtype="Computer" Count="500" />
-				<Component Subtype="BrazingRod" Count="650" />
-		    </Components>
-		    <CriticalComponent Subtype="Computer" Index="0" />
-            <MountPoints>
-                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />
-                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="2.5" />
-=======
       <!-- Safezone info -->
       <MaxSafeZoneRadius>500</MaxSafeZoneRadius>
       <MinSafeZoneRadius>10</MinSafeZoneRadius>
@@ -144,7 +123,6 @@
       <SafeZoneUpkeep>1</SafeZoneUpkeep>
       <SafeZoneUpkeepTimeM>15</SafeZoneUpkeepTimeM>
       <!-- End Safezone Props-->
->>>>>>> Stashed changes
 
       <ActionSound>BlockSafeZone</ActionSound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>

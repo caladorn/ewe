@@ -76,11 +76,7 @@
       <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
       <Description>Basic Component Assembler</Description>
       <CubeSize>Large</CubeSize>
-<<<<<<< Updated upstream:Data/CubeBlocks/CubeBlocks_Assemblers.sbc
-	  <GuiVisible>false</GuiVisible>
-=======
       <GuiVisible>false</GuiVisible>
->>>>>>> Stashed changes:Data/CubeBlocks/CubeBlocks_Assmeblers.sbc
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />

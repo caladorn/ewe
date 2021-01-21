@@ -9,19 +9,11 @@
       <DisplayName>DisplayName_Item_Oxygen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Ice" Amount="1" />
-      </Prerequisites>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
-=======
         <Item TypeId="Ore" SubtypeId="Ice" Amount="1"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9"/>
->>>>>>> Stashed changes
       </Results>
     </Blueprint>
     <Blueprint>
@@ -32,19 +24,11 @@
       <DisplayName>DisplayName_Item_Oxygen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AmberIce" Amount="1" />
-      </Prerequisites>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
-=======
         <Item TypeId="Ore" SubtypeId="AmberIce" Amount="1"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9"/>
->>>>>>> Stashed changes
       </Results>
     </Blueprint>
     <Blueprint>
@@ -55,19 +39,11 @@
       <DisplayName>DisplayName_Item_Oxygen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="BlueIce" Amount="1" />
-      </Prerequisites>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
-=======
         <Item TypeId="Ore" SubtypeId="BlueIce" Amount="1"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9"/>
->>>>>>> Stashed changes
       </Results>
     </Blueprint>
     <Blueprint>
@@ -78,19 +54,11 @@
       <DisplayName>DisplayName_Item_Oxygen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="GreenIce" Amount="1" />
-      </Prerequisites>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
-=======
         <Item TypeId="Ore" SubtypeId="GreenIce" Amount="1"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9"/>
->>>>>>> Stashed changes
       </Results>
     </Blueprint>
     <Blueprint>
@@ -101,19 +69,11 @@
       <DisplayName>DisplayName_Item_Oxygen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="PinkIce" Amount="1" />
-      </Prerequisites>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
-=======
         <Item TypeId="Ore" SubtypeId="PinkIce" Amount="1"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9"/>
->>>>>>> Stashed changes
       </Results>
     </Blueprint>
     <Blueprint>
@@ -124,19 +84,11 @@
       <DisplayName>DisplayName_Item_Oxygen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="PurpleIce" Amount="1" />
-      </Prerequisites>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
-=======
         <Item TypeId="Ore" SubtypeId="PurpleIce" Amount="1"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9"/>
->>>>>>> Stashed changes
       </Results>
     </Blueprint>
     <Blueprint>
@@ -147,19 +99,11 @@
       <DisplayName>DisplayName_Item_Oxygen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="EuropaIce" Amount="1" />
-      </Prerequisites>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
-=======
         <Item TypeId="Ore" SubtypeId="EuropaIce" Amount="1"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9"/>
->>>>>>> Stashed changes
       </Results>
     </Blueprint>
     <Blueprint>
@@ -170,19 +114,11 @@
       <DisplayName>DisplayName_Item_Oxygen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AlienIce" Amount="1" />
-      </Prerequisites>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9" />
-=======
         <Item TypeId="Ore" SubtypeId="AlienIce" Amount="1"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Results>
         <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.9"/>
->>>>>>> Stashed changes
       </Results>
     </Blueprint>
     <Blueprint>
@@ -193,19 +129,11 @@
       <DisplayName>Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Ice" Amount="1000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="579.041" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="72.959" />
-=======
         <Item TypeId="Ore" SubtypeId="Ice" Amount="1000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="327.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="41.3"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -217,21 +145,12 @@
       <DisplayName>Amber Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Amber_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AmberIce" Amount="850" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="424.512" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="53.488" />
-        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="24.0" />
-=======
         <Item TypeId="Ore" SubtypeId="AmberIce" Amount="850"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="242.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="30.4"/>
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="13.7"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -243,21 +162,12 @@
       <DisplayName>Blue Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Blue_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="BlueIce" Amount="850" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="402.309" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="50.691" />
-        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="22.0" />
-=======
         <Item TypeId="Ore" SubtypeId="BlueIce" Amount="850"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="230.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="29.0"/>
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="12.6"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -269,21 +179,12 @@
       <DisplayName>Green Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Green_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="GreenIce" Amount="850" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="439.609" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="55.39" />
-        <Item TypeId="Ingot" SubtypeId="Krypton" Amount="25.0" />
-=======
         <Item TypeId="Ore" SubtypeId="GreenIce" Amount="850"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="250.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="31.5"/>
         <Item TypeId="Ingot" SubtypeId="Krypton" Amount="14.2"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -295,21 +196,12 @@
       <DisplayName>Pink Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Pink_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="PinkIce" Amount="875" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="383.659" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="48.341" />
-        <Item TypeId="Ingot" SubtypeId="Helium" Amount="21.0" />
-=======
         <Item TypeId="Ore" SubtypeId="PinkIce" Amount="875"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="221.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="27.8"/>
         <Item TypeId="Ingot" SubtypeId="Helium" Amount="12.1"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -321,21 +213,12 @@
       <DisplayName>Purple Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Purple_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="PurpleIce" Amount="900" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="363.233" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="45.767" />
-        <Item TypeId="Ingot" SubtypeId="Argon" Amount="20.0" />
-=======
         <Item TypeId="Ore" SubtypeId="PurpleIce" Amount="900"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="210.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="26.5"/>
         <Item TypeId="Ingot" SubtypeId="Argon" Amount="11.6"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -347,21 +230,12 @@
       <DisplayName>Europa Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="EuropaIce" Amount="850" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="306.394" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="38.605" />
-        <Item TypeId="Ingot" SubtypeId="Xenon" Amount="17.0" />
-=======
         <Item TypeId="Ore" SubtypeId="EuropaIce" Amount="850"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="179.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="22.6"/>
         <Item TypeId="Ingot" SubtypeId="Xenon" Amount="9.94"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -373,15 +247,6 @@
       <DisplayName>Alien Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AlienIce" Amount="932" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="261.101" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="32.899" />
-        <Item TypeId="Ingot" SubtypeId="Neon" Amount="8.0" />
-        <Item TypeId="Ingot" SubtypeId="Radium" Amount="7.0" />
-=======
         <Item TypeId="Ore" SubtypeId="AlienIce" Amount="932"/>
       </Prerequisites>
       <Results>
@@ -389,7 +254,6 @@
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="19.8"/>
         <Item TypeId="Ingot" SubtypeId="Neon" Amount="4.8"/>
         <Item TypeId="Ingot" SubtypeId="Radium" Amount="4.2"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -401,16 +265,6 @@
       <DisplayName>Brine</DisplayName>
       <Icon>Textures\GUI\Icons\ore_brine_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Brine" Amount="650" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="376.554" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="47.446" />
-        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="34.0" />
-        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="4.0" />
-        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="0.429" />
-=======
         <Item TypeId="Ore" SubtypeId="Brine" Amount="650"/>
       </Prerequisites>
       <Results>
@@ -419,7 +273,6 @@
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="19.1"/>
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="2.25"/>
         <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="0.241"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -431,16 +284,6 @@
       <DisplayName>Mineral Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Mineral_Ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="MineralIce" Amount="525" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="335.702" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="42.298" />
-        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="30.0" />
-        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="3.0" />
-        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.383" />
-=======
         <Item TypeId="Ore" SubtypeId="MineralIce" Amount="525"/>
       </Prerequisites>
       <Results>
@@ -449,7 +292,6 @@
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="16.8"/>
         <Item TypeId="Ingot" SubtypeId="Chromium" Amount="1.68"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.214"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -461,21 +303,12 @@
       <DisplayName>Ammonium Hydroxide</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ammonium_Hydroxide.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AmmoniumHydroxide" Amount="900" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="205.438" />
-        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="179.851" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="64.711" />
-=======
         <Item TypeId="Ore" SubtypeId="AmmoniumHydroxide" Amount="900"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="118.0"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="104.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="37.3"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -487,18 +320,6 @@
       <DisplayName>CHON</DisplayName>
       <Icon>Textures\GUI\Icons\ore_CHON.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="CHON" Amount="400" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="133.942" />
-        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="33.517" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="19.83" />
-        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="9.772" />
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="2.5" />
-        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.224" />
-        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.216" />
-=======
         <Item TypeId="Ore" SubtypeId="CHON" Amount="400"/>
       </Prerequisites>
       <Results>
@@ -509,7 +330,6 @@
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="1.44"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.123"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.12"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -521,21 +341,12 @@
       <DisplayName>Methane Hydrate</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Methane_Hydrate.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="MethaneHydrate" Amount="825" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="567.522" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="96.383" />
-        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="74.095" />
-=======
         <Item TypeId="Ore" SubtypeId="MethaneHydrate" Amount="825"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="315.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="53.6"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="41.2"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -547,19 +358,11 @@
       <DisplayName>Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Ice" Amount="5000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2895.206" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="364.794" />
-=======
         <Item TypeId="Ore" SubtypeId="Ice" Amount="5000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1640.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="206.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -571,21 +374,12 @@
       <DisplayName>Amber Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Amber_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AmberIce" Amount="4250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2122.559" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="267.441" />
-        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="120.0" />
-=======
         <Item TypeId="Ore" SubtypeId="AmberIce" Amount="4250"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1210.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="152.0"/>
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="68.3"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -597,21 +391,12 @@
       <DisplayName>Blue Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Blue_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="BlueIce" Amount="4250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2011.546" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="253.453" />
-        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="110.0" />
-=======
         <Item TypeId="Ore" SubtypeId="BlueIce" Amount="4250"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1150.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="145.0"/>
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="62.9"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -623,21 +408,12 @@
       <DisplayName>Green Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Green_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="GreenIce" Amount="4250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2198.047" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="276.952" />
-        <Item TypeId="Ingot" SubtypeId="Krypton" Amount="125.0" />
-=======
         <Item TypeId="Ore" SubtypeId="GreenIce" Amount="4250"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1250.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="157.0"/>
         <Item TypeId="Ingot" SubtypeId="Krypton" Amount="71.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -649,21 +425,12 @@
       <DisplayName>Pink Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Pink_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="PinkIce" Amount="4375" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1918.296" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="241.704" />
-        <Item TypeId="Ingot" SubtypeId="Helium" Amount="105.0" />
-=======
         <Item TypeId="Ore" SubtypeId="PinkIce" Amount="4380"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1100.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="139.0"/>
         <Item TypeId="Ingot" SubtypeId="Helium" Amount="60.4"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -675,21 +442,12 @@
       <DisplayName>Purple Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Purple_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="PurpleIce" Amount="4500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1816.164" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="228.835" />
-        <Item TypeId="Ingot" SubtypeId="Argon" Amount="100.0" />
-=======
         <Item TypeId="Ore" SubtypeId="PurpleIce" Amount="4500"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1050.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="132.0"/>
         <Item TypeId="Ingot" SubtypeId="Argon" Amount="57.9"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -701,21 +459,12 @@
       <DisplayName>Europa Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="EuropaIce" Amount="4250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1531.972" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="193.028" />
-        <Item TypeId="Ingot" SubtypeId="Xenon" Amount="85.0" />
-=======
         <Item TypeId="Ore" SubtypeId="EuropaIce" Amount="4250"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="896.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="113.0"/>
         <Item TypeId="Ingot" SubtypeId="Xenon" Amount="49.7"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -727,15 +476,6 @@
       <DisplayName>Alien Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AlienIce" Amount="4660" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1305.507" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="164.493" />
-        <Item TypeId="Ingot" SubtypeId="Neon" Amount="40.0" />
-        <Item TypeId="Ingot" SubtypeId="Radium" Amount="35.0" />
-=======
         <Item TypeId="Ore" SubtypeId="AlienIce" Amount="4660"/>
       </Prerequisites>
       <Results>
@@ -743,7 +483,6 @@
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="98.8"/>
         <Item TypeId="Ingot" SubtypeId="Neon" Amount="24.0"/>
         <Item TypeId="Ingot" SubtypeId="Radium" Amount="21.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -755,16 +494,6 @@
       <DisplayName>Brine</DisplayName>
       <Icon>Textures\GUI\Icons\ore_brine_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Brine" Amount="3250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1882.772" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="237.228" />
-        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="170.0" />
-        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="20.0" />
-        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="2.145" />
-=======
         <Item TypeId="Ore" SubtypeId="Brine" Amount="3250"/>
       </Prerequisites>
       <Results>
@@ -773,7 +502,6 @@
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="95.6"/>
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="11.2"/>
         <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="1.21"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -785,16 +513,6 @@
       <DisplayName>Mineral Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Mineral_Ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="MineralIce" Amount="2625" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1678.509" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="211.491" />
-        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="150.0" />
-        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="15.0" />
-        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1.915" />
-=======
         <Item TypeId="Ore" SubtypeId="MineralIce" Amount="2620"/>
       </Prerequisites>
       <Results>
@@ -803,7 +521,6 @@
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="83.9"/>
         <Item TypeId="Ingot" SubtypeId="Chromium" Amount="8.39"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1.07"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -815,21 +532,12 @@
       <DisplayName>Ammonium Hydroxide</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ammonium_Hydroxide.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AmmoniumHydroxide" Amount="4500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1027.188" />
-        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="899.256" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="323.557" />
-=======
         <Item TypeId="Ore" SubtypeId="AmmoniumHydroxide" Amount="4500"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="592.0"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="518.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="187.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -841,18 +549,6 @@
       <DisplayName>CHON</DisplayName>
       <Icon>Textures\GUI\Icons\ore_CHON.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="CHON" Amount="2000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="669.708" />
-        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="167.586" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="99.149" />
-        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="48.858" />
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="12.5" />
-        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1.119" />
-        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="1.08" />
-=======
         <Item TypeId="Ore" SubtypeId="CHON" Amount="2000"/>
       </Prerequisites>
       <Results>
@@ -863,7 +559,6 @@
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="7.21"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.615"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.598"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -875,21 +570,12 @@
       <DisplayName>Methane Hydrate</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Methane_Hydrate.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="MethaneHydrate" Amount="4125" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2837.61" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="481.914" />
-        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="370.476" />
-=======
         <Item TypeId="Ore" SubtypeId="MethaneHydrate" Amount="4120"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1580.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="268.0"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="206.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -901,19 +587,11 @@
       <DisplayName>Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Ice" Amount="25000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="14476.03" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1823.97" />
-=======
         <Item TypeId="Ore" SubtypeId="Ice" Amount="25000"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="8190.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="1030.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -925,21 +603,12 @@
       <DisplayName>Amber Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Amber_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AmberIce" Amount="21250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="10612.795" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1337.205" />
-        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="600.0" />
-=======
         <Item TypeId="Ore" SubtypeId="AmberIce" Amount="21200"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="6040.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="761.0"/>
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="342.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -951,21 +620,12 @@
       <DisplayName>Blue Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Blue_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="BlueIce" Amount="21250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="10057.733" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1267.267" />
-        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="550.0" />
-=======
         <Item TypeId="Ore" SubtypeId="BlueIce" Amount="21200"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="5750.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="724.0"/>
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="314.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -977,21 +637,12 @@
       <DisplayName>Green Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Green_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="GreenIce" Amount="21250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="10990.237" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1384.762" />
-        <Item TypeId="Ingot" SubtypeId="Krypton" Amount="625.0" />
-=======
         <Item TypeId="Ore" SubtypeId="GreenIce" Amount="21200"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="6240.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="786.0"/>
         <Item TypeId="Ingot" SubtypeId="Krypton" Amount="355.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1003,21 +654,12 @@
       <DisplayName>Pink Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Pink_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="PinkIce" Amount="21875" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="9591.48" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1208.52" />
-        <Item TypeId="Ingot" SubtypeId="Helium" Amount="525.0" />
-=======
         <Item TypeId="Ore" SubtypeId="PinkIce" Amount="21900"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="5510.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="695.0"/>
         <Item TypeId="Ingot" SubtypeId="Helium" Amount="302.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1029,21 +671,12 @@
       <DisplayName>Purple Ice</DisplayName>
       <Icon>Textures\GUI\Icons\Purple_Ice_Icon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="PurpleIce" Amount="22500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="9080.822" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1144.177" />
-        <Item TypeId="Ingot" SubtypeId="Argon" Amount="500.0" />
-=======
         <Item TypeId="Ore" SubtypeId="PurpleIce" Amount="22500"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="5260.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="662.0"/>
         <Item TypeId="Ingot" SubtypeId="Argon" Amount="289.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1055,21 +688,12 @@
       <DisplayName>Europa Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="EuropaIce" Amount="21250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="7659.863" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="965.137" />
-        <Item TypeId="Ingot" SubtypeId="Xenon" Amount="425.0" />
-=======
         <Item TypeId="Ore" SubtypeId="EuropaIce" Amount="21200"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="4480.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="564.0"/>
         <Item TypeId="Ingot" SubtypeId="Xenon" Amount="248.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1081,15 +705,6 @@
       <DisplayName>Alien Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AlienIce" Amount="23300" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="6527.535" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="822.465" />
-        <Item TypeId="Ingot" SubtypeId="Neon" Amount="200.0" />
-        <Item TypeId="Ingot" SubtypeId="Radium" Amount="175.0" />
-=======
         <Item TypeId="Ore" SubtypeId="AlienIce" Amount="23300"/>
       </Prerequisites>
       <Results>
@@ -1097,7 +712,6 @@
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="494.0"/>
         <Item TypeId="Ingot" SubtypeId="Neon" Amount="120.0"/>
         <Item TypeId="Ingot" SubtypeId="Radium" Amount="105.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1109,16 +723,6 @@
       <DisplayName>Brine</DisplayName>
       <Icon>Textures\GUI\Icons\ore_brine_ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Brine" Amount="16250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="9413.86" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1186.14" />
-        <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="850.0" />
-        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="100.0" />
-        <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="10.725" />
-=======
         <Item TypeId="Ore" SubtypeId="Brine" Amount="16200"/>
       </Prerequisites>
       <Results>
@@ -1127,7 +731,6 @@
         <Item TypeId="Ingot" SubtypeId="Chlorine" Amount="478.0"/>
         <Item TypeId="Ingot" SubtypeId="Sodium" Amount="56.2"/>
         <Item TypeId="Ingot" SubtypeId="Beryllium" Amount="6.03"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1139,16 +742,6 @@
       <DisplayName>Mineral Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Mineral_Ice.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="MineralIce" Amount="13125" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="8392.545" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1057.455" />
-        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="750.0" />
-        <Item TypeId="Ingot" SubtypeId="Chromium" Amount="75.0" />
-        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="9.575" />
-=======
         <Item TypeId="Ore" SubtypeId="MineralIce" Amount="13100"/>
       </Prerequisites>
       <Results>
@@ -1157,7 +750,6 @@
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="420.0"/>
         <Item TypeId="Ingot" SubtypeId="Chromium" Amount="42.0"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="5.36"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1169,21 +761,12 @@
       <DisplayName>Ammonium Hydroxide</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ammonium_Hydroxide.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="AmmoniumHydroxide" Amount="22500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="5135.938" />
-        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="4496.278" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="1617.785" />
-=======
         <Item TypeId="Ore" SubtypeId="AmmoniumHydroxide" Amount="22500"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="2960.0"/>
         <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="2590.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="933.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1195,18 +778,6 @@
       <DisplayName>CHON</DisplayName>
       <Icon>Textures\GUI\Icons\ore_CHON.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="CHON" Amount="10000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3348.539" />
-        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="837.93" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="495.746" />
-        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="244.29" />
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="62.5" />
-        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="5.593" />
-        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="5.402" />
-=======
         <Item TypeId="Ore" SubtypeId="CHON" Amount="10000"/>
       </Prerequisites>
       <Results>
@@ -1217,7 +788,6 @@
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="36.0"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="3.07"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="2.99"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1229,21 +799,12 @@
       <DisplayName>Methane Hydrate</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Methane_Hydrate.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="MethaneHydrate" Amount="20625" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="14188.05" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="2409.57" />
-        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1852.38" />
-=======
         <Item TypeId="Ore" SubtypeId="MethaneHydrate" Amount="20600"/>
       </Prerequisites>
       <Results>
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="7880.0"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="1340.0"/>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1030.0"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>

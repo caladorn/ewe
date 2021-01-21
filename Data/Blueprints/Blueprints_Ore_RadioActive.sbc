@@ -9,18 +9,6 @@
       <DisplayName>Coffinite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Coffinite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Coffinite" Amount="350" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="116.046" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="31.204" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="14.935" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="12.319" />
-        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="1.409" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="1.409" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.192" />
-=======
         <Item TypeId="Ore" SubtypeId="Coffinite" Amount="350"/>
       </Prerequisites>
       <Results>
@@ -31,7 +19,6 @@
         <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="0.811"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.811"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.11"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -43,18 +30,6 @@
       <DisplayName>Coffinite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Coffinite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Coffinite" Amount="8750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="2901.151" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="780.111" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="373.384" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="307.97" />
-        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="35.221" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="35.221" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="4.793" />
-=======
         <Item TypeId="Ore" SubtypeId="Coffinite" Amount="1750"/>
       </Prerequisites>
       <Results>
@@ -65,7 +40,6 @@
         <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="4.06"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="4.06"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.552"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -77,18 +51,6 @@
       <DisplayName>Coffinite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Coffinite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Coffinite" Amount="17500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="5802.302" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1560.222" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="746.767" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="615.94" />
-        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="70.441" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="70.441" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="9.587" />
-=======
         <Item TypeId="Ore" SubtypeId="Coffinite" Amount="8750"/>
       </Prerequisites>
       <Results>
@@ -99,7 +61,6 @@
         <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="20.3"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="20.3"/>
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="2.76"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -111,15 +72,6 @@
       <DisplayName>Hafnon</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Hafnon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Hafnon" Amount="425" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="128.76" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="57.716" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="28.88" />
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="4.934" />
-=======
         <Item TypeId="Ore" SubtypeId="Hafnon" Amount="425"/>
       </Prerequisites>
       <Results>
@@ -127,7 +79,6 @@
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="33.2"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="16.6"/>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="2.84"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -139,15 +90,6 @@
       <DisplayName>Hafnon</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Hafnon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Hafnon" Amount="10625" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="3218.988" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1442.899" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="722.0" />
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="123.362" />
-=======
         <Item TypeId="Ore" SubtypeId="Hafnon" Amount="2120"/>
       </Prerequisites>
       <Results>
@@ -155,7 +97,6 @@
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="166.0"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="83.0"/>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="14.2"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -167,15 +108,6 @@
       <DisplayName>Hafnon</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Hafnon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Hafnon" Amount="21250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="6437.975" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2885.799" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1444.001" />
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="246.725" />
-=======
         <Item TypeId="Ore" SubtypeId="Hafnon" Amount="10600"/>
       </Prerequisites>
       <Results>
@@ -183,7 +115,6 @@
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="829.0"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="415.0"/>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="70.9"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -195,18 +126,6 @@
       <DisplayName>Huttonite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Huttonite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Huttonite" Amount="350" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="129.012" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="35.573" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="15.624" />
-        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="9.35" />
-        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="1.19" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="1.17" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="1.17" />
-=======
         <Item TypeId="Ore" SubtypeId="Huttonite" Amount="350"/>
       </Prerequisites>
       <Results>
@@ -217,7 +136,6 @@
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="0.681"/>
         <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="0.669"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.669"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -229,18 +147,6 @@
       <DisplayName>Huttonite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Huttonite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Huttonite" Amount="8750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="3225.308" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="889.336" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="390.605" />
-        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="233.75" />
-        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="29.75" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="29.25" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="29.25" />
-=======
         <Item TypeId="Ore" SubtypeId="Huttonite" Amount="1750"/>
       </Prerequisites>
       <Results>
@@ -251,7 +157,6 @@
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="3.4"/>
         <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="3.35"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="3.35"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -263,18 +168,6 @@
       <DisplayName>Huttonite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Huttonite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Huttonite" Amount="17500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="6450.617" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1778.673" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="781.21" />
-        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="467.5" />
-        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="59.5" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="58.5" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="58.5" />
-=======
         <Item TypeId="Ore" SubtypeId="Huttonite" Amount="8750"/>
       </Prerequisites>
       <Results>
@@ -285,7 +178,6 @@
         <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="17.0"/>
         <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="16.7"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="16.7"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -297,23 +189,6 @@
       <DisplayName>Monazite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Monazite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Monazite" Amount="350" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="45.977" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="40.805" />
-        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="22.144" />
-        <Item TypeId="Ingot" SubtypeId="Cerium" Amount="17.863" />
-        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="14.809" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="10.15" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="7.397" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="4.481" />
-        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="2.21" />
-        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="1.49" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="1.49" />
-        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="0.03" />
-=======
         <Item TypeId="Ore" SubtypeId="Monazite" Amount="350"/>
       </Prerequisites>
       <Results>
@@ -328,7 +203,6 @@
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="1.28"/>
         <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="0.862"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.862"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -340,23 +214,6 @@
       <DisplayName>Monazite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Monazite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Monazite" Amount="8750" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="1149.415" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1020.125" />
-        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="553.607" />
-        <Item TypeId="Ingot" SubtypeId="Cerium" Amount="446.569" />
-        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="370.222" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="253.75" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="184.919" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="112.026" />
-        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="55.25" />
-        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="37.25" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="37.25" />
-        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="0.75" />
-=======
         <Item TypeId="Ore" SubtypeId="Monazite" Amount="1750"/>
       </Prerequisites>
       <Results>
@@ -371,7 +228,6 @@
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="6.39"/>
         <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="4.31"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="4.31"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -383,23 +239,6 @@
       <DisplayName>Monazite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Monazite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Monazite" Amount="17500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="2298.831" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2040.251" />
-        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="1107.214" />
-        <Item TypeId="Ingot" SubtypeId="Cerium" Amount="893.137" />
-        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="740.444" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="507.5" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="369.839" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="224.052" />
-        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="110.5" />
-        <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="74.5" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="74.5" />
-        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="1.5" />
-=======
         <Item TypeId="Ore" SubtypeId="Monazite" Amount="8750"/>
       </Prerequisites>
       <Results>
@@ -414,7 +253,6 @@
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="31.9"/>
         <Item TypeId="Ingot" SubtypeId="Yttrium" Amount="21.5"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="21.5"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -426,26 +264,6 @@
       <DisplayName>Pyrochlore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pyrochlore.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Pyrochlore" Amount="450" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="97.424" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="56.625" />
-        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="18.09" />
-        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="10.501" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="3.095" />
-        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="2.486" />
-        <Item TypeId="Ingot" SubtypeId="Boron" Amount="2.392" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="1.3" />
-        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="1.3" />
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1.3" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.39" />
-        <Item TypeId="Ingot" SubtypeId="Tin" Amount="0.108" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.108" />
-        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="0.095" />
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.068" />
-=======
         <Item TypeId="Ore" SubtypeId="Pyrochlore" Amount="450"/>
       </Prerequisites>
       <Results>
@@ -464,7 +282,6 @@
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.0633"/>
         <Item TypeId="Ingot" SubtypeId="Strontium" Amount="0.0555"/>
         <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.0394"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -476,26 +293,6 @@
       <DisplayName>Pyrochlore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pyrochlore.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Pyrochlore" Amount="11250" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="2435.611" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1415.632" />
-        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="452.242" />
-        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="262.532" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="77.367" />
-        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="62.154" />
-        <Item TypeId="Ingot" SubtypeId="Boron" Amount="59.79" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="32.492" />
-        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="32.492" />
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="32.492" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="9.741" />
-        <Item TypeId="Ingot" SubtypeId="Tin" Amount="2.712" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="2.712" />
-        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="2.379" />
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="1.689" />
-=======
         <Item TypeId="Ore" SubtypeId="Pyrochlore" Amount="2250"/>
       </Prerequisites>
       <Results>
@@ -514,7 +311,6 @@
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.317"/>
         <Item TypeId="Ingot" SubtypeId="Strontium" Amount="0.278"/>
         <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.197"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -526,26 +322,6 @@
       <DisplayName>Pyrochlore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pyrochlore.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Pyrochlore" Amount="22500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Niobium" Amount="4871.221" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2831.264" />
-        <Item TypeId="Ingot" SubtypeId="Sodium" Amount="904.483" />
-        <Item TypeId="Ingot" SubtypeId="Calcium" Amount="525.064" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="154.734" />
-        <Item TypeId="Ingot" SubtypeId="Fluorine" Amount="124.308" />
-        <Item TypeId="Ingot" SubtypeId="Boron" Amount="119.581" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="64.984" />
-        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="64.984" />
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="64.984" />
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="19.481" />
-        <Item TypeId="Ingot" SubtypeId="Tin" Amount="5.424" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="5.424" />
-        <Item TypeId="Ingot" SubtypeId="Strontium" Amount="4.759" />
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="3.377" />
-=======
         <Item TypeId="Ore" SubtypeId="Pyrochlore" Amount="11200"/>
       </Prerequisites>
       <Results>
@@ -564,7 +340,6 @@
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="1.58"/>
         <Item TypeId="Ingot" SubtypeId="Strontium" Amount="1.39"/>
         <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.985"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -576,20 +351,6 @@
       <DisplayName>Pitchblend</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pitchblend.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Pitchblend" Amount="300" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="131.758" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="17.712" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="2.43" />
-        <Item TypeId="Ingot" SubtypeId="Helium" Amount="0.23" />
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="0.22" />
-        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="0.21" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.21" />
-        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.2" />
-        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="0.05" />
-=======
         <Item TypeId="Ore" SubtypeId="Pitchblend" Amount="300"/>
       </Prerequisites>
       <Results>
@@ -601,7 +362,6 @@
         <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="0.121"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.121"/>
         <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.115"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -613,20 +373,6 @@
       <DisplayName>Pitchblend</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pitchblend.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Pitchblend" Amount="7500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="3293.945" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="442.805" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="60.75" />
-        <Item TypeId="Ingot" SubtypeId="Helium" Amount="5.75" />
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="5.5" />
-        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="5.25" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="5.25" />
-        <Item TypeId="Ingot" SubtypeId="Gold" Amount="5.0" />
-        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="1.25" />
-=======
         <Item TypeId="Ore" SubtypeId="Pitchblend" Amount="1500"/>
       </Prerequisites>
       <Results>
@@ -638,7 +384,6 @@
         <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="0.604"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.604"/>
         <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.576"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -650,20 +395,6 @@
       <DisplayName>Pitchblend</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pitchblend.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Pitchblend" Amount="15000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="6587.89" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="885.61" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="121.5" />
-        <Item TypeId="Ingot" SubtypeId="Helium" Amount="11.5" />
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="11.0" />
-        <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="10.5" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="10.5" />
-        <Item TypeId="Ingot" SubtypeId="Gold" Amount="10.0" />
-        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="2.5" />
-=======
         <Item TypeId="Ore" SubtypeId="Pitchblend" Amount="7500"/>
       </Prerequisites>
       <Results>
@@ -675,7 +406,6 @@
         <Item TypeId="Ingot" SubtypeId="Vanadium" Amount="3.02"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="3.02"/>
         <Item TypeId="Ingot" SubtypeId="Gold" Amount="2.88"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -687,23 +417,6 @@
       <DisplayName>Thorite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Thorite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Thorite" Amount="600" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="155.157" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="42.783" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="18.79" />
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.49" />
-        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.45" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="0.41" />
-        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="0.32" />
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.3" />
-        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="0.27" />
-        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="0.16" />
-        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.15" />
-        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="0.13" />
-=======
         <Item TypeId="Ore" SubtypeId="Thorite" Amount="600"/>
       </Prerequisites>
       <Results>
@@ -719,7 +432,6 @@
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="0.095"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.0891"/>
         <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="0.0772"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -731,23 +443,6 @@
       <DisplayName>Thorite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Thorite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Thorite" Amount="15000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="3878.925" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1069.563" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="469.762" />
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="12.25" />
-        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="11.25" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="10.25" />
-        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="8.0" />
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="7.5" />
-        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="6.75" />
-        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="4.0" />
-        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="3.75" />
-        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="3.25" />
-=======
         <Item TypeId="Ore" SubtypeId="Thorite" Amount="3000"/>
       </Prerequisites>
       <Results>
@@ -763,7 +458,6 @@
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="0.475"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="0.445"/>
         <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="0.386"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -775,23 +469,6 @@
       <DisplayName>Thorite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Thorite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Thorite" Amount="30000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="7757.85" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2139.125" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="939.525" />
-        <Item TypeId="Ingot" SubtypeId="Iron" Amount="24.5" />
-        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="22.5" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="20.5" />
-        <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="16.0" />
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="15.0" />
-        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="13.5" />
-        <Item TypeId="Ingot" SubtypeId="Titanium" Amount="8.0" />
-        <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="7.5" />
-        <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="6.5" />
-=======
         <Item TypeId="Ore" SubtypeId="Thorite" Amount="15000"/>
       </Prerequisites>
       <Results>
@@ -807,7 +484,6 @@
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="2.38"/>
         <Item TypeId="Ingot" SubtypeId="Phosphorus" Amount="2.23"/>
         <Item TypeId="Ingot" SubtypeId="Lanthanum" Amount="1.93"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -819,20 +495,6 @@
       <DisplayName>Uraninite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_UO2_uranite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Uraninite" Amount="300" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="131.775" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="17.715" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="2.43" />
-        <Item TypeId="Ingot" SubtypeId="Radium" Amount="0.3" />
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="0.23" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="0.23" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.23" />
-        <Item TypeId="Ingot" SubtypeId="Helium" Amount="0.11" />
-        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="0.02" />
-=======
         <Item TypeId="Ore" SubtypeId="Uraninite" Amount="300"/>
       </Prerequisites>
       <Results>
@@ -844,7 +506,6 @@
         <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="0.132"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.132"/>
         <Item TypeId="Ingot" SubtypeId="Helium" Amount="0.0633"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -856,20 +517,6 @@
       <DisplayName>Uraninite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_UO2_uranite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Uraninite" Amount="7500" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="3294.386" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="442.864" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="60.75" />
-        <Item TypeId="Ingot" SubtypeId="Radium" Amount="7.5" />
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="5.75" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="5.75" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="5.75" />
-        <Item TypeId="Ingot" SubtypeId="Helium" Amount="2.75" />
-        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="0.5" />
-=======
         <Item TypeId="Ore" SubtypeId="Uraninite" Amount="1500"/>
       </Prerequisites>
       <Results>
@@ -881,7 +528,6 @@
         <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="0.662"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="0.662"/>
         <Item TypeId="Ingot" SubtypeId="Helium" Amount="0.317"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -893,20 +539,6 @@
       <DisplayName>Uraninite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_UO2_uranite.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Uraninite" Amount="15000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="6588.772" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="885.728" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="121.5" />
-        <Item TypeId="Ingot" SubtypeId="Radium" Amount="15.0" />
-        <Item TypeId="Ingot" SubtypeId="Lead" Amount="11.5" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="11.5" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="11.5" />
-        <Item TypeId="Ingot" SubtypeId="Helium" Amount="5.5" />
-        <Item TypeId="Ingot" SubtypeId="Plutonium" Amount="1.0" />
-=======
         <Item TypeId="Ore" SubtypeId="Uraninite" Amount="7500"/>
       </Prerequisites>
       <Results>
@@ -918,7 +550,6 @@
         <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="3.31"/>
         <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="3.31"/>
         <Item TypeId="Ingot" SubtypeId="Helium" Amount="1.58"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -930,19 +561,6 @@
       <DisplayName>Zircon</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Zircon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Zircon" Amount="600" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="109.243" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="85.161" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="37.377" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="11.876" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="9.572" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="3.68" />
-        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="0.75" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="0.35" />
-=======
         <Item TypeId="Ore" SubtypeId="Zircon" Amount="600"/>
       </Prerequisites>
       <Results>
@@ -954,7 +572,6 @@
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="2.15"/>
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="0.438"/>
         <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="0.204"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -966,19 +583,6 @@
       <DisplayName>Zircon</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Zircon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Zircon" Amount="15000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="2731.086" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="2129.031" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="934.419" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="296.912" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="239.302" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="92.0" />
-        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="18.75" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="8.75" />
-=======
         <Item TypeId="Ore" SubtypeId="Zircon" Amount="3000"/>
       </Prerequisites>
       <Results>
@@ -990,7 +594,6 @@
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="10.7"/>
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="2.19"/>
         <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="1.02"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -1002,19 +605,6 @@
       <DisplayName>Zircon</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Zircon.dds</Icon>
       <Prerequisites>
-<<<<<<< Updated upstream
-        <Item TypeId="Ore" SubtypeId="Zircon" Amount="30000" />
-      </Prerequisites>
-      <Results>
-        <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="5462.171" />
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="4258.062" />
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1868.837" />
-        <Item TypeId="Ingot" SubtypeId="Hafnium" Amount="593.824" />
-        <Item TypeId="Ingot" SubtypeId="Neodymium" Amount="478.605" />
-        <Item TypeId="Ingot" SubtypeId="Thorium" Amount="184.0" />
-        <Item TypeId="Ingot" SubtypeId="Scandium" Amount="37.5" />
-        <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="17.5" />
-=======
         <Item TypeId="Ore" SubtypeId="Zircon" Amount="15000"/>
       </Prerequisites>
       <Results>
@@ -1026,13 +616,8 @@
         <Item TypeId="Ingot" SubtypeId="Thorium" Amount="53.7"/>
         <Item TypeId="Ingot" SubtypeId="Scandium" Amount="11.0"/>
         <Item TypeId="Ingot" SubtypeId="Refined_Uranium" Amount="5.11"/>
->>>>>>> Stashed changes
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
   </Blueprints>
-<<<<<<< Updated upstream
 </Definitions>
-=======
-</Definitions>
->>>>>>> Stashed changes

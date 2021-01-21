@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-<<<<<<< Updated upstream
-	  <!--    <Definition>
-=======
     <Definition>
->>>>>>> Stashed changes
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheel1x1</SubtypeId>
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -74,7 +70,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -136,7 +132,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -197,7 +193,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -260,7 +256,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -323,7 +319,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Right.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -385,7 +381,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -447,7 +443,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -509,7 +505,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -570,7 +566,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -632,7 +628,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -695,7 +691,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>DisplayName_Block_Wheel5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Left.dds</Icon>
       <Description>Description_Wheel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -749,11 +745,7 @@
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
-<<<<<<< Updated upstream
-    </Definition>  -->
-=======
     </Definition>
->>>>>>> Stashed changes
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -1137,7 +1129,7 @@
         <SubtypeId>Suspension3x3</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1220,7 +1212,7 @@
         <SubtypeId>Suspension5x5</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1299,7 +1291,7 @@
         <SubtypeId>Suspension1x1</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1381,7 +1373,7 @@
         <SubtypeId>SmallSuspension3x3</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1460,7 +1452,7 @@
         <SubtypeId>SmallSuspension5x5</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1537,7 +1529,7 @@
         <SubtypeId>SmallSuspension1x1</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1616,7 +1608,7 @@
         <SubtypeId>Suspension3x3mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1700,7 +1692,7 @@
         <SubtypeId>Suspension5x5mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1779,7 +1771,7 @@
         <SubtypeId>Suspension1x1mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1860,7 +1852,7 @@
         <SubtypeId>SmallSuspension3x3mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1940,7 +1932,7 @@
         <SubtypeId>SmallSuspension5x5mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -2017,7 +2009,7 @@
         <SubtypeId>SmallSuspension1x1mirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>

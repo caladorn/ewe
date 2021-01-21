@@ -460,11 +460,7 @@
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="7330"/>
         <Item TypeId="Ingot" SubtypeId="Niobium" Amount="2300"/>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="200"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="100"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="100"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="70"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
@@ -483,11 +479,7 @@
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="733"/>
         <Item TypeId="Ingot" SubtypeId="Niobium" Amount="230"/>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="20"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="10"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="10"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="7"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
@@ -506,11 +498,7 @@
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="73.3"/>
         <Item TypeId="Ingot" SubtypeId="Niobium" Amount="23"/>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="2"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="1"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="1"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="0.7"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
@@ -529,11 +517,7 @@
         <Item TypeId="Ingot" SubtypeId="Titanium" Amount="0.733"/>
         <Item TypeId="Ingot" SubtypeId="Niobium" Amount="0.23"/>
         <Item TypeId="Ingot" SubtypeId="Zirconium" Amount="0.02"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.01"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.01"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Tantalum" Amount="0.007"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -550,11 +534,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="4100"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="4600"/>
-=======
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="4600"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1300"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
@@ -571,11 +551,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="410"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="460"/>
-=======
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="460"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="130"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -592,11 +568,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="41"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="46"/>
-=======
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="46"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="13"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -613,11 +585,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\PolyCarbonate_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.41"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.46"/>
-=======
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.46"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.13"/>
       </Prerequisites>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -634,11 +602,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="4700"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="5300"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="5300"/>
->>>>>>> Stashed changes
       </Prerequisites>
       <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
       <Results>
@@ -654,11 +618,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="470"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="530"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="530"/>
->>>>>>> Stashed changes
       </Prerequisites>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
       <Results>
@@ -674,11 +634,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="47"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="53"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="53"/>
->>>>>>> Stashed changes
       </Prerequisites>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Results>
@@ -694,11 +650,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Glass_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.47"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.53"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.53"/>
->>>>>>> Stashed changes
       </Prerequisites>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Results>
@@ -714,11 +666,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="3800"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="6200"/>
-=======
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="6200"/>
->>>>>>> Stashed changes
       </Prerequisites>
       <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
       <Results>
@@ -734,11 +682,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="380"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="620"/>
-=======
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="620"/>
->>>>>>> Stashed changes
       </Prerequisites>
       <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
       <Results>
@@ -754,11 +698,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="38"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="62"/>
-=======
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="62"/>
->>>>>>> Stashed changes
       </Prerequisites>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Results>
@@ -774,11 +714,7 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
       <Prerequisites>
         <Item TypeId="Ingot" SubtypeId="Carbon" Amount="0.38"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Hydrogen" Amount="0.62"/>
-=======
         <Item TypeId="Ore" SubtypeId="Hydrogen" Amount="0.62"/>
->>>>>>> Stashed changes
       </Prerequisites>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Results>
@@ -928,11 +864,7 @@
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="4700"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="365"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1024"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="3580"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="3580"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="210"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="68"/>
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="151"/>
@@ -953,11 +885,7 @@
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="470"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="36.5"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="102.4"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="358"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="358"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="21"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="6.8"/>
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="15.1"/>
@@ -978,11 +906,7 @@
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="47"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="3.65"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="10.24"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="35.8"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="35.8"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="2.1"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.68"/>
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="1.51"/>
@@ -1003,11 +927,7 @@
         <Item TypeId="Ingot" SubtypeId="Calcium" Amount="0.47"/>
         <Item TypeId="Ingot" SubtypeId="Aluminum" Amount="0.0365"/>
         <Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.1024"/>
-<<<<<<< Updated upstream
-        <Item TypeId="Ingot" SubtypeId="Oxygen" Amount="0.358"/>
-=======
         <Item TypeId="Ore" SubtypeId="Oxygen" Amount="0.358"/>
->>>>>>> Stashed changes
         <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.021"/>
         <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="0.0068"/>
         <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.0151"/>

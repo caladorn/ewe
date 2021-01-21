@@ -39,7 +39,7 @@
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
-				<TypeId>Ingot</TypeId>
+				<TypeId>Ore</TypeId>
 				<SubtypeId>LiquidGasoline</SubtypeId>
 			</Id>
 			<DisplayName>Gasoline</DisplayName>
@@ -57,7 +57,7 @@
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
-				<TypeId>Ingot</TypeId>
+				<TypeId>Ore</TypeId>
 				<SubtypeId>LiquidJetFuel</SubtypeId>
 			</Id>
 			<DisplayName>Jet Fuel</DisplayName>
