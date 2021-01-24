@@ -60,7 +60,7 @@
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="IonProjectorX100" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="GravityGeneratorX100" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ParticleAcceleratorX100" />
-    <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ShieldEmitterX100" />
+    <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ShieldComponentX100" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="HeatingElementX100" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="CatalyticConvertorX100" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ReactorX100" />
@@ -101,7 +101,7 @@
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="IonProjectorX10" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="GravityGeneratorX10" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ParticleAcceleratorX10" />
-    <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ShieldEmitterX10" />
+    <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ShieldComponentX10" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="HeatingElementX10" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="CatalyticConvertorX10" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ReactorX10" />
@@ -142,7 +142,7 @@
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="IonProjector" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="GravityGenerator" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ParticleAccelerator" />
-    <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ShieldEmitter" />
+    <Entry Class="AdvMassProdElect" BlueprintSubtypeId="ShieldComponent" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="HeatingElement" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="CatalyticConvertor" />
     <Entry Class="AdvMassProdElect" BlueprintSubtypeId="Reactor" />
@@ -183,7 +183,7 @@
     <Entry Class="AdvElectComp" BlueprintSubtypeId="IonProjector" />
     <Entry Class="AdvElectComp" BlueprintSubtypeId="GravityGenerator" />
     <Entry Class="AdvElectComp" BlueprintSubtypeId="ParticleAccelerator" />
-    <Entry Class="AdvElectComp" BlueprintSubtypeId="ShieldEmitter" />
+    <Entry Class="AdvElectComp" BlueprintSubtypeId="ShieldComponent" />
     <Entry Class="AdvElectComp" BlueprintSubtypeId="HeatingElement" />
     <Entry Class="AdvElectComp" BlueprintSubtypeId="CatalyticConvertor" />
     <Entry Class="AdvElectComp" BlueprintSubtypeId="Reactor" />

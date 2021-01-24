@@ -1900,7 +1900,7 @@
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>ShieldEmitterX100</SubtypeId>
+				<SubtypeId>ShieldComponentX100</SubtypeId>
 			</Id>
 			<DisplayName>Shield Emitter x100</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Electronic\ShieldEmitter_Icon.dds</Icon>
@@ -1913,13 +1913,13 @@
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>375</BaseProductionTimeInSeconds>
 			<Results>
-				<Item TypeId="Component" SubtypeId="ShieldEmitter" Amount="100" />
+				<Item TypeId="Component" SubtypeId="ShieldComponent" Amount="100" />
 			</Results>
 		</Blueprint>
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>ShieldEmitterX10</SubtypeId>
+				<SubtypeId>ShieldComponentX10</SubtypeId>
 			</Id>
 			<DisplayName>Shield Emitter x10</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Electronic\ShieldEmitter_Icon.dds</Icon>
@@ -1932,13 +1932,13 @@
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
 			<Results>
-				<Item TypeId="Component" SubtypeId="ShieldEmitter" Amount="10" />
+				<Item TypeId="Component" SubtypeId="ShieldComponent" Amount="10" />
 			</Results>
 		</Blueprint>
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>ShieldEmitter</SubtypeId>
+				<SubtypeId>ShieldComponent</SubtypeId>
 			</Id>
 			<DisplayName>Shield Emitter</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Electronic\ShieldEmitter_Icon.dds</Icon>
@@ -1951,7 +1951,7 @@
 			</Prerequisites>
 			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 			<Results>
-				<Item TypeId="Component" SubtypeId="ShieldEmitter" Amount="1" />
+				<Item TypeId="Component" SubtypeId="ShieldComponent" Amount="1" />
 			</Results>
 		</Blueprint>
 		<Blueprint>

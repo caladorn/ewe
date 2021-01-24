@@ -140,7 +140,7 @@
       </Id>
       <DisplayName>Advanced Solar Panel</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_SolarPanel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -206,7 +206,7 @@
       </Id>
       <DisplayName>Advanced Solar Panel</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_SolarPanel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -273,7 +273,7 @@
       </Id>
       <DisplayName>Elite Solar Panel</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_SolarPanel</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -339,7 +339,7 @@
       </Id>
       <DisplayName>Elite Solar Panel</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_SolarPanel</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

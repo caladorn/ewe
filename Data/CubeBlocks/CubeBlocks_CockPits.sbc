@@ -2111,12 +2111,6 @@
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
       </ScreenAreas>
       <BlockPairName>ControlStation</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Cockpit</TypeId>
-          <SubtypeId>CockpitOpen</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
@@ -2388,12 +2382,6 @@
               <MinAllowed>0</MinAllowed>
           </DynamicMode>
       </VoxelPlacement>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Cockpit</TypeId>
-          <SubtypeId>LargeBlockDeskCorner</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>Desk</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
@@ -2522,12 +2510,6 @@
               <MinAllowed>0</MinAllowed>
           </DynamicMode>
       </VoxelPlacement>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Cockpit</TypeId>
-          <SubtypeId>LargeBlockToilet</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>BathroomOpen</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>

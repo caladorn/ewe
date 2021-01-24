@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>InteriorTurret</TypeId>
+        <SubtypeId>LargeBlockPulseTurret</SubtypeId>
+      </Id>
+      <DisplayName>Pulse Turret</DisplayName>
+      <Icon>Textures\Icons\smallplasmaturret.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <Model>Models\Cubes\LargeBlockSmallPlasmaTurret_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+  	  <MountPoints>
+    		<MountPoint EndY="0.78" EndX="0.80" StartY="0.18" StartX="0.20" Side="Front"/>
+    		<MountPoint EndY="0.78" EndX="0.80" StartY="0.18" StartX="0.20" Side="Back"/>
+    		<MountPoint EndY="0.78" EndX="0.80" StartY="0.18" StartX="0.20" Side="Left"/>
+    		<MountPoint EndY="0.78" EndX="0.80" StartY="0.18" StartX="0.20" Side="Right"/>
+    		<MountPoint EndY="0.80" EndX="0.80" StartY="0.20" StartX="0.20" Side="Bottom"/>
+  	  </MountPoints>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="25" />
+        <Component Subtype="BrassRod" Count="12" />
+        <Component Subtype="FluxCapacitor" Count="6" />
+        <Component Subtype="BeamEmiter" Count="4" />
+        <Component Subtype="MicroChip" Count="7" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="CoolingUnit" Count="4" />
+        <Component Subtype="Superconductor" Count="16" />
+        <Component Subtype="Computer" Count="32" />
+        <Component Subtype="BrazingRod" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MissileTurretConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MissileTurretConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MissileTurretConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>PulseTurret</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="PulseTurret" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+	    <MaxPowerConsumption>0.0001</MaxPowerConsumption>
+      <MinPowerConsumption>0.0001</MinPowerConsumption>
+      <RequiredPowerInput>0.0001</RequiredPowerInput>
+      <MinElevationDegrees>0</MinElevationDegrees>
+      <MaxElevationDegrees>180</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <MaxRangeMeters>1000</MaxRangeMeters>
+      <RotationSpeed>0.002</RotationSpeed>
+      <ElevationSpeed>0.002 </ElevationSpeed>
+    </Definition>
+	
+	  <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>InteriorTurret</TypeId>
+        <SubtypeId>LargeBlockLaserTurret</SubtypeId>
+      </Id>
+      <DisplayName>Laser Turret</DisplayName>
+      <Icon>Textures\Icons\smalllaserturret.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <Model>Models\Cubes\LargeBlockSmallLaserTurret_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+  	  <MountPoints>
+    		<MountPoint EndY="0.78" EndX="0.80" StartY="0.18" StartX="0.20" Side="Front"/>
+    		<MountPoint EndY="0.78" EndX="0.80" StartY="0.18" StartX="0.20" Side="Back"/>
+    		<MountPoint EndY="0.78" EndX="0.80" StartY="0.18" StartX="0.20" Side="Left"/>
+    		<MountPoint EndY="0.78" EndX="0.80" StartY="0.18" StartX="0.20" Side="Right"/>
+    		<MountPoint EndY="0.80" EndX="0.80" StartY="0.20" StartX="0.20" Side="Bottom"/>
+  	  </MountPoints>
+      <Components>
+        <Component Subtype="NitinolPlate" Count="25" />
+        <Component Subtype="BrassRod" Count="12" />
+        <Component Subtype="FluxCapacitor" Count="3" />
+        <Component Subtype="BeamEmiter" Count="1" />
+        <Component Subtype="MicroChip" Count="6" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="CoolingUnit" Count="1" />
+        <Component Subtype="Superconductor" Count="4" />
+        <Component Subtype="Computer" Count="32" />
+        <Component Subtype="BrazingRod" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MissileTurretConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MissileTurretConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MissileTurretConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LaserTurret</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="LaserTurret" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>0</MinElevationDegrees>
+      <MaxElevationDegrees>180</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <MaxRangeMeters>800</MaxRangeMeters>
+      <RotationSpeed>0.002</RotationSpeed>
+      <ElevationSpeed>0.002 </ElevationSpeed>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

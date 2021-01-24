@@ -106,7 +106,6 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -168,7 +167,6 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>480</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -301,7 +299,6 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>384</BuildTimeSeconds>
       <DamageEffectId>213</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -365,7 +362,6 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>768</BuildTimeSeconds>
       <DamageEffectId>213</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -414,16 +410,6 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>JumpDrive</TypeId>
-          <SubtypeId>SmallBlockAdvancedMicroDrive</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>JumpDrive</TypeId>
-          <SubtypeId>SmallBlockEliteMicroDrive</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BuildTimeSeconds>78</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -476,7 +462,6 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>156</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -529,7 +514,6 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>312</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>

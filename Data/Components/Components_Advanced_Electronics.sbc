@@ -463,7 +463,7 @@
 		<Component>
 			<Id>
 				<TypeId>Component</TypeId>
-				<SubtypeId>ShieldEmitter</SubtypeId>
+				<SubtypeId>ShieldComponent</SubtypeId>
 			</Id>
 			<DisplayName>Shield Emitter</DisplayName>
 			<Icon>Textures\GUI\Icons\component\Electronic\ShieldEmitter_Icon.dds</Icon>

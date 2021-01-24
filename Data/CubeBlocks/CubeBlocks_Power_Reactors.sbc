@@ -293,7 +293,7 @@
       </Id>
       <DisplayName>Small Advanced Thorium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -364,7 +364,7 @@
       </Id>
       <DisplayName>Small Elite Thorium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -508,7 +508,7 @@
       </Id>
       <DisplayName>Large Advanced Thorium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -581,7 +581,7 @@
       </Id>
       <DisplayName>Large Elite Thorium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	      <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -725,7 +725,7 @@
       </Id>
       <DisplayName>Small Advanced Thorium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -796,7 +796,7 @@
       </Id>
       <DisplayName>Small Elite Thorium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+    	  <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -939,7 +939,7 @@
       </Id>
       <DisplayName>Large Advanced Uranium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1010,7 +1010,7 @@
       </Id>
       <DisplayName>Large Elite Uranium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	      <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1152,7 +1152,7 @@
       </Id>
       <DisplayName>Small Advanced Uranium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1223,7 +1223,7 @@
       </Id>
       <DisplayName>Small Elite Uranium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	        <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1367,7 +1367,7 @@
       </Id>
       <DisplayName>Large Advanced Uranium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	       <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1440,7 +1440,7 @@
       </Id>
       <DisplayName>Large Elite Uranium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	     <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1584,7 +1584,7 @@
       </Id>
       <DisplayName>Small Advanced Uranium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	      <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1655,7 +1655,7 @@
       </Id>
       <DisplayName>Small Elite Uranium Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-	  <GuiVisible>false</GuiVisible>
+	      <GuiVisible>false</GuiVisible>
       <Description>Description_Reactor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
