@@ -624,15 +624,15 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SensorX100</SubtypeId>
       </Id>
-      <DisplayName>Sensors X100</DisplayName>
+      <DisplayName>Sensors X1000</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\Sensor_Icon.dds</Icon>
       <Prerequisites>
-        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="0.002"/>
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.016"/>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="0.02"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.16"/>
       </Prerequisites>
-      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
       <Results>
-        <Item TypeId="Component" SubtypeId="Sensor" Amount="100"/>
+        <Item TypeId="Component" SubtypeId="Sensor" Amount="1000"/>
       </Results>
     </Blueprint>
     <Blueprint>
@@ -640,15 +640,15 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SensorX10</SubtypeId>
       </Id>
-      <DisplayName>Sensors X10</DisplayName>
+      <DisplayName>Sensors x100</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\Sensor_Icon.dds</Icon>
       <Prerequisites>
-        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="0.0002"/>
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.0016"/>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="0.002"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.016"/>
       </Prerequisites>
-      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
       <Results>
-        <Item TypeId="Component" SubtypeId="Sensor" Amount="10"/>
+        <Item TypeId="Component" SubtypeId="Sensor" Amount="100"/>
       </Results>
     </Blueprint>
     <Blueprint>
@@ -656,15 +656,15 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Sensor</SubtypeId>
       </Id>
-      <DisplayName>Sensor</DisplayName>
+      <DisplayName>Sensor x10</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\Sensor_Icon.dds</Icon>
       <Prerequisites>
-        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="2e-05"/>
-        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.00016"/>
+        <Item TypeId="Ingot" SubtypeId="Arsenic" Amount="0.0002"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.0016"/>
       </Prerequisites>
-      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Results>
-        <Item TypeId="Component" SubtypeId="Sensor" Amount="1"/>
+        <Item TypeId="Component" SubtypeId="Sensor" Amount="10"/>
       </Results>
     </Blueprint>
     <Blueprint>
