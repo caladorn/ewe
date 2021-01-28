@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- EWEEnergyWeaponsGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEEnergyWeaponsGroup" />
+            <Icon>Textures\Icons\smallplasmaturret.dds</Icon>
+            <DisplayName>Energy Weapons</DisplayName>
+            <Description>Energy Weapons</Description>
+            <Blocks>
+                <Block Type="InteriorTurret" Subtype="LargeBlockPulseTurret" />
+                <Block Type="InteriorTurret" Subtype="LargeBlockLaserTurret" />
+            </Blocks>
+        </BlockVariantGroup>
+	</BlockVariantGroups>
+</Definitions>

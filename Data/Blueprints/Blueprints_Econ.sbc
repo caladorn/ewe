@@ -9,7 +9,7 @@
 			<DisplayName>Zone Chip</DisplayName>
 			<Icon>Textures\GUI\Icons\Items\ZoneChip_Item.dds</Icon>
 			<Prerequisites>
-				<Item TypeId="Component" SubtypeId="ShieldEmitter" Amount="1" />
+				<Item TypeId="Component" SubtypeId="ShieldComponent" Amount="1" />
 				<Item TypeId="Ingot" SubtypeId="Electrum" Amount="1" />
 				<Item TypeId="Ingot" SubtypeId="Hafnium" Amount="5" />
 				<Item TypeId="Ingot" SubtypeId="Krypton" Amount="5" />

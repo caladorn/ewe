@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- TitaniumArmorLightCubeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorLightCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <DisplayName>Titanium Light Armor Blocks</DisplayName>
+            <Description>Titanium Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorCornerSquareInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- TitaniumArmorLightRampGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorLightRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
+            <DisplayName>Titanium Light Armor Ramps</DisplayName>
+            <Description>Titanium Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfSlopeTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorHalfSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfTitaniumSlopeArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- TitaniumArmorLightRampCornerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorLightRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
+            <DisplayName>Titanium Light Armor Ramp Corners</DisplayName>
+            <Description>Titanium Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorHalfSlopeInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- TitaniumArmorLightRoundGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorLightRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Titanium Light Armor Slopes</DisplayName>
+            <Description>Titanium Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- TitaniumArmorHeavyCubeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorHeavyCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <DisplayName>Titanium Heavy Armor Blocks</DisplayName>
+            <Description>Titanium Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorCornerSquareInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- TitaniumArmorHeavyRampGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorHeavyRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
+            <DisplayName>Titanium Heavy Armor Ramps</DisplayName>
+            <Description>Titanium Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfSlopeTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorHalfSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfTitaniumArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfTitaniumSlopeArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- TitaniumArmorHeavyRampCornerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorHeavyRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
+            <DisplayName>Titanium Heavy Armor Ramp Corners</DisplayName>
+            <Description>Titanium Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorHalfSlopeInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- TitaniumArmorHeavyRoundGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorHeavyRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
+            <DisplayName>Titanium Heavy Armor Slopes</DisplayName>
+            <Description>Titanium Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockTitaniumArmorRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockTitaniumArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorLightSlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightArmorSlopedCorners</DisplayName>
+            <Description>Description_LightArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockTitaniumArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockTitaniumArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TitaniumArmorHeavySlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_HeavyTitaniumArmorSlopedCorners</DisplayName>
+            <Description>Description_HeavyTitaniumArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyTitaniumArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyTitaniumArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- NitinolArmorLightCubeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorLightCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <DisplayName>Nitinol Light Armor Blocks</DisplayName>
+            <Description>Nitinol Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorCornerSquareInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- NitinolArmorLightRampGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorLightRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
+            <DisplayName>Nitinol Light Armor Ramps</DisplayName>
+            <Description>Nitinol Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfSlopeNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorHalfSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfNitinolSlopeArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- NitinolArmorLightRampCornerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorLightRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
+            <DisplayName>Nitinol Light Armor Ramp Corners</DisplayName>
+            <Description>Nitinol Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorHalfSlopeInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- NitinolArmorLightRoundGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorLightRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Nitinol Light Armor Slopes</DisplayName>
+            <Description>Nitinol Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup> <!-- NitinolArmorHeavyCubeGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorHeavyCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <DisplayName>Nitinol Heavy Armor Blocks</DisplayName>
+            <Description>Nitinol Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorCornerSquareInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- NitinolArmorHeavyRampGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorHeavyRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
+            <DisplayName>Nitinol Heavy Armor Ramps</DisplayName>
+            <Description>Nitinol Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfSlopeNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorHalfSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfSlopeNitinolArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- NitinolArmorHeavyRampCornerGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorHeavyRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
+            <DisplayName>Nitinol Heavy Armor Ramp Corners</DisplayName>
+            <Description>Nitinol Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorHalfSlopeInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- NitinolArmorHeavyRoundGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorHeavyRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
+            <DisplayName>Nitinol Heavy Armor Slopes</DisplayName>
+            <Description>Nitinol Heavy Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockNitinolArmorRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockNitinolArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorLightSlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightArmorSlopedCorners</DisplayName>
+            <Description>Description_LightArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNitinolArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockNitinolArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NitinolArmorHeavySlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_HeavyNitinolArmorSlopedCorners</DisplayName>
+            <Description>Description_HeavyNitinolArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyNitinolArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyNitinolArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>
+
+	</BlockVariantGroups>
+</Definitions>
