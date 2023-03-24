@@ -20,7 +20,7 @@
 
         <BlockVariantGroup> <!-- EWEWindTurbineGroup -->
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEWindTurbineGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
             <DisplayName>Wind Turbines</DisplayName>
             <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
             <Blocks>

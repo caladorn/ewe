@@ -1234,21 +1234,21 @@
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>BasicJumpDrive</Name>
+            <Name>BasicMicroDrive</Name>
             <Position>
                 <X>4</X>
                 <Y>27</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>BasicHyperDrive</Name>
+            <Name>BasicJumpDrive</Name>
             <Position>
                 <X>5</X>
                 <Y>27</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>BasicMicroDrive</Name>
+            <Name>BasicHyperDrive</Name>
             <Position>
                 <X>6</X>
                 <Y>27</Y>
@@ -1301,6 +1301,103 @@
         </BlockPosition>
 
         <!-- End Region Row 28 -->
+        <!-- Region Row 29 -->
+        <BlockPosition>
+            <Name>BasicSolarPanel</Name>
+            <Position>
+                <X>0</X>
+                <Y>29</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicWindTurbine</Name>
+            <Position>
+                <X>1</X>
+                <Y>29</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicCapacitorBank</Name>
+            <Position>
+                <X>2</X>
+                <Y>29</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicLeadBattery</Name>
+            <Position>
+                <X>3</X>
+                <Y>29</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicLithiumBattery</Name>
+            <Position>
+                <X>4</X>
+                <Y>29</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicFluorideBattery</Name>
+            <Position>
+                <X>5</X>
+                <Y>29</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End Region Row 29 -->
+        <!-- Region Row 30 -->
+        <BlockPosition>
+            <Name>HydrogenEngine</Name>
+            <Position>
+                <X>0</X>
+                <Y>30</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>GasolineEngine</Name>
+            <Position>
+                <X>1</X>
+                <Y>30</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>JetFuelEngine</Name>
+            <Position>
+                <X>2</X>
+                <Y>30</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SmallBasicThoriumReactor</Name>
+            <Position>
+                <X>3</X>
+                <Y>30</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SmallBasicUraniumReactor</Name>
+            <Position>
+                <X>4</X>
+                <Y>30</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SmallBasicPlutoniumReactor</Name>
+            <Position>
+                <X>5</X>
+                <Y>30</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SmallBasicFusionReactor</Name>
+            <Position>
+                <X>6</X>
+                <Y>30</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End Region Row 30 -->
         <!-- Region Auto-assigned-->
         <!-- Region Page 1-->
         <BlockPosition>

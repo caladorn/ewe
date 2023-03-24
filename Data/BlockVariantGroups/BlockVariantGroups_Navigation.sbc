@@ -38,7 +38,7 @@
 
         <BlockVariantGroup> <!-- EWEIndustrialCockpitGroup -->
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEIndustrialCockpitGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CockpitIndustrial.dds</Icon>
             <DisplayName>Cockpits</DisplayName>
             <Description>Cockpits</Description>
             <Blocks>
@@ -104,7 +104,7 @@
         </BlockVariantGroup>
         <BlockVariantGroup> <!-- EWEMicroDriveGroup -->
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEMicroDriveGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
             <DisplayName>Micro Drives</DisplayName>
             <Description>Short Range Jumping with Slow Recharge</Description>
             <Blocks>

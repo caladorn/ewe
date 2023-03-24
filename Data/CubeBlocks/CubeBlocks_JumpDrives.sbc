@@ -385,7 +385,7 @@
         <SubtypeId>SmallBlockBasicMicroDrive</SubtypeId>
       </Id>
       <DisplayName>Basic Micro Drive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <Description>Basic Micro Drive</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -447,7 +447,7 @@
         <SubtypeId>SmallBlockAdvancedMicroDrive</SubtypeId>
       </Id>
       <DisplayName>Advanced Micro Drive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <Description>Advanced Micro Drive</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -500,7 +500,7 @@
         <SubtypeId>SmallBlockEliteMicroDrive</SubtypeId>
       </Id>
       <DisplayName>Elite Micro Drive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <Description>Elite Micro Drive</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
