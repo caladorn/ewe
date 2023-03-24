@@ -341,13 +341,6 @@
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>Cockpit</Name>
-            <Position>
-                <X>1</X>
-                <Y>3</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
             <Name>CockpitOpen</Name>
             <Position>
                 <X>0</X>
@@ -457,55 +450,6 @@
         <!--End Region Row 4-->
         <!--Region Row 5-->
         <BlockPosition>
-            <Name>LargeHydrogenThrust</Name>
-            <Position>
-                <X>0</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>HydrogenThrust</Name>
-            <Position>
-                <X>0</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>LargeAtmoThrust</Name>
-            <Position>
-                <X>1</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>SmallAtmoThrust</Name>
-            <Position>
-                <X>1</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>LargeThrust</Name>
-            <Position>
-                <X>2</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>SmallThrust</Name>
-            <Position>
-                <X>2</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>Gyroscope</Name>
-            <Position>
-                <X>4</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
             <Name>Parachute Hatch</Name>
             <Position>
                 <X>3</X>
@@ -587,13 +531,6 @@
         <!--End Region Row 6-->
         <!--Region Row 7-->
         <BlockPosition>
-            <Name>OreDetector</Name>
-            <Position>
-                <X>0</X>
-                <Y>7</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
             <Name>Antenna</Name>
             <Position>
                 <X>1</X>
@@ -669,13 +606,6 @@
             <Name>Projector</Name>
             <Position>
                 <X>6</X>
-                <Y>8</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>SurvivalKit</Name>
-            <Position>
-                <X>7</X>
                 <Y>8</Y>
             </Position>
         </BlockPosition>
@@ -767,43 +697,8 @@
                 <Y>10</Y>
             </Position>
         </BlockPosition>
-        <BlockPosition>
-            <Name>ShipWelder</Name>
-            <Position>
-                <X>7</X>
-                <Y>10</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>ShipGrinder</Name>
-            <Position>
-                <X>8</X>
-                <Y>10</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>Drill</Name>
-            <Position>
-                <X>9</X>
-                <Y>10</Y>
-            </Position>
-        </BlockPosition>
         <!-- End Region Row 10 -->
         <!-- Region Row 11 -->
-        <BlockPosition>
-            <Name>Door</Name>
-            <Position>
-                <X>0</X>
-                <Y>11</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>AirtightHangarDoor</Name>
-            <Position>
-                <X>1</X>
-                <Y>11</Y>
-            </Position>
-        </BlockPosition>
         <BlockPosition>
             <Name>ArmorCenter</Name>
             <Position>
@@ -1197,20 +1092,20 @@
                 <Y>18</Y>
             </Position>
         </BlockPosition>
-        <BlockPosition>
-            <Name>JumpDrive</Name>
-            <Position>
-                <X>4</X>
-                <Y>18</Y>
-            </Position>
-        </BlockPosition>
         <!-- End region Row 18 -->
         <!-- Region Row 22 -->
         
         <BlockPosition>
-            <Name>EngineerPlushie</Name>
+            <Name>SurvivalKit</Name>
             <Position>
                 <X>0</X>
+                <Y>22</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>EngineerPlushie</Name>
+            <Position>
+                <X>1</X>
                 <Y>22</Y>
             </Position>
         </BlockPosition>
@@ -1220,7 +1115,7 @@
         <BlockPosition>
             <Name>SymbolA</Name>
             <Position>
-                <X>2</X>
+                <X>0</X>
                 <Y>23</Y>
             </Position>
         </BlockPosition>
@@ -1234,7 +1129,7 @@
         <BlockPosition>
             <Name>SymbolHyphen</Name>
             <Position>
-                <X>0</X>
+                <X>2</X>
                 <Y>23</Y>
             </Position>
         </BlockPosition>
@@ -1278,23 +1173,134 @@
         </BlockPosition>
 
         <!-- End Region Row 24 -->
-        <!-- Region Row 25 -->
+        <!-- Region Row 26 -->
+        <BlockPosition>
+            <Name>BasicShipDrill</Name>
+            <Position>
+                <X>0</X>
+                <Y>26</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicShipWelder</Name>
+            <Position>
+                <X>1</X>
+                <Y>26</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicShipGrinder</Name>
+            <Position>
+                <X>2</X>
+                <Y>26</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicOreDetector</Name>
+            <Position>
+                <X>3</X>
+                <Y>26</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End Region Row 26 -->
+        <!-- Region Row 27 -->
+        <BlockPosition>
+            <Name>AluminumFighterCockpit</Name>
+            <Position>
+                <X>0</X>
+                <Y>27</Y>
+            </Position>
+        </BlockPosition>
         <BlockPosition>
             <Name>AluminumCockpit</Name>
             <Position>
-                <X>0</X>
-                <Y>25</Y>
+                <X>1</X>
+                <Y>27</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
             <Name>AluminumIndustrialCockpit</Name>
             <Position>
-                <X>1</X>
-                <Y>25</Y>
+                <X>2</X>
+                <Y>27</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>Gyroscope</Name>
+            <Position>
+                <X>3</X>
+                <Y>27</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicJumpDrive</Name>
+            <Position>
+                <X>4</X>
+                <Y>27</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicHyperDrive</Name>
+            <Position>
+                <X>5</X>
+                <Y>27</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicMicroDrive</Name>
+            <Position>
+                <X>6</X>
+                <Y>27</Y>
             </Position>
         </BlockPosition>
 
-        <!-- End Region Row 25 -->
+        <!-- End Region Row 27 -->
+        <!-- Region Row 28 -->
+        <BlockPosition>
+            <Name>SmallBasicAtmosphericThruster</Name>
+            <Position>
+                <X>0</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicAtmosphericThruster</Name>
+            <Position>
+                <X>1</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SmallBasicHydrogenThruster</Name>
+            <Position>
+                <X>2</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicHydrogenThruster</Name>
+            <Position>
+                <X>3</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SmallBasicIonThruster</Name>
+            <Position>
+                <X>4</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicIonThruster</Name>
+            <Position>
+                <X>5</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End Region Row 28 -->
         <!-- Region Auto-assigned-->
         <!-- Region Page 1-->
         <BlockPosition>
