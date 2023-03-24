@@ -456,34 +456,6 @@
                 <Y>5</Y>
             </Position>
         </BlockPosition>
-        <BlockPosition>
-            <Name>LargeAtmoThrustSciFi</Name>
-            <Position>
-                <X>5</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>LargeThrustSciFi</Name>
-            <Position>
-                <X>6</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>LargeHydrogenThrustIndustrial</Name>
-            <Position>
-                <X>7</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>LargeModularThruster</Name>
-            <Position>
-                <X>8</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
         <!--End Region Row 5-->
         <!-- Region Row 6-->
         <BlockPosition>
@@ -636,13 +608,6 @@
             <Name>LargeCargoContainer</Name>
             <Position>
                 <X>2</X>
-                <Y>9</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>DeadBody</Name>
-            <Position>
-                <X>3</X>
                 <Y>9</Y>
             </Position>
         </BlockPosition>
@@ -838,78 +803,6 @@
         </BlockPosition>
 
         <!-- End Region Row 13 -->
-        <!-- Region Row 14 -->
-        <BlockPosition>
-            <Name>Conveyor</Name>
-            <Position>
-                <X>0</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>ConveyorFrame</Name>
-            <Position>
-                <X>1</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>ConveyorSmall</Name>
-            <Position>
-                <X>2</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>Connector</Name>
-            <Position>
-                <X>3</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>ConnectorSmall</Name>
-            <Position>
-                <X>4</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>Collector</Name>
-            <Position>
-                <X>5</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>ConveyorSorter</Name>
-            <Position>
-                <X>6</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>ConveyorSorterSmall</Name>
-            <Position>
-                <X>7</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>ConveyorPipeJunction</Name>
-            <Position>
-                <X>8</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>ConveyorPipeSeamless</Name>
-            <Position>
-                <X>9</X>
-                <Y>14</Y>
-            </Position>
-        </BlockPosition>
-        <!-- End region Row 14 -->
         <!-- Region Row 15 -->
         <BlockPosition>
             <Name>LandingGear</Name>
@@ -962,41 +855,6 @@
         </BlockPosition>
         <!-- End region Row 15 -->
         <!-- Region Row 16 -->
-        <BlockPosition>
-            <Name>AirVent</Name>
-            <Position>
-                <X>0</X>
-                <Y>16</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>OxygenGenerator</Name>
-            <Position>
-                <X>1</X>
-                <Y>16</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>OxygenTank</Name>
-            <Position>
-                <X>2</X>
-                <Y>16</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>HydrogenTank</Name>
-            <Position>
-                <X>3</X>
-                <Y>16</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>OxygenFarm</Name>
-            <Position>
-                <X>4</X>
-                <Y>16</Y>
-            </Position>
-        </BlockPosition>
         <!-- End region Row 16 -->
         <!-- Region Row 17 -->
         <BlockPosition>
@@ -1064,34 +922,6 @@
         </BlockPosition>
         <!-- End region Row 17 -->
         <!-- Region Row 18 -->
-        <BlockPosition>
-            <Name>GravityGenerator</Name>
-            <Position>
-                <X>0</X>
-                <Y>18</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>GravityGeneratorSphere</Name>
-            <Position>
-                <X>1</X>
-                <Y>18</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>VirtualMass</Name>
-            <Position>
-                <X>2</X>
-                <Y>18</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>SpaceBall</Name>
-            <Position>
-                <X>3</X>
-                <Y>18</Y>
-            </Position>
-        </BlockPosition>
         <!-- End region Row 18 -->
         <!-- Region Row 22 -->
         
@@ -1106,6 +936,27 @@
             <Name>EngineerPlushie</Name>
             <Position>
                 <X>1</X>
+                <Y>22</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>DeadBody</Name>
+            <Position>
+                <X>2</X>
+                <Y>22</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>VirtualMass</Name>
+            <Position>
+                <X>3</X>
+                <Y>22</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>Projector</Name>
+            <Position>
+                <X>4</X>
                 <Y>22</Y>
             </Position>
         </BlockPosition>
@@ -1299,6 +1150,34 @@
                 <Y>28</Y>
             </Position>
         </BlockPosition>
+        <BlockPosition>
+            <Name>LargeAtmoThrustSciFi</Name>
+            <Position>
+                <X>6</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeThrustSciFi</Name>
+            <Position>
+                <X>7</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeHydrogenThrustIndustrial</Name>
+            <Position>
+                <X>8</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeModularThruster</Name>
+            <Position>
+                <X>9</X>
+                <Y>28</Y>
+            </Position>
+        </BlockPosition>
 
         <!-- End Region Row 28 -->
         <!-- Region Row 29 -->
@@ -1369,28 +1248,28 @@
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>SmallBasicThoriumReactor</Name>
+            <Name>LargeBasicThoriumReactor</Name>
             <Position>
                 <X>3</X>
                 <Y>30</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>SmallBasicUraniumReactor</Name>
+            <Name>LargeBasicUraniumReactor</Name>
             <Position>
                 <X>4</X>
                 <Y>30</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>SmallBasicPlutoniumReactor</Name>
+            <Name>LargeBasicPlutoniumReactor</Name>
             <Position>
                 <X>5</X>
                 <Y>30</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>SmallBasicFusionReactor</Name>
+            <Name>LargeBasicFusionReactor</Name>
             <Position>
                 <X>6</X>
                 <Y>30</Y>
@@ -1398,6 +1277,255 @@
         </BlockPosition>
 
         <!-- End Region Row 30 -->
+        <!-- Region Row 31 -->
+        <BlockPosition>
+            <Name>StoneCrusher</Name>
+            <Position>
+                <X>0</X>
+                <Y>31</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>RemovedAssembler</Name>
+            <Position>
+                <X>1</X>
+                <Y>31</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicMassAssembler</Name>
+            <Position>
+                <X>2</X>
+                <Y>31</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicPowerModule</Name>
+            <Position>
+                <X>3</X>
+                <Y>31</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicEfficiencyModule</Name>
+            <Position>
+                <X>4</X>
+                <Y>31</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicSpeedModule</Name>
+            <Position>
+                <X>5</X>
+                <Y>31</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeDualEnergyModule</Name>
+            <Position>
+                <X>6</X>
+                <Y>31</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeDualEffectivenessModule</Name>
+            <Position>
+                <X>7</X>
+                <Y>31</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeDualProductivityModule</Name>
+            <Position>
+                <X>8</X>
+                <Y>31</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End Region Row 31 -->
+        <!-- Region Row 32 -->
+        <BlockPosition>
+            <Name>BasicOxygenFarm</Name>
+            <Position>
+                <X>0</X>
+                <Y>32</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>BasicHydrogenFarm</Name>
+            <Position>
+                <X>1</X>
+                <Y>32</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>OxygenGenerator</Name>
+            <Position>
+                <X>2</X>
+                <Y>32</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End Region Row 32 -->
+        <!-- Region Row 33 -->
+        <BlockPosition>
+            <Name>SmallBasicOxygenTank</Name>
+            <Position>
+                <X>0</X>
+                <Y>33</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SmallBasicHydrogenTank</Name>
+            <Position>
+                <X>1</X>
+                <Y>33</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SmallBasicGasolineTank</Name>
+            <Position>
+                <X>2</X>
+                <Y>33</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SmallBasicJetFuelTank</Name>
+            <Position>
+                <X>3</X>
+                <Y>33</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeBasicOxygenTank</Name>
+            <Position>
+                <X>4</X>
+                <Y>33</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeBasicHydrogenTank</Name>
+            <Position>
+                <X>5</X>
+                <Y>33</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeBasicGasolineTank</Name>
+            <Position>
+                <X>6</X>
+                <Y>33</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeBasicJetFuelTank</Name>
+            <Position>
+                <X>7</X>
+                <Y>33</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>AirVent</Name>
+            <Position>
+                <X>8</X>
+                <Y>33</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End Region Row 33 -->
+        <!-- Region Row 34 -->
+        <BlockPosition>
+            <Name>SmallCargoContainer</Name>
+            <Position>
+                <X>0</X>
+                <Y>34</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>MediumCargoContainer</Name>
+            <Position>
+                <X>1</X>
+                <Y>34</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LargeCargoContainer</Name>
+            <Position>
+                <X>2</X>
+                <Y>34</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End Region Row 34 -->
+        <!-- Region Row 35 -->
+        <BlockPosition>
+            <Name>Conveyor</Name>
+            <Position>
+                <X>0</X>
+                <Y>35</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>ConveyorSmall</Name>
+            <Position>
+                <X>1</X>
+                <Y>35</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>Collector</Name>
+            <Position>
+                <X>2</X>
+                <Y>35</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>ConveyorPipeJunction</Name>
+            <Position>
+                <X>3</X>
+                <Y>35</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End region Row 35 -->
+        <!-- Region Row 36 -->
+        <BlockPosition>
+            <Name>PPStraight_Armored_Con</Name>
+            <Position>
+                <X>0</X>
+                <Y>36</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>SteelPPStraight_Armored_Con</Name>
+            <Position>
+                <X>1</X>
+                <Y>36</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>TitaniumPPStraight_Armored_Con</Name>
+            <Position>
+                <X>2</X>
+                <Y>36</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>NitinolPPStraight_Armored_Con</Name>
+            <Position>
+                <X>3</X>
+                <Y>36</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>GraphenePPStraight_Armored_Con</Name>
+            <Position>
+                <X>4</X>
+                <Y>36</Y>
+            </Position>
+        </BlockPosition>
+
+        <!-- End region Row 36 -->
         <!-- Region Auto-assigned-->
         <!-- Region Page 1-->
         <BlockPosition>
