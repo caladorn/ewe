@@ -186,5 +186,27 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopedCornerBase" />
             </Blocks>
         </BlockVariantGroup>
+        <!-- New Groups added by Mysticlynx - Please keep this here as a reference -->
+        <!-- ArmorLightTransitionBlocks -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmorLightTransitionBlocks" />
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightArmorTransitionBlocks</DisplayName>
+            <Description>Description_LightArmor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransition" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionBaseMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionTipMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransition" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionBaseMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionTipMirrored" />
+            </Blocks>
+        </BlockVariantGroup>
 	</BlockVariantGroups>
 </Definitions>

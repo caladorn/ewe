@@ -193,7 +193,7 @@
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LightArmorSlopeTransitionBase</Name>
+            <Name>AluminumLightArmorSlopeTransitionBase</Name>
             <Position>
                 <X>5</X>
                 <Y>0</Y>
