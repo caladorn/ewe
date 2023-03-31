@@ -7241,19 +7241,23 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
     </Definition>
+    <!--
 
-    <!--    New Blocks - this is my working reference - Mysticlynx - please don't delete or move this list   -->
-    <!--    LargeBlockArmorSlopeTransitionBase-->
-    <!--    SmallBlockArmorSlopeTransitionBase-->
+    New Blocks - this is my working reference - Mysticlynx - please don't delete or move this list   
+    LargeBlockArmorSlopeTransitionBase
+    SmallBlockArmorSlopeTransitionBase
+    LargeBlockArmorSlopeTransitionBaseMirrored
+    SmallBlockArmorSlopeTransitionBaseMirrored
 
+    -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>LargeBlockArmorSlopeTransitionBase</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Light Armor Slope Transition Base Block</DisplayName>
+      <DisplayName>Aluminum Light Armor SlopeTransitionBase</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
-      <Description>Aluminum Light Armor Slope Transition Base</Description>
+      <Description>Aluminum Light Armor Slope Transition Base Block</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.46</DeformationRatio>
@@ -7407,9 +7411,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>SmallBlockArmorSlopeTransitionBase</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Small Light Armor Slope Transition Base Block</DisplayName>
+      <DisplayName>Aluminum Small Light Armor SlopeTransitionBase</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
-      <Description>Aluminum Small Light Armor Slope Transition Base</Description>
+      <Description>Aluminum Small Light Armor Slope Transition Base Block</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.46</DeformationRatio>
@@ -7543,7 +7547,7 @@
         <Variant Color="Black" Suffix="_black" />
         <Variant Color="White" Suffix="_white" />
       </Variants>
-      <BlockPairName>AluminumSmallLightArmorSlopeTransitionBase</BlockPairName>
+      <BlockPairName>AluminumLightArmorSlopeTransitionBase</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
