@@ -7400,11 +7400,11 @@
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-      <PCU>1</PCU><!--
+      <PCU>1</PCU>
         <MirroringX>Y</MirroringX>
         <MirroringY>X</MirroringY>
       <MirroringBlock>LargeBlockArmorSlopeTransitionBaseMirrored</MirroringBlock>
-      <PCUConsole>2</PCUConsole>-->
+      <PCUConsole>2</PCUConsole>
     </Definition>
     <Definition>
       <Id>
@@ -7553,11 +7553,320 @@
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-      <PCU>1</PCU><!--
+      <PCU>1</PCU>
         <MirroringX>Y</MirroringX>
         <MirroringY>X</MirroringY>
       <MirroringBlock>SmallBlockArmorSlopeTransitionBaseMirrored</MirroringBlock>
-      <PCUConsole>2</PCUConsole>-->
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeBlockArmorSlopeTransitionBaseMirrored</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Light Armor SlopeTransitionBaseMirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBaseMirrored.dds</Icon>
+      <Description>Aluminum Light Armor Slope Transition Base Mirrored Block</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+	  <DeformationRatio>0.46</DeformationRatio>
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionBaseMirrored</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlate-->
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2TipRight-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredTriangle.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseMirroredTriangle-->
+          <Side Model="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseMirroredTriangleTop-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate001-->
+          <Side Model="Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionBaseMirrored-->
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_3.mwm" />
+      </BuildProgressModels>
+        <MountPoints>
+            <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+            <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+            <MountPoint Side="Right" StartX="0.0" StartY="0.5" EndX="0.5" EndY="1.0" />
+            <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+            <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.1" />
+            <MountPoint Side="Front" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.4" />
+            <MountPoint Side="Front" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.5" />
+            <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+            <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
+        </MountPoints> 
+      <Components>
+        <Component Subtype="AluminumPlate" Count="13" />
+        <Component Subtype="AluminumRod" Count="3" />
+        <Component Subtype="AluminumPlate" Count="3" />
+        <Component Subtype="BrazingRod" Count="13" />
+      </Components>
+      <CriticalComponent Subtype="AluminumPlate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>AluminumLightArmorSlopeTransitionBaseMirrored</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <MirroringBlock>LargeBlockArmorSlopeTransitionBase</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallBlockArmorSlopeTransitionBaseMirrored</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Small Light Armor SlopeTransitionBaseMirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBaseMirrored.dds</Icon>
+      <Description>Aluminum Small Light Armor Slope Transition Base Mirrored Block</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <DeformationRatio>0.46</DeformationRatio>
+      <CubeDefinition>
+        <CubeTopology>SlopeTransitionBaseMirrored</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleLeftPlate-->
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--CornerTriangleRightPlateCorner2TipRight-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredTriangle.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseMirroredTriangle-->
+          <Side Model="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/><!--LightArmorSlopeTransitionBaseMirroredTriangleTop-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlate001-->
+          <Side Model="Models\Cubes\Small\Armor\SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/><!--SquarePlateSlope2BaseRight-->
+
+        </Sides>
+      </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionBaseMirrored-->
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+	<BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_3.mwm" />
+      </BuildProgressModels>
+        <MountPoints>
+            <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+            <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+            <MountPoint Side="Right" StartX="0.0" StartY="0.5" EndX="0.5" EndY="1.0" />
+            <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+            <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.1" />
+            <MountPoint Side="Front" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.4" />
+            <MountPoint Side="Front" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.5" />
+            <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+            <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
+        </MountPoints> 
+      <Components>
+        <Component Subtype="AluminumPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="AluminumPlate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BlockPairName>AluminumLightArmorSlopeTransitionBaseMirrored</BlockPairName>
+      <PhysicsOption>Convex</PhysicsOption>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+        <MirroringX>Y</MirroringX>
+        <MirroringY>X</MirroringY>
+      <MirroringBlock>SmallBlockArmorSlopeTransitionBase</MirroringBlock>
+      <PCUConsole>2</PCUConsole>
     </Definition>
 
     <!--    Small Light    -->
