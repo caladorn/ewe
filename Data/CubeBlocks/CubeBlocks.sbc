@@ -1258,7 +1258,7 @@
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>HeavyArmorSlopeTransitionBase</Name>
+            <Name>AluminumHeavyArmorSlopeTransitionBase</Name>
             <Position>
                 <X>5</X>
                 <Y>95</Y>
