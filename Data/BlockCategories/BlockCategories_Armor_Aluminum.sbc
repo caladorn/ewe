@@ -21,8 +21,9 @@
         <string>CubeBlock/LargeHeavyBlockArmorRoundSlope</string>
         <string>CubeBlock/LargeBlockHeavyArmorSlopedCornerTip</string>
         <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
-        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>        
+        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
         <string>CubeBlock/LargeBlockHeavyArmorSlopeTransitionBase</string>
+        <string>CubeBlock/LargeArmorPanelLight</string>
       </ItemIds>
     </Category>
   </CategoryClasses>
