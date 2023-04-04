@@ -8857,7 +8857,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>LargeBlockHeavyArmorSlopeTransitionBase</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Heavy Armor SlopeTransitionBase</DisplayName>
+      <DisplayName>Aluminum Heavy Armor
+ Slope Transition Base</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
       <Description>Aluminum Heavy Armor Slope Transition Base Block</Description>
       <CubeSize>Large</CubeSize>
@@ -9014,7 +9015,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>SmallBlockHeavyArmorSlopeTransitionBase</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Small Heavy Armor SlopeTransitionBase</DisplayName>
+      <DisplayName>Aluminum Small Heavy Armor
+ Slope Transition Base</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
       <Description>Aluminum Small Heavy Armor Slope Transition Base Block</Description>
       <CubeSize>Small</CubeSize>
@@ -9171,7 +9173,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>LargeBlockHeavyArmorSlopeTransitionBaseMirrored</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Heavy Armor SlopeTransitionBaseMirrored</DisplayName>
+      <DisplayName>Aluminum Heavy Armor
+ Slope Transition Base Mirrored</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBaseMirrored.dds</Icon>
       <Description>Aluminum Heavy Armor Slope Transition Base Mirrored Block</Description>
       <CubeSize>Large</CubeSize>
@@ -9328,7 +9331,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>SmallBlockHeavyArmorSlopeTransitionBaseMirrored</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Small Heavy Armor SlopeTransitionBaseMirrored</DisplayName>
+      <DisplayName>Aluminum Small Heavy Armor
+ Slope Transition Base Mirrored</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBaseMirrored.dds</Icon>
       <Description>Aluminum Small Heavy Armor Slope Transition Base Mirrored Block</Description>
       <CubeSize>Small</CubeSize>
@@ -9485,7 +9489,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>LargeBlockHeavyArmorSlopeTransition</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Heavy Armor SlopeTransition</DisplayName>
+      <DisplayName>Aluminum Heavy Armor
+ Slope Transition</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransition.dds</Icon>
       <Description>Aluminum Heavy Armor Slope Transition Block</Description>
       <CubeSize>Large</CubeSize>
@@ -9616,7 +9621,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>SmallBlockHeavyArmorSlopeTransition</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Small Heavy Armor SlopeTransition</DisplayName>
+      <DisplayName>Aluminum Small Heavy Armor
+ Slope Transition</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransition.dds</Icon>
       <Description>Aluminum Small Heavy Armor Slope Transition Block</Description>
       <CubeSize>Small</CubeSize>
@@ -9747,7 +9753,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>LargeBlockHeavyArmorSlopeTransitionMirrored</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Heavy Armor SlopeTransitionMirrored</DisplayName>
+      <DisplayName>Aluminum Heavy Armor
+ Slope Transition Mirrored</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionMirrored.dds</Icon>
       <Description>Aluminum Heavy Armor Slope Transition Mirrored Block</Description>
       <CubeSize>Large</CubeSize>
@@ -9878,7 +9885,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>SmallBlockHeavyArmorSlopeTransitionMirrored</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Small Heavy Armor SlopeTransitionMirrored</DisplayName>
+      <DisplayName>Aluminum Small Heavy Armor
+ Slope Transition Mirrored</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionMirrored.dds</Icon>
       <Description>Aluminum Small Heavy Armor Slope Transition Mirrored Block</Description>
       <CubeSize>Small</CubeSize>
@@ -10009,7 +10017,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>LargeBlockHeavyArmorSlopeTransitionTip</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Heavy Armor SlopeTransitionTip</DisplayName>
+      <DisplayName>Aluminum Heavy Armor
+ Slope Transition Tip</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTip.dds</Icon>
       <Description>Aluminum Heavy Armor Slope Transition Tip Block</Description>
       <CubeSize>Large</CubeSize>
@@ -10128,7 +10137,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>SmallBlockHeavyArmorSlopeTransitionTip</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Small Heavy Armor SlopeTransitionTip</DisplayName>
+      <DisplayName>Aluminum Small Heavy Armor
+ Slope Transition Tip</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTip.dds</Icon>
       <Description>Aluminum Small Heavy Armor Slope Transition Tip Block</Description>
       <CubeSize>Small</CubeSize>
@@ -10247,7 +10257,8 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>LargeBlockHeavyArmorSlopeTransitionTipMirrored</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Heavy Armor SlopeTransitionTipMirrored</DisplayName>
+      <DisplayName>Aluminum Heavy Armor
+ Slope Transition Tip Mirrored</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTipMirrored.dds</Icon>
       <Description>Aluminum Heavy Armor Slope Transition Tip Mirrored Block</Description>
       <CubeSize>Large</CubeSize>
@@ -10366,7 +10377,7 @@ Slope Transition Tip Mirrored</DisplayName>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>SmallBlockHeavyArmorSlopeTransitionTipMirrored</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Small Heavy Armor -
+      <DisplayName>Aluminum Small Heavy Armor
 Slope Transition Tip Mirrored</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTipMirrored.dds</Icon>
       <Description>Aluminum Small Heavy Armor Slope Transition Tip Mirrored Block</Description>
