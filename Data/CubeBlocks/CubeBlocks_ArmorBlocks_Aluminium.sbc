@@ -12901,9 +12901,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmorPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -12925,7 +12925,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorPanelHeavy</BlockPairName>
+            <BlockPairName>AluminumArmorPanelHeavy</BlockPairName>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <EdgeType>Heavy</EdgeType>
@@ -12939,9 +12939,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmorSlopedSidePanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorSlopedSidePanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor Sloped Side Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorSlopedSidePanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor Sloped Side Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -12963,7 +12963,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorSlopedSidePanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorSlopedSidePanelHeavy</BlockPairName>
+            <BlockPairName>AluminumArmorSlopedSidePanelHeavy</BlockPairName>
             <MirroringX>ZMinusHalfX</MirroringX>
             <MirroringY>XHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
@@ -12979,9 +12979,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmorSlopedPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorSlopedPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorSlopedPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor Sloped Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13010,7 +13010,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorSlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmorSlopedPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmorSlopedPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Heavy</EdgeType>
@@ -13025,9 +13025,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmorHalfPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorHalfPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor Half Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor Half Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13048,7 +13048,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorHalfPanelHeavy</BlockPairName>
+            <BlockPairName>AluminumArmorHalfPanelHeavy</BlockPairName>
             <MirroringY>X</MirroringY>
             <MirroringX>Y</MirroringX>
             <EdgeType>Heavy</EdgeType>
@@ -13063,9 +13063,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmorQuarterPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorQuarterPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor Quarter Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyQuarterPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor Quarter Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13085,7 +13085,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightQuarterPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorQuarterPanelHeavy</BlockPairName>
+            <BlockPairName>AluminumArmorQuarterPanelHeavy</BlockPairName>
             <MirroringY>ZHalfZ</MirroringY>
             <MirroringX>HalfZ</MirroringX>
             <MirroringZ>YHalfZ</MirroringZ>
@@ -13101,9 +13101,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1SlopedPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopedPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Sloped Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13128,7 +13128,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Heavy</EdgeType>
@@ -13143,9 +13143,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1SlopedPanelTipHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedPanelTipHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Sloped Panel Tip</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopedPanelTip.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Sloped Panel Tip</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13170,7 +13170,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedPanelTip_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedPanelTip</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedPanelTip</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Heavy</EdgeType>
@@ -13185,9 +13185,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1SlopedSideBasePanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideBasePanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Sloped Side Base Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopedSideBasePanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Sloped Side Base Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13210,7 +13210,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedSideBasePanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedSideBasePanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeArmor2x1SlopedSideBasePanelHeavyInv</MirroringBlock>
@@ -13226,9 +13226,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1SlopedSideTipPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideTipPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Sloped Side Tip Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideTipPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Sloped Side Tip Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13250,7 +13250,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedSideTipPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedSideTipPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeArmor2x1SlopedSideTipPanelHeavyInv</MirroringBlock>
@@ -13266,9 +13266,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1SlopedSideBasePanelHeavyInv</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideBasePanelHeavyInv</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Sloped Side Base Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideBasePanelInv.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Sloped Side Base Panel Inv</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13291,7 +13291,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedSideBasePanelInv</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedSideBasePanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeArmor2x1SlopedSideBasePanelHeavy</MirroringBlock>
@@ -13307,9 +13307,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1SlopedSideTipPanelHeavyInv</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideTipPanelHeavyInv</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Sloped Side Tip Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideTipPanelInv.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Sloped Side Tip Panel Inv</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13331,7 +13331,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedSideTipPanelInv</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedSideTipPanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeArmor2x1SlopedSideTipPanelHeavy</MirroringBlock>
@@ -13347,9 +13347,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmorHalfSlopedPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorHalfSlopedPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor Half Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfSlopedPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor Half Sloped Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13373,7 +13373,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfSlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmorHalfSlopedPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmorHalfSlopedPanel</BlockPairName>
             <MirroringX>ZHalfX</MirroringX>
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>XHalfX</MirroringZ>
@@ -13389,9 +13389,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1HalfSlopedPanelHeavyRight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Half Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Half Sloped Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13413,7 +13413,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1HalfSlopedPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1HalfSlopedPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeArmor2x1HalfSlopedPanelHeavyLeft</MirroringBlock>
@@ -13429,9 +13429,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1HalfSlopedTipPanelHeavyRight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedTipPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Half Sloped Tip Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedTipPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Half Sloped Tip Panel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13453,7 +13453,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1HalfSlopedTipPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1HalfSlopedTipPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeArmor2x1HalfSlopedTipPanelHeavyLeft</MirroringBlock>
@@ -13469,9 +13469,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1HalfSlopedPanelHeavyLeft</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedPanelHeavyInv</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Half Sloped Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedPanelInv.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Half Sloped Panel Inv</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13493,7 +13493,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1HalfSlopedPanelInv</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1HalfSlopedPanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeArmor2x1HalfSlopedPanelHeavyRight</MirroringBlock>
@@ -13509,9 +13509,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>LargeArmor2x1HalfSlopedTipPanelHeavyLeft</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedTipPanelHeavyInv</DisplayName>
+            <DisplayName>Aluminum Heavy Armor 2x1 Half Sloped Tip Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedTipPanelInv.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Heavy Armor 2x1 Half Sloped Tip Panel Inv</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13533,7 +13533,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1HalfSlopedTipPanelInv</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1HalfSlopedTipPanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeArmor2x1HalfSlopedTipPanelHeavyRight</MirroringBlock>
@@ -13553,9 +13553,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorPanelLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorPanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13575,7 +13575,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorPanelLight</BlockPairName>
+            <BlockPairName>AluminumArmorPanelLight</BlockPairName>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -13589,9 +13589,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorSlopedSidePanelLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorSlopedSidePanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor Sloped Side Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedSidePanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor Sloped Side Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13611,7 +13611,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedSidePanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorSlopedSidePanelLight</BlockPairName>
+            <BlockPairName>AluminumArmorSlopedSidePanelLight</BlockPairName>
             <MirroringX>ZMinusHalfX</MirroringX>
             <MirroringY>XHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
@@ -13627,9 +13627,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorSlopedPanelLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorSlopedPanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedPanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor Sloped Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13656,7 +13656,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmorSlopedPanel</BlockPairName>
+            <BlockPairName>AluminumLightArmorSlopedPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -13671,9 +13671,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorHalfPanelLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorHalfPanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor Half Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfPanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor Half Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13692,7 +13692,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorHalfPanelLight</BlockPairName>
+            <BlockPairName>AluminumArmorHalfPanelLight</BlockPairName>
             <MirroringY>X</MirroringY>
             <MirroringX>Y</MirroringX>
             <EdgeType>Light</EdgeType>
@@ -13707,9 +13707,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorQuarterPanelLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorQuarterPanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor Quarter Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightQuarterPanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor Quarter Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13727,7 +13727,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightQuarterPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorQuarterPanelLight</BlockPairName>
+            <BlockPairName>AluminumArmorQuarterPanelLight</BlockPairName>
             <MirroringY>ZHalfZ</MirroringY>
             <MirroringX>HalfZ</MirroringX>
             <MirroringZ>YHalfZ</MirroringZ>
@@ -13743,9 +13743,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedPanelLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedPanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Sloped Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13768,7 +13768,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1SlopedPanel</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1SlopedPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -13783,9 +13783,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedPanelTipLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedPanelTipLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Sloped Panel Tip</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanelTip.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Sloped Panel Tip</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13808,7 +13808,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedPanelTip_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1SlopedPanelTip</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1SlopedPanelTip</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -13823,9 +13823,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedSideBasePanelLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideBasePanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Sloped Side Base Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedSideBasePanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Sloped Side Base Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13846,7 +13846,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1SlopedSideBasePanel</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1SlopedSideBasePanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1SlopedSideBasePanelLightInv</MirroringBlock>
@@ -13862,9 +13862,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedSideTipPanelLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideTipPanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Sloped Side Tip Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Sloped Side Tip Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13884,7 +13884,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1SlopedSideTipPanel</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1SlopedSideTipPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1SlopedSideTipPanelLightInv</MirroringBlock>
@@ -13900,9 +13900,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedSideBasePanelLightInv</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideBasePanelLightInv</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Sloped Side Base Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideBasePanelInv.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Sloped Side Base Panel Inv</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13923,7 +13923,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1SlopedSideBasePanelInv</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1SlopedSideBasePanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1SlopedSideBasePanelLight</MirroringBlock>
@@ -13939,9 +13939,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedSideTipPanelLightInv</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideTipPanelLightInv</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Sloped Side Tip Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanelInv.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Sloped Side Tip Panel Inv</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -13961,7 +13961,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1SlopedSideTipPanelInv</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1SlopedSideTipPanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1SlopedSideTipPanelLight</MirroringBlock>
@@ -13977,9 +13977,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorHalfSlopedPanelLight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorHalfSlopedPanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor Half Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfSlopedPanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor Half Sloped Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14001,7 +14001,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfSlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmorHalfSlopedPanel</BlockPairName>
+            <BlockPairName>AluminumLightArmorHalfSlopedPanel</BlockPairName>
             <MirroringX>ZHalfX</MirroringX>
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>XHalfX</MirroringZ>
@@ -14017,9 +14017,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1HalfSlopedPanelLightRight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedPanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Half Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Half Sloped Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14039,7 +14039,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1HalfSlopedPanel</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1HalfSlopedPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1HalfSlopedPanelLightLeft</MirroringBlock>
@@ -14055,9 +14055,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1HalfSlopedTipPanelLightRight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedTipPanelLight</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Half Sloped Tip Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanel.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Half Sloped Tip Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14077,7 +14077,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1HalfSlopedTipPanel</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1HalfSlopedTipPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1HalfSlopedTipPanelLightLeft</MirroringBlock>
@@ -14093,9 +14093,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1HalfSlopedPanelLightLeft</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedPanelLightInv</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Half Sloped Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanelInv.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Half Sloped Panel Inv</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14115,7 +14115,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1HalfSlopedPanelInv</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1HalfSlopedPanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1HalfSlopedPanelLightRight</MirroringBlock>
@@ -14131,9 +14131,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1HalfSlopedTipPanelLightLeft</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedTipPanelLightInv</DisplayName>
+            <DisplayName>Aluminum Small Light Armor 2x1 Half Sloped Tip Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanelInv.dds</Icon>
-            <Description>Description_LightArmor</Description>
+            <Description>Aluminum Small Light Armor 2x1 Half Sloped Tip Panel Inv</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14153,7 +14153,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LightArmor2x1HalfSlopedTipPanelInv</BlockPairName>
+            <BlockPairName>AluminumLightArmor2x1HalfSlopedTipPanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1HalfSlopedTipPanelLightRight</MirroringBlock>
@@ -14172,9 +14172,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14196,7 +14196,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorPanelHeavy</BlockPairName>
+            <BlockPairName>AluminumArmorPanelHeavy</BlockPairName>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <EdgeType>Heavy</EdgeType>
@@ -14210,9 +14210,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorSlopedSidePanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorSlopedSidePanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor Sloped Side Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorSlopedSidePanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor Sloped Side Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14234,7 +14234,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedSidePanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorSlopedSidePanelHeavy</BlockPairName>
+            <BlockPairName>AluminumArmorSlopedSidePanelHeavy</BlockPairName>
             <MirroringX>ZMinusHalfX</MirroringX>
             <MirroringY>XHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
@@ -14250,9 +14250,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorSlopedPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorSlopedPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorSlopedPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor Sloped Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14281,7 +14281,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmorSlopedPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmorSlopedPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Heavy</EdgeType>
@@ -14296,9 +14296,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorHalfPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorHalfPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor Half Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor Half Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14319,7 +14319,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorHalfPanelHeavy</BlockPairName>
+            <BlockPairName>AluminumArmorHalfPanelHeavy</BlockPairName>
             <MirroringY>X</MirroringY>
             <MirroringX>Y</MirroringX>
             <EdgeType>Heavy</EdgeType>
@@ -14334,9 +14334,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorQuarterPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorQuarterPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor Quarter Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyQuarterPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor Quarter Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14356,7 +14356,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightQuarterPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ArmorQuarterPanelHeavy</BlockPairName>
+            <BlockPairName>AluminumArmorQuarterPanelHeavy</BlockPairName>
             <MirroringY>ZHalfZ</MirroringY>
             <MirroringX>HalfZ</MirroringX>
             <MirroringZ>YHalfZ</MirroringZ>
@@ -14372,9 +14372,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopedPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Sloped Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14399,7 +14399,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Heavy</EdgeType>
@@ -14414,9 +14414,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedPanelTipHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedPanelTipHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Sloped Panel Tip</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopedPanelTip.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Sloped Panel Tip</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14441,7 +14441,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedPanelTip_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedPanelTip</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedPanelTip</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Heavy</EdgeType>
@@ -14456,9 +14456,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedSideBasePanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideBasePanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Sloped Side Base Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopedSideBasePanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Sloped Side Base Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14481,7 +14481,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedSideBasePanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedSideBasePanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1SlopedSideBasePanelHeavyInv</MirroringBlock>
@@ -14497,9 +14497,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedSideTipPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideTipPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Sloped Side Tip Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideTipPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Sloped Side Tip Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14521,7 +14521,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedSideTipPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedSideTipPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1SlopedSideTipPanelHeavyInv</MirroringBlock>
@@ -14537,9 +14537,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedSideBasePanelHeavyInv</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideBasePanelHeavyInv</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Sloped Side Base Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideBasePanelInv.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Sloped Side Base Panel Inv</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14562,7 +14562,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedSideBasePanelInv</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedSideBasePanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1SlopedSideBasePanelHeavy</MirroringBlock>
@@ -14578,9 +14578,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1SlopedSideTipPanelHeavyInv</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1SlopedSideTipPanelHeavyInv</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Sloped Side Tip Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1SlopeSideTipPanelInv.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Sloped Side Tip Panel Inv</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14602,7 +14602,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1SlopedSideTipPanelInv</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1SlopedSideTipPanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1SlopedSideTipPanelHeavy</MirroringBlock>
@@ -14618,9 +14618,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmorHalfSlopedPanelHeavy</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light ArmorHalfSlopedPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor Half Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorHalfSlopedPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor Half Sloped Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14644,7 +14644,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfSlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmorHalfSlopedPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmorHalfSlopedPanel</BlockPairName>
             <MirroringX>ZHalfX</MirroringX>
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>XHalfX</MirroringZ>
@@ -14660,9 +14660,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1HalfSlopedPanelHeavyRight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Half Sloped Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Half Sloped Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14684,7 +14684,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1HalfSlopedPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1HalfSlopedPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1HalfSlopedPanelHeavyLeft</MirroringBlock>
@@ -14700,9 +14700,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1HalfSlopedTipPanelHeavyRight</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedTipPanelHeavy</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Half Sloped Tip Panel</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedTipPanel.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Half Sloped Tip Panel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14724,7 +14724,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1HalfSlopedTipPanel</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1HalfSlopedTipPanel</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1HalfSlopedTipPanelHeavyLeft</MirroringBlock>
@@ -14740,9 +14740,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1HalfSlopedPanelHeavyLeft</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedPanelHeavyInv</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Half Sloped Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedPanelInv.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Half Sloped Panel Inv</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14764,7 +14764,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1HalfSlopedPanelInv</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1HalfSlopedPanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1HalfSlopedPanelHeavyRight</MirroringBlock>
@@ -14780,9 +14780,9 @@ Slope Transition Tip Mirrored</DisplayName>
                 <TypeId>CubeBlock</TypeId>
                 <SubtypeId>SmallArmor2x1HalfSlopedTipPanelHeavyLeft</SubtypeId>
             </Id>
-            <DisplayName>Aluminum Light Armor2x1HalfSlopedTipPanelHeavyInv</DisplayName>
+            <DisplayName>Aluminum Small Heavy Armor 2x1 Half Sloped Tip Panel Inv</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmor2x1HalfSlopedTipPanelInv.dds</Icon>
-            <Description>Description_HeavyArmor</Description>
+            <Description>Aluminum Small Heavy Armor 2x1 Half Sloped Tip Panel Inv</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -14804,7 +14804,7 @@ Slope Transition Tip Mirrored</DisplayName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HeavyArmor2x1HalfSlopedTipPanelInv</BlockPairName>
+            <BlockPairName>AluminumHeavyArmor2x1HalfSlopedTipPanelInv</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallArmor2x1HalfSlopedTipPanelHeavyRight</MirroringBlock>

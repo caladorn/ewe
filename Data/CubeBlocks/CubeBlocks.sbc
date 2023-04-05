@@ -200,7 +200,7 @@
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>ArmorPanelLight</Name>
+            <Name>AluminumArmorPanelLight</Name>
             <Position>
                 <X>6</X>
                 <Y>0</Y>
@@ -1265,9 +1265,9 @@
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>ArmorPanelHeavy</Name>
+            <Name>AluminumArmorPanelHeavy</Name>
             <Position>
-                <X>6</X>
+                <X>7</X>
                 <Y>95</Y>
             </Position>
         </BlockPosition>

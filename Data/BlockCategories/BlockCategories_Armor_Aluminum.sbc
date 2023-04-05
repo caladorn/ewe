@@ -24,6 +24,7 @@
         <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
         <string>CubeBlock/LargeBlockHeavyArmorSlopeTransitionBase</string>
         <string>CubeBlock/LargeArmorPanelLight</string>
+        <string>CubeBlock/LargeArmorPanelHeavy</string>
       </ItemIds>
     </Category>
   </CategoryClasses>
